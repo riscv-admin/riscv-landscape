@@ -1,0 +1,189 @@
+global:
+  name: RISC-V Ecosystem Interactive Landscape
+  short_name: Riscv
+  repo: riscv-admin/riscv-landscape
+  website: https://landscape.riscv.org
+  short_domain: l.riscv.org
+  company_url: https://riscv.org
+  email: info@riscv.org
+  self: https://www.crunchbase.com/organization/riscv
+  meta:
+    title: RiscV Interactive Landscape
+    fb_admin: alex.contini.94
+    description: >-
+      Riscv Landscape Info
+    twitter: '@risc_v'
+    google_site_verification: test
+    ms_validate: test
+    extra: >
+      <meta property="og:image" content="https://landscape.cncf.io/images/social.jpg" />
+
+      <meta property="og:image:width" content="1800" />
+
+      <meta property="og:image:height" content="945" />
+
+      <meta property="og:locale" content="en_US" />
+
+      <meta property="og:type" content="website" />
+
+      <meta property="og:title" content="Landscape" />
+
+      <meta property="og:description" content="The Landscape organizes all cloud native open source projects and proprietary products into
+      categories, providing an overview of the current ecosystem" />
+
+      <meta property="og:url" content="https://landscape.cncf.io/" />
+
+      <meta property="og:site_name" content="Landscape" />
+
+      <meta name="twitter:card" content="summary_large_image" />
+
+      <meta name="twitter:title" content="Landscape" />
+
+      <meta name="twitter:description" content="The Landscape organizes all cloud native open source projects and proprietary products into
+      categories, providing an overview of the current ecosystem" />
+
+      <meta name="twitter:image" content="https://landscape.cncf.io/images/social.jpg" />
+
+      <meta name="twitter:image:width" content="1800" />
+
+      <meta name="twitter:image:height" content="945" />
+  membership: RiscV Members
+  flags: {}
+twitter:
+  search: riscv.cncf.io
+  url: https://landscape.riscv.org
+  text: Riscv Landscape from @risc_v
+relation:
+  label: RiscV Relation
+  url: riscv
+  values:
+    - id: hosted
+      label: RiscV Projects
+      children:
+        - id: graduated
+          label: Riscv Graduated Projects
+          prefix: Riscv
+          tag: Graduated Project
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Riscv Graduated
+          big_picture_color: rgb(24,54,114)
+        - id: incubating
+          label: Riscv Incubating Projects
+          prefix: Riscv
+          tag: Incubating Project
+          color: '#00cbff'
+          big_picture_order: 2
+          big_picture_label: Riscv Incubating
+          big_picture_color: rgb(83, 113, 189)
+        - id: sandbox
+          label: Riscv Sandbox Projects
+          prefix: Riscv
+          tag: Sandbox Project
+          color: '#d1f7ff'
+          big_picture_label: Riscv Sandbox
+          big_picture_color: rgb(108, 165, 209)
+          additional_relation: member
+    - id: member
+      label: Riscv Member Products/Projects
+      tag: Riscv Member
+      is_large: true
+    - id: false
+      label: Non-RiscV Member Products/Projects
+      url: 'no'
+      is_large: true
+
+membership:
+  Platinum:
+    name: Riscv
+    label: Platinum Member
+    funding: Platinum
+home:
+  header: >
+    <h1>RISC-V Ecosystem Interactive Landscape</h1> The RiscV landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    href="images/landscape.pdf">pdf</a>) is dynamically generated below.
+  footer: |
+    Crunchbase data is used under license from Crunchbase to CNCF.
+ads:
+presets:
+  - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
+    label: Cards by age
+  - url: /license=open-source
+    label: Open source landscape
+  - url: /category=cncf-members&format=card-mode&grouping=category
+    label: Member cards
+  - url: /format=card-mode&grouping=no&sort=stars
+    label: Cards by stars
+  - url: /format=card-mode&grouping=headquarters&headquarters=china,hong-kong,taiwan
+big_picture:
+  main:
+    tab_index: -1
+    url: landscape
+    name: Landscape
+    short_name: Land...
+    title: Riscv Landscape
+    fullscreen_header: 
+    elements:
+      - type: HorizontalCategory
+        category: Products
+        rows: 4
+        width: 600
+        height: 300
+        top: 0
+        left: 0
+        color: rgb(109,61,143)
+      - type: LandscapeInfo
+        width: 370
+        height: 280
+        top: 320
+        left: 0
+        children:
+          - type: text
+            text: >
+              This landscape is intended as a map through the previously uncharted terrain of RiscV technologies.
+            top: 80
+            left: 120
+            right: 20
+            font_size: 12
+          - type: image
+            image: qr-l.svg
+            top: 80
+            left: 15
+            width: 90
+            height: 90
+            title: QR Code
+          - type: title
+            title: l.cncf.io
+            top: 168
+            left: 18
+            font_size: 23
+          - type: image
+            image: right-logo.svg
+            width: 109
+            right: 15
+            top: 15
+            title: CNCF Logo
+          - type: image
+            image: left-logo.svg
+            width: 140
+            left: 15
+            top: 15
+            title: Landscape Logo
+          - type: image
+            image: amplify.svg
+            width: 50
+            right: 15
+            top: 40
+            title: Amplify Logo
+          - type: image
+            image: redpoint.svg
+            width: 50
+            right: 75
+            top: 42
+            title: Redpoint Logo
+test:
+  header: RISC-V Ecosystem Interactive Landscape
+  section: Non-CNCF Member Products/Projects
+  logo: my-sql.svg
+prerender:
+export:

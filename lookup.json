@@ -1,0 +1,181 @@
+{
+  "organization": [
+    {
+      "id": "Oracle",
+      "url": "oracle"
+    }
+  ],
+  "landscape": [
+    {
+      "id": "Products",
+      "url": "products",
+      "level": 1,
+      "children": [
+        "Products / Infrastructure",
+        "Products / Runtimes"
+      ]
+    },
+    {
+      "id": "Products / Infrastructure",
+      "parentId": "Products",
+      "label": "Infrastructure",
+      "groupingLabel": "Products - Infrastructure",
+      "url": "infrastructure",
+      "level": 2
+    },
+    {
+      "id": "Products / Runtimes",
+      "parentId": "Products",
+      "label": "Runtimes",
+      "groupingLabel": "Products - Runtimes",
+      "url": "runtimes",
+      "level": 2
+    },
+    {
+      "id": "RiscV Members",
+      "url": "risc-v-members",
+      "level": 1,
+      "children": [
+        "RiscV Members / Platinum"
+      ]
+    },
+    {
+      "id": "RiscV Members / Platinum",
+      "parentId": "RiscV Members",
+      "label": "Platinum",
+      "groupingLabel": "RiscV Members - Platinum",
+      "url": "platinum",
+      "level": 2
+    }
+  ],
+  "license": [
+    {
+      "id": "NotOpenSource",
+      "label": "Not Open Source",
+      "url": "not-open-source",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "Open Source",
+      "label": "Open Source",
+      "url": "open-source",
+      "level": 1,
+      "children": [
+        "GNU General Public License v2.0",
+        "Other"
+      ]
+    },
+    {
+      "id": "GNU General Public License v2.0",
+      "url": "gnu-general-public-license-v2-0",
+      "parentId": "Open Source",
+      "level": 2
+    },
+    {
+      "id": "Other",
+      "url": "other",
+      "parentId": "Open Source",
+      "level": 2
+    }
+  ],
+  "headquarters": [
+    {
+      "id": "United States",
+      "url": "united-states",
+      "level": 1,
+      "children": [
+        "Redwood Shores, California"
+      ]
+    },
+    {
+      "id": "Redwood Shores, California",
+      "label": "Redwood Shores, California",
+      "groupingLabel": "Redwood Shores, California",
+      "url": "redwood-shores-california",
+      "level": 2,
+      "parentId": "United States"
+    }
+  ],
+  "crunchbaseSlugs": [
+    "oracle"
+  ],
+  "languages": [
+    "AppleScript",
+    "Assembly",
+    "Awk",
+    "Batchfile",
+    "C",
+    "C%2B%2B",
+    "CMake",
+    "CSS",
+    "DIGITAL%20Command%20Language",
+    "DTrace",
+    "Dockerfile",
+    "Emacs%20Lisp",
+    "GDB",
+    "Gnuplot",
+    "HTML",
+    "Hack",
+    "Java",
+    "JavaScript",
+    "LLVM",
+    "Lex",
+    "M4",
+    "Makefile",
+    "Mathematica",
+    "Metal",
+    "Module%20Management%20System",
+    "NASL",
+    "Objective-C",
+    "PHP",
+    "PLSQL",
+    "POV-Ray%20SDL",
+    "Pascal",
+    "Pawn",
+    "Perl",
+    "PowerShell",
+    "Python",
+    "RPC",
+    "Red",
+    "Roff",
+    "SWIG",
+    "Shell",
+    "SourcePawn",
+    "Starlark",
+    "TypeScript",
+    "VBA",
+    "Vim%20Script",
+    "XSLT",
+    "Yacc",
+    "sed"
+  ],
+  "companyTypes": [
+    {
+      "id": "For Profit",
+      "url": "for-profit"
+    }
+  ],
+  "industries": [
+    {
+      "id": "Artificial Intelligence",
+      "url": "artificial-intelligence"
+    },
+    {
+      "id": "Enterprise Software",
+      "url": "enterprise-software"
+    },
+    {
+      "id": "Information Technology",
+      "url": "information-technology"
+    },
+    {
+      "id": "SaaS",
+      "url": "saa-s"
+    },
+    {
+      "id": "Software",
+      "url": "software"
+    }
+  ]
+}

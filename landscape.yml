@@ -1,0 +1,29 @@
+landscape:
+  - category:
+    name: Products
+    subcategories:
+      - subcategory:
+        name: Infrastructure
+        items:
+          - item:
+            name: MySQL
+            homepage_url: https://www.oracle.com/mysql/
+            repo_url: https://github.com/mysql/mysql-server
+            logo: my-sql.svg
+            twitter: https://twitter.com/mysql
+            crunchbase: https://www.crunchbase.com/organization/oracle
+      - subcategory:
+        name: Runtimes
+        items:
+          - item:
+            name: OpenJDK
+            homepage_url: https://jdk.java.net/
+            repo_url: https://github.com/openjdk/jdk
+            logo: openjdk.svg
+            crunchbase: https://www.crunchbase.com/organization/oracle
+  - category:
+    name: RiscV Members
+    subcategories:
+      - subcategory:
+        name: Platinum
+        items: []
