@@ -143,7 +143,7 @@ big_picture:
         children:
           - type: text
             text: >
-              This landscape is intended as a map through the previously uncharted terrain of RiscV technologies.
+              This landscape is intended to provide insight into the rich RISC-V Ecosystem available today
             top: 80
             left: 120
             right: 20
@@ -172,18 +172,6 @@ big_picture:
             left: 15
             top: 15
             title: Landscape Logo
-          - type: image
-            image: amplify.svg
-            width: 50
-            right: 15
-            top: 40
-            title: Amplify Logo
-          - type: image
-            image: redpoint.svg
-            width: 50
-            right: 75
-            top: 42
-            title: Redpoint Logo
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RiscV Member Products/Projects
