@@ -1,10 +1,50 @@
 landscape:
   - category:
-    name: Products
+    name: Stack
     subcategories:
+      - subcategory:
+        name: Applications
+        items:
+          - item:
+            name: Open vSwitch
+            homepage_url: https://www.openvswitch.org
+            repo_url: https://github.com/openvswitch/ovs
+            logo: open-vswitch.svg
+            crunchbase: https://www.crunchbase.com/organization/open-vswitch
+          - item:
+            name: Ceph
+            homepage_url: https://ceph.io
+            repo_url: https://github.com/ceph/ceph
+            logo: ceph.svg
+            crunchbase: https://www.crunchbase.com/organization/ceph-storage
+          - item:
+            name: Apache
+            homepage_url: https://www.apache.org
+            repo_url: https://github.com/apache/httpd
+            logo: apache.svg
+            crunchbase: https://www.crunchbase.com/organization/apache
       - subcategory:
         name: Infrastructure
         items:
+          - item:
+            name: Docker
+            homepage_url: https://www.docker.com
+            project_org: https://github.com/docker
+            repo_url: https://github.com/docker/docker-compose
+            logo: docker.svg
+            crunchbase: https://www.crunchbase.com/organization/docker
+          - item:
+            name: Memcached
+            homepage_url: https://memcached.org
+            repo_url: https://github.com/memcached/memcached
+            logo: memcached.svg
+            crunchbase: https://www.crunchbase.com/organization/memcached
+          - item:
+            name: Redis
+            homepage_url: https://redis.io
+            repo_url: https://github.com/redis/redis
+            logo: redis.svg
+            crunchbase: https://www.crunchbase.com/organization/redis
           - item:
             name: MySQL
             homepage_url: https://www.oracle.com/mysql/

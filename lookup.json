@@ -1,33 +1,66 @@
 {
   "organization": [
     {
+      "id": "Ceph Storage",
+      "url": "ceph-storage"
+    },
+    {
+      "id": "Docker",
+      "url": "docker"
+    },
+    {
+      "id": "Memcached",
+      "url": "memcached"
+    },
+    {
+      "id": "Open vSwitch",
+      "url": "open-v-switch"
+    },
+    {
       "id": "Oracle",
       "url": "oracle"
+    },
+    {
+      "id": "Redis",
+      "url": "redis"
+    },
+    {
+      "id": "The Apache Software Foundation",
+      "url": "the-apache-software-foundation"
     }
   ],
   "landscape": [
     {
-      "id": "Products",
-      "url": "products",
+      "id": "Stack",
+      "url": "stack",
       "level": 1,
       "children": [
-        "Products / Infrastructure",
-        "Products / Runtimes"
+        "Stack / Applications",
+        "Stack / Infrastructure",
+        "Stack / Runtimes"
       ]
     },
     {
-      "id": "Products / Infrastructure",
-      "parentId": "Products",
+      "id": "Stack / Applications",
+      "parentId": "Stack",
+      "label": "Applications",
+      "groupingLabel": "Stack - Applications",
+      "url": "applications",
+      "level": 2
+    },
+    {
+      "id": "Stack / Infrastructure",
+      "parentId": "Stack",
       "label": "Infrastructure",
-      "groupingLabel": "Products - Infrastructure",
+      "groupingLabel": "Stack - Infrastructure",
       "url": "infrastructure",
       "level": 2
     },
     {
-      "id": "Products / Runtimes",
-      "parentId": "Products",
+      "id": "Stack / Runtimes",
+      "parentId": "Stack",
       "label": "Runtimes",
-      "groupingLabel": "Products - Runtimes",
+      "groupingLabel": "Stack - Runtimes",
       "url": "runtimes",
       "level": 2
     },
@@ -62,9 +95,23 @@
       "url": "open-source",
       "level": 1,
       "children": [
+        "Apache License 2.0",
+        "BSD 3-Clause \"New\" or \"Revised\" License",
         "GNU General Public License v2.0",
         "Other"
       ]
+    },
+    {
+      "id": "Apache License 2.0",
+      "url": "apache-license-2-0",
+      "parentId": "Open Source",
+      "level": 2
+    },
+    {
+      "id": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "url": "bsd-3-clause-new-or-revised-license",
+      "parentId": "Open Source",
+      "level": 2
     },
     {
       "id": "GNU General Public License v2.0",
@@ -85,8 +132,38 @@
       "url": "united-states",
       "level": 1,
       "children": [
+        "San Francisco, California",
+        "Los Angeles, California",
+        "Forest Hill, Maryland",
+        "Palo Alto, California",
+        "Seattle, Washington",
+        "Mountain View, California",
         "Redwood Shores, California"
       ]
+    },
+    {
+      "id": "Los Angeles, California",
+      "label": "Los Angeles, California",
+      "groupingLabel": "Los Angeles, California",
+      "url": "los-angeles-california",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
+      "id": "Mountain View, California",
+      "label": "Mountain View, California",
+      "groupingLabel": "Mountain View, California",
+      "url": "mountain-view-california",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
+      "id": "Palo Alto, California",
+      "label": "Palo Alto, California",
+      "groupingLabel": "Palo Alto, California",
+      "url": "palo-alto-california",
+      "level": 2,
+      "parentId": "United States"
     },
     {
       "id": "Redwood Shores, California",
@@ -95,32 +172,74 @@
       "url": "redwood-shores-california",
       "level": 2,
       "parentId": "United States"
+    },
+    {
+      "id": "San Francisco, California",
+      "label": "San Francisco, California",
+      "groupingLabel": "San Francisco, California",
+      "url": "san-francisco-california",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
+      "id": "Forest Hill, Maryland",
+      "label": "Forest Hill, Maryland",
+      "groupingLabel": "Forest Hill, Maryland",
+      "url": "forest-hill-maryland",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
+      "id": "Seattle, Washington",
+      "label": "Seattle, Washington",
+      "groupingLabel": "Seattle, Washington",
+      "url": "seattle-washington",
+      "level": 2,
+      "parentId": "United States"
     }
   ],
   "crunchbaseSlugs": [
-    "oracle"
+    "apache",
+    "ceph-storage",
+    "docker",
+    "linux-foundation",
+    "memcached",
+    "open-vswitch",
+    "oracle",
+    "redis"
   ],
   "languages": [
+    "ASP.NET",
     "AppleScript",
     "Assembly",
     "Awk",
     "Batchfile",
     "C",
+    "C%23",
     "C%2B%2B",
     "CMake",
     "CSS",
+    "Cython",
     "DIGITAL%20Command%20Language",
     "DTrace",
     "Dockerfile",
     "Emacs%20Lisp",
     "GDB",
+    "Gherkin",
     "Gnuplot",
+    "Go",
+    "HCL",
     "HTML",
     "Hack",
     "Java",
     "JavaScript",
+    "Jinja",
+    "Jsonnet",
     "LLVM",
+    "Less",
     "Lex",
+    "LookML",
+    "Lua",
     "M4",
     "Makefile",
     "Mathematica",
@@ -130,22 +249,33 @@
     "Objective-C",
     "PHP",
     "PLSQL",
+    "PLpgSQL",
     "POV-Ray%20SDL",
     "Pascal",
     "Pawn",
     "Perl",
     "PowerShell",
+    "Protocol%20Buffer",
     "Python",
     "RPC",
+    "Raku",
     "Red",
     "Roff",
+    "Ruby",
+    "Rust",
+    "SCSS",
     "SWIG",
     "Shell",
+    "Smarty",
     "SourcePawn",
     "Starlark",
+    "TSQL",
+    "Tcl",
+    "Terra",
     "TypeScript",
     "VBA",
     "Vim%20Script",
+    "Vue",
     "XSLT",
     "Yacc",
     "sed"
@@ -154,24 +284,68 @@
     {
       "id": "For Profit",
       "url": "for-profit"
+    },
+    {
+      "id": "Non Profit",
+      "url": "non-profit"
     }
   ],
   "industries": [
     {
+      "id": "Analytics",
+      "url": "analytics"
+    },
+    {
       "id": "Artificial Intelligence",
       "url": "artificial-intelligence"
+    },
+    {
+      "id": "Big Data",
+      "url": "big-data"
+    },
+    {
+      "id": "Cloud Data Services",
+      "url": "cloud-data-services"
+    },
+    {
+      "id": "Database",
+      "url": "database"
+    },
+    {
+      "id": "Developer Platform",
+      "url": "developer-platform"
+    },
+    {
+      "id": "Developer Tools",
+      "url": "developer-tools"
     },
     {
       "id": "Enterprise Software",
       "url": "enterprise-software"
     },
     {
+      "id": "Flash Storage",
+      "url": "flash-storage"
+    },
+    {
       "id": "Information Technology",
       "url": "information-technology"
     },
     {
+      "id": "Non Profit",
+      "url": "non-profit"
+    },
+    {
+      "id": "Open Source",
+      "url": "open-source"
+    },
+    {
       "id": "SaaS",
       "url": "saa-s"
+    },
+    {
+      "id": "Service Industry",
+      "url": "service-industry"
     },
     {
       "id": "Software",

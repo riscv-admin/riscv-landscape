@@ -1,5 +1,1375 @@
 [
   {
+    "name": "Open vSwitch",
+    "homepage_url": "https://www.openvswitch.org",
+    "repo_url": "https://github.com/openvswitch/ovs",
+    "logo": "open-vswitch.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/open-vswitch",
+    "github_data": {
+      "languages": [
+        {
+          "name": "C",
+          "value": 13848053,
+          "color": "#555555"
+        },
+        {
+          "name": "Python",
+          "value": 1079023,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Roff",
+          "value": 298851,
+          "color": "#ecdebe"
+        },
+        {
+          "name": "Shell",
+          "value": 207836,
+          "color": "#89e051"
+        },
+        {
+          "name": "M4",
+          "value": 112067
+        },
+        {
+          "name": "Makefile",
+          "value": 100818,
+          "color": "#427819"
+        },
+        {
+          "name": "C++",
+          "value": 20429,
+          "color": "#f34b7d"
+        },
+        {
+          "name": "JavaScript",
+          "value": 7350,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "PowerShell",
+          "value": 5683,
+          "color": "#012456"
+        },
+        {
+          "name": "Ruby",
+          "value": 1565,
+          "color": "#701516"
+        },
+        {
+          "name": "Dockerfile",
+          "value": 569,
+          "color": "#384d54"
+        },
+        {
+          "name": "Batchfile",
+          "value": 85,
+          "color": "#C1F12E"
+        }
+      ],
+      "contributions": "12;5;13;1;11;15;8;9;15;7;3;15;4;18;7;13;6;14;5;4;2;5;25;10;13;3;7;13;5;9;7;11;6;0;3;13;21;39;47;14;10;13;13;4;2;3;5;9;6;1;3;1",
+      "firstWeek": "2021-10-24Z",
+      "stars": 3008,
+      "license": "Apache License 2.0",
+      "description": "Open vSwitch",
+      "latest_commit_date": "2022-10-18T10:20:55Z",
+      "latest_commit_link": "/openvswitch/ovs/commit/31db0e043119cf597d720d94f70ec19cf5b8b7d4",
+      "contributors_count": 672,
+      "contributors_link": "https://github.com/openvswitch/ovs/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/openvswitch/ovs",
+        "stars": 3008
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/openvswitch/ovs/commit/064af42167bf4fc9aaea2702d80ce08074b889c0",
+      "start_date": "2009-07-08T20:19:16Z"
+    },
+    "image_data": {
+      "fileName": "open-v-switch.svg",
+      "hash": "rr4CqcPkcygA1hZA7V2FtFmDiReTjVk7tHU9fUaISCE="
+    },
+    "firstCommitDate": "2009-07-08T20:19:16Z",
+    "firstCommitLink": "https://github.com/openvswitch/ovs/commit/064af42167bf4fc9aaea2702d80ce08074b889c0",
+    "latestCommitDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-18T10:20:55Z"
+    },
+    "latestCommitLink": "https://github.com/openvswitch/ovs/commit/31db0e043119cf597d720d94f70ec19cf5b8b7d4",
+    "commitsThisYear": 508,
+    "contributorsCount": 672,
+    "contributorsLink": "https://github.com/openvswitch/ovs/graphs/contributors",
+    "language": "C",
+    "stars": 3008,
+    "license": "Apache License 2.0",
+    "headquarters": "San Francisco, California",
+    "description": "Open vSwitch",
+    "organization": "Open vSwitch",
+    "crunchbaseData": {
+      "name": "Open vSwitch",
+      "description": "Open vSwitch is a multilayer virtual switch licensed under the open source Apache 2.0 license.",
+      "homepage": "http://openvswitch.org/",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "twitter": null,
+      "linkedin": null,
+      "acquisitions": [],
+      "parents": [
+        "https://www.crunchbase.com/organization/linux-foundation"
+      ],
+      "stockExchange": null,
+      "company_type": "For Profit",
+      "industries": [
+        "Developer Tools"
+      ],
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Stack / Applications",
+    "landscape": "Stack / Applications",
+    "category": "Stack",
+    "amount": "N/A",
+    "oss": true,
+    "href": "logos/open-v-switch.svg",
+    "bestPracticeBadgeId": 974,
+    "bestPracticePercentage": 100,
+    "industries": [
+      "Developer Tools"
+    ],
+    "starsPresent": true,
+    "starsAsText": "3,008",
+    "marketCapPresent": false,
+    "marketCapAsText": "N/A",
+    "id": "open-v-switch",
+    "flatName": "Open vSwitch",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
+    "name": "Ceph",
+    "homepage_url": "https://ceph.io",
+    "repo_url": "https://github.com/ceph/ceph",
+    "logo": "ceph.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/ceph-storage",
+    "github_data": {
+      "languages": [
+        {
+          "name": "C++",
+          "value": 45028740,
+          "color": "#f34b7d"
+        },
+        {
+          "name": "Python",
+          "value": 9230871,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Raku",
+          "value": 4171191
+        },
+        {
+          "name": "C",
+          "value": 3277864,
+          "color": "#555555"
+        },
+        {
+          "name": "TypeScript",
+          "value": 2503723,
+          "color": "#2b7489"
+        },
+        {
+          "name": "Shell",
+          "value": 2109513,
+          "color": "#89e051"
+        },
+        {
+          "name": "CMake",
+          "value": 674988
+        },
+        {
+          "name": "Cython",
+          "value": 606572
+        },
+        {
+          "name": "HTML",
+          "value": 540807,
+          "color": "#e34c26"
+        },
+        {
+          "name": "Perl",
+          "value": 460044,
+          "color": "#0298c3"
+        },
+        {
+          "name": "Jsonnet",
+          "value": 153791,
+          "color": "#0064bd"
+        },
+        {
+          "name": "JavaScript",
+          "value": 137426,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "Java",
+          "value": 83810,
+          "color": "#b07219"
+        },
+        {
+          "name": "Gherkin",
+          "value": 55829,
+          "color": "#5B2063"
+        },
+        {
+          "name": "Assembly",
+          "value": 43728,
+          "color": "#6E4C13"
+        },
+        {
+          "name": "SCSS",
+          "value": 42472
+        },
+        {
+          "name": "Roff",
+          "value": 26436,
+          "color": "#ecdebe"
+        },
+        {
+          "name": "Jinja",
+          "value": 8124
+        },
+        {
+          "name": "PowerShell",
+          "value": 7827,
+          "color": "#012456"
+        },
+        {
+          "name": "Makefile",
+          "value": 4941,
+          "color": "#427819"
+        },
+        {
+          "name": "Awk",
+          "value": 3196
+        },
+        {
+          "name": "Terra",
+          "value": 2127,
+          "color": "#00004c"
+        },
+        {
+          "name": "DIGITAL Command Language",
+          "value": 2074
+        },
+        {
+          "name": "CSS",
+          "value": 1738,
+          "color": "#563d7c"
+        },
+        {
+          "name": "Lua",
+          "value": 1304,
+          "color": "#000080"
+        },
+        {
+          "name": "Dockerfile",
+          "value": 1214,
+          "color": "#384d54"
+        },
+        {
+          "name": "SWIG",
+          "value": 951
+        }
+      ],
+      "contributions": "175;178;139;150;149;150;142;135;128;70;59;123;156;158;118;117;139;96;98;148;107;117;128;124;162;120;128;127;144;158;105;86;109;146;122;116;150;126;105;165;137;185;153;161;129;146;98;109;67;108;100;51",
+      "firstWeek": "2021-10-24Z",
+      "stars": 11134,
+      "license": "Other",
+      "description": "Ceph is a distributed object, block, and file storage platform ",
+      "latest_commit_date": "2022-10-19T05:13:25Z",
+      "latest_commit_link": "/ceph/ceph/commit/c56282ce15ee0d48fb367d8315e858128c8b48b6",
+      "contributors_count": 1684,
+      "contributors_link": "https://github.com/ceph/ceph/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/ceph/ceph",
+        "stars": 11134
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/ceph/ceph/commit/7091d44931086985a26cca2d263e307ad2f82001",
+      "start_date": "2001-04-28T22:22:35Z"
+    },
+    "image_data": {
+      "fileName": "ceph.svg",
+      "hash": "+2MloclQIF/SaoX2Hx+ZKT48XcqwkdNZs3oQgFe1aHE="
+    },
+    "firstCommitDate": "2001-04-28T22:22:35Z",
+    "firstCommitLink": "https://github.com/ceph/ceph/commit/7091d44931086985a26cca2d263e307ad2f82001",
+    "latestCommitDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-19T05:13:25Z"
+    },
+    "latestCommitLink": "https://github.com/ceph/ceph/commit/c56282ce15ee0d48fb367d8315e858128c8b48b6",
+    "commitsThisYear": 6617,
+    "contributorsCount": 1684,
+    "contributorsLink": "https://github.com/ceph/ceph/graphs/contributors",
+    "language": "C++",
+    "stars": 11134,
+    "license": "Other",
+    "headquarters": "Los Angeles, California",
+    "twitter": "https://twitter.com/Ceph",
+    "latestTweetDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-18T16:07:40.000Z"
+    },
+    "description": "Ceph is a distributed object, block, and file storage platform ",
+    "organization": "Ceph Storage",
+    "crunchbaseData": {
+      "name": "Ceph Storage",
+      "description": "Ceph is the future of storage, created and delivered by a global community of storage engineers and researchers.",
+      "homepage": "http://ceph.com",
+      "city": "Los Angeles",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/Ceph",
+      "linkedin": "https://www.linkedin.com/company/ceph/",
+      "acquisitions": [],
+      "parents": [],
+      "stockExchange": null,
+      "company_type": "For Profit",
+      "industries": [
+        "Enterprise Software",
+        "Flash Storage",
+        "Service Industry"
+      ],
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
+    },
+    "path": "Stack / Applications",
+    "landscape": "Stack / Applications",
+    "category": "Stack",
+    "amount": "N/A",
+    "oss": true,
+    "href": "logos/ceph.svg",
+    "bestPracticeBadgeId": 2220,
+    "bestPracticePercentage": 96,
+    "industries": [
+      "Enterprise Software",
+      "Flash Storage",
+      "Service Industry"
+    ],
+    "starsPresent": true,
+    "starsAsText": "11,134",
+    "marketCapPresent": false,
+    "marketCapAsText": "N/A",
+    "id": "ceph",
+    "flatName": "Ceph",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
+    "name": "Apache",
+    "homepage_url": "https://www.apache.org",
+    "logo": "apache.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/apache",
+    "image_data": {
+      "fileName": "apache.svg",
+      "hash": "+dPDKQdxXFLSmIvo7Fpp/btMduHtJQ0prjEnUa392nQ="
+    },
+    "firstCommitLink": null,
+    "latestCommitLink": null,
+    "commitsThisYear": 0,
+    "language": null,
+    "license": "NotOpenSource",
+    "headquarters": "Forest Hill, Maryland",
+    "twitter": "https://twitter.com/TheASF",
+    "latestTweetDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-18T16:05:00.000Z"
+    },
+    "description": "Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.",
+    "organization": "The Apache Software Foundation",
+    "crunchbaseData": {
+      "name": "The Apache Software Foundation",
+      "description": "Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.",
+      "homepage": "http://www.apache.org",
+      "city": "Forest Hill",
+      "region": "Maryland",
+      "country": "United States",
+      "twitter": "http://twitter.com/TheASF",
+      "linkedin": "https://www.linkedin.com/company/the-apache-software-foundation",
+      "acquisitions": [],
+      "parents": [],
+      "stockExchange": null,
+      "company_type": "Non Profit",
+      "industries": [
+        "Non Profit",
+        "Software"
+      ],
+      "numEmployeesMin": 1,
+      "numEmployeesMax": 10
+    },
+    "path": "Stack / Applications",
+    "landscape": "Stack / Applications",
+    "category": "Stack",
+    "amount": "N/A",
+    "oss": false,
+    "href": "logos/apache.svg",
+    "bestPracticeBadgeId": false,
+    "bestPracticePercentage": null,
+    "industries": [
+      "Non Profit",
+      "Software"
+    ],
+    "starsPresent": true,
+    "starsAsText": "",
+    "marketCapPresent": false,
+    "marketCapAsText": "N/A",
+    "id": "apache",
+    "flatName": "Apache",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
+    "name": "Docker",
+    "homepage_url": "https://www.docker.com",
+    "project_org": "https://github.com/docker",
+    "repo_url": "https://github.com/docker/docker-compose",
+    "logo": "docker.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/docker",
+    "github_data": {
+      "description": "Docker helps developers bring their ideas to life by conquering the complexity of app development.",
+      "contributors_count": 2689,
+      "contributions": "118;113;150;185;187;137;105;198;153;55;28;87;122;69;130;141;86;66;233;162;126;126;191;221;202;88;108;157;223;150;185;114;123;101;110;151;85;78;138;117;233;141;101;167;170;174;114;160;192;157;133;123",
+      "stars": 139230,
+      "languages": [
+        {
+          "name": "Go",
+          "value": 30019945,
+          "color": "#00ADD8"
+        },
+        {
+          "name": "PLpgSQL",
+          "value": 19563083
+        },
+        {
+          "name": "PHP",
+          "value": 9970118,
+          "color": "#4F5D95"
+        },
+        {
+          "name": "JavaScript",
+          "value": 4468584,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "CSS",
+          "value": 2086350,
+          "color": "#563d7c"
+        },
+        {
+          "name": "Shell",
+          "value": 1525967,
+          "color": "#89e051"
+        },
+        {
+          "name": "Python",
+          "value": 1122518,
+          "color": "#3572A5"
+        },
+        {
+          "name": "TypeScript",
+          "value": 754143,
+          "color": "#2b7489"
+        },
+        {
+          "name": "HTML",
+          "value": 404341,
+          "color": "#e34c26"
+        },
+        {
+          "name": "Dockerfile",
+          "value": 335816,
+          "color": "#384d54"
+        },
+        {
+          "name": "C#",
+          "value": 272144,
+          "color": "#178600"
+        },
+        {
+          "name": "PowerShell",
+          "value": 233412,
+          "color": "#012456"
+        },
+        {
+          "name": "Makefile",
+          "value": 230088,
+          "color": "#427819"
+        },
+        {
+          "name": "SCSS",
+          "value": 138405
+        },
+        {
+          "name": "LookML",
+          "value": 100104,
+          "color": "#652B81"
+        },
+        {
+          "name": "HCL",
+          "value": 74835
+        },
+        {
+          "name": "Less",
+          "value": 66802
+        },
+        {
+          "name": "Java",
+          "value": 34456,
+          "color": "#b07219"
+        },
+        {
+          "name": "Ruby",
+          "value": 32811,
+          "color": "#701516"
+        },
+        {
+          "name": "Lua",
+          "value": 32487,
+          "color": "#000080"
+        },
+        {
+          "name": "ASP.NET",
+          "value": 31111
+        },
+        {
+          "name": "C",
+          "value": 22241,
+          "color": "#555555"
+        },
+        {
+          "name": "Gherkin",
+          "value": 17657,
+          "color": "#5B2063"
+        },
+        {
+          "name": "Perl",
+          "value": 4135,
+          "color": "#0298c3"
+        },
+        {
+          "name": "TSQL",
+          "value": 3347
+        },
+        {
+          "name": "XSLT",
+          "value": 3132,
+          "color": "#EB8CEB"
+        },
+        {
+          "name": "Rust",
+          "value": 2925,
+          "color": "#dea584"
+        },
+        {
+          "name": "Vue",
+          "value": 2534,
+          "color": "#2c3e50"
+        },
+        {
+          "name": "Protocol Buffer",
+          "value": 572
+        },
+        {
+          "name": "Assembly",
+          "value": 162,
+          "color": "#6E4C13"
+        },
+        {
+          "name": "Roff",
+          "value": 81,
+          "color": "#ecdebe"
+        },
+        {
+          "name": "Batchfile",
+          "value": 10,
+          "color": "#C1F12E"
+        }
+      ],
+      "latest_commit_link": "/docker/compose/commit/32ae036fd013566cc45ceef35f5f5b7cb29725bc",
+      "latest_commit_date": "2022-10-18T15:47:21Z",
+      "firstWeek": "2021-10-24Z",
+      "license": "Apache License 2.0",
+      "contributors_link": "https://github.com/docker/compose/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/docker/compose",
+        "stars": 27502
+      },
+      {
+        "url": "https://github.com/docker/awesome-compose",
+        "stars": 18637
+      },
+      {
+        "url": "https://github.com/docker/kitematic",
+        "stars": 12255
+      },
+      {
+        "url": "https://github.com/docker/labs",
+        "stars": 10957
+      },
+      {
+        "url": "https://github.com/docker/docker-bench-security",
+        "stars": 7986
+      },
+      {
+        "url": "https://github.com/docker/dockercraft",
+        "stars": 6748
+      },
+      {
+        "url": "https://github.com/docker/machine",
+        "stars": 6515
+      },
+      {
+        "url": "https://github.com/docker/docker-py",
+        "stars": 5966
+      },
+      {
+        "url": "https://github.com/docker/docker-ce",
+        "stars": 5552
+      },
+      {
+        "url": "https://github.com/docker/cli",
+        "stars": 3664
+      },
+      {
+        "url": "https://github.com/docker/docs",
+        "stars": 3656
+      },
+      {
+        "url": "https://github.com/docker/build-push-action",
+        "stars": 2778
+      },
+      {
+        "url": "https://github.com/docker/libchan",
+        "stars": 2456
+      },
+      {
+        "url": "https://github.com/docker/getting-started",
+        "stars": 2256
+      },
+      {
+        "url": "https://github.com/docker/for-mac",
+        "stars": 2218
+      },
+      {
+        "url": "https://github.com/docker/buildx",
+        "stars": 2143
+      },
+      {
+        "url": "https://github.com/docker/for-win",
+        "stars": 1624
+      },
+      {
+        "url": "https://github.com/docker/app",
+        "stars": 1584
+      },
+      {
+        "url": "https://github.com/docker/docker-install",
+        "stars": 1484
+      },
+      {
+        "url": "https://github.com/docker/compose-on-kubernetes",
+        "stars": 1426
+      },
+      {
+        "url": "https://github.com/docker/roadmap",
+        "stars": 1127
+      },
+      {
+        "url": "https://github.com/docker/compose-cli",
+        "stars": 867
+      },
+      {
+        "url": "https://github.com/docker/libkv",
+        "stars": 834
+      },
+      {
+        "url": "https://github.com/docker/docker-credential-helpers",
+        "stars": 808
+      },
+      {
+        "url": "https://github.com/docker/engine",
+        "stars": 731
+      },
+      {
+        "url": "https://github.com/docker/for-linux",
+        "stars": 697
+      },
+      {
+        "url": "https://github.com/docker/libcompose",
+        "stars": 590
+      },
+      {
+        "url": "https://github.com/docker/login-action",
+        "stars": 539
+      },
+      {
+        "url": "https://github.com/docker/setup-buildx-action",
+        "stars": 514
+      },
+      {
+        "url": "https://github.com/docker/metadata-action",
+        "stars": 454
+      },
+      {
+        "url": "https://github.com/docker/community",
+        "stars": 330
+      },
+      {
+        "url": "https://github.com/docker/go-plugins-helpers",
+        "stars": 307
+      },
+      {
+        "url": "https://github.com/docker/engine-api",
+        "stars": 268
+      },
+      {
+        "url": "https://github.com/docker/setup-qemu-action",
+        "stars": 236
+      },
+      {
+        "url": "https://github.com/docker/hub-tool",
+        "stars": 229
+      },
+      {
+        "url": "https://github.com/docker/distribution-library-image",
+        "stars": 222
+      },
+      {
+        "url": "https://github.com/docker/doodle",
+        "stars": 222
+      },
+      {
+        "url": "https://github.com/docker/hub-feedback",
+        "stars": 213
+      },
+      {
+        "url": "https://github.com/docker/gordon",
+        "stars": 179
+      },
+      {
+        "url": "https://github.com/docker/go-connections",
+        "stars": 178
+      },
+      {
+        "url": "https://github.com/docker/go-docker",
+        "stars": 178
+      },
+      {
+        "url": "https://github.com/docker/go-units",
+        "stars": 161
+      },
+      {
+        "url": "https://github.com/docker/github-actions",
+        "stars": 161
+      },
+      {
+        "url": "https://github.com/docker/docker-ce-packaging",
+        "stars": 149
+      },
+      {
+        "url": "https://github.com/docker/compose-switch",
+        "stars": 143
+      },
+      {
+        "url": "https://github.com/docker/scan-cli-plugin",
+        "stars": 138
+      },
+      {
+        "url": "https://github.com/docker/go-events",
+        "stars": 123
+      },
+      {
+        "url": "https://github.com/docker/hacktoberfest-2022",
+        "stars": 116
+      },
+      {
+        "url": "https://github.com/docker/libtrust",
+        "stars": 108
+      },
+      {
+        "url": "https://github.com/docker/golang-cross",
+        "stars": 96
+      },
+      {
+        "url": "https://github.com/docker/node-sdk",
+        "stars": 93
+      },
+      {
+        "url": "https://github.com/docker/extensions-sdk",
+        "stars": 88
+      },
+      {
+        "url": "https://github.com/docker/sbom-cli-plugin",
+        "stars": 82
+      },
+      {
+        "url": "https://github.com/docker/go-metrics",
+        "stars": 81
+      },
+      {
+        "url": "https://github.com/docker/bake-action",
+        "stars": 74
+      },
+      {
+        "url": "https://github.com/docker/opensource",
+        "stars": 56
+      },
+      {
+        "url": "https://github.com/docker/dev-environments",
+        "stars": 52
+      },
+      {
+        "url": "https://github.com/docker/desktop-linux",
+        "stars": 47
+      },
+      {
+        "url": "https://github.com/docker/containerd-packaging",
+        "stars": 44
+      },
+      {
+        "url": "https://github.com/docker/binfmt",
+        "stars": 41
+      },
+      {
+        "url": "https://github.com/docker/whalesay",
+        "stars": 37
+      },
+      {
+        "url": "https://github.com/docker/code-of-conduct",
+        "stars": 33
+      },
+      {
+        "url": "https://github.com/docker/HttpOverStream",
+        "stars": 25
+      },
+      {
+        "url": "https://github.com/docker/volumes-backup-extension",
+        "stars": 24
+      },
+      {
+        "url": "https://github.com/docker/get-involved",
+        "stars": 23
+      },
+      {
+        "url": "https://github.com/docker/go",
+        "stars": 17
+      },
+      {
+        "url": "https://github.com/docker/notary-official-images",
+        "stars": 14
+      },
+      {
+        "url": "https://github.com/docker/cli-docs-tool",
+        "stars": 14
+      },
+      {
+        "url": "https://github.com/docker/packaging",
+        "stars": 12
+      },
+      {
+        "url": "https://github.com/docker/base-cli-plugin",
+        "stars": 11
+      },
+      {
+        "url": "https://github.com/docker/engine-sync",
+        "stars": 8
+      },
+      {
+        "url": "https://github.com/docker/buildx-packaging",
+        "stars": 8
+      },
+      {
+        "url": "https://github.com/docker/import-restrictions",
+        "stars": 5
+      },
+      {
+        "url": "https://github.com/docker/winget-pkgs",
+        "stars": 4
+      },
+      {
+        "url": "https://github.com/docker/eventsource",
+        "stars": 4
+      },
+      {
+        "url": "https://github.com/docker/cli-scan-feedback",
+        "stars": 3
+      },
+      {
+        "url": "https://github.com/docker/snowflake-usage-block",
+        "stars": 1
+      },
+      {
+        "url": "https://github.com/docker/marked",
+        "stars": 1
+      },
+      {
+        "url": "https://github.com/docker/flow-to-typescript-codemod",
+        "stars": 1
+      },
+      {
+        "url": "https://github.com/docker/docker.github.io-1",
+        "stars": 1
+      },
+      {
+        "url": "https://github.com/docker/webpack-bugsnag-plugins",
+        "stars": 1
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/docker/marked/commit/ccfc53b4a32a0854b379789ad1459710675adb30",
+      "start_date": "2011-07-24T13:15:35Z"
+    },
+    "image_data": {
+      "fileName": "docker.svg",
+      "hash": "TDS8PeZM/G/YjPxSTr1G28RjmfgJChRIK28TQqL4OhI="
+    },
+    "firstCommitDate": "2011-07-24T13:15:35Z",
+    "firstCommitLink": "https://github.com/docker/marked/commit/ccfc53b4a32a0854b379789ad1459710675adb30",
+    "latestCommitDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-18T15:47:21Z"
+    },
+    "latestCommitLink": "https://github.com/docker/compose/commit/32ae036fd013566cc45ceef35f5f5b7cb29725bc",
+    "commitsThisYear": 7184,
+    "contributorsCount": 2689,
+    "contributorsLink": "https://github.com/docker/compose/graphs/contributors",
+    "language": "Go",
+    "stars": 139230,
+    "license": "Apache License 2.0",
+    "headquarters": "Palo Alto, California",
+    "twitter": "https://twitter.com/docker",
+    "latestTweetDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-18T20:45:42.000Z"
+    },
+    "description": "Docker helps developers bring their ideas to life by conquering the complexity of app development.",
+    "organization": "Docker",
+    "crunchbaseData": {
+      "name": "Docker",
+      "description": "Docker’s platform helps millions of developers efficiently and collaboratively build, share, and run applications.",
+      "homepage": "https://www.docker.com",
+      "city": "Palo Alto",
+      "region": "California",
+      "country": "United States",
+      "twitter": "https://twitter.com/docker",
+      "linkedin": "https://www.linkedin.com/company/docker",
+      "acquisitions": [
+        {
+          "date": "2014-07-23",
+          "acquiree": "Orchard"
+        },
+        {
+          "date": "2014-10-07",
+          "acquiree": "Koality"
+        },
+        {
+          "date": "2015-03-04",
+          "acquiree": "SocketPlane"
+        },
+        {
+          "date": "2015-03-12",
+          "acquiree": "Kitematic"
+        },
+        {
+          "date": "2015-10-21",
+          "acquiree": "Tutum"
+        },
+        {
+          "date": "2016-01-21",
+          "acquiree": "Unikernel Systems"
+        },
+        {
+          "date": "2016-03-03",
+          "acquiree": "Conductant"
+        },
+        {
+          "date": "2016-12-06",
+          "acquiree": "Infinit"
+        },
+        {
+          "date": "2022-05-10",
+          "acquiree": "Nestybox"
+        }
+      ],
+      "parents": [],
+      "funding": 435855439,
+      "stockExchange": null,
+      "company_type": "For Profit",
+      "industries": [
+        "Developer Platform",
+        "Developer Tools",
+        "Information Technology",
+        "Software"
+      ],
+      "kind": "funding",
+      "numEmployeesMin": 101,
+      "numEmployeesMax": 250
+    },
+    "path": "Stack / Infrastructure",
+    "landscape": "Stack / Infrastructure",
+    "category": "Stack",
+    "amountKind": "funding",
+    "amount": 435855439,
+    "oss": true,
+    "href": "logos/docker.svg",
+    "bestPracticeBadgeId": false,
+    "bestPracticePercentage": null,
+    "industries": [
+      "Developer Platform",
+      "Developer Tools",
+      "Information Technology",
+      "Software"
+    ],
+    "starsPresent": true,
+    "starsAsText": "139,230",
+    "marketCapPresent": true,
+    "marketCapAsText": "$436M",
+    "id": "docker",
+    "flatName": "Docker",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
+    "name": "Memcached",
+    "homepage_url": "https://memcached.org",
+    "repo_url": "https://github.com/memcached/memcached",
+    "logo": "memcached.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/memcached",
+    "github_data": {
+      "languages": [
+        {
+          "name": "C",
+          "value": 1380904,
+          "color": "#555555"
+        },
+        {
+          "name": "Perl",
+          "value": 295412,
+          "color": "#0298c3"
+        },
+        {
+          "name": "C++",
+          "value": 34629,
+          "color": "#f34b7d"
+        },
+        {
+          "name": "M4",
+          "value": 31206
+        },
+        {
+          "name": "Python",
+          "value": 22347,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Lua",
+          "value": 12008,
+          "color": "#000080"
+        },
+        {
+          "name": "DTrace",
+          "value": 10708
+        },
+        {
+          "name": "Shell",
+          "value": 6233,
+          "color": "#89e051"
+        },
+        {
+          "name": "Makefile",
+          "value": 6130,
+          "color": "#427819"
+        },
+        {
+          "name": "Roff",
+          "value": 1894,
+          "color": "#ecdebe"
+        },
+        {
+          "name": "Starlark",
+          "value": 726
+        }
+      ],
+      "contributions": "0;0;2;1;1;0;5;0;4;0;0;0;2;6;9;10;11;7;6;3;0;2;0;2;3;0;1;0;0;1;0;0;2;1;1;1;1;0;1;4;4;6;3;6;5;0;0;0;0;0;0;0",
+      "firstWeek": "2021-10-24Z",
+      "stars": 12201,
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "description": "memcached development tree",
+      "latest_commit_date": "2022-08-26T23:35:12Z",
+      "latest_commit_link": "/memcached/memcached/commit/597645db6a2b138710f01ffe5e92e453117b987a",
+      "contributors_count": 236,
+      "contributors_link": "https://github.com/memcached/memcached/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/memcached/memcached",
+        "stars": 12201
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/memcached/memcached/commit/32f382b605b4565bddfae5c9d082af3bfd30cf02",
+      "start_date": "2003-05-27T07:19:11Z"
+    },
+    "image_data": {
+      "fileName": "memcached.svg",
+      "hash": "pYZXLCvY0okuc0LXuPucZrj+GnVNiYux0bI+sXYgFtU="
+    },
+    "firstCommitDate": "2003-05-27T07:19:11Z",
+    "firstCommitLink": "https://github.com/memcached/memcached/commit/32f382b605b4565bddfae5c9d082af3bfd30cf02",
+    "latestCommitDate": {
+      "text": "2 months ago",
+      "value": "950",
+      "original": "2022-08-26T23:35:12Z"
+    },
+    "latestCommitLink": "https://github.com/memcached/memcached/commit/597645db6a2b138710f01ffe5e92e453117b987a",
+    "commitsThisYear": 111,
+    "contributorsCount": 236,
+    "contributorsLink": "https://github.com/memcached/memcached/graphs/contributors",
+    "language": "C",
+    "stars": 12201,
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "headquarters": "Seattle, Washington",
+    "description": "memcached development tree",
+    "organization": "Memcached",
+    "crunchbaseData": {
+      "name": "Memcached",
+      "description": "Memcached is a distributed memory object caching system that enables its users to speed up dynamic web applications.",
+      "homepage": "http://memcached.org/",
+      "city": "Seattle",
+      "region": "Washington",
+      "country": "United States",
+      "twitter": null,
+      "linkedin": null,
+      "acquisitions": [],
+      "parents": [],
+      "stockExchange": null,
+      "company_type": "For Profit",
+      "industries": [
+        "Open Source"
+      ],
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Stack / Infrastructure",
+    "landscape": "Stack / Infrastructure",
+    "category": "Stack",
+    "amount": "N/A",
+    "oss": true,
+    "href": "logos/memcached.svg",
+    "bestPracticeBadgeId": false,
+    "bestPracticePercentage": null,
+    "industries": [
+      "Open Source"
+    ],
+    "starsPresent": true,
+    "starsAsText": "12,201",
+    "marketCapPresent": false,
+    "marketCapAsText": "N/A",
+    "id": "memcached",
+    "flatName": "Memcached",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
+    "name": "Redis",
+    "homepage_url": "https://redis.io",
+    "repo_url": "https://github.com/redis/redis",
+    "logo": "redis.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/redis",
+    "github_data": {
+      "languages": [
+        {
+          "name": "C",
+          "value": 6378195,
+          "color": "#555555"
+        },
+        {
+          "name": "Tcl",
+          "value": 1816051,
+          "color": "#e4cc98"
+        },
+        {
+          "name": "Ruby",
+          "value": 26205,
+          "color": "#701516"
+        },
+        {
+          "name": "Python",
+          "value": 22623,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Shell",
+          "value": 22562,
+          "color": "#89e051"
+        },
+        {
+          "name": "Makefile",
+          "value": 19798,
+          "color": "#427819"
+        },
+        {
+          "name": "C++",
+          "value": 5987,
+          "color": "#f34b7d"
+        },
+        {
+          "name": "Smarty",
+          "value": 1047
+        }
+      ],
+      "contributions": "18;20;16;14;20;22;9;9;17;18;24;22;20;27;27;34;18;17;19;13;16;18;13;24;14;18;21;11;12;12;8;16;19;15;10;15;12;12;13;11;20;13;9;15;13;7;6;5;8;14;12;12",
+      "firstWeek": "2021-10-24Z",
+      "stars": 57238,
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.",
+      "latest_commit_date": "2022-10-18T16:50:02Z",
+      "latest_commit_link": "/redis/redis/commit/b57fd01064428ab388c9d9038a617a52488a447b",
+      "release_date": "2022-09-21T19:43:38Z",
+      "release_link": "https://github.com/redis/redis/releases",
+      "contributors_count": 709,
+      "contributors_link": "https://github.com/redis/redis/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/redis/redis",
+        "stars": 57238
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/redis/redis/commit/ed9b544e10b84cd43348ddfab7068b610a5df1f7",
+      "start_date": "2009-03-22T09:30:00Z"
+    },
+    "image_data": {
+      "fileName": "redis.svg",
+      "hash": "b6a5Glb23BbMOo31nnY5gb/o+hSDC/Vgfg1ehthgUwQ="
+    },
+    "firstCommitDate": "2009-03-22T09:30:00Z",
+    "firstCommitLink": "https://github.com/redis/redis/commit/ed9b544e10b84cd43348ddfab7068b610a5df1f7",
+    "latestCommitDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-18T16:50:02Z"
+    },
+    "latestCommitLink": "https://github.com/redis/redis/commit/b57fd01064428ab388c9d9038a617a52488a447b",
+    "releaseDate": {
+      "text": "about a month",
+      "value": "960",
+      "original": "2022-09-21T19:43:38Z"
+    },
+    "releaseLink": "https://github.com/redis/redis/releases",
+    "commitsThisYear": 808,
+    "contributorsCount": 709,
+    "contributorsLink": "https://github.com/redis/redis/graphs/contributors",
+    "language": "C",
+    "stars": 57238,
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "headquarters": "Mountain View, California",
+    "twitter": "https://twitter.com/Redisinc",
+    "latestTweetDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-18T19:07:01.000Z"
+    },
+    "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.",
+    "organization": "Redis",
+    "crunchbaseData": {
+      "name": "Redis",
+      "description": "Redis is the sponsor of the open source database and delivers an enterprise-grade data platform to power real-time experiences.",
+      "homepage": "http://redis.com",
+      "city": "Mountain View",
+      "region": "California",
+      "country": "United States",
+      "twitter": "https://twitter.com/Redisinc",
+      "linkedin": "https://www.linkedin.com/company/redisinc",
+      "acquisitions": [
+        {
+          "date": "2017-04-10",
+          "acquiree": "Redis Weekly"
+        },
+        {
+          "date": "2019-04-03",
+          "acquiree": "RDBTools"
+        }
+      ],
+      "parents": [],
+      "funding": 356800000,
+      "stockExchange": null,
+      "company_type": "For Profit",
+      "industries": [
+        "Analytics",
+        "Big Data",
+        "Cloud Data Services",
+        "Database",
+        "Information Technology",
+        "Open Source",
+        "SaaS",
+        "Software"
+      ],
+      "kind": "funding",
+      "numEmployeesMin": 501,
+      "numEmployeesMax": 1000
+    },
+    "path": "Stack / Infrastructure",
+    "landscape": "Stack / Infrastructure",
+    "category": "Stack",
+    "amountKind": "funding",
+    "amount": 356800000,
+    "oss": true,
+    "href": "logos/redis.svg",
+    "bestPracticeBadgeId": 4833,
+    "bestPracticePercentage": 94,
+    "industries": [
+      "Analytics",
+      "Big Data",
+      "Cloud Data Services",
+      "Database",
+      "Information Technology",
+      "Open Source",
+      "SaaS",
+      "Software"
+    ],
+    "starsPresent": true,
+    "starsAsText": "57,238",
+    "marketCapPresent": true,
+    "marketCapAsText": "$357M",
+    "id": "redis",
+    "flatName": "Redis",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
     "name": "MySQL",
     "homepage_url": "https://www.oracle.com/mysql/",
     "repo_url": "https://github.com/mysql/mysql-server",
@@ -231,8 +1601,8 @@
     "license": "Other",
     "headquarters": "Redwood Shores, California",
     "latestTweetDate": {
-      "text": "last week",
-      "value": "980",
+      "text": "3 weeks ago",
+      "value": "970",
       "original": "2022-09-29T19:03:27.000Z"
     },
     "description": "MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.",
@@ -875,9 +2245,9 @@
       "numEmployeesMin": 10001,
       "numEmployeesMax": 1000000
     },
-    "path": "Products / Infrastructure",
-    "landscape": "Products / Infrastructure",
-    "category": "Products",
+    "path": "Stack / Infrastructure",
+    "landscape": "Stack / Infrastructure",
+    "category": "Stack",
     "amountKind": "market_cap",
     "amount": 166294650880,
     "oss": true,
@@ -1071,8 +2441,8 @@
     "firstCommitDate": "2007-12-01T00:00:00Z",
     "firstCommitLink": "https://github.com/openjdk/jdk/commit/686d76f7721f9e5f4ccccf0f4e7147bd3ba5da6f",
     "latestCommitDate": {
-      "text": "this week",
-      "value": "990",
+      "text": "3 weeks ago",
+      "value": "970",
       "original": "2022-09-30T16:41:33Z"
     },
     "latestCommitLink": "https://github.com/openjdk/jdk/commit/b8f9a915a2bfd0f7920ecfc5b3a08670df5f9f3e",
@@ -1085,8 +2455,8 @@
     "headquarters": "Redwood Shores, California",
     "twitter": "https://twitter.com/Oracle",
     "latestTweetDate": {
-      "text": "this week",
-      "value": "990",
+      "text": "3 weeks ago",
+      "value": "970",
       "original": "2022-09-30T16:38:44.000Z"
     },
     "description": "JDK main-line development https://openjdk.org/projects/jdk",
@@ -1729,9 +3099,9 @@
       "numEmployeesMin": 10001,
       "numEmployeesMax": 1000000
     },
-    "path": "Products / Runtimes",
-    "landscape": "Products / Runtimes",
-    "category": "Products",
+    "path": "Stack / Runtimes",
+    "landscape": "Stack / Runtimes",
+    "category": "Stack",
     "amountKind": "market_cap",
     "amount": 166294650880,
     "oss": true,
