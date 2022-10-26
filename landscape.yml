@@ -56,11 +56,66 @@ landscape:
         name: Runtimes
         items:
           - item:
+            name: PHP
+            homepage_url: https://www.php.net
+            repo_url: https://github.com/php/php-src
+            logo: php.svg
+            crunchbase: https://www.crunchbase.com/organization/php
+          - item:
             name: OpenJDK
             homepage_url: https://jdk.java.net/
             repo_url: https://github.com/openjdk/jdk
             logo: openjdk.svg
             crunchbase: https://www.crunchbase.com/organization/oracle
+          - item:
+            name: Storage Performance Development Kit (SPDK)
+            homepage_url: https://spdk.io
+            repo_url: https://github.com/spdk/spdk
+            logo: spdk.svg
+            crunchbase: https://www.crunchbase.com/organization/intel
+          - item:
+            name: DPDK
+            homepage_url: https://www.dpdk.org
+            repo_url: https://github.com/DPDK/dpdk
+            logo: dpdk.svg
+            crunchbase: https://www.crunchbase.com/organization/dpdk
+          - item:
+            name: OpenSSL
+            homepage_url: https://github.com/openssl/openssl
+            repo_url: https://github.com/openssl/openssl
+            logo: openssl.svg
+            crunchbase: https://www.crunchbase.com/organization/openssl-software-foundation
+      - subcategory:
+        name: Operation Systems
+        items:
+          - item:
+            name: Linux
+            homepage_url: https://kernel.org
+            repo_url: https://github.com/torvalds/linux
+            logo: linux.svg
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
+            license: GNU General Public License version 2 only (GPL-2.0)
+          - item:
+            name: FreeBSD
+            homepage_url: https://www.freebsd.org
+            repo_url: https://github.com/freebsd/freebsd-src
+            logo: freebsd.svg
+            organization:
+              name: FreeBSD
+          - item:
+            name: Android
+            homepage_url: https://www.android.com
+            repo_url: https://github.com/aosp-mirror/platform_frameworks_base
+            logo: android.svg
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: seL4
+            homepage_url: https://sel4.systems/
+            repo_url: 
+            https://github.com/seL4/seL4
+            log: seL4.svg
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
+
   - category:
     name: RiscV Members
     subcategories:

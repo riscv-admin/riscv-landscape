@@ -9,6 +9,22 @@
       "url": "docker"
     },
     {
+      "id": "DPDK",
+      "url": "dpdk"
+    },
+    {
+      "id": "FreeBSD",
+      "url": "free-bsd"
+    },
+    {
+      "id": "Intel",
+      "url": "intel"
+    },
+    {
+      "id": "Linux Foundation",
+      "url": "linux-foundation"
+    },
+    {
       "id": "Memcached",
       "url": "memcached"
     },
@@ -17,8 +33,16 @@
       "url": "open-v-switch"
     },
     {
+      "id": "OpenSSL Software Foundation",
+      "url": "open-ssl-software-foundation"
+    },
+    {
       "id": "Oracle",
       "url": "oracle"
+    },
+    {
+      "id": "PHP",
+      "url": "php"
     },
     {
       "id": "Redis",
@@ -37,7 +61,8 @@
       "children": [
         "Stack / Applications",
         "Stack / Infrastructure",
-        "Stack / Runtimes"
+        "Stack / Runtimes",
+        "Stack / Operation Systems"
       ]
     },
     {
@@ -62,6 +87,14 @@
       "label": "Runtimes",
       "groupingLabel": "Stack - Runtimes",
       "url": "runtimes",
+      "level": 2
+    },
+    {
+      "id": "Stack / Operation Systems",
+      "parentId": "Stack",
+      "label": "Operation Systems",
+      "groupingLabel": "Stack - Operation Systems",
+      "url": "operation-systems",
       "level": 2
     },
     {
@@ -98,7 +131,9 @@
         "Apache License 2.0",
         "BSD 3-Clause \"New\" or \"Revised\" License",
         "GNU General Public License v2.0",
-        "Other"
+        "GNU General Public License version 2 only (GPL-2.0)",
+        "Other",
+        "Unknown License"
       ]
     },
     {
@@ -120,8 +155,20 @@
       "level": 2
     },
     {
+      "id": "GNU General Public License version 2 only (GPL-2.0)",
+      "url": "gnu-general-public-license-version-2-only-gpl-2-0",
+      "parentId": "Open Source",
+      "level": 2
+    },
+    {
       "id": "Other",
       "url": "other",
+      "parentId": "Open Source",
+      "level": 2
+    },
+    {
+      "id": "Unknown License",
+      "url": "unknown-license",
       "parentId": "Open Source",
       "level": 2
     }
@@ -138,8 +185,19 @@
         "Palo Alto, California",
         "Seattle, Washington",
         "Mountain View, California",
-        "Redwood Shores, California"
+        "Redwood Shores, California",
+        "Little Rock, Arkansas",
+        "Santa Clara, California",
+        "Adamstown, Maryland"
       ]
+    },
+    {
+      "id": "Little Rock, Arkansas",
+      "label": "Little Rock, Arkansas",
+      "groupingLabel": "Little Rock, Arkansas",
+      "url": "little-rock-arkansas",
+      "level": 2,
+      "parentId": "United States"
     },
     {
       "id": "Los Angeles, California",
@@ -182,6 +240,22 @@
       "parentId": "United States"
     },
     {
+      "id": "Santa Clara, California",
+      "label": "Santa Clara, California",
+      "groupingLabel": "Santa Clara, California",
+      "url": "santa-clara-california",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
+      "id": "Adamstown, Maryland",
+      "label": "Adamstown, Maryland",
+      "groupingLabel": "Adamstown, Maryland",
+      "url": "adamstown-maryland",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
       "id": "Forest Hill, Maryland",
       "label": "Forest Hill, Maryland",
       "groupingLabel": "Forest Hill, Maryland",
@@ -196,57 +270,100 @@
       "url": "seattle-washington",
       "level": 2,
       "parentId": "United States"
+    },
+    {
+      "id": "undefined",
+      "url": "undefined",
+      "level": 1,
+      "children": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "N/A",
+      "label": "N/A",
+      "groupingLabel": "N/A",
+      "url": "n-a",
+      "level": 2,
+      "parentId": "undefined"
     }
   ],
   "crunchbaseSlugs": [
     "apache",
     "ceph-storage",
     "docker",
+    "dpdk",
+    "intel",
     "linux-foundation",
     "memcached",
     "open-vswitch",
+    "openssl-software-foundation",
     "oracle",
+    "php",
     "redis"
   ],
   "languages": [
+    "1C%20Enterprise",
+    "AGS%20Script",
+    "AMPL",
     "ASP.NET",
     "AppleScript",
     "Assembly",
     "Awk",
     "Batchfile",
+    "Berry",
+    "Bikeshed",
+    "Brainfuck",
     "C",
     "C%23",
     "C%2B%2B",
     "CMake",
     "CSS",
+    "ChucK",
     "Cython",
+    "D",
     "DIGITAL%20Command%20Language",
     "DTrace",
     "Dockerfile",
+    "E",
     "Emacs%20Lisp",
+    "Filebench%20WML",
+    "Forth",
+    "GAP",
     "GDB",
+    "GLSL",
     "Gherkin",
     "Gnuplot",
     "Go",
     "HCL",
     "HTML",
     "Hack",
+    "Haskell",
+    "IGOR%20Pro",
+    "Io",
     "Java",
     "JavaScript",
     "Jinja",
     "Jsonnet",
+    "Julia",
+    "KRL",
     "LLVM",
     "Less",
     "Lex",
+    "Logos",
     "LookML",
     "Lua",
     "M4",
     "Makefile",
     "Mathematica",
+    "Max",
+    "Meson",
     "Metal",
     "Module%20Management%20System",
     "NASL",
+    "Nextflow",
     "Objective-C",
+    "OpenEdge%20ABL",
     "PHP",
     "PLSQL",
     "PLpgSQL",
@@ -254,30 +371,43 @@
     "Pascal",
     "Pawn",
     "Perl",
+    "PostScript",
     "PowerShell",
     "Protocol%20Buffer",
     "Python",
+    "R",
     "RPC",
     "Raku",
+    "Reason",
+    "Rebol",
     "Red",
     "Roff",
     "Ruby",
     "Rust",
     "SCSS",
     "SWIG",
+    "Scheme",
+    "Scilab",
     "Shell",
+    "SmPL",
     "Smarty",
     "SourcePawn",
+    "Standard%20ML",
     "Starlark",
+    "Stata",
     "TSQL",
     "Tcl",
+    "TeX",
     "Terra",
+    "Turing",
     "TypeScript",
     "VBA",
+    "VBScript",
     "Vim%20Script",
     "Vue",
     "XSLT",
     "Yacc",
+    "eC",
     "sed"
   ],
   "companyTypes": [
@@ -308,6 +438,10 @@
       "url": "cloud-data-services"
     },
     {
+      "id": "Communities",
+      "url": "communities"
+    },
+    {
       "id": "Database",
       "url": "database"
     },
@@ -320,8 +454,16 @@
       "url": "developer-tools"
     },
     {
+      "id": "Education",
+      "url": "education"
+    },
+    {
       "id": "Enterprise Software",
       "url": "enterprise-software"
+    },
+    {
+      "id": "Events",
+      "url": "events"
     },
     {
       "id": "Flash Storage",
@@ -332,12 +474,28 @@
       "url": "information-technology"
     },
     {
+      "id": "Linux",
+      "url": "linux"
+    },
+    {
+      "id": "Network Security",
+      "url": "network-security"
+    },
+    {
+      "id": "News",
+      "url": "news"
+    },
+    {
       "id": "Non Profit",
       "url": "non-profit"
     },
     {
       "id": "Open Source",
       "url": "open-source"
+    },
+    {
+      "id": "Product Design",
+      "url": "product-design"
     },
     {
       "id": "SaaS",
