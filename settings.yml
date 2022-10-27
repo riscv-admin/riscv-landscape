@@ -136,9 +136,18 @@ big_picture:
         left: 0
         color: rgb(109,61,143)
         is_large: true
+      - type: HorizontalCategory
+        category: Build Automation
+        rows: 4
+        width: 300
+        height: 300
+        top: 0
+        left: 820
+        color: rgb(109,61,143)
+        is_large: true
       - type: LandscapeInfo
         width: 370
-        height: 280
+        height: 150
         top: 320
         left: 0
         children:

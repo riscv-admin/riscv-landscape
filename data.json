@@ -7774,5 +7774,799 @@
     "member": false,
     "relation": false,
     "isSubsidiaryProject": false
+  },
+  {
+    "name": "Jenkins",
+    "homepage_url": "https://www.jenkins.io/",
+    "repo_url": "https://github.com/jenkinsci/jenkins",
+    "logo": "jenkins.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf",
+    "github_data": {
+      "languages": [
+        {
+          "name": "Java",
+          "value": 11619716,
+          "color": "#b07219"
+        },
+        {
+          "name": "HTML",
+          "value": 937732,
+          "color": "#e34c26"
+        },
+        {
+          "name": "JavaScript",
+          "value": 392444,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "CSS",
+          "value": 215757,
+          "color": "#563d7c"
+        },
+        {
+          "name": "Less",
+          "value": 193689
+        },
+        {
+          "name": "Groovy",
+          "value": 75750,
+          "color": "#e69f56"
+        },
+        {
+          "name": "Ruby",
+          "value": 17290,
+          "color": "#701516"
+        },
+        {
+          "name": "Perl",
+          "value": 16145,
+          "color": "#0298c3"
+        },
+        {
+          "name": "Handlebars",
+          "value": 15221
+        },
+        {
+          "name": "GAP",
+          "value": 6933
+        },
+        {
+          "name": "Python",
+          "value": 4709,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Shell",
+          "value": 2354,
+          "color": "#89e051"
+        },
+        {
+          "name": "C",
+          "value": 2091,
+          "color": "#555555"
+        },
+        {
+          "name": "Batchfile",
+          "value": 1023,
+          "color": "#C1F12E"
+        },
+        {
+          "name": "Dockerfile",
+          "value": 163,
+          "color": "#384d54"
+        }
+      ],
+      "contributions": "7;41;21;24;32;48;32;39;33;33;21;8;31;26;18;19;28;24;27;33;15;18;20;24;38;19;17;19;23;12;23;15;23;17;24;57;54;23;50;28;18;18;22;19;29;25;41;38;34;19;32;28",
+      "firstWeek": "2021-10-31Z",
+      "stars": 19685,
+      "license": "MIT License",
+      "description": "Jenkins automation server",
+      "latest_commit_date": "2022-10-26T15:43:46Z",
+      "latest_commit_link": "/jenkinsci/jenkins/commit/074d8c686ea2d4133e7c6bd27f52b04b8b17254d",
+      "release_date": "2022-10-25T13:09:04Z",
+      "release_link": "https://github.com/jenkinsci/jenkins/releases",
+      "contributors_count": 1048,
+      "contributors_link": "https://github.com/jenkinsci/jenkins/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/jenkinsci/jenkins",
+        "stars": 19685
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/jenkinsci/jenkins/commit/8a0dc230f44e84e5a7f7920cf9a31f09a54999ac",
+      "start_date": "2006-11-05T21:16:01Z"
+    },
+    "image_data": {
+      "fileName": "jenkins.svg",
+      "hash": "qJlqy6Z/DBQ6CcJXz6m7120n6hZhOSXfrKeJak6uxOY="
+    },
+    "firstCommitDate": "2006-11-05T21:16:01Z",
+    "firstCommitLink": "https://github.com/jenkinsci/jenkins/commit/8a0dc230f44e84e5a7f7920cf9a31f09a54999ac",
+    "latestCommitDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-26T15:43:46Z"
+    },
+    "latestCommitLink": "https://github.com/jenkinsci/jenkins/commit/074d8c686ea2d4133e7c6bd27f52b04b8b17254d",
+    "releaseDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-25T13:09:04Z"
+    },
+    "releaseLink": "https://github.com/jenkinsci/jenkins/releases",
+    "commitsThisYear": 1387,
+    "contributorsCount": 1048,
+    "contributorsLink": "https://github.com/jenkinsci/jenkins/graphs/contributors",
+    "language": "Java",
+    "stars": 19685,
+    "license": "MIT License",
+    "headquarters": "San Francisco, California",
+    "twitter": "https://twitter.com/CDeliveryFdn",
+    "latestTweetDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-27T14:28:42.000Z"
+    },
+    "description": "Jenkins automation server",
+    "organization": "Continuous Delivery Foundation (CDF)",
+    "crunchbaseData": {
+      "name": "Continuous Delivery Foundation (CDF)",
+      "description": "A Neutral Home for the Next Generation of Continuous Delivery Collaboration",
+      "homepage": "https://cd.foundation",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "twitter": "https://twitter.com/CDeliveryFdn",
+      "linkedin": null,
+      "acquisitions": [],
+      "parents": [
+        "https://www.crunchbase.com/organization/linux-foundation"
+      ],
+      "stockExchange": null,
+      "company_type": "Non Profit",
+      "industries": [
+        "Cloud Computing",
+        "Open Source",
+        "Software"
+      ],
+      "numEmployeesMin": 1,
+      "numEmployeesMax": 10
+    },
+    "path": "Build Automation / CI/Testing",
+    "landscape": "Build Automation / CI/Testing",
+    "category": "Build Automation",
+    "amount": "N/A",
+    "oss": true,
+    "href": "logos/jenkins.svg",
+    "bestPracticeBadgeId": 3538,
+    "bestPracticePercentage": 100,
+    "industries": [
+      "Cloud Computing",
+      "Open Source",
+      "Software"
+    ],
+    "starsPresent": true,
+    "starsAsText": "19,685",
+    "marketCapPresent": false,
+    "marketCapAsText": "N/A",
+    "id": "jenkins",
+    "flatName": "Jenkins",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
+    "name": "Buildbot",
+    "homepage_url": "https://buildbot.net/",
+    "repo_url": "https://github.com/buildbot/buildbot",
+    "logo": "buildbot.svg",
+    "organization": "Buildbot",
+    "github_data": {
+      "languages": [
+        {
+          "name": "Python",
+          "value": 7769097,
+          "color": "#3572A5"
+        },
+        {
+          "name": "JavaScript",
+          "value": 486413,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "RAML",
+          "value": 80115,
+          "color": "#77d9fb"
+        },
+        {
+          "name": "Pug",
+          "value": 61108
+        },
+        {
+          "name": "TypeScript",
+          "value": 43818,
+          "color": "#2b7489"
+        },
+        {
+          "name": "Less",
+          "value": 29509
+        },
+        {
+          "name": "Shell",
+          "value": 15664,
+          "color": "#89e051"
+        },
+        {
+          "name": "Makefile",
+          "value": 13066,
+          "color": "#427819"
+        },
+        {
+          "name": "Roff",
+          "value": 12270,
+          "color": "#ecdebe"
+        },
+        {
+          "name": "Jinja",
+          "value": 5761
+        },
+        {
+          "name": "HTML",
+          "value": 4402,
+          "color": "#e34c26"
+        },
+        {
+          "name": "Dockerfile",
+          "value": 1684,
+          "color": "#384d54"
+        },
+        {
+          "name": "Gherkin",
+          "value": 645,
+          "color": "#5B2063"
+        },
+        {
+          "name": "Mako",
+          "value": 494
+        }
+      ],
+      "contributions": "3;10;2;2;1;6;1;5;1;20;1;9;6;83;48;20;4;4;62;33;10;8;5;1;9;15;69;9;37;3;2;3;13;1;3;7;2;0;10;18;5;55;2;42;2;20;6;7;1;1;0;0",
+      "firstWeek": "2021-10-31Z",
+      "stars": 4916,
+      "license": "GNU General Public License v2.0",
+      "description": "Python-based continuous integration testing framework; your pull requests are more than welcome!",
+      "latest_commit_date": "2022-10-06T15:04:32Z",
+      "latest_commit_link": "/buildbot/buildbot/commit/deae82289abe8c36c2843b1eabe20c2a6ecb2247",
+      "release_date": "2022-09-22T04:07:33Z",
+      "release_link": "https://github.com/buildbot/buildbot/releases",
+      "contributors_count": 826,
+      "contributors_link": "https://github.com/buildbot/buildbot/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/buildbot/buildbot",
+        "stars": 4916
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/buildbot/buildbot/commit/464eaffcdd080f48fe2df79b60cc6098ff1fee8c",
+      "start_date": "2005-11-26T04:26:35Z"
+    },
+    "image_data": {
+      "fileName": "buildbot.svg",
+      "hash": "Vng0yF4sySTykx5xUFkfzc1SnKqSBkmWkWfjoTShvZA="
+    },
+    "firstCommitDate": "2005-11-26T04:26:35Z",
+    "firstCommitLink": "https://github.com/buildbot/buildbot/commit/464eaffcdd080f48fe2df79b60cc6098ff1fee8c",
+    "latestCommitDate": {
+      "text": "about a month",
+      "value": "960",
+      "original": "2022-10-06T15:04:32Z"
+    },
+    "latestCommitLink": "https://github.com/buildbot/buildbot/commit/deae82289abe8c36c2843b1eabe20c2a6ecb2247",
+    "releaseDate": {
+      "text": "about a month",
+      "value": "960",
+      "original": "2022-09-22T04:07:33Z"
+    },
+    "releaseLink": "https://github.com/buildbot/buildbot/releases",
+    "commitsThisYear": 687,
+    "contributorsCount": 826,
+    "contributorsLink": "https://github.com/buildbot/buildbot/graphs/contributors",
+    "language": "Python",
+    "stars": 4916,
+    "license": "GNU General Public License v2.0",
+    "headquarters": "N/A",
+    "description": "Python-based continuous integration testing framework; your pull requests are more than welcome!",
+    "crunchbaseData": {
+      "name": "Buildbot",
+      "parents": [],
+      "linkedin": null
+    },
+    "path": "Build Automation / CI/Testing",
+    "landscape": "Build Automation / CI/Testing",
+    "category": "Build Automation",
+    "amount": "N/A",
+    "oss": true,
+    "href": "logos/buildbot.svg",
+    "bestPracticeBadgeId": false,
+    "bestPracticePercentage": null,
+    "industries": [],
+    "starsPresent": true,
+    "starsAsText": "4,916",
+    "marketCapPresent": false,
+    "marketCapAsText": "N/A",
+    "id": "buildbot",
+    "flatName": "Buildbot",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
+    "name": "QEMU",
+    "homepage_url": "https://www.qemu.org/",
+    "repo_url": "https://github.com/qemu/qemu",
+    "logo": "qemu.svg",
+    "organization": "QEMU",
+    "github_data": {
+      "languages": [
+        {
+          "name": "C",
+          "value": 66704744,
+          "color": "#555555"
+        },
+        {
+          "name": "C++",
+          "value": 10797102,
+          "color": "#f34b7d"
+        },
+        {
+          "name": "Python",
+          "value": 3261684,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Shell",
+          "value": 1362437,
+          "color": "#89e051"
+        },
+        {
+          "name": "Assembly",
+          "value": 433658,
+          "color": "#6E4C13"
+        },
+        {
+          "name": "Meson",
+          "value": 388322,
+          "color": "#007800"
+        },
+        {
+          "name": "Haxe",
+          "value": 325306,
+          "color": "#df7900"
+        },
+        {
+          "name": "Perl",
+          "value": 219235,
+          "color": "#0298c3"
+        },
+        {
+          "name": "Objective-C",
+          "value": 108583,
+          "color": "#438eff"
+        },
+        {
+          "name": "Makefile",
+          "value": 95471,
+          "color": "#427819"
+        },
+        {
+          "name": "SourcePawn",
+          "value": 64660,
+          "color": "#5c7611"
+        },
+        {
+          "name": "POV-Ray SDL",
+          "value": 57289
+        },
+        {
+          "name": "SmPL",
+          "value": 28545
+        },
+        {
+          "name": "Pawn",
+          "value": 16760,
+          "color": "#dbb284"
+        },
+        {
+          "name": "NSIS",
+          "value": 6906
+        },
+        {
+          "name": "NASL",
+          "value": 3060
+        },
+        {
+          "name": "Dockerfile",
+          "value": 1577,
+          "color": "#384d54"
+        },
+        {
+          "name": "GLSL",
+          "value": 588
+        },
+        {
+          "name": "GDB",
+          "value": 470
+        },
+        {
+          "name": "Vim Script",
+          "value": 220
+        },
+        {
+          "name": "Emacs Lisp",
+          "value": 75,
+          "color": "#c065db"
+        }
+      ],
+      "contributions": "168;143;156;94;60;48;139;247;54;123;266;134;107;158;215;98;162;247;226;125;137;108;109;93;209;287;302;116;106;142;218;229;153;134;177;155;168;143;44;94;65;109;157;53;105;75;70;183;207;49;37;68",
+      "firstWeek": "2021-10-31Z",
+      "stars": 6889,
+      "license": "Other",
+      "description": "Official QEMU mirror. Please see http://wiki.qemu.org/Contribute/SubmitAPatch for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.",
+      "latest_commit_date": "2022-10-26T14:53:49Z",
+      "latest_commit_link": "/qemu/qemu/commit/344744e148e6e865f5a57e745b02a87e5ea534ad",
+      "contributors_count": 2458,
+      "contributors_link": "https://github.com/qemu/qemu/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/qemu/qemu",
+        "stars": 6889
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/qemu/qemu/commit/e63c3dc74bfb90e4522d075d0d5a7600c5145745",
+      "start_date": "2003-02-18T22:55:36Z"
+    },
+    "image_data": {
+      "fileName": "qemu.svg",
+      "hash": "ZmZekdRPf6tqjfSO+kqY54cVLeovzGkXD3kKfJhdLZk="
+    },
+    "firstCommitDate": "2003-02-18T22:55:36Z",
+    "firstCommitLink": "https://github.com/qemu/qemu/commit/e63c3dc74bfb90e4522d075d0d5a7600c5145745",
+    "latestCommitDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-26T14:53:49Z"
+    },
+    "latestCommitLink": "https://github.com/qemu/qemu/commit/344744e148e6e865f5a57e745b02a87e5ea534ad",
+    "commitsThisYear": 7272,
+    "contributorsCount": 2458,
+    "contributorsLink": "https://github.com/qemu/qemu/graphs/contributors",
+    "language": "C",
+    "stars": 6889,
+    "license": "Other",
+    "headquarters": "N/A",
+    "description": "Official QEMU mirror. Please see http://wiki.qemu.org/Contribute/SubmitAPatch for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.",
+    "crunchbaseData": {
+      "name": "QEMU",
+      "parents": [],
+      "linkedin": null
+    },
+    "path": "Build Automation / Simulators",
+    "landscape": "Build Automation / Simulators",
+    "category": "Build Automation",
+    "amount": "N/A",
+    "oss": true,
+    "href": "logos/qemu.svg",
+    "bestPracticeBadgeId": false,
+    "bestPracticePercentage": null,
+    "industries": [],
+    "starsPresent": true,
+    "starsAsText": "6,889",
+    "marketCapPresent": false,
+    "marketCapAsText": "N/A",
+    "id": "qemu",
+    "flatName": "QEMU",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
+    "name": "SPIKE",
+    "homepage_url": "https://github.com/riscv-software-src/riscv-isa-sim/blob/master/README.md",
+    "repo_url": "https://github.com/riscv-software-src/riscv-isa-sim",
+    "logo": "riscv.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/risc-v",
+    "github_data": {
+      "languages": [
+        {
+          "name": "C",
+          "value": 1599420,
+          "color": "#555555"
+        },
+        {
+          "name": "C++",
+          "value": 638682,
+          "color": "#f34b7d"
+        },
+        {
+          "name": "M4",
+          "value": 35575
+        },
+        {
+          "name": "Makefile",
+          "value": 17859,
+          "color": "#427819"
+        },
+        {
+          "name": "Shell",
+          "value": 10674,
+          "color": "#89e051"
+        },
+        {
+          "name": "Python",
+          "value": 4154,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Assembly",
+          "value": 3103,
+          "color": "#6E4C13"
+        },
+        {
+          "name": "Pawn",
+          "value": 1154,
+          "color": "#dbb284"
+        }
+      ],
+      "contributions": "8;6;6;0;13;15;9;6;8;2;7;0;5;3;3;2;20;10;2;32;9;17;13;24;1;11;10;12;12;1;3;7;0;0;0;11;18;14;4;12;7;3;5;3;6;5;6;39;10;13;16;24",
+      "firstWeek": "2021-10-31Z",
+      "stars": 1502,
+      "license": "Other",
+      "description": "Spike, a RISC-V ISA Simulator",
+      "latest_commit_date": "2022-10-27T02:06:03Z",
+      "latest_commit_link": "/riscv-software-src/riscv-isa-sim/commit/04a912d8c30f70dba060a8c2cf1d92afa5067e23",
+      "release_date": "2022-09-23T23:03:06Z",
+      "release_link": "https://github.com/riscv-software-src/riscv-isa-sim/releases",
+      "contributors_count": 122,
+      "contributors_link": "https://github.com/riscv-software-src/riscv-isa-sim/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/riscv-software-src/riscv-isa-sim",
+        "stars": 1502
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/riscv-software-src/riscv-isa-sim/commit/01c01cc36f006cfb03cd6d1c5a68f926b93f7787",
+      "start_date": "2010-07-19T01:28:05Z"
+    },
+    "image_data": {
+      "fileName": "spike.svg",
+      "hash": "aA0XGDoUYQVKyCMXC3lFxO+svS8Nlbj3PRJUmIYYHTk="
+    },
+    "firstCommitDate": "2010-07-19T01:28:05Z",
+    "firstCommitLink": "https://github.com/riscv-software-src/riscv-isa-sim/commit/01c01cc36f006cfb03cd6d1c5a68f926b93f7787",
+    "latestCommitDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-27T02:06:03Z"
+    },
+    "latestCommitLink": "https://github.com/riscv-software-src/riscv-isa-sim/commit/04a912d8c30f70dba060a8c2cf1d92afa5067e23",
+    "releaseDate": {
+      "text": "about a month",
+      "value": "960",
+      "original": "2022-09-23T23:03:06Z"
+    },
+    "releaseLink": "https://github.com/riscv-software-src/riscv-isa-sim/releases",
+    "commitsThisYear": 473,
+    "contributorsCount": 122,
+    "contributorsLink": "https://github.com/riscv-software-src/riscv-isa-sim/graphs/contributors",
+    "language": "C",
+    "stars": 1502,
+    "license": "Other",
+    "headquarters": "Berkeley, California",
+    "twitter": "https://twitter.com/RISC_V",
+    "latestTweetDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-27T01:10:00.000Z"
+    },
+    "description": "Spike, a RISC-V ISA Simulator",
+    "organization": "RISC - V (Risk Five)",
+    "crunchbaseData": {
+      "name": "RISC - V (Risk Five)",
+      "description": "RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.",
+      "homepage": "http://riscv.org/",
+      "city": "Berkeley",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/RISC_V",
+      "linkedin": "https://www.linkedin.com/company/risc-v-foundation",
+      "acquisitions": [],
+      "parents": [],
+      "stockExchange": null,
+      "company_type": "For Profit",
+      "industries": [
+        "Education"
+      ],
+      "numEmployeesMin": 1,
+      "numEmployeesMax": 10
+    },
+    "path": "Build Automation / Simulators",
+    "landscape": "Build Automation / Simulators",
+    "category": "Build Automation",
+    "amount": "N/A",
+    "oss": true,
+    "href": "logos/spike.svg",
+    "bestPracticeBadgeId": false,
+    "bestPracticePercentage": null,
+    "industries": [
+      "Education"
+    ],
+    "starsPresent": true,
+    "starsAsText": "1,502",
+    "marketCapPresent": false,
+    "marketCapAsText": "N/A",
+    "id": "spike",
+    "flatName": "SPIKE",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
+  },
+  {
+    "name": "SAIL",
+    "homepage_url": "https://github.com/rems-project/sail",
+    "repo_url": "https://github.com/rems-project/sail",
+    "logo": "sail.svg",
+    "organization": "SAIL",
+    "github_data": {
+      "languages": [
+        {
+          "name": "Standard ML",
+          "value": 5711577,
+          "color": "#dc566d"
+        },
+        {
+          "name": "Isabelle",
+          "value": 5687439,
+          "color": "#FEFE00"
+        },
+        {
+          "name": "Coq",
+          "value": 5071658
+        },
+        {
+          "name": "OCaml",
+          "value": 3186667,
+          "color": "#3be133"
+        },
+        {
+          "name": "C",
+          "value": 237671,
+          "color": "#555555"
+        },
+        {
+          "name": "Shell",
+          "value": 26063,
+          "color": "#89e051"
+        },
+        {
+          "name": "Python",
+          "value": 18790,
+          "color": "#3572A5"
+        },
+        {
+          "name": "Makefile",
+          "value": 14028,
+          "color": "#427819"
+        },
+        {
+          "name": "Emacs Lisp",
+          "value": 10202,
+          "color": "#c065db"
+        },
+        {
+          "name": "CSS",
+          "value": 5709,
+          "color": "#563d7c"
+        },
+        {
+          "name": "TeX",
+          "value": 5069,
+          "color": "#3D6117"
+        },
+        {
+          "name": "Rust",
+          "value": 3273,
+          "color": "#dea584"
+        },
+        {
+          "name": "Vim Script",
+          "value": 3038
+        },
+        {
+          "name": "Perl",
+          "value": 1746,
+          "color": "#0298c3"
+        },
+        {
+          "name": "JavaScript",
+          "value": 906,
+          "color": "#f1e05a"
+        },
+        {
+          "name": "sed",
+          "value": 143,
+          "color": "#64b970"
+        }
+      ],
+      "contributions": "6;2;3;10;8;3;7;7;0;1;4;8;1;1;4;13;6;12;5;10;2;9;4;2;9;0;10;14;10;4;9;9;6;5;3;0;0;6;3;2;9;0;1;2;1;0;1;4;9;3;6;5",
+      "firstWeek": "2021-10-31Z",
+      "stars": 392,
+      "license": "Other",
+      "description": "Sail architecture definition language",
+      "latest_commit_date": "2022-10-27T12:00:02Z",
+      "latest_commit_link": "/rems-project/sail/commit/136338697b62843d3dd3b6acd987815e47743a03",
+      "contributors_count": 62,
+      "contributors_link": "https://github.com/rems-project/sail/graphs/contributors"
+    },
+    "repos": [
+      {
+        "url": "https://github.com/rems-project/sail",
+        "stars": 392
+      }
+    ],
+    "github_start_commit_data": {
+      "start_commit_link": "/rems-project/sail/commit/1b2968feba6f18b20322dcb3f0901e604904fdc9",
+      "start_date": "2013-06-20T12:54:00Z"
+    },
+    "image_data": {
+      "fileName": "sail.svg",
+      "hash": "YqLcRMotLoyV07OqAIL1bDq3wutmvq8I/opV7hQo8+A="
+    },
+    "firstCommitDate": "2013-06-20T12:54:00Z",
+    "firstCommitLink": "https://github.com/rems-project/sail/commit/1b2968feba6f18b20322dcb3f0901e604904fdc9",
+    "latestCommitDate": {
+      "text": "this week",
+      "value": "990",
+      "original": "2022-10-27T12:00:02Z"
+    },
+    "latestCommitLink": "https://github.com/rems-project/sail/commit/136338697b62843d3dd3b6acd987815e47743a03",
+    "commitsThisYear": 259,
+    "contributorsCount": 62,
+    "contributorsLink": "https://github.com/rems-project/sail/graphs/contributors",
+    "language": "Standard ML",
+    "stars": 392,
+    "license": "Other",
+    "headquarters": "N/A",
+    "description": "Sail architecture definition language",
+    "crunchbaseData": {
+      "name": "SAIL",
+      "parents": [],
+      "linkedin": null
+    },
+    "path": "Build Automation / Simulators",
+    "landscape": "Build Automation / Simulators",
+    "category": "Build Automation",
+    "amount": "N/A",
+    "oss": true,
+    "href": "logos/sail.svg",
+    "bestPracticeBadgeId": false,
+    "bestPracticePercentage": null,
+    "industries": [],
+    "starsPresent": true,
+    "starsAsText": "392",
+    "marketCapPresent": false,
+    "marketCapAsText": "N/A",
+    "id": "sail",
+    "flatName": "SAIL",
+    "member": false,
+    "relation": false,
+    "isSubsidiaryProject": false
   }
 ]

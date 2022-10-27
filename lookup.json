@@ -5,8 +5,16 @@
       "url": "bao-project"
     },
     {
+      "id": "Buildbot",
+      "url": "buildbot"
+    },
+    {
       "id": "Ceph Storage",
       "url": "ceph-storage"
+    },
+    {
+      "id": "Continuous Delivery Foundation (CDF)",
+      "url": "continuous-delivery-foundation-cdf"
     },
     {
       "id": "Debian",
@@ -69,6 +77,10 @@
       "url": "php"
     },
     {
+      "id": "QEMU",
+      "url": "qemu"
+    },
+    {
       "id": "Redis",
       "url": "redis"
     },
@@ -79,6 +91,10 @@
     {
       "id": "RT-Thread",
       "url": "rt-thread"
+    },
+    {
+      "id": "SAIL",
+      "url": "sail"
     },
     {
       "id": "The Apache Software Foundation",
@@ -161,6 +177,31 @@
       "label": "Boot",
       "groupingLabel": "Stack - Boot",
       "url": "boot",
+      "level": 2
+    },
+    {
+      "id": "Build Automation",
+      "url": "build-automation",
+      "level": 1,
+      "children": [
+        "Build Automation / CI/Testing",
+        "Build Automation / Simulators"
+      ]
+    },
+    {
+      "id": "Build Automation / CI/Testing",
+      "parentId": "Build Automation",
+      "label": "CI/Testing",
+      "groupingLabel": "Build Automation - CI/Testing",
+      "url": "ci-testing",
+      "level": 2
+    },
+    {
+      "id": "Build Automation / Simulators",
+      "parentId": "Build Automation",
+      "label": "Simulators",
+      "groupingLabel": "Build Automation - Simulators",
+      "url": "simulators",
       "level": 2
     },
     {
@@ -456,6 +497,7 @@
     "alphabet",
     "apache",
     "ceph-storage",
+    "continuous-delivery-foundation-cdf",
     "debian",
     "denx-software-engineering",
     "docker",
@@ -499,6 +541,7 @@
     "Cadence",
     "CartoCSS",
     "ChucK",
+    "Coq",
     "Cython",
     "D",
     "DIGITAL%20Command%20Language",
@@ -516,13 +559,17 @@
     "Gherkin",
     "Gnuplot",
     "Go",
+    "Groovy",
     "HCL",
     "HTML",
     "Hack",
+    "Handlebars",
     "Haskell",
+    "Haxe",
     "HyPhy",
     "IGOR%20Pro",
     "Io",
+    "Isabelle",
     "Java",
     "JavaScript",
     "JetBrains%20MPS",
@@ -539,13 +586,16 @@
     "Lua",
     "M4",
     "Makefile",
+    "Mako",
     "Mathematica",
     "Max",
     "Meson",
     "Metal",
     "Module%20Management%20System",
     "NASL",
+    "NSIS",
     "Nextflow",
+    "OCaml",
     "Objective-C",
     "Opa",
     "OpenEdge%20ABL",
@@ -559,8 +609,10 @@
     "PostScript",
     "PowerShell",
     "Protocol%20Buffer",
+    "Pug",
     "Python",
     "R",
+    "RAML",
     "RPC",
     "Raku",
     "Reason",
@@ -627,6 +679,10 @@
     {
       "id": "Big Data",
       "url": "big-data"
+    },
+    {
+      "id": "Cloud Computing",
+      "url": "cloud-computing"
     },
     {
       "id": "Cloud Data Services",
