@@ -130,7 +130,7 @@ big_picture:
       - type: HorizontalCategory
         category: Stack
         rows: 4
-        width: 600
+        width: 800
         height: 300
         top: 0
         left: 0
@@ -146,21 +146,9 @@ big_picture:
             text: >
               This landscape is intended to provide insight into the rich RISC-V Ecosystem available today
             top: 80
-            left: 120
+            left: 20
             right: 20
             font_size: 12
-          - type: image
-            image: qr-l.svg
-            top: 80
-            left: 15
-            width: 90
-            height: 90
-            title: QR Code
-          - type: title
-            title: l.cncf.io
-            top: 168
-            left: 18
-            font_size: 23
           - type: image
             image: right-logo.svg
             width: 109

@@ -1,8 +1,20 @@
 {
   "organization": [
     {
+      "id": "Bao Project",
+      "url": "bao-project"
+    },
+    {
       "id": "Ceph Storage",
       "url": "ceph-storage"
+    },
+    {
+      "id": "Debian",
+      "url": "debian"
+    },
+    {
+      "id": "DENX Software Engineering",
+      "url": "denx-software-engineering"
     },
     {
       "id": "Docker",
@@ -17,8 +29,20 @@
       "url": "free-bsd"
     },
     {
+      "id": "Freertos",
+      "url": "freertos"
+    },
+    {
+      "id": "Google",
+      "url": "google"
+    },
+    {
       "id": "Intel",
       "url": "intel"
+    },
+    {
+      "id": "KVM",
+      "url": "kvm"
     },
     {
       "id": "Linux Foundation",
@@ -49,8 +73,32 @@
       "url": "redis"
     },
     {
+      "id": "RISC - V (Risk Five)",
+      "url": "risc-v-risk-five"
+    },
+    {
+      "id": "RT-Thread",
+      "url": "rt-thread"
+    },
+    {
       "id": "The Apache Software Foundation",
       "url": "the-apache-software-foundation"
+    },
+    {
+      "id": "Ubuntu",
+      "url": "ubuntu"
+    },
+    {
+      "id": "UEFI Forum",
+      "url": "uefi-forum"
+    },
+    {
+      "id": "XVisor",
+      "url": "x-visor"
+    },
+    {
+      "id": "Zephyr Project",
+      "url": "zephyr-project"
     }
   ],
   "landscape": [
@@ -62,7 +110,9 @@
         "Stack / Applications",
         "Stack / Infrastructure",
         "Stack / Runtimes",
-        "Stack / Operation Systems"
+        "Stack / Operation Systems",
+        "Stack / Hypervisor",
+        "Stack / Boot"
       ]
     },
     {
@@ -95,6 +145,22 @@
       "label": "Operation Systems",
       "groupingLabel": "Stack - Operation Systems",
       "url": "operation-systems",
+      "level": 2
+    },
+    {
+      "id": "Stack / Hypervisor",
+      "parentId": "Stack",
+      "label": "Hypervisor",
+      "groupingLabel": "Stack - Hypervisor",
+      "url": "hypervisor",
+      "level": 2
+    },
+    {
+      "id": "Stack / Boot",
+      "parentId": "Stack",
+      "label": "Boot",
+      "groupingLabel": "Stack - Boot",
+      "url": "boot",
       "level": 2
     },
     {
@@ -131,7 +197,9 @@
         "Apache License 2.0",
         "BSD 3-Clause \"New\" or \"Revised\" License",
         "GNU General Public License v2.0",
+        "GNU General Public License v3.0",
         "GNU General Public License version 2 only (GPL-2.0)",
+        "MIT License",
         "Other",
         "Unknown License"
       ]
@@ -155,8 +223,20 @@
       "level": 2
     },
     {
+      "id": "GNU General Public License v3.0",
+      "url": "gnu-general-public-license-v3-0",
+      "parentId": "Open Source",
+      "level": 2
+    },
+    {
       "id": "GNU General Public License version 2 only (GPL-2.0)",
       "url": "gnu-general-public-license-version-2-only-gpl-2-0",
+      "parentId": "Open Source",
+      "level": 2
+    },
+    {
+      "id": "MIT License",
+      "url": "mit-license",
       "parentId": "Open Source",
       "level": 2
     },
@@ -175,6 +255,54 @@
   ],
   "headquarters": [
     {
+      "id": "China",
+      "url": "china",
+      "level": 1,
+      "children": [
+        "Shanghai, China"
+      ]
+    },
+    {
+      "id": "Shanghai, China",
+      "label": "Shanghai",
+      "groupingLabel": "Shanghai, China",
+      "url": "shanghai-china",
+      "level": 2,
+      "parentId": "China"
+    },
+    {
+      "id": "Germany",
+      "url": "germany",
+      "level": 1,
+      "children": [
+        "Gröbenzell, Germany"
+      ]
+    },
+    {
+      "id": "Gröbenzell, Germany",
+      "label": "Gröbenzell",
+      "groupingLabel": "Gröbenzell, Germany",
+      "url": "gr-benzell-germany",
+      "level": 2,
+      "parentId": "Germany"
+    },
+    {
+      "id": "United Kingdom",
+      "url": "united-kingdom",
+      "level": 1,
+      "children": [
+        "London, United Kingdom"
+      ]
+    },
+    {
+      "id": "London, United Kingdom",
+      "label": "London",
+      "groupingLabel": "London, United Kingdom",
+      "url": "london-united-kingdom",
+      "level": 2,
+      "parentId": "United Kingdom"
+    },
+    {
       "id": "United States",
       "url": "united-states",
       "level": 1,
@@ -188,7 +316,11 @@
         "Redwood Shores, California",
         "Little Rock, Arkansas",
         "Santa Clara, California",
-        "Adamstown, Maryland"
+        "Adamstown, Maryland",
+        "Boulder, Colorado",
+        "Hauppauge, New York",
+        "Berkeley, California",
+        "Beaverton, Oregon"
       ]
     },
     {
@@ -196,6 +328,14 @@
       "label": "Little Rock, Arkansas",
       "groupingLabel": "Little Rock, Arkansas",
       "url": "little-rock-arkansas",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
+      "id": "Berkeley, California",
+      "label": "Berkeley, California",
+      "groupingLabel": "Berkeley, California",
+      "url": "berkeley-california",
       "level": 2,
       "parentId": "United States"
     },
@@ -248,6 +388,14 @@
       "parentId": "United States"
     },
     {
+      "id": "Boulder, Colorado",
+      "label": "Boulder, Colorado",
+      "groupingLabel": "Boulder, Colorado",
+      "url": "boulder-colorado",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
       "id": "Adamstown, Maryland",
       "label": "Adamstown, Maryland",
       "groupingLabel": "Adamstown, Maryland",
@@ -260,6 +408,22 @@
       "label": "Forest Hill, Maryland",
       "groupingLabel": "Forest Hill, Maryland",
       "url": "forest-hill-maryland",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
+      "id": "Hauppauge, New York",
+      "label": "Hauppauge, New York",
+      "groupingLabel": "Hauppauge, New York",
+      "url": "hauppauge-new-york",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
+      "id": "Beaverton, Oregon",
+      "label": "Beaverton, Oregon",
+      "groupingLabel": "Beaverton, Oregon",
+      "url": "beaverton-oregon",
       "level": 2,
       "parentId": "United States"
     },
@@ -289,10 +453,16 @@
     }
   ],
   "crunchbaseSlugs": [
+    "alphabet",
     "apache",
     "ceph-storage",
+    "debian",
+    "denx-software-engineering",
     "docker",
     "dpdk",
+    "freebsd",
+    "freertos",
+    "google",
     "intel",
     "linux-foundation",
     "memcached",
@@ -300,17 +470,24 @@
     "openssl-software-foundation",
     "oracle",
     "php",
-    "redis"
+    "redis",
+    "risc-v",
+    "rt-thread",
+    "ubuntu",
+    "uefi-forum",
+    "zephy-project"
   ],
   "languages": [
     "1C%20Enterprise",
     "AGS%20Script",
     "AMPL",
+    "ASL",
     "ASP.NET",
     "AppleScript",
     "Assembly",
     "Awk",
     "Batchfile",
+    "Beef",
     "Berry",
     "Bikeshed",
     "Brainfuck",
@@ -319,6 +496,8 @@
     "C%2B%2B",
     "CMake",
     "CSS",
+    "Cadence",
+    "CartoCSS",
     "ChucK",
     "Cython",
     "D",
@@ -327,8 +506,10 @@
     "Dockerfile",
     "E",
     "Emacs%20Lisp",
+    "EmberScript",
     "Filebench%20WML",
     "Forth",
+    "FreeMarker",
     "GAP",
     "GDB",
     "GLSL",
@@ -339,15 +520,18 @@
     "HTML",
     "Hack",
     "Haskell",
+    "HyPhy",
     "IGOR%20Pro",
     "Io",
     "Java",
     "JavaScript",
+    "JetBrains%20MPS",
     "Jinja",
     "Jsonnet",
     "Julia",
     "KRL",
     "LLVM",
+    "LSL",
     "Less",
     "Lex",
     "Logos",
@@ -363,6 +547,7 @@
     "NASL",
     "Nextflow",
     "Objective-C",
+    "Opa",
     "OpenEdge%20ABL",
     "PHP",
     "PLSQL",
@@ -390,6 +575,7 @@
     "Scilab",
     "Shell",
     "SmPL",
+    "Smalltalk",
     "Smarty",
     "SourcePawn",
     "Standard%20ML",
@@ -403,6 +589,7 @@
     "TypeScript",
     "VBA",
     "VBScript",
+    "Verilog",
     "Vim%20Script",
     "Vue",
     "XSLT",
@@ -422,12 +609,20 @@
   ],
   "industries": [
     {
+      "id": "Advertising",
+      "url": "advertising"
+    },
+    {
       "id": "Analytics",
       "url": "analytics"
     },
     {
       "id": "Artificial Intelligence",
       "url": "artificial-intelligence"
+    },
+    {
+      "id": "Association",
+      "url": "association"
     },
     {
       "id": "Big Data",
@@ -438,8 +633,16 @@
       "url": "cloud-data-services"
     },
     {
+      "id": "Collaboration",
+      "url": "collaboration"
+    },
+    {
       "id": "Communities",
       "url": "communities"
+    },
+    {
+      "id": "Computer",
+      "url": "computer"
     },
     {
       "id": "Database",
@@ -470,6 +673,10 @@
       "url": "flash-storage"
     },
     {
+      "id": "Hardware",
+      "url": "hardware"
+    },
+    {
       "id": "Information Technology",
       "url": "information-technology"
     },
@@ -498,8 +705,20 @@
       "url": "product-design"
     },
     {
+      "id": "Real Time",
+      "url": "real-time"
+    },
+    {
+      "id": "Robotics",
+      "url": "robotics"
+    },
+    {
       "id": "SaaS",
       "url": "saa-s"
+    },
+    {
+      "id": "Search Engine",
+      "url": "search-engine"
     },
     {
       "id": "Service Industry",

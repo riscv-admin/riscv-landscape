@@ -100,8 +100,7 @@ landscape:
             homepage_url: https://www.freebsd.org
             repo_url: https://github.com/freebsd/freebsd-src
             logo: freebsd.svg
-            organization:
-              name: FreeBSD
+            crunchbase: https://www.crunchbase.com/organization/freebsd
           - item:
             name: Android
             homepage_url: https://www.android.com
@@ -111,11 +110,84 @@ landscape:
           - item:
             name: seL4
             homepage_url: https://sel4.systems/
-            repo_url: 
-            https://github.com/seL4/seL4
-            log: seL4.svg
+            repo_url: https://github.com/seL4/seL4
+            logo: seL4.svg
             crunchbase: https://www.crunchbase.com/organization/linux-foundation
-
+          - item:
+            name: RT-Thread
+            homepage_url: https://www.rt-thread.io/
+            repo_url: https://github.com/RT-Thread/rt-thread
+            logo: rt-thread.svg
+            crunchbase: https://www.crunchbase.com/organization/rt-thread
+          - item:
+            name: Zephyr
+            homepage_url: https://www.zephyrproject.org/
+            repo_url: https://github.com/zephyrproject-rtos/zephyr
+            logo: zephyr.svg
+            crunchbase: https://www.crunchbase.com/organization/zephy-project
+          - item:
+            name: FreeRTOS
+            homepage_url: https://www.freertos.org/
+            repo_url: https://github.com/FreeRTOS/FreeRTOS
+            logo: freertos.svg
+            crunchbase: https://www.crunchbase.com/organization/freertos
+          - item:
+            name: Debian
+            homepage_url: https://www.debian.org/
+            repo_url: https://github.com/Debian/apt
+            logo: debian.svg
+            crunchbase: https://www.crunchbase.com/organization/debian
+          - item:
+            name: Ubuntu
+            homepage_url: https://ubuntu.com/
+            repo_url: https://github.com/ubuntu/ubuntu-make
+            logo: ubuntu.svg
+            crunchbase: https://www.crunchbase.com/organization/ubuntu
+      - subcategory:
+        name: Hypervisor
+        items:
+          - item:
+            name: Xvisor
+            homepage_url: http://xhypervisor.org/
+            repo_url: https://github.com/xvisor/xvisor
+            logo: xvisor.svg
+            organization:
+              name: XVisor
+          - item:
+            name: Bao Project
+            homepage_url: http://www.bao-project.org/
+            repo_url: https://github.com/bao-project/bao-hypervisor
+            logo: bao.svg
+            organization:
+              name: Bao Project
+          - item:
+            name: Kernel-based virtual machine
+            homepage_url: https://www.linux-kvm.org/page/Main_Page
+            logo: kvm.svg
+            organization:
+              name: KVM
+            extra:
+              repo_url: https://git.kernel.org/pub/scm/virt/kvm/kvm.git
+      - subcategory:
+        name: Boot
+        items:
+          - item:
+            name: OpenSBI
+            homepage_url: https://github.com/riscv-software-src/opensbi/blob/master/README.md
+            repo_url: https://github.com/riscv-software-src/opensbi
+            logo: opensbi.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: Das U-Boot
+            homepage_url: https://www.denx.de/wiki/U-Boot
+            repo_url: https://github.com/u-boot/u-boot
+            logo: dasuboot.svg
+            crunchbase: https://www.crunchbase.com/organization/denx-software-engineering
+          - item:
+            name: Unified Extensible Firmware Interface (UEFI)
+            homepage_url: https://uefi.org/
+            logo: uefi.svg
+            crunchbase: https://www.crunchbase.com/organization/uefi-forum
   - category:
     name: RiscV Members
     subcategories:
