@@ -33,6 +33,10 @@
       "url": "dpdk"
     },
     {
+      "id": "Free Software Foundation",
+      "url": "free-software-foundation"
+    },
+    {
       "id": "FreeBSD",
       "url": "free-bsd"
     },
@@ -185,7 +189,8 @@
       "level": 1,
       "children": [
         "Build Automation / CI/Testing",
-        "Build Automation / Simulators"
+        "Build Automation / Simulators",
+        "Build Automation / Compilers"
       ]
     },
     {
@@ -202,6 +207,14 @@
       "label": "Simulators",
       "groupingLabel": "Build Automation - Simulators",
       "url": "simulators",
+      "level": 2
+    },
+    {
+      "id": "Build Automation / Compilers",
+      "parentId": "Build Automation",
+      "label": "Compilers",
+      "groupingLabel": "Build Automation - Compilers",
+      "url": "compilers",
       "level": 2
     },
     {
@@ -361,7 +374,8 @@
         "Boulder, Colorado",
         "Hauppauge, New York",
         "Berkeley, California",
-        "Beaverton, Oregon"
+        "Beaverton, Oregon",
+        "Boston, Massachusetts"
       ]
     },
     {
@@ -453,6 +467,14 @@
       "parentId": "United States"
     },
     {
+      "id": "Boston, Massachusetts",
+      "label": "Boston, Massachusetts",
+      "groupingLabel": "Boston, Massachusetts",
+      "url": "boston-massachusetts",
+      "level": 2,
+      "parentId": "United States"
+    },
+    {
       "id": "Hauppauge, New York",
       "label": "Hauppauge, New York",
       "groupingLabel": "Hauppauge, New York",
@@ -502,6 +524,7 @@
     "denx-software-engineering",
     "docker",
     "dpdk",
+    "free-software-foundation",
     "freebsd",
     "freertos",
     "google",
@@ -525,6 +548,7 @@
     "AMPL",
     "ASL",
     "ASP.NET",
+    "Ada",
     "AppleScript",
     "Assembly",
     "Awk",
@@ -552,8 +576,10 @@
     "EmberScript",
     "Filebench%20WML",
     "Forth",
+    "Fortran",
     "FreeMarker",
     "GAP",
+    "GCC%20Machine%20Description",
     "GDB",
     "GLSL",
     "Gherkin",
@@ -589,6 +615,7 @@
     "Mako",
     "Mathematica",
     "Max",
+    "Mercury",
     "Meson",
     "Metal",
     "Module%20Management%20System",
@@ -597,6 +624,7 @@
     "Nextflow",
     "OCaml",
     "Objective-C",
+    "Objective-C%2B%2B",
     "Opa",
     "OpenEdge%20ABL",
     "PHP",
@@ -621,6 +649,7 @@
     "Roff",
     "Ruby",
     "Rust",
+    "SAS",
     "SCSS",
     "SWIG",
     "Scheme",
