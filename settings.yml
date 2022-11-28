@@ -10,8 +10,7 @@ global:
   meta:
     title: RiscV Interactive Landscape
     fb_admin: alex.contini.94
-    description: >-
-      Riscv Landscape Info
+    description: Riscv Landscape Info
     twitter: '@risc_v'
     google_site_verification: test
     ms_validate: test
@@ -28,8 +27,8 @@ global:
 
       <meta property="og:title" content="Landscape" />
 
-      <meta property="og:description" content="The Landscape organizes all cloud native open source projects and proprietary products into
-      categories, providing an overview of the current ecosystem" />
+      <meta property="og:description" content="The Landscape organizes all cloud native open source projects and proprietary products into categories, providing
+      an overview of the current ecosystem" />
 
       <meta property="og:url" content="https://landscape.cncf.io/" />
 
@@ -39,8 +38,8 @@ global:
 
       <meta name="twitter:title" content="Landscape" />
 
-      <meta name="twitter:description" content="The Landscape organizes all cloud native open source projects and proprietary products into
-      categories, providing an overview of the current ecosystem" />
+      <meta name="twitter:description" content="The Landscape organizes all cloud native open source projects and proprietary products into categories,
+      providing an overview of the current ecosystem" />
 
       <meta name="twitter:image" content="https://landscape.cncf.io/images/social.jpg" />
 
@@ -48,7 +47,6 @@ global:
 
       <meta name="twitter:image:height" content="945" />
   membership: RiscV Members
-  flags: {}
 twitter:
   search: riscv.cncf.io
   url: https://landscape.riscv.org
@@ -90,7 +88,6 @@ relation:
     - id: false
       label: Non-RiscV Member Products/Projects
       url: 'no'
-
 membership:
   Platinum:
     name: Riscv
@@ -123,7 +120,6 @@ big_picture:
     name: Landscape
     short_name: Land...
     title: Riscv Landscape
-    fullscreen_header: 
     elements:
       - type: HorizontalCategory
         category: Stack
@@ -150,7 +146,7 @@ big_picture:
         left: 0
         children:
           - type: text
-            text: >
+            text: |
               This landscape is intended to provide insight into the rich RISC-V Ecosystem available today
             top: 80
             left: 20
@@ -168,9 +164,17 @@ big_picture:
             left: 15
             top: 15
             title: Landscape Logo
+      - type: HorizontalCategory
+        category: ISA
+        rows: 4
+        width: 100
+        height: 300
+        top: 0
+        color: rgb(109,61,143)
+        left: 1120
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RiscV Member Products/Projects
   logo: my-sql.svg
-prerender:
-export:
+prerender: {}
+export: {}
