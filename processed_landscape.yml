@@ -2358,6 +2358,115 @@ landscape:
             best_practice_data:
               badge: 87
               percentage: 63
+          - item:
+            name: Python
+            homepage_url: https://www.python.org/
+            project: null
+            repo_url: https://github.com/python/cpython
+            logo: python.svg
+            crunchbase: https://www.crunchbase.com/organization/python-software-foundation
+            crunchbase_data:
+              name: Python Software Foundation
+              description: An organization devoted to advancing open source technology .
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.python.org/psf-landing/
+              city: Wilmington
+              region: Delaware
+              country: United States
+              twitter: http://twitter.com/ThePSF
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Developer Platform
+                - Enterprise Software
+                - Information Technology
+                - Software
+            github_data:
+              languages:
+                - name: Python
+                  value: 32163112
+                  color: '#3572A5'
+                - name: C
+                  value: 16627530
+                  color: '#555555'
+                - name: C++
+                  value: 328442
+                  color: '#f34b7d'
+                - name: M4
+                  value: 231044
+                - name: HTML
+                  value: 208030
+                  color: '#e34c26'
+                - name: Batchfile
+                  value: 75996
+                  color: '#C1F12E'
+                - name: Shell
+                  value: 59461
+                  color: '#89e051'
+                - name: Assembly
+                  value: 49897
+                  color: '#6E4C13'
+                - name: Roff
+                  value: 40752
+                  color: '#ecdebe'
+                - name: Makefile
+                  value: 36224
+                  color: '#427819'
+                - name: Objective-C
+                  value: 26849
+                  color: '#438eff'
+                - name: Common Lisp
+                  value: 24579
+                  color: '#3fb68b'
+                - name: PLSQL
+                  value: 22886
+                  color: '#dad8d8'
+                - name: PowerShell
+                  value: 20326
+                  color: '#012456'
+                - name: Rich Text Format
+                  value: 6936
+                - name: DTrace
+                  value: 2196
+                - name: JavaScript
+                  value: 1980
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 1325
+                  color: '#563d7c'
+                - name: XSLT
+                  value: 1174
+                  color: '#EB8CEB'
+                - name: VBScript
+                  value: 70
+              contributions: >-
+                84;53;20;37;64;68;113;72;88;71;65;83;67;73;72;65;82;89;86;95;109;156;84;81;54;51;63;88;100;60;55;55;76;83;67;52;53;61;58;44;45;37;56;153;59;77;75;100;104;51;83;56
+              firstWeek: 2021-12-12Z
+              stars: 49335
+              license: Other
+              description: The Python programming language
+              latest_commit_date: '2022-12-06T21:43:41Z'
+              latest_commit_link: /python/cpython/commit/679efbb080242fc5be63ad873968f05faeef889f
+              contributors_count: 2281
+              contributors_link: https://github.com/python/cpython/graphs/contributors
+            repos:
+              - url: https://github.com/python/cpython
+                stars: 49335
+            github_start_commit_data:
+              start_commit_link: /python/cpython/commit/7f777ed95a19224294949e1b4ce56bbffcb1fe9f
+              start_date: '1990-08-09T14:25:15Z'
+            image_data:
+              fileName: python.svg
+              hash: GCqno6KHdsinU8FA64sKPXEMCIWUBDvMgC4T+PY+eDk=
+            best_practice_data:
+              badge: 4008
+              percentage: 100
+            twitter_data:
+              latest_tweet_date: 2022-12-06T19:26:00.000Z
       - subcategory:
         name: Operation Systems
         items:
@@ -4741,9 +4850,132 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-10-31T22:00:04.000Z
+          - item:
+            name: LLVM
+            homepage_url: https://llvm.org/
+            repo_url: https://github.com/llvm/llvm-project
+            logo: llvm.svg
+            crunchbase: https://www.crunchbase.com/organization/llvm-foundation
+            crunchbase_data:
+              name: LLVM Foundation
+              description: Nonprofit supporting LLVM
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://llvm.org/foundation/
+              city: Los Altos
+              region: California
+              country: United States
+              twitter: https://twitter.com/llvmorg
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries: []
+            github_data:
+              languages: []
+              contributions: 0;0;0;2;0;3;3;1;2;0;3;1;0;4;5;1;0;1;1;4;1;4;2;1;7;3;6;14;11;14;8;28;26;35;64;445;646;756;648;626;665;618;718;714;667;735;676;597;574;726;800;737
+              firstWeek: 2021-12-12Z
+              stars: 17080
+              license: Other
+              description: >-
+                The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Note: the repository does not accept github pull
+                requests at this moment. Please submit your patches at http://reviews.llvm.org.
+              latest_commit_date: '2022-12-06T21:51:28Z'
+              latest_commit_link: /llvm/llvm-project/commit/5951b0bb23f3265bea16f28c2af9d278b9d829c6
+              release_date: '2022-11-29T13:49:08Z'
+              release_link: https://github.com/llvm/llvm-project/releases
+              contributors_count: 4205
+              contributors_link: https://github.com/llvm/llvm-project/graphs/contributors
+            repos:
+              - url: https://github.com/llvm/llvm-project
+                stars: 17080
+            github_start_commit_data:
+              start_commit_link: /llvm/llvm-project/commit/97724f18c79c7cc81ced24239eb5e883bf1398ef
+              start_date: '2001-06-06T20:29:01Z'
+            image_data:
+              fileName: llvm.svg
+              hash: nT+GVA1fWh4atT/XTcze7oCNjJuD2fSDZCk0qAv6mFU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-11-17T06:13:22.000Z
   - category:
-    name: RiscV Members
+    name: RISC-V Members
     subcategories:
       - subcategory:
-        name: Platinum
+        name: Premier
         items: []
+      - subcategory:
+        name: Premier TSC
+        items: []
+      - subcategory:
+        name: Strategic
+        items: []
+      - subcategory:
+        name: Community
+        items: []
+  - category:
+    name: ISA
+    subcategories:
+      - subcategory:
+        name: ISA
+        items:
+          - item:
+            name: RISC-V
+            homepage_url: https://riscv.org/
+            project: null
+            repo_url: https://github.com/riscv/riscv-isa-manual
+            logo: riscv.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+            crunchbase_data:
+              name: RISC - V (Risk Five)
+              description: RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://riscv.org/
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: http://twitter.com/RISC_V
+              linkedin: https://www.linkedin.com/company/risc-v-foundation
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+            github_data:
+              languages:
+                - name: TeX
+                  value: 1250245
+                  color: '#3D6117'
+                - name: Makefile
+                  value: 2133
+                  color: '#427819'
+              contributions: 1;4;0;5;8;2;8;3;0;1;2;3;2;1;1;1;1;1;0;5;0;2;2;0;0;2;0;1;15;0;3;5;2;0;0;0;1;5;2;2;13;4;1;1;0;0;0;0;1;1;0;0
+              firstWeek: 2021-12-12Z
+              stars: 2321
+              license: Creative Commons Attribution 4.0 International
+              description: RISC-V Instruction Set Manual
+              latest_commit_date: '2022-12-06T20:32:51Z'
+              latest_commit_link: /riscv/riscv-isa-manual/commit/b7080e0d18765730ff4f3d07b866b4884a8be401
+              release_date: '2022-12-06T20:36:19Z'
+              release_link: https://github.com/riscv/riscv-isa-manual/releases
+              contributors_count: 91
+              contributors_link: https://github.com/riscv/riscv-isa-manual/graphs/contributors
+            repos:
+              - url: https://github.com/riscv/riscv-isa-manual
+                stars: 2321
+            github_start_commit_data:
+              start_commit_link: /riscv/riscv-isa-manual/commit/07175cea95576bae8edea26b268178b76fa20e7e
+              start_date: '2017-02-02T03:45:59Z'
+            image_data:
+              fileName: risc-v.svg
+              hash: aA0XGDoUYQVKyCMXC3lFxO+svS8Nlbj3PRJUmIYYHTk=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-10-27T01:10:00.000Z

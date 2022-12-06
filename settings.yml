@@ -56,6 +56,15 @@ relation:
   values:
     - id: hosted
       label: RISC-V Projects
+      children:
+        - id: projects
+          label: Riscv Projects
+          prefix: Riscv
+          tag: Projects
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Riscv Projects
+          big_picture_color: rgb(24,54,114)
     - id: member
       label: RISC-V Member Products/Projects
       tag: Riscv Member
