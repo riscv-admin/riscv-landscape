@@ -1,16 +1,15 @@
 global:
   name: RISC-V Ecosystem Interactive Landscape
-  short_name: Riscv
+  short_name: RISC-V
   repo: riscv-admin/riscv-landscape
   website: https://landscape.riscv.org
   short_domain: l.riscv.org
-  company_url: https://riscv.org
+  company_url: https://riscv.org/
   email: info@riscv.org
   self: https://www.crunchbase.com/organization/riscv
   meta:
-    title: RiscV Interactive Landscape
-    fb_admin: alex.contini.94
-    description: Riscv Landscape Info
+    title: RISC-V Interactive Landscape
+    description: RISC-V Landscape Info
     twitter: '@risc_v'
     google_site_verification: test
     ms_validate: test
@@ -46,56 +45,52 @@ global:
       <meta name="twitter:image:width" content="1800" />
 
       <meta name="twitter:image:height" content="945" />
-  membership: RiscV Members
+  membership: RISC-V Members
 twitter:
   search: riscv.cncf.io
   url: https://landscape.riscv.org
-  text: Riscv Landscape from @risc_v
+  text: RISC-V Landscape from @risc_v
 relation:
-  label: RiscV Relation
+  label: RISC-V Relation
   url: riscv
   values:
     - id: hosted
-      label: RiscV Projects
+      label: RISC-V Projects
       children:
-        - id: graduated
-          label: Riscv Graduated Projects
+        - id: projects
+          label: Riscv Projects
           prefix: Riscv
-          tag: Graduated Project
+          tag: Projects
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Riscv Graduated
+          big_picture_label: Riscv Projects
           big_picture_color: rgb(24,54,114)
-        - id: incubating
-          label: Riscv Incubating Projects
-          prefix: Riscv
-          tag: Incubating Project
-          color: '#00cbff'
-          big_picture_order: 2
-          big_picture_label: Riscv Incubating
-          big_picture_color: rgb(83, 113, 189)
-        - id: sandbox
-          label: Riscv Sandbox Projects
-          prefix: Riscv
-          tag: Sandbox Project
-          color: '#d1f7ff'
-          big_picture_label: Riscv Sandbox
-          big_picture_color: rgb(108, 165, 209)
-          additional_relation: member
     - id: member
-      label: Riscv Member Products/Projects
+      label: RISC-V Member Products/Projects
       tag: Riscv Member
     - id: false
-      label: Non-RiscV Member Products/Projects
+      label: Non-RISC-V Member Products/Projects
       url: 'no'
 membership:
-  Platinum:
-    name: Riscv
-    label: Platinum Member
-    funding: Platinum
+  Premier:
+    name: RISC-V
+    label: Premier Member
+    funding: Premier
+  Premier TSC:
+    name: RISC-V
+    label: Premier TSC Member
+    funding: Premier TSC
+  Strategic:
+    name: RISC-V
+    label: Strategic Member
+    funding: Strategic
+  Community:
+    name: RISC-V
+    label: Community Member
+    funding: Community
 home:
   header: >
-    <h1>RISC-V Ecosystem Interactive Landscape</h1> The RiscV landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    <h1>RISC-V Ecosystem Interactive Landscape</h1> The RISC-V landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
     href="images/landscape.pdf">pdf</a>) is dynamically generated below.
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
@@ -174,7 +169,7 @@ big_picture:
         color: rgb(109,61,143)
 test:
   header: RISC-V Ecosystem Interactive Landscape
-  section: Non-RiscV Member Products/Projects
+  section: Non-RISC-V Member Products/Projects
   logo: my-sql.svg
 prerender: {}
 export: {}
