@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/91337728-8166-4c8f-bc39-9159bf97dcbc/deploy-status)](https://app.netlify.com/sites/landscape/deploys)
 
-# RISC-V Ecosystem Interactive Landscape
+# RISC-V Ecosystem Landscape
 
 ![Cloud Native Landscape Logo](https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.png)
 
@@ -24,7 +24,7 @@ This landscape is intended as a map to explore the Ecosystem supported by RISC-V
 
 ## Current Version
 
-[![RISC-V Landscape](https://landscape.riscv.org/images/landscape.png)](https://landscape.riscv.org/images/landscape.png)
+[![RISC-V Ecosystem Landscape](https://landscape.riscv.org/images/landscape.png)](https://landscape.riscv.org/images/landscape.png)
 
 ## Interactive Version
 
