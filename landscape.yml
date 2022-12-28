@@ -280,3 +280,15 @@ landscape:
             repo_url: https://github.com/riscv/riscv-isa-manual
             logo: riscv.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
+  - category:
+    name: Compatibility
+    subcategories:
+      - subcategory:
+        name: Architecture Tests
+        items:
+          - item:
+            name: RISC-V Compatible
+            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
+            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
+            logo: RISCV-Compatible.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v

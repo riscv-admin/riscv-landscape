@@ -162,10 +162,20 @@ big_picture:
       - type: HorizontalCategory
         category: ISA
         rows: 4
-        width: 100
+        width: 125
         height: 300
         top: 0
         left: 1140
+        color: rgb(109,61,143)
+        is_large: true
+      - type: HorizontalCategory
+        is_large: true
+        category: Compatibility
+        rows: 4
+        width: 125
+        height: 300
+        top: 0
+        left: 1285
         color: rgb(109,61,143)
 test:
   header: RISC-V Ecosystem Interactive Landscape
