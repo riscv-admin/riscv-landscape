@@ -3,11 +3,11 @@ description: New entry for the Landscape
 title: New Landscape Entry - [PROJECT]
 labels: ['new entry']
 assignees: 
-  - jmertic
+  - bprestonlf
 body:
   - type: markdown
     attributes:
-      value: "Thank you for your interest in adding your project to the Academy Software Foundation Landscape. Please complete the form below to add your project to the Academy Software Foundation Landscape."
+      value: "Thank you for your interest in adding your project to the RISC-V Ecosystem Landscape. Please complete the form below to add your project to the RISC-V Ecosystem Landscape."
   - type: input
     id: name
     attributes:
@@ -53,18 +53,20 @@ body:
       label: Category
       description: Pick the best category for your project
       options:
-        - Imaging and Color - Color Science
-        - Imaging and Color - Image Formats, I/O, and Processing Libraries
-        - Imaging and Color - Display and Review
-        - Imaging and Color - Interactive Compositing and Painting
-        - Assets and Workflow - Scenes and Geometry
-        - Assets and Workflow - Timelines and Animation
-        - Assets and Workflow - Pipelines and Frameworks
-        - Assets and Workflow - Software Foundation and System Administration
-        - Rendering and Queueing - Rendering, Lighting, and Lookdev
-        - Rendering and Queueing - Queueing and Render Management
-        - Math and Simulation - File Formats and Interchange
-        - Math and Simulation - Simulation
-        - Math and Simulation - Math Foundations
+        - Stack - Applications
+        - Stack - Infrastructure
+        - Stack - Runtimes
+        - Stack - Operating Systems
+        - Stack - Hypervisor
+        - Stack - Boot
+        - Build Automation - CI/Testing
+        - Build Automation - Perf Tools
+        - Build Automation - Simulators
+        - Build Automation - Compilers
+        - ISA - ISA
+        - Compatibility - Architecture Tests
+        - Compatibility - SAIL
+        - Verification - Verification
+        - Implementations - Implementations
     validations:
       required: true
