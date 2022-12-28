@@ -118,7 +118,7 @@ big_picture:
     elements:
       - type: HorizontalCategory
         category: Stack
-        rows: 4
+        rows: 3
         width: 800
         height: 300
         top: 0
@@ -127,7 +127,7 @@ big_picture:
         is_large: true
       - type: HorizontalCategory
         category: Build Automation
-        rows: 4
+        rows: 3
         width: 300
         height: 300
         top: 0
@@ -137,7 +137,7 @@ big_picture:
       - type: LandscapeInfo
         width: 370
         height: 150
-        top: 320
+        top: 400
         left: 0
         children:
           - type: text
@@ -161,21 +161,21 @@ big_picture:
             title: Landscape Logo
       - type: HorizontalCategory
         category: ISA
-        rows: 4
+        rows: 3
         width: 125
         height: 300
-        top: 0
-        left: 1140
+        top: 300
+        left: 0
         color: rgb(109,61,143)
         is_large: true
       - type: HorizontalCategory
         is_large: true
         category: Compatibility
-        rows: 4
+        rows: 3
         width: 125
         height: 300
-        top: 0
-        left: 1285
+        top: 300
+        left: 150
         color: rgb(109,61,143)
 test:
   header: RISC-V Ecosystem Interactive Landscape
