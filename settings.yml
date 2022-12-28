@@ -167,6 +167,16 @@ big_picture:
         top: 0
         left: 1140
         color: rgb(109,61,143)
+        is_large: true
+      - type: HorizontalCategory
+        is_large: true
+        category: Compatibility
+        rows: Architecture Tests
+        width: 4
+        height: 100
+        top: 300
+        left: 1460
+        color: rgb(109,61,143)
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RISC-V Member Products/Projects
