@@ -177,6 +177,15 @@ big_picture:
         top: 275
         left: 150
         color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Implementations
+        rows: 3
+        width: 125
+        height: 250
+        top: 275
+        left: 300
+        color: rgb(109,61,143)
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RISC-V Member Products/Projects
