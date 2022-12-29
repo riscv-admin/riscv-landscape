@@ -292,3 +292,16 @@ landscape:
             repo_url: https://github.com/riscv-non-isa/riscv-arch-test
             logo: RISCV-Compatible.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
+  - category:
+    name: Implementations
+    subcategories:
+      - subcategory:
+        name: Implementations
+        items:
+          - item:
+            name: lowRISC
+            homepage_url: https://lowrisc.org/
+            repo_url: https://github.com/lowRISC/opentitan
+            project_org: https://github.com/lowRISC
+            logo: lowrisc.svg
+            crunchbase: https://www.crunchbase.com/organization/lowrisc
