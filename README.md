@@ -2,7 +2,7 @@
 
 # RISC-V Ecosystem Landscape
 
-![Cloud Native Landscape Logo](https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.png)
+![RISC-V Logo](https://landscape.riscv.org/images/left-logo.svg)
 
 - [RISC-V Ecosystem Landscape](#cloud-native-landscape)
   * [Current Version](#current-version)
