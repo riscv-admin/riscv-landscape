@@ -94,6 +94,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/python-software-foundation
           - item:
             name: SEGGER
+            second_path: Stack / Libraries
             homepage_url: https://www.segger.com/risc-v/
             logo: segger.svg
             crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
@@ -207,13 +208,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/uefi-forum
       - subcategory:
         name: Libraries
-        items:
-          - item:
-            name: SEGGER
-            homepage_url: https://www.segger.com/products/rtos-embedded-software/
-            project: null
-            logo: segger.svg
-            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+        items: []
   - category:
     name: Build Automation
     subcategories:
