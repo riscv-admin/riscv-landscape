@@ -2467,6 +2467,37 @@ landscape:
               percentage: 100
             twitter_data:
               latest_tweet_date: 2022-12-06T19:26:00.000Z
+          - item:
+            name: SEGGER
+            second_path: Stack / Libraries
+            homepage_url: https://www.segger.com/risc-v/
+            logo: segger.svg
+            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+            crunchbase_data:
+              name: SEGGER Microcontroller Systems
+              description: SEGGER Microcontroller is a full-range supplier of software, hardware, and development tools for embedded systems.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://www.segger.com
+              city: Gardner
+              region: Massachusetts
+              country: United States
+              twitter: https://www.twitter.com/seggermicro
+              linkedin: https://www.linkedin.com/company/segger-microcontroller
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Software
+            image_data:
+              fileName: segger.svg
+              hash: DLYpa6JncXMxoOJG/FoN3rPPOtaQh4jCCI6iLiL9hXU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-01-11T15:08:46.000Z
       - subcategory:
         name: Operation Systems
         items:
@@ -3918,6 +3949,36 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-10-26T05:26:00.000Z
+          - item:
+            name: embOS
+            homepage_url: https://www.segger.com/products/rtos/embos/
+            logo: embOS.svg
+            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+            crunchbase_data:
+              name: SEGGER Microcontroller Systems
+              description: SEGGER Microcontroller is a full-range supplier of software, hardware, and development tools for embedded systems.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://www.segger.com
+              city: Gardner
+              region: Massachusetts
+              country: United States
+              twitter: https://www.twitter.com/seggermicro
+              linkedin: https://www.linkedin.com/company/segger-microcontroller
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Software
+            image_data:
+              fileName: emb-os.svg
+              hash: /tjoH5h8nYzuU0ZgfIVBHUr/m6EErz9iYjopObrXsF8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-01-11T15:08:46.000Z
       - subcategory:
         name: Hypervisor
         items:
@@ -4257,6 +4318,9 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+      - subcategory:
+        name: Libraries
+        items: []
   - category:
     name: Build Automation
     subcategories:
@@ -4979,3 +5043,664 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-10-27T01:10:00.000Z
+  - category:
+    name: Compatibility
+    subcategories:
+      - subcategory:
+        name: Architecture Tests
+        items:
+          - item:
+            name: RISC-V Compatible
+            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
+            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
+            logo: RISCV-Compatible.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+            crunchbase_data:
+              name: RISC - V (Risk Five)
+              description: RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://riscv.org/
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: http://twitter.com/RISC_V
+              linkedin: https://www.linkedin.com/company/risc-v-foundation
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+            github_data:
+              languages:
+                - name: Assembly
+                  value: 515949362
+                  color: '#6E4C13'
+              contributions: 0;1;2;5;1;12;6;3;11;2;13;2;2;7;0;8;4;6;0;0;3;1;0;4;6;0;7;0;2;3;3;1;0;5;9;0;0;0;0;3;2;2;0;0;12;1;0;4;3;1;0;0
+              firstWeek: 2022-01-23Z
+              stars: 349
+              license: Apache License 2.0
+              description: null
+              latest_commit_date: '2022-12-27T08:11:49Z'
+              latest_commit_link: /riscv-non-isa/riscv-arch-test/commit/933ddddff896453dec83b6ca1ca2453b6f584d0b
+              release_date: '2022-12-27T08:13:22Z'
+              release_link: https://github.com/riscv-non-isa/riscv-arch-test/releases
+              contributors_count: 43
+              contributors_link: https://github.com/riscv-non-isa/riscv-arch-test/graphs/contributors
+            repos:
+              - url: https://github.com/riscv-non-isa/riscv-arch-test
+                stars: 349
+            github_start_commit_data:
+              start_commit_link: /riscv-non-isa/riscv-arch-test/commit/176c4b4f851e5547b0f844be9f9adb26734fc01d
+              start_date: '2018-05-21T17:58:06Z'
+            image_data:
+              fileName: risc-v-compatible.svg
+              hash: oDKM/hnp+dJyUv2QxBGhS8mvHoGxU1kdiDl5CkMlzqc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-10-27T01:10:00.000Z
+  - category:
+    name: Implementations
+    subcategories:
+      - subcategory:
+        name: Implementations
+        items:
+          - item:
+            name: lowRISC
+            homepage_url: https://lowrisc.org/
+            repo_url: https://github.com/lowRISC/opentitan
+            project_org: https://github.com/lowRISC
+            logo: lowrisc.svg
+            crunchbase: https://www.crunchbase.com/organization/lowrisc
+            crunchbase_data:
+              name: lowRISC
+              description: lowRISC is a non-profit community interest company
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.lowrisc.org/
+              city: Cambridge
+              region: Cambridgeshire
+              country: United Kingdom
+              twitter: https://twitter.com/lowrisc?lang=en
+              linkedin: https://www.linkedin.com/company/lowrisc/
+              acquisitions:
+                - date: '2022-06-02'
+                  acquiree: NewAE Technology
+              parents: []
+              funding: 0
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Communities
+                - Non Profit
+            github_data:
+              description: Developing the Silicon Commons
+              contributors_count: 2831
+              contributions: >-
+                192;208;191;185;204;149;154;142;181;208;168;187;204;172;124;135;164;142;122;144;114;113;102;110;80;139;123;96;153;111;174;150;130;102;133;141;122;145;178;136;179;265;256;229;96;99;102;84;34;14;50;65
+              stars: 3924
+              languages:
+                - name: C
+                  value: 1302119093
+                  color: '#555555'
+                - name: C++
+                  value: 530235006
+                  color: '#f34b7d'
+                - name: Assembly
+                  value: 134405354
+                  color: '#6E4C13'
+                - name: LLVM
+                  value: 129857548
+                  color: '#185619'
+                - name: Ada
+                  value: 94604038
+                  color: '#02f88c'
+                - name: Makefile
+                  value: 74136394
+                  color: '#427819'
+                - name: Java
+                  value: 45329184
+                  color: '#b07219'
+                - name: HTML
+                  value: 44633003
+                  color: '#e34c26'
+                - name: Roff
+                  value: 41070552
+                  color: '#ecdebe'
+                - name: Go
+                  value: 27968140
+                  color: '#00ADD8'
+                - name: Shell
+                  value: 24831171
+                  color: '#89e051'
+                - name: Python
+                  value: 22778801
+                  color: '#3572A5'
+                - name: SystemVerilog
+                  value: 21907461
+                  color: '#DAE1C2'
+                - name: D
+                  value: 19794684
+                  color: '#ba595e'
+                - name: Objective-C
+                  value: 12902475
+                  color: '#438eff'
+                - name: GCC Machine Description
+                  value: 12859530
+                - name: Fortran
+                  value: 10456510
+                  color: '#4d41b1'
+                - name: Perl
+                  value: 8763113
+                  color: '#0298c3'
+                - name: Verilog
+                  value: 6770665
+                  color: '#b2b7f8'
+                - name: M4
+                  value: 5746500
+                - name: TeX
+                  value: 5212305
+                  color: '#3D6117'
+                - name: Scala
+                  value: 4513396
+                  color: '#c22d40'
+                - name: Yacc
+                  value: 3041710
+                  color: '#4B6C4B'
+                - name: DTrace
+                  value: 2555438
+                - name: Scheme
+                  value: 2261985
+                  color: '#1e4aec'
+                - name: CMake
+                  value: 1863071
+                - name: Objective-C++
+                  value: 1851474
+                  color: '#6866fb'
+                - name: Rust
+                  value: 1535739
+                  color: '#dea584'
+                - name: VHDL
+                  value: 1366127
+                  color: '#adb2cb'
+                - name: BitBake
+                  value: 1243839
+                - name: Logos
+                  value: 1143072
+                - name: Lex
+                  value: 968081
+                  color: '#DBCA00'
+                - name: SuperCollider
+                  value: 915531
+                  color: '#46390b'
+                - name: Awk
+                  value: 898539
+                - name: Tcl
+                  value: 890049
+                  color: '#e4cc98'
+                - name: Smarty
+                  value: 805765
+                - name: R
+                  value: 789368
+                  color: '#198CE7'
+                - name: PHP
+                  value: 759175
+                  color: '#4F5D95'
+                - name: Starlark
+                  value: 722756
+                - name: Emacs Lisp
+                  value: 623795
+                  color: '#c065db'
+                - name: OCaml
+                  value: 601441
+                  color: '#3be133'
+                - name: EmberScript
+                  value: 591509
+                  color: '#FFF4F3'
+                - name: Scilab
+                  value: 517110
+                - name: Cuda
+                  value: 500184
+                  color: '#3A4E3A'
+                - name: Bison
+                  value: 402214
+                - name: CSS
+                  value: 368222
+                  color: '#563d7c'
+                - name: Ruby
+                  value: 267672
+                  color: '#701516'
+                - name: C#
+                  value: 264175
+                  color: '#178600'
+                - name: Haxe
+                  value: 262672
+                  color: '#df7900'
+                - name: JavaScript
+                  value: 254769
+                  color: '#f1e05a'
+                - name: Pascal
+                  value: 228177
+                  color: '#E3F171'
+                - name: Forth
+                  value: 209325
+                  color: '#341708'
+                - name: Perl 6
+                  value: 186150
+                  color: '#0000fb'
+                - name: SourcePawn
+                  value: 170290
+                  color: '#5c7611'
+                - name: RPC
+                  value: 168547
+                - name: XSLT
+                  value: 166961
+                  color: '#EB8CEB'
+                - name: Pure Data
+                  value: 149811
+                - name: Batchfile
+                  value: 120166
+                  color: '#C1F12E'
+                - name: Common Lisp
+                  value: 113551
+                  color: '#3fb68b'
+                - name: DIGITAL Command Language
+                  value: 98155
+                - name: Stata
+                  value: 90305
+                - name: Coq
+                  value: 83917
+                - name: GDB
+                  value: 83389
+                - name: GAP
+                  value: 83063
+                - name: Lua
+                  value: 79827
+                  color: '#000080'
+                - name: 1C Enterprise
+                  value: 74167
+                  color: '#814CCC'
+                - name: MATLAB
+                  value: 73133
+                  color: '#e16737'
+                - name: Vim Script
+                  value: 63502
+                - name: Mathematica
+                  value: 62481
+                - name: AGS Script
+                  value: 62471
+                  color: '#B9D9FF'
+                - name: SCSS
+                  value: 60003
+                - name: Standard ML
+                  value: 55698
+                  color: '#dc566d'
+                - name: GDScript
+                  value: 49337
+                  color: '#355570'
+                - name: Pawn
+                  value: 39692
+                  color: '#dbb284'
+                - name: Dockerfile
+                  value: 36216
+                  color: '#384d54'
+                - name: Smalltalk
+                  value: 34684
+                  color: '#596706'
+                - name: Jinja
+                  value: 33184
+                - name: Rebol
+                  value: 29168
+                  color: '#358a5b'
+                - name: sed
+                  value: 25880
+                  color: '#64b970'
+                - name: SmPL
+                  value: 25359
+                - name: Cool
+                  value: 22267
+                - name: PicoLisp
+                  value: 15997
+                - name: Haskell
+                  value: 13333
+                  color: '#5e5086'
+                - name: PostScript
+                  value: 12248
+                  color: '#da291c'
+                - name: M
+                  value: 10707
+                - name: Filebench WML
+                  value: 7311
+                - name: NSIS
+                  value: 7306
+                - name: CLIPS
+                  value: 6933
+                - name: Turing
+                  value: 6827
+                  color: '#cf142b'
+                - name: IGOR Pro
+                  value: 6510
+                - name: ANTLR
+                  value: 5961
+                  color: '#9DC3FF'
+                - name: PLpgSQL
+                  value: 5528
+                - name: ApacheConf
+                  value: 5524
+                - name: SAS
+                  value: 5405
+                  color: '#B34936'
+                - name: Meson
+                  value: 5284
+                  color: '#007800'
+                - name: KRL
+                  value: 5166
+                  color: '#28430A'
+                - name: Max
+                  value: 4455
+                  color: '#c4a79c'
+                - name: POV-Ray SDL
+                  value: 4348
+                - name: Module Management System
+                  value: 4260
+                - name: BlitzBasic
+                  value: 4159
+                - name: Limbo
+                  value: 4037
+                - name: E
+                  value: 3299
+                  color: '#ccce35'
+                - name: Eiffel
+                  value: 2798
+                  color: '#946d57'
+                - name: Arc
+                  value: 1843
+                  color: '#aa2afe'
+                - name: PLSQL
+                  value: 1622
+                  color: '#dad8d8'
+                - name: Terra
+                  value: 1496
+                  color: '#00004c'
+                - name: AppleScript
+                  value: 1429
+                  color: '#101F1F'
+                - name: GLSL
+                  value: 1302
+                - name: Mercury
+                  value: 1193
+                  color: '#ff2b2b'
+                - name: RenderScript
+                  value: 741
+                - name: q
+                  value: 390
+                  color: '#0040cd'
+                - name: OpenEdge ABL
+                  value: 390
+                - name: Elixir
+                  value: 314
+                  color: '#6e4a7e'
+                - name: Visual Basic
+                  value: 294
+                  color: '#945db7'
+                - name: Swift
+                  value: 271
+                  color: '#ffac45'
+                - name: Brainfuck
+                  value: 251
+                  color: '#2F2530'
+                - name: MAXScript
+                  value: 205
+                  color: '#00a6a6'
+                - name: Prolog
+                  value: 186
+                  color: '#74283c'
+                - name: ChucK
+                  value: 39
+              latest_commit_link: /lowRISC/opentitan/commit/1e0c9c1a7da3e5793249a6dc55ccdbefaa6153d1
+              latest_commit_date: '2023-01-16T09:10:43Z'
+              firstWeek: 2022-01-23Z
+              license: Apache License 2.0
+              contributors_link: https://github.com/lowRISC/opentitan/graphs/contributors
+            repos:
+              - url: https://github.com/lowRISC/opentitan
+                stars: 1699
+              - url: https://github.com/lowRISC/ibex
+                stars: 898
+              - url: https://github.com/lowRISC/lowrisc-chip
+                stars: 552
+              - url: https://github.com/lowRISC/style-guides
+                stars: 211
+              - url: https://github.com/lowRISC/riscv-llvm
+                stars: 201
+              - url: https://github.com/lowRISC/lowrisc-fpga
+                stars: 55
+              - url: https://github.com/lowRISC/ariane
+                stars: 55
+              - url: https://github.com/lowRISC/hjson_to_gantt
+                stars: 27
+              - url: https://github.com/lowRISC/rocket
+                stars: 25
+              - url: https://github.com/lowRISC/lowrisc-nexys4
+                stars: 22
+              - url: https://github.com/lowRISC/lowrisc-toolchains
+                stars: 17
+              - url: https://github.com/lowRISC/lowrisc.github.io
+                stars: 13
+              - url: https://github.com/lowRISC/fpga-zynq
+                stars: 9
+              - url: https://github.com/lowRISC/uncore
+                stars: 9
+              - url: https://github.com/lowRISC/abicop
+                stars: 9
+              - url: https://github.com/lowRISC/lowrisc-site
+                stars: 8
+              - url: https://github.com/lowRISC/riscv-isa-sim
+                stars: 8
+              - url: https://github.com/lowRISC/lowrisc-docker
+                stars: 8
+              - url: https://github.com/lowRISC/ariane-ethernet
+                stars: 7
+              - url: https://github.com/lowRISC/riscv-tools
+                stars: 6
+              - url: https://github.com/lowRISC/rocket-chip
+                stars: 6
+              - url: https://github.com/lowRISC/socip
+                stars: 5
+              - url: https://github.com/lowRISC/chisel
+                stars: 5
+              - url: https://github.com/lowRISC/dma_axi
+                stars: 5
+              - url: https://github.com/lowRISC/riscv-compliance
+                stars: 5
+              - url: https://github.com/lowRISC/longfruit
+                stars: 5
+              - url: https://github.com/lowRISC/riscv-linux
+                stars: 4
+              - url: https://github.com/lowRISC/debian-riscv64
+                stars: 4
+              - url: https://github.com/lowRISC/minion_subsystem
+                stars: 3
+              - url: https://github.com/lowRISC/uvm-components
+                stars: 3
+              - url: https://github.com/lowRISC/lowrisc-quickstart
+                stars: 3
+              - url: https://github.com/lowRISC/OpenIP
+                stars: 3
+              - url: https://github.com/lowRISC/lowrisc-web
+                stars: 3
+              - url: https://github.com/lowRISC/lowrisc-kc705
+                stars: 2
+              - url: https://github.com/lowRISC/junctions
+                stars: 2
+              - url: https://github.com/lowRISC/lowrisc-nexys4-video
+                stars: 2
+              - url: https://github.com/lowRISC/qemu
+                stars: 2
+              - url: https://github.com/lowRISC/common_cells
+                stars: 2
+              - url: https://github.com/lowRISC/rv_plic
+                stars: 2
+              - url: https://github.com/lowRISC/edalize
+                stars: 2
+              - url: https://github.com/lowRISC/lowrisc-tag-tests
+                stars: 1
+              - url: https://github.com/lowRISC/riscv-fesvr
+                stars: 1
+              - url: https://github.com/lowRISC/riscv-pk
+                stars: 1
+              - url: https://github.com/lowRISC/lowrisc-doc
+                stars: 1
+              - url: https://github.com/lowRISC/greth-library
+                stars: 1
+              - url: https://github.com/lowRISC/riscv-llvm-integration
+                stars: 1
+              - url: https://github.com/lowRISC/lowrisc-vcu108
+                stars: 1
+              - url: https://github.com/lowRISC/lowrisc-artya7
+                stars: 1
+              - url: https://github.com/lowRISC/buildroot
+                stars: 1
+              - url: https://github.com/lowRISC/cfmath
+                stars: 1
+              - url: https://github.com/lowRISC/axi_riscv_atomics
+                stars: 1
+              - url: https://github.com/lowRISC/apb_uart
+                stars: 1
+              - url: https://github.com/lowRISC/axi
+                stars: 1
+              - url: https://github.com/lowRISC/riscv-elf-psabi-sanity-checker
+                stars: 1
+              - url: https://github.com/lowRISC/misc-linters
+                stars: 1
+              - url: https://github.com/lowRISC/u-boot
+                stars: 1
+              - url: https://github.com/lowRISC/fusesoc
+                stars: 1
+              - url: https://github.com/lowRISC/riscv-tests
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-gnu-toolchain
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-gcc-tagged-memory-v0.1
+                stars: 0
+              - url: https://github.com/lowRISC/lowrisc-images-zedboard
+                stars: 0
+              - url: https://github.com/lowRISC/zscale
+                stars: 0
+              - url: https://github.com/lowRISC/flexpret
+                stars: 0
+              - url: https://github.com/lowRISC/lowrisc-tests
+                stars: 0
+              - url: https://github.com/lowRISC/chisel-components
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-test-env
+                stars: 0
+              - url: https://github.com/lowRISC/context-dependent-environments
+                stars: 0
+              - url: https://github.com/lowRISC/lowrisc-bbl
+                stars: 0
+              - url: https://github.com/lowRISC/glip
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-opcodes
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-binutils-gdb
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-glibc
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-dejagnu
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-gcc
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-newlib
+                stars: 0
+              - url: https://github.com/lowRISC/firrtl
+                stars: 0
+              - url: https://github.com/lowRISC/chisel3
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-openocd
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-poky
+                stars: 0
+              - url: https://github.com/lowRISC/micropython
+                stars: 0
+              - url: https://github.com/lowRISC/axi_mem_if
+                stars: 0
+              - url: https://github.com/lowRISC/l3riscv
+                stars: 0
+              - url: https://github.com/lowRISC/freebsd-riscv
+                stars: 0
+              - url: https://github.com/lowRISC/u-boot-riscv
+                stars: 0
+              - url: https://github.com/lowRISC/tech_cells_generic
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-isa-manual
+                stars: 0
+              - url: https://github.com/lowRISC/lowrisc-genesys2
+                stars: 0
+              - url: https://github.com/lowRISC/axi_node
+                stars: 0
+              - url: https://github.com/lowRISC/sv-elaborator
+                stars: 0
+              - url: https://github.com/lowRISC/fpnew
+                stars: 0
+              - url: https://github.com/lowRISC/fpga-support
+                stars: 0
+              - url: https://github.com/lowRISC/riscv-dbg-1
+                stars: 0
+              - url: https://github.com/lowRISC/ariane-sdk
+                stars: 0
+              - url: https://github.com/lowRISC/opensbi
+                stars: 0
+              - url: https://github.com/lowRISC/dromajo
+                stars: 0
+              - url: https://github.com/lowRISC/crosstool-ng
+                stars: 0
+              - url: https://github.com/lowRISC/ot-dsim
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /lowRISC/riscv-binutils-gdb/commit/7b4ac7e1ed2c4616bce56d1760807798be87ac9e
+              start_date: '1988-01-16T04:39:57Z'
+            image_data:
+              fileName: low-risc.svg
+              hash: K7GnIstnjop1AV6n5HNIXzS4wlsTYqlO1VyOdBa2/oM=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-12-31T17:21:06.000Z
+          - item:
+            name: CHIPS Alliance
+            homepage_url: https://chipsalliance.org/
+            logo: chips.svg
+            crunchbase: https://www.crunchbase.com/organization/chips-alliance
+            crunchbase_data:
+              name: CHIPS Alliance
+              description: The CHIPS Alliance develops high-quality, open source hardware designs relevant to silicon devices and FPGAs.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://chipsalliance.org
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/chipsalliance
+              linkedin: https://www.linkedin.com/company/chipsalliance/
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Hardware
+                - Open Source
+            image_data:
+              fileName: chips-alliance.svg
+              hash: EH9N1Y2KMn/9iWlyW8HmcrY2nQxyeeBaYKkYHd4hW1s=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-01-13T12:28:49.000Z
