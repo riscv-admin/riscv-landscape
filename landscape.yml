@@ -3,57 +3,6 @@ landscape:
     name: Stack
     subcategories:
       - subcategory:
-        name: Applications
-        items:
-          - item:
-            name: Open vSwitch
-            homepage_url: https://www.openvswitch.org
-            repo_url: https://github.com/openvswitch/ovs
-            logo: open-vswitch.svg
-            crunchbase: https://www.crunchbase.com/organization/open-vswitch
-          - item:
-            name: Ceph
-            homepage_url: https://ceph.io
-            repo_url: https://github.com/ceph/ceph
-            logo: ceph.svg
-            crunchbase: https://www.crunchbase.com/organization/ceph-storage
-          - item:
-            name: Apache
-            homepage_url: https://www.apache.org
-            repo_url: https://github.com/apache/httpd
-            logo: apache-logo.svg
-            crunchbase: https://www.crunchbase.com/organization/apache
-          - item:
-            name: Secure Shell Protocol (SSH)
-            homepage_url: https://datatracker.ietf.org/doc/rfc4251/
-            logo: ssh-new.svg
-            crunchbase: https://www.crunchbase.com/organization/ietf
-          - item:
-            name: Transport Layer Security (TLS)
-            homepage_url: https://datatracker.ietf.org/wg/tls/about/
-            logo: tls-new.svg
-            crunchbase: https://www.crunchbase.com/organization/ietf
-          - item:
-            name: Veridify Security
-            homepage_url: https://www.veridify.com/
-            logo: veridify-security.svg
-            crunchbase: https://www.crunchbase.com/organization/securerf-corporation
-          - item:
-            name: Intrinsic ID
-            homepage_url: https://www.intrinsic-id.com/
-            logo: IntrinsicID.svg
-            crunchbase: https://www.crunchbase.com/organization/intrinsic-id
-          - item:
-            name: TrustKernel
-            homepage_url: https://www.trustkernel.com/en/
-            logo: trustkernel.svg
-            crunchbase: https://www.crunchbase.com/organization/trustkernel
-          - item:
-            name: NAMD
-            homepage_url: http://www.ks.uiuc.edu/Research/namd/
-            logo: namd.svg
-            crunchbase: https://www.crunchbase.com/organization/beckman-institute
-      - subcategory:
         name: Infrastructure
         items:
           - item:
@@ -363,3 +312,62 @@ landscape:
             homepage_url: https://chipsalliance.org/
             logo: chips.svg
             crunchbase: https://www.crunchbase.com/organization/chips-alliance
+  - category:
+    name: Applications
+    subcategories:
+      - subcategory:
+        name: Applications
+        items:
+          - item:
+            name: Open vSwitch
+            homepage_url: https://www.openvswitch.org
+            repo_url: https://github.com/openvswitch/ovs
+            logo: open-vswitch.svg
+            crunchbase: https://www.crunchbase.com/organization/open-vswitch
+          - item:
+            name: Ceph
+            homepage_url: https://ceph.io
+            repo_url: https://github.com/ceph/ceph
+            logo: ceph.svg
+            crunchbase: https://www.crunchbase.com/organization/ceph-storage
+          - item:
+            name: Apache
+            homepage_url: https://www.apache.org
+            repo_url: https://github.com/apache/httpd
+            logo: apache-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/apache
+          - item:
+            name: Secure Shell Protocol (SSH)
+            homepage_url: https://datatracker.ietf.org/doc/rfc4251/
+            logo: ssh-new.svg
+            crunchbase: https://www.crunchbase.com/organization/ietf
+          - item:
+            name: Transport Layer Security (TLS)
+            homepage_url: https://datatracker.ietf.org/wg/tls/about/
+            logo: tls-new.svg
+            crunchbase: https://www.crunchbase.com/organization/ietf
+          - item:
+            name: Veridify Security
+            homepage_url: https://www.veridify.com/
+            logo: veridify-security.svg
+            crunchbase: https://www.crunchbase.com/organization/securerf-corporation
+          - item:
+            name: Intrinsic ID
+            homepage_url: https://www.intrinsic-id.com/
+            logo: IntrinsicID.svg
+            crunchbase: https://www.crunchbase.com/organization/intrinsic-id
+          - item:
+            name: TrustKernel
+            homepage_url: https://www.trustkernel.com/en/
+            logo: trustkernel.svg
+            crunchbase: https://www.crunchbase.com/organization/trustkernel
+          - item:
+            name: NAMD
+            homepage_url: http://www.ks.uiuc.edu/Research/namd/
+            logo: namd.svg
+            crunchbase: https://www.crunchbase.com/organization/beckman-institute
+          - item:
+            name: OPEN AI LAB
+            homepage_url: http://www.openailab.com/
+            logo: open-ai-lab.svg
+            crunchbase: https://www.crunchbase.com/organization/openailab
