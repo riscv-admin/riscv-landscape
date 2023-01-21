@@ -121,7 +121,7 @@ big_picture:
         rows: 3
         width: 1250
         height: 250
-        top: 275
+        top: 200
         left: 0
         color: rgb(109,61,143)
         is_large: true
@@ -130,14 +130,14 @@ big_picture:
         rows: 3
         width: 300
         height: 250
-        top: 550
+        top: 475
         left: 0
         color: rgb(109,61,143)
         is_large: true
       - type: LandscapeInfo
         width: 370
         height: 150
-        top: 825
+        top: 750
         left: 0
         children:
           - type: text
@@ -164,7 +164,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 550
+        top: 475
         left: 325
         color: rgb(109,61,143)
         is_large: true
@@ -174,7 +174,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 550
+        top: 475
         left: 475
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -183,7 +183,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 550
+        top: 475
         left: 625
         color: rgb(109,61,143)
       - type: HorizontalCategory
