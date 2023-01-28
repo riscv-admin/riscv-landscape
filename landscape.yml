@@ -339,6 +339,12 @@ landscape:
             logo: ceph.svg
             crunchbase: https://www.crunchbase.com/organization/ceph-storage
           - item:
+            name: GROMACS
+            homepage_url: https://www.gromacs.org/
+            repo_url: https://github.com/gromacs/gromacs
+            logo: gromacs.svg
+            crunchbase: https://www.crunchbase.com/organization/university-of-groningen
+          - item:
             name: Intrinsic ID
             homepage_url: https://www.intrinsic-id.com/
             logo: IntrinsicID.svg
@@ -355,6 +361,13 @@ landscape:
             homepage_url: http://www.ks.uiuc.edu/Research/namd/
             logo: namd.svg
             crunchbase: https://www.crunchbase.com/organization/beckman-institute
+          - item:
+            name: ONNC (Open Neural Network Compiler)
+            homepage_url: https://onnc.ai/
+            repo_url: https://github.com/ONNC/onnc
+            project_org: https://github.com/ONNC
+            logo: onnc.svg
+            crunchbase: https://www.crunchbase.com/organization/skymizer-taiwan-inc
           - item:
             name: OPEN AI LAB
             homepage_url: http://www.openailab.com/
@@ -384,19 +397,6 @@ landscape:
             logo: ssh-new.svg
             crunchbase: https://www.crunchbase.com/organization/ietf
           - item:
-            name: GROMACS
-            homepage_url: https://www.gromacs.org/
-            repo_url: https://github.com/gromacs/gromacs
-            logo: gromacs.svg
-            crunchbase: https://www.crunchbase.com/organization/university-of-groningen
-          - item:
-            name: ONNC (Open Neural Network Compiler)
-            homepage_url: https://onnc.ai/
-            repo_url: https://github.com/ONNC/onnc
-            project_org: https://github.com/ONNC
-            logo: onnc.svg
-            crunchbase: https://www.crunchbase.com/organization/skymizer-taiwan-inc
-          - item:
             name: Transport Layer Security (TLS)
             homepage_url: https://datatracker.ietf.org/wg/tls/about/
             logo: tls-new.svg
@@ -419,14 +419,14 @@ landscape:
             logo: VxWorks.svg
             crunchbase: https://www.crunchbase.com/organization/wind-river
           - item:
-            name: WordPress
-            homepage_url: https://wordpress.org/
-            logo: WordPress.svg
-            crunchbase: https://www.crunchbase.com/organization/wordpress-foundation
-          - item:
             name: Weather Research & Forecasting Model (WRF)
             homepage_url: https://www.mmm.ucar.edu/models/wrf
             repo_url: https://github.com/wrf-model/WRF
             project_org: https://github.com/wrf-model
             logo: wrf.svg
             crunchbase: https://www.crunchbase.com/organization/ncar
+          - item:
+            name: WordPress
+            homepage_url: https://wordpress.org/
+            logo: WordPress.svg
+            crunchbase: https://www.crunchbase.com/organization/wordpress-foundation
