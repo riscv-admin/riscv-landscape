@@ -306,20 +306,6 @@ landscape:
         name: Applications
         items:
           - item:
-            name: MySQL
-            homepage_url: https://www.oracle.com/mysql/
-            repo_url: https://github.com/mysql/mysql-server
-            logo: my-sql.svg
-            twitter: https://twitter.com/mysql
-            crunchbase: https://www.crunchbase.com/organization/oracle
-            project_org: https://github.com/mysql
-          - item:
-            name: Redis
-            homepage_url: https://redis.io
-            repo_url: https://github.com/redis/redis
-            logo: redis.svg
-            crunchbase: https://www.crunchbase.com/organization/redis
-          - item:
             name: Apache
             homepage_url: https://www.apache.org
             repo_url: https://github.com/apache/httpd
@@ -350,6 +336,13 @@ landscape:
             logo: IntrinsicID.svg
             crunchbase: https://www.crunchbase.com/organization/intrinsic-id
           - item:
+            name: LibreOffice
+            homepage_url: https://www.libreoffice.org/
+            repo_url: https://github.com/LibreOffice/core
+            project_org: https://github.com/LibreOffice
+            logo: LibreOffice.svg
+            crunchbase: https://www.crunchbase.com/organization/libreoffice
+          - item:
             name: MediaWiki
             homepage_url: https://www.mediawiki.org/wiki/MediaWiki
             repo_url: https://github.com/wikimedia/mediawiki
@@ -357,10 +350,25 @@ landscape:
             logo: MediaWiki.svg
             crunchbase: https://www.crunchbase.com/organization/wikimedia-foundation
           - item:
+            name: MySQL
+            homepage_url: https://www.oracle.com/mysql/
+            repo_url: https://github.com/mysql/mysql-server
+            project_org: https://github.com/mysql
+            logo: my-sql.svg
+            twitter: https://twitter.com/mysql
+            crunchbase: https://www.crunchbase.com/organization/oracle
+          - item:
             name: NAMD
             homepage_url: http://www.ks.uiuc.edu/Research/namd/
             logo: namd.svg
             crunchbase: https://www.crunchbase.com/organization/beckman-institute
+          - item:
+            name: NGINX
+            homepage_url: https://www.nginx.com/
+            repo_url: https://github.com/nginx/agent
+            project_org: https://github.com/nginx
+            logo: Nginx.svg
+            crunchbase: https://www.crunchbase.com/organization/f5-networks
           - item:
             name: ONNC (Open Neural Network Compiler)
             homepage_url: https://onnc.ai/
@@ -391,6 +399,12 @@ landscape:
             homepage_url: https://www.peakhillsgroup.com/home
             logo: PeakHills.svg
             crunchbase: https://www.crunchbase.com/organization/national-tsing-hua-university
+          - item:
+            name: Redis
+            homepage_url: https://redis.io
+            repo_url: https://github.com/redis/redis
+            logo: redis.svg
+            crunchbase: https://www.crunchbase.com/organization/redis
           - item:
             name: Secure Shell Protocol (SSH)
             homepage_url: https://datatracker.ietf.org/doc/rfc4251/
@@ -426,21 +440,7 @@ landscape:
             logo: wrf.svg
             crunchbase: https://www.crunchbase.com/organization/ncar
           - item:
-            name: LibreOffice
-            homepage_url: https://www.libreoffice.org/
-            repo_url: https://github.com/LibreOffice/core
-            project_org: https://github.com/LibreOffice
-            logo: LibreOffice.svg
-            crunchbase: https://www.crunchbase.com/organization/libreoffice
-          - item:
             name: WordPress
             homepage_url: https://wordpress.org/
             logo: WordPress.svg
             crunchbase: https://www.crunchbase.com/organization/wordpress-foundation
-          - item:
-            name: NGINX
-            homepage_url: https://www.nginx.com/
-            repo_url: https://github.com/nginx/agent
-            project_org: https://github.com/nginx
-            logo: Nginx.svg
-            crunchbase: https://www.crunchbase.com/organization/f5-networks
