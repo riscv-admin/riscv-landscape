@@ -19,13 +19,6 @@ landscape:
             logo: memcached.svg
             crunchbase: https://www.crunchbase.com/organization/memcached
           - item:
-            name: MySQL
-            homepage_url: https://www.oracle.com/mysql/
-            repo_url: https://github.com/mysql/mysql-server
-            logo: my-sql.svg
-            twitter: https://twitter.com/mysql
-            crunchbase: https://www.crunchbase.com/organization/oracle
-          - item:
             name: Redis
             second_path: Applications / Applications
             homepage_url: https://redis.io
@@ -319,6 +312,14 @@ landscape:
       - subcategory:
         name: Applications
         items:
+          - item:
+            name: MySQL
+            homepage_url: https://www.oracle.com/mysql/
+            repo_url: https://github.com/mysql/mysql-server
+            logo: my-sql.svg
+            twitter: https://twitter.com/mysql
+            crunchbase: https://www.crunchbase.com/organization/oracle
+            project_org: https://github.com/mysql
           - item:
             name: Apache
             homepage_url: https://www.apache.org
