@@ -18,13 +18,6 @@ landscape:
             repo_url: https://github.com/memcached/memcached
             logo: memcached.svg
             crunchbase: https://www.crunchbase.com/organization/memcached
-          - item:
-            name: Redis
-            second_path: Applications / Applications
-            homepage_url: https://redis.io
-            repo_url: https://github.com/redis/redis
-            logo: redis.svg
-            crunchbase: https://www.crunchbase.com/organization/redis
       - subcategory:
         name: Runtimes
         items:
@@ -320,6 +313,12 @@ landscape:
             twitter: https://twitter.com/mysql
             crunchbase: https://www.crunchbase.com/organization/oracle
             project_org: https://github.com/mysql
+          - item:
+            name: Redis
+            homepage_url: https://redis.io
+            repo_url: https://github.com/redis/redis
+            logo: redis.svg
+            crunchbase: https://www.crunchbase.com/organization/redis
           - item:
             name: Apache
             homepage_url: https://www.apache.org
