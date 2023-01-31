@@ -1,5 +1,5 @@
 ---
-name: RISC-V Landscape Bug Report
+name: Landscape Bug Report
 about: Create a report to help us improve
 title: "[RISC-V Landscape Bug] - "
 labels: bug
