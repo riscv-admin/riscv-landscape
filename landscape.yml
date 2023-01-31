@@ -370,6 +370,11 @@ landscape:
             logo: Nginx.svg
             crunchbase: https://www.crunchbase.com/organization/f5-networks
           - item:
+            name: nvme-oF
+            homepage_url: https://nvmexpress.org/developers/nvme-of-specification/
+            logo: nvme-oF.svg
+            crunchbase: https://www.crunchbase.com/organization/nvm-express
+          - item:
             name: ONNC (Open Neural Network Compiler)
             homepage_url: https://onnc.ai/
             repo_url: https://github.com/ONNC/onnc
@@ -403,9 +408,9 @@ landscape:
             name: Redis
             homepage_url: https://redis.io
             repo_url: https://github.com/redis/redis
+            project_org: https://github.com/redis
             logo: redis.svg
             crunchbase: https://www.crunchbase.com/organization/redis
-            project_org: https://github.com/redis
           - item:
             name: Secure Shell Protocol (SSH)
             homepage_url: https://datatracker.ietf.org/doc/rfc4251/
@@ -445,8 +450,3 @@ landscape:
             homepage_url: https://wordpress.org/
             logo: WordPress.svg
             crunchbase: https://www.crunchbase.com/organization/wordpress-foundation
-          - item:
-            name: nvme-oF
-            homepage_url: https://nvmexpress.org/developers/nvme-of-specification/
-            logo: nvme-oF.svg
-            crunchbase: https://www.crunchbase.com/organization/nvm-express
