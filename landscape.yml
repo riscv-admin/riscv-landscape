@@ -53,12 +53,6 @@ landscape:
             logo: python.svg
             crunchbase: https://www.crunchbase.com/organization/python-software-foundation
           - item:
-            name: SEGGER
-            second_path: Stack / Libraries
-            homepage_url: https://www.segger.com/risc-v/
-            logo: segger.svg
-            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
-          - item:
             name: Storage Performance Development Kit (SPDK)
             homepage_url: https://spdk.io
             repo_url: https://github.com/spdk/spdk
@@ -457,3 +451,14 @@ landscape:
             project_org: https://github.com/alibaba
             logo: mnn.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba
+  - category:
+    name: Libraries
+    subcategories:
+      - subcategory:
+        name: Libraries
+        items:
+          - item:
+            name: SEGGER
+            homepage_url: https://www.segger.com/risc-v/
+            logo: segger.svg
+            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
