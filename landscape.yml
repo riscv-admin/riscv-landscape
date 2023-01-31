@@ -34,12 +34,6 @@ landscape:
             logo: openjdk.svg
             crunchbase: https://www.crunchbase.com/organization/oracle
           - item:
-            name: OpenSSL
-            homepage_url: https://github.com/openssl/openssl
-            repo_url: https://github.com/openssl/openssl
-            logo: openssl.svg
-            crunchbase: https://www.crunchbase.com/organization/openssl-software-foundation
-          - item:
             name: PHP
             homepage_url: https://www.php.net
             repo_url: https://github.com/php/php-src
@@ -457,6 +451,13 @@ landscape:
       - subcategory:
         name: Libraries
         items:
+          - item:
+            name: OpenSSL
+            homepage_url: https://www.openssl.org/
+            repo_url: https://github.com/openssl/openssl
+            logo: openssl-new.svg
+            crunchbase: https://www.crunchbase.com/organization/openssl-software-foundation
+            project_org: https://github.com/openssl
           - item:
             name: SEGGER
             homepage_url: https://www.segger.com/risc-v/
