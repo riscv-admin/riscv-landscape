@@ -338,6 +338,13 @@ landscape:
             logo: MediaWiki.svg
             crunchbase: https://www.crunchbase.com/organization/wikimedia-foundation
           - item:
+            name: MNN
+            homepage_url: https://www.mnn.zone/m/0.3/
+            repo_url: https://github.com/alibaba/MNN
+            project_org: https://github.com/alibaba
+            logo: mnn.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba
+          - item:
             name: MySQL
             homepage_url: https://www.oracle.com/mysql/
             repo_url: https://github.com/mysql/mysql-server
@@ -438,13 +445,6 @@ landscape:
             homepage_url: https://wordpress.org/
             logo: WordPress.svg
             crunchbase: https://www.crunchbase.com/organization/wordpress-foundation
-          - item:
-            name: MNN
-            homepage_url: https://www.mnn.zone/m/0.3/
-            repo_url: https://github.com/alibaba/MNN
-            project_org: https://github.com/alibaba
-            logo: mnn.svg
-            crunchbase: https://www.crunchbase.com/organization/alibaba
   - category:
     name: Libraries
     subcategories:
@@ -455,14 +455,9 @@ landscape:
             name: OpenSSL
             homepage_url: https://www.openssl.org/
             repo_url: https://github.com/openssl/openssl
+            project_org: https://github.com/openssl
             logo: openssl-new.svg
             crunchbase: https://www.crunchbase.com/organization/openssl-software-foundation
-            project_org: https://github.com/openssl
-          - item:
-            name: SEGGER
-            homepage_url: https://www.segger.com/risc-v/
-            logo: segger.svg
-            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
           - item:
             name: PyTorch
             homepage_url: https://pytorch.org/
@@ -470,3 +465,8 @@ landscape:
             project_org: https://github.com/pytorch
             logo: PyTorch.svg
             crunchbase: https://www.crunchbase.com/organization/pytorch
+          - item:
+            name: SEGGER
+            homepage_url: https://www.segger.com/risc-v/
+            logo: segger.svg
+            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
