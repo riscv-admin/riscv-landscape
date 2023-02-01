@@ -135,15 +135,17 @@ big_picture:
         color: rgb(109,61,143)
         is_large: true
       - type: LandscapeInfo
-        width: 370
-        height: 150
+        width: 450
+        height: 200
         top: 950
         left: 0
         children:
           - type: text
             text: |
-              This landscape is intended to provide insight into the rich RISC-V Ecosystem available today
-            top: 80
+              This landscape is intended to provide insight into the rich RISC-V Ecosystem available today.
+
+              Further details on RISC-V Software Ecosystem Status available at: https://sites.google.com/riscv.org/software-ecosystem-status
+            top: 60
             left: 20
             right: 20
             font_size: 12
