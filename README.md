@@ -32,8 +32,6 @@ Please see [landscape.riscv.org](https://landscape.riscv.org/).
 
 ## New Entries
 
-* Projects must be open source and hosted on or mirrored to GitHub.
-* Projects with at least 300 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
 * We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
 * Your project or company needs a logo and the logo needs to include the name.
 * Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
@@ -41,6 +39,19 @@ Please see [landscape.riscv.org](https://landscape.riscv.org/).
 If you think your project should be included, please open a pull request to add it to [landscape.yml](landscape.yml). For the logo, you can either upload an SVG to the `hosted_logos` directory or put a URL as the value, and it will be fetched.
 
 Netlify will generate a staging server for you to preview your updates. Please check that the logo and information appear correctly and then add `LGTM` to the pull request confirming your review and requesting a merge.
+
+Testing Locally
+1. $ git clone https://github.com/riscv-admin/riscv-landscape.git
+2. $ cd ./riscv-riscv-landscape
+3. Ensure you have Docker installed https://docs.docker.com/engine/install/
+4. $ make run-server-on-docker
+5. docker run -ti --rm -p 8001:8001 riscv/landscape
+6. Development server running at http://127.0.0.1:8001/
+7. Starting a new build...
+8. 2023-01-17T20:06:20.606Z build result: success
+9. open the latest Landscape build in your browser
+10. http://127.0.0.1:8001/
+
 
 ## Logos
 
