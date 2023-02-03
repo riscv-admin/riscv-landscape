@@ -452,6 +452,13 @@ landscape:
         name: Libraries
         items:
           - item:
+            name: OpenMP
+            homepage_url: https://www.openmp.org/
+            repo_url: https://github.com/OpenMP/Examples
+            project_org: https://github.com/OpenMP
+            logo: OpenMP.svg
+            crunchbase: https://www.crunchbase.com/organization/openmp
+          - item:
             name: OpenSSL
             homepage_url: https://www.openssl.org/
             repo_url: https://github.com/openssl/openssl
@@ -477,10 +484,3 @@ landscape:
             project_org: https://github.com/wolfSSL
             logo: wolfSSL.svg
             crunchbase: https://www.crunchbase.com/organization/wolfssl-inc
-          - item:
-            name: OpenMP
-            homepage_url: https://www.openmp.org/
-            repo_url: https://github.com/OpenMP/Examples
-            project_org: https://github.com/OpenMP
-            logo: OpenMP.svg
-            crunchbase: https://www.crunchbase.com/organization/openmp
