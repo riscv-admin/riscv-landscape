@@ -452,6 +452,13 @@ landscape:
         name: Libraries
         items:
           - item:
+            name: Caffe
+            homepage_url: http://caffe.berkeleyvision.org/
+            repo_url: https://github.com/BVLC/caffe
+            project_org: https://github.com/BVLC
+            logo: Caffe.svg
+            crunchbase: https://www.crunchbase.com/organization/berkeley-artificial-intelligence-research
+          - item:
             name: OpenMP
             homepage_url: https://www.openmp.org/
             repo_url: https://github.com/OpenMP/Examples
@@ -484,13 +491,6 @@ landscape:
             project_org: https://github.com/wolfSSL
             logo: wolfSSL.svg
             crunchbase: https://www.crunchbase.com/organization/wolfssl-inc
-          - item:
-            name: Caffe
-            homepage_url: http://caffe.berkeleyvision.org/
-            repo_url: https://github.com/BVLC/caffe
-            project_org: https://github.com/BVLC
-            logo: Caffe.svg
-            crunchbase: https://www.crunchbase.com/organization/berkeley-artificial-intelligence-research
           - item:
             name: musl
             homepage_url: https://musl.libc.org/
