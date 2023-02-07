@@ -1,178 +1,5 @@
 landscape:
   - category:
-    name: Stack
-    subcategories:
-      - subcategory:
-        name: Infrastructure
-        items:
-          - item:
-            name: Docker
-            homepage_url: https://www.docker.com
-            repo_url: https://github.com/docker/docker-compose
-            project_org: https://github.com/docker
-            logo: docker.svg
-            crunchbase: https://www.crunchbase.com/organization/docker
-          - item:
-            name: Memcached
-            homepage_url: https://memcached.org
-            repo_url: https://github.com/memcached/memcached
-            logo: memcached.svg
-            crunchbase: https://www.crunchbase.com/organization/memcached
-      - subcategory:
-        name: Runtimes
-        items:
-          - item:
-            name: DPDK
-            homepage_url: https://www.dpdk.org
-            repo_url: https://github.com/DPDK/dpdk
-            logo: dpdk.svg
-            crunchbase: https://www.crunchbase.com/organization/dpdk
-          - item:
-            name: OpenJDK
-            homepage_url: https://jdk.java.net/
-            repo_url: https://github.com/openjdk/jdk
-            logo: openjdk.svg
-            crunchbase: https://www.crunchbase.com/organization/oracle
-          - item:
-            name: PHP
-            homepage_url: https://www.php.net
-            repo_url: https://github.com/php/php-src
-            logo: php.svg
-            crunchbase: https://www.crunchbase.com/organization/php
-          - item:
-            name: Python
-            homepage_url: https://www.python.org/
-            project: null
-            repo_url: https://github.com/python/cpython
-            logo: python.svg
-            crunchbase: https://www.crunchbase.com/organization/python-software-foundation
-          - item:
-            name: Storage Performance Development Kit (SPDK)
-            homepage_url: https://spdk.io
-            repo_url: https://github.com/spdk/spdk
-            logo: spdk.svg
-            crunchbase: https://www.crunchbase.com/organization/intel
-      - subcategory:
-        name: Operating Systems
-        items:
-          - item:
-            name: Android
-            homepage_url: https://www.android.com
-            repo_url: https://github.com/aosp-mirror/platform_frameworks_base
-            logo: android.svg
-            crunchbase: https://www.crunchbase.com/organization/google
-          - item:
-            name: Debian
-            homepage_url: https://www.debian.org/
-            repo_url: https://github.com/Debian/apt
-            logo: debian.svg
-            crunchbase: https://www.crunchbase.com/organization/debian
-          - item:
-            name: embOS
-            homepage_url: https://www.segger.com/products/rtos/embos/
-            logo: embOS.svg
-            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
-          - item:
-            name: FreeBSD
-            homepage_url: https://www.freebsd.org
-            repo_url: https://github.com/freebsd/freebsd-src
-            logo: freebsd.svg
-            crunchbase: https://www.crunchbase.com/organization/freebsd
-          - item:
-            name: FreeRTOS
-            homepage_url: https://www.freertos.org/
-            repo_url: https://github.com/FreeRTOS/FreeRTOS
-            logo: freertos.svg
-            crunchbase: https://www.crunchbase.com/organization/freertos
-          - item:
-            name: Linux
-            homepage_url: https://kernel.org
-            repo_url: https://github.com/torvalds/linux
-            license: GNU General Public License version 2 only (GPL-2.0)
-            logo: linux.svg
-            crunchbase: https://www.crunchbase.com/organization/linux-foundation
-          - item:
-            name: RT-Thread
-            homepage_url: https://www.rt-thread.io/
-            repo_url: https://github.com/RT-Thread/rt-thread
-            logo: rt-thread.svg
-            crunchbase: https://www.crunchbase.com/organization/rt-thread
-          - item:
-            name: seL4
-            homepage_url: https://sel4.systems/
-            repo_url: https://github.com/seL4/seL4
-            logo: seL4.svg
-            crunchbase: https://www.crunchbase.com/organization/linux-foundation
-          - item:
-            name: Ubuntu
-            homepage_url: https://ubuntu.com/
-            repo_url: https://github.com/ubuntu/ubuntu-make
-            logo: ubuntu.svg
-            crunchbase: https://www.crunchbase.com/organization/ubuntu
-          - item:
-            name: Zephyr
-            homepage_url: https://www.zephyrproject.org/
-            repo_url: https://github.com/zephyrproject-rtos/zephyr
-            logo: zephyr.svg
-            crunchbase: https://www.crunchbase.com/organization/zephy-project
-      - subcategory:
-        name: Hypervisor
-        items:
-          - item:
-            name: Bao Project
-            homepage_url: http://www.bao-project.org/
-            repo_url: https://github.com/bao-project/bao-hypervisor
-            logo: bao.svg
-            organization:
-              name: Bao Project
-          - item:
-            name: Kernel-based virtual machine
-            homepage_url: https://www.linux-kvm.org/page/Main_Page
-            logo: kvm.svg
-            extra:
-              repo_url: https://git.kernel.org/pub/scm/virt/kvm/kvm.git
-            organization:
-              name: KVM
-          - item:
-            name: Xvisor
-            homepage_url: http://xhypervisor.org/
-            repo_url: https://github.com/xvisor/xvisor
-            logo: xvisor.svg
-            organization:
-              name: XVisor
-      - subcategory:
-        name: Boot
-        items:
-          - item:
-            name: CoreBoot
-            homepage_url: https://www.coreboot.org/
-            project: null
-            repo_url: https://github.com/coreboot/opensbi
-            project_org: https://github.com/coreboot
-            logo: coreboot.svg
-            twitter: https://twitter.com/coreboot_org
-            crunchbase: https://www.crunchbase.com/organization/software-freedom-conservancy-inc
-          - item:
-            name: Das U-Boot
-            homepage_url: https://www.denx.de/wiki/U-Boot
-            repo_url: https://github.com/u-boot/u-boot
-            logo: dasuboot.svg
-            crunchbase: https://www.crunchbase.com/organization/denx-software-engineering
-          - item:
-            name: OpenSBI
-            homepage_url: https://github.com/riscv-software-src/opensbi/blob/master/README.md
-            repo_url: https://github.com/riscv-software-src/opensbi
-            logo: opensbi.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
-            name: Unified Extensible Firmware Interface (UEFI)
-            homepage_url: https://uefi.org/
-            logo: uefi.svg
-            crunchbase: https://www.crunchbase.com/organization/uefi-forum
-      - subcategory:
-        name: Libraries
-        items: []
-  - category:
     name: Build Automation
     subcategories:
       - subcategory:
@@ -506,3 +333,185 @@ landscape:
             project_org: https://github.com/webrtc
             logo: WebRTC.svg
             crunchbase: https://www.crunchbase.com/organization/webrtc
+  - category:
+    name: Infrastructure
+    subcategories:
+      - subcategory:
+        name: Infrastructure
+        items:
+          - item:
+            name: Docker
+            homepage_url: https://www.docker.com
+            repo_url: https://github.com/docker/docker-compose
+            project_org: https://github.com/docker
+            logo: docker.svg
+            crunchbase: https://www.crunchbase.com/organization/docker
+          - item:
+            name: Memcached
+            homepage_url: https://memcached.org
+            repo_url: https://github.com/memcached/memcached
+            logo: memcached.svg
+            crunchbase: https://www.crunchbase.com/organization/memcached
+  - category:
+    name: Runtimes
+    subcategories:
+      - subcategory:
+        name: Runtimes
+        items:
+          - item:
+            name: DPDK
+            homepage_url: https://www.dpdk.org
+            repo_url: https://github.com/DPDK/dpdk
+            logo: dpdk.svg
+            crunchbase: https://www.crunchbase.com/organization/dpdk
+          - item:
+            name: OpenJDK
+            homepage_url: https://jdk.java.net/
+            repo_url: https://github.com/openjdk/jdk
+            logo: openjdk.svg
+            crunchbase: https://www.crunchbase.com/organization/oracle
+          - item:
+            name: PHP
+            homepage_url: https://www.php.net
+            repo_url: https://github.com/php/php-src
+            logo: php.svg
+            crunchbase: https://www.crunchbase.com/organization/php
+          - item:
+            name: Python
+            homepage_url: https://www.python.org/
+            project: null
+            repo_url: https://github.com/python/cpython
+            logo: python.svg
+            crunchbase: https://www.crunchbase.com/organization/python-software-foundation
+          - item:
+            name: Storage Performance Development Kit (SPDK)
+            homepage_url: https://spdk.io
+            repo_url: https://github.com/spdk/spdk
+            logo: spdk.svg
+            crunchbase: https://www.crunchbase.com/organization/intel
+  - category:
+    name: Operating Systems
+    subcategories:
+      - subcategory:
+        name: Operating Systems
+        items:
+          - item:
+            name: Android
+            homepage_url: https://www.android.com
+            repo_url: https://github.com/aosp-mirror/platform_frameworks_base
+            logo: android.svg
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: Debian
+            homepage_url: https://www.debian.org/
+            repo_url: https://github.com/Debian/apt
+            logo: debian.svg
+            crunchbase: https://www.crunchbase.com/organization/debian
+          - item:
+            name: embOS
+            homepage_url: https://www.segger.com/products/rtos/embos/
+            logo: embOS.svg
+            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+          - item:
+            name: FreeBSD
+            homepage_url: https://www.freebsd.org
+            repo_url: https://github.com/freebsd/freebsd-src
+            logo: freebsd.svg
+            crunchbase: https://www.crunchbase.com/organization/freebsd
+          - item:
+            name: FreeRTOS
+            homepage_url: https://www.freertos.org/
+            repo_url: https://github.com/FreeRTOS/FreeRTOS
+            logo: freertos.svg
+            crunchbase: https://www.crunchbase.com/organization/freertos
+          - item:
+            name: Linux
+            homepage_url: https://kernel.org
+            repo_url: https://github.com/torvalds/linux
+            license: GNU General Public License version 2 only (GPL-2.0)
+            logo: linux.svg
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
+          - item:
+            name: RT-Thread
+            homepage_url: https://www.rt-thread.io/
+            repo_url: https://github.com/RT-Thread/rt-thread
+            logo: rt-thread.svg
+            crunchbase: https://www.crunchbase.com/organization/rt-thread
+          - item:
+            name: seL4
+            homepage_url: https://sel4.systems/
+            repo_url: https://github.com/seL4/seL4
+            logo: seL4.svg
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
+          - item:
+            name: Ubuntu
+            homepage_url: https://ubuntu.com/
+            repo_url: https://github.com/ubuntu/ubuntu-make
+            logo: ubuntu.svg
+            crunchbase: https://www.crunchbase.com/organization/ubuntu
+          - item:
+            name: Zephyr
+            homepage_url: https://www.zephyrproject.org/
+            repo_url: https://github.com/zephyrproject-rtos/zephyr
+            logo: zephyr.svg
+            crunchbase: https://www.crunchbase.com/organization/zephy-project
+  - category:
+    name: Hypervisor
+    subcategories:
+      - subcategory:
+        name: Hypervisor
+        items:
+          - item:
+            name: Bao Project
+            homepage_url: http://www.bao-project.org/
+            repo_url: https://github.com/bao-project/bao-hypervisor
+            logo: bao.svg
+            organization:
+              name: Bao Project
+          - item:
+            name: Kernel-based virtual machine
+            homepage_url: https://www.linux-kvm.org/page/Main_Page
+            logo: kvm.svg
+            extra:
+              repo_url: https://git.kernel.org/pub/scm/virt/kvm/kvm.git
+            organization:
+              name: KVM
+          - item:
+            name: Xvisor
+            homepage_url: http://xhypervisor.org/
+            repo_url: https://github.com/xvisor/xvisor
+            logo: xvisor.svg
+            organization:
+              name: XVisor
+  - category:
+    name: Boot
+    subcategories:
+      - subcategory:
+        name: Boot
+        items:
+          - item:
+            name: CoreBoot
+            homepage_url: https://www.coreboot.org/
+            project: null
+            repo_url: https://github.com/coreboot/opensbi
+            project_org: https://github.com/coreboot
+            logo: coreboot.svg
+            twitter: https://twitter.com/coreboot_org
+            crunchbase: https://www.crunchbase.com/organization/software-freedom-conservancy-inc
+          - item:
+            name: Das U-Boot
+            homepage_url: https://www.denx.de/wiki/U-Boot
+            repo_url: https://github.com/u-boot/u-boot
+            logo: dasuboot.svg
+            crunchbase: https://www.crunchbase.com/organization/denx-software-engineering
+          - item:
+            name: OpenSBI
+            homepage_url: https://github.com/riscv-software-src/opensbi/blob/master/README.md
+            repo_url: https://github.com/riscv-software-src/opensbi
+            logo: opensbi.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: Unified Extensible Firmware Interface (UEFI)
+            homepage_url: https://uefi.org/
+            logo: uefi.svg
+            crunchbase: https://www.crunchbase.com/organization/uefi-forum
