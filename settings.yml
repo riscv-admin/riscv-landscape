@@ -117,34 +117,88 @@ big_picture:
     title: Riscv Landscape
     elements:
       - type: HorizontalCategory
-        category: Stack
-        rows: 3
+        is_large: true
+        category: Applications
+        rows: 2
         width: 1250
-        height: 250
+        height: 175
+        top: 0
+        left: 0
+        color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Libraries
+        rows: 2
+        width: 1250
+        height: 175
+        top: 200
+        left: 0
+        color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Infrastructure
+        rows: 2
+        width: 1250
+        height: 175
         top: 400
         left: 0
         color: rgb(109,61,143)
+      - type: HorizontalCategory
         is_large: true
+        category: Runtimes
+        rows: 2
+        width: 1250
+        height: 175
+        top: 600
+        left: 0
+        color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Operating Systems
+        rows: 2
+        width: 1250
+        height: 175
+        top: 800
+        left: 0
+        color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Hypervisor
+        rows: 1
+        width: 1250
+        height: 95
+        top: 1000
+        left: 0
+        color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Boot
+        rows: 1
+        width: 1250
+        height: 95
+        top: 1125
+        left: 0
+        color: rgb(109,61,143)
       - type: HorizontalCategory
         category: Build Automation
         rows: 3
         width: 300
         height: 250
-        top: 675
+        top: 1260
         left: 0
         color: rgb(109,61,143)
         is_large: true
       - type: LandscapeInfo
-        width: 450
-        height: 175
-        top: 950
+        width: 1250
+        height: 100
+        top: 1500
         left: 0
         children:
           - type: text
             text: >-
               This landscape is intended to provide insight into the rich RISC-V Ecosystem available today. Further details on RISC-V Software Ecosystem Status
               available at https://sites.google.com/riscv.org/software-ecosystem-status.
-            top: 60
+            top: 49
             left: 20
             right: 20
             font_size: 12
@@ -165,7 +219,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 675
+        top: 1260
         left: 325
         color: rgb(109,61,143)
         is_large: true
@@ -175,7 +229,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 675
+        top: 1260
         left: 475
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -184,26 +238,8 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 675
+        top: 1260
         left: 625
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Applications
-        rows: 2
-        width: 1250
-        height: 175
-        top: 0
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Libraries
-        rows: 2
-        width: 1250
-        height: 175
-        top: 200
-        left: 0
         color: rgb(109,61,143)
 test:
   header: RISC-V Ecosystem Interactive Landscape
