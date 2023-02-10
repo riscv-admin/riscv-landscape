@@ -286,6 +286,14 @@ landscape:
             logo: Caffe.svg
             crunchbase: https://www.crunchbase.com/organization/berkeley-artificial-intelligence-research
           - item:
+            name: GStreamer
+            homepage_url: https://gstreamer.freedesktop.org/
+            repo_url: https://github.com/GStreamer/gstreamer
+            project_org: https://github.com/GStreamer
+            logo: Gstreamer.svg
+            organization:
+              name: GStreamer Team
+          - item:
             name: musl
             homepage_url: https://musl.libc.org/
             logo: Musl_libc.svg
@@ -307,6 +315,20 @@ landscape:
             project_org: https://github.com/openssl
             logo: openssl-new.svg
             crunchbase: https://www.crunchbase.com/organization/openssl-software-foundation
+          - item:
+            name: Opus Codec
+            homepage_url: https://opus-codec.org/
+            logo: Opus.svg
+            crunchbase: https://www.crunchbase.com/organization/ietf
+            extra:
+              repo_url: https://opus-codec.org/downloads/
+          - item:
+            name: PerfXLab
+            homepage_url: https://perfxlab.com/
+            repo_url: https://github.com/PerfXLab/embedded_ai
+            project_org: https://github.com/PerfXLab
+            logo: PerfXLab.svg
+            crunchbase: https://www.crunchbase.com/organization/perfxlab
           - item:
             name: PyTorch
             homepage_url: https://pytorch.org/
@@ -333,28 +355,6 @@ landscape:
             project_org: https://github.com/wolfSSL
             logo: wolfSSL.svg
             crunchbase: https://www.crunchbase.com/organization/wolfssl-inc
-          - item:
-            name: PerfXLab
-            homepage_url: https://perfxlab.com/
-            repo_url: https://github.com/PerfXLab/embedded_ai
-            project_org: https://github.com/PerfXLab
-            logo: PerfXLab.svg
-            crunchbase: https://www.crunchbase.com/organization/perfxlab
-          - item:
-            name: Opus Codec
-            homepage_url: https://opus-codec.org/
-            logo: Opus.svg
-            crunchbase: https://www.crunchbase.com/organization/ietf
-            extra:
-              repo_url: https://opus-codec.org/downloads/
-          - item:
-            name: GStreamer
-            homepage_url: https://gstreamer.freedesktop.org/
-            repo_url: https://github.com/GStreamer/gstreamer
-            project_org: https://github.com/GStreamer
-            logo: Gstreamer.svg
-            organization:
-              name: GStreamer Team
   - category:
     name: Infrastructure
     subcategories:
