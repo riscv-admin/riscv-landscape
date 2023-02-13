@@ -383,6 +383,13 @@ landscape:
             project_org: https://github.com/wolfSSL
             logo: wolfSSL.svg
             crunchbase: https://www.crunchbase.com/organization/wolfssl-inc
+          - item:
+            name: FLAC
+            homepage_url: https://xiph.org/flac/
+            repo_url: https://github.com/xiph/flac
+            project_org: https://github.com/xiph
+            logo: FLAC.svg
+            crunchbase: https://www.crunchbase.com/organization/xiph-org
   - category:
     name: Infrastructure
     subcategories:
@@ -518,13 +525,6 @@ landscape:
             logo: bao.svg
             organization:
               name: Bao Project
-          - item:
-            name: FLAC
-            homepage_url: https://xiph.org/flac/
-            repo_url: https://github.com/xiph/flac
-            project_org: https://github.com/xiph
-            logo: FLAC.svg
-            crunchbase: https://www.crunchbase.com/organization/xiph-org
           - item:
             name: Kernel-based virtual machine
             homepage_url: https://www.linux-kvm.org/page/Main_Page
