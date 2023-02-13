@@ -286,6 +286,14 @@ landscape:
             logo: Caffe.svg
             crunchbase: https://www.crunchbase.com/organization/berkeley-artificial-intelligence-research
           - item:
+            name: FFmpeg
+            homepage_url: https://ffmpeg.org/
+            repo_url: https://github.com/FFmpeg/FFmpeg
+            project_org: https://github.com/FFmpeg
+            logo: FFmpeg.svg
+            organization:
+              name: FFmpeg
+          - item:
             name: GStreamer
             homepage_url: https://gstreamer.freedesktop.org/
             repo_url: https://github.com/GStreamer/gstreamer
@@ -301,6 +309,13 @@ landscape:
               repo_url: https://git.musl-libc.org/cgit/musl
             organization:
               name: musl
+          - item:
+            name: OpenCV
+            homepage_url: https://opencv.org/
+            repo_url: https://github.com/opencv/opencv
+            project_org: https://github.com/opencv
+            logo: OpenCV.svg
+            crunchbase: https://www.crunchbase.com/organization/opencv
           - item:
             name: OpenMP
             homepage_url: https://www.openmp.org/
@@ -355,21 +370,6 @@ landscape:
             project_org: https://github.com/wolfSSL
             logo: wolfSSL.svg
             crunchbase: https://www.crunchbase.com/organization/wolfssl-inc
-          - item:
-            name: FFmpeg
-            homepage_url: https://ffmpeg.org/
-            repo_url: https://github.com/FFmpeg/FFmpeg
-            project_org: https://github.com/FFmpeg
-            logo: FFmpeg.svg
-            organization:
-              name: FFmpeg
-          - item:
-            name: OpenCV
-            homepage_url: https://opencv.org/
-            repo_url: https://github.com/opencv/opencv
-            project_org: https://github.com/opencv
-            logo: OpenCV.svg
-            crunchbase: https://www.crunchbase.com/organization/opencv
           - item:
             name: Speex
             homepage_url: https://www.speex.org/
