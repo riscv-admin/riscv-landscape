@@ -279,6 +279,13 @@ landscape:
         name: Libraries
         items:
           - item:
+            name: BLIS
+            homepage_url: https://github.com/flame/blis
+            repo_url: https://github.com/flame/blis
+            logo: BLIS.svg
+            organization:
+              name: The Science of High-Performance Computing Group
+          - item:
             name: Caffe
             homepage_url: http://caffe.berkeleyvision.org/
             repo_url: https://github.com/BVLC/caffe
@@ -293,6 +300,21 @@ landscape:
             logo: FFmpeg.svg
             organization:
               name: FFmpeg
+          - item:
+            name: FFTW
+            homepage_url: https://www.fftw.org/
+            repo_url: https://github.com/FFTW/fftw3
+            project_org: https://github.com/FFTW
+            logo: FFTW.svg
+            organization:
+              name: FFTW
+          - item:
+            name: FLAC
+            homepage_url: https://xiph.org/flac/
+            repo_url: https://github.com/xiph/flac
+            project_org: https://github.com/xiph
+            logo: FLAC.svg
+            crunchbase: https://www.crunchbase.com/organization/xiph-org
           - item:
             name: GStreamer
             homepage_url: https://gstreamer.freedesktop.org/
@@ -309,6 +331,13 @@ landscape:
               repo_url: https://git.musl-libc.org/cgit/musl
             organization:
               name: musl
+          - item:
+            name: OpenBLAS
+            homepage_url: https://www.openblas.net/
+            repo_url: https://github.com/xianyi/OpenBLAS
+            logo: OpenBLAS.svg
+            organization:
+              name: OpenBLAS
           - item:
             name: OpenCV
             homepage_url: https://opencv.org/
@@ -383,35 +412,6 @@ landscape:
             project_org: https://github.com/wolfSSL
             logo: wolfSSL.svg
             crunchbase: https://www.crunchbase.com/organization/wolfssl-inc
-          - item:
-            name: FLAC
-            homepage_url: https://xiph.org/flac/
-            repo_url: https://github.com/xiph/flac
-            project_org: https://github.com/xiph
-            logo: FLAC.svg
-            crunchbase: https://www.crunchbase.com/organization/xiph-org
-          - item:
-            name: OpenBLAS
-            homepage_url: https://www.openblas.net/
-            repo_url: https://github.com/xianyi/OpenBLAS
-            logo: OpenBLAS.svg
-            organization:
-              name: OpenBLAS
-          - item:
-            name: BLIS
-            homepage_url: https://github.com/flame/blis
-            repo_url: https://github.com/flame/blis
-            logo: BLIS.svg
-            organization:
-              name: The Science of High-Performance Computing Group
-          - item:
-            name: FFTW
-            homepage_url: https://www.fftw.org/
-            repo_url: https://github.com/FFTW/fftw3
-            project_org: https://github.com/FFTW
-            logo: FFTW.svg
-            organization:
-              name: FFTW
   - category:
     name: Infrastructure
     subcategories:
@@ -426,18 +426,18 @@ landscape:
             logo: docker.svg
             crunchbase: https://www.crunchbase.com/organization/docker
           - item:
-            name: Memcached
-            homepage_url: https://memcached.org
-            repo_url: https://github.com/memcached/memcached
-            logo: Memcached.svg
-            crunchbase: https://www.crunchbase.com/organization/memcached
-          - item:
             name: Go
             homepage_url: https://go.dev/
             repo_url: https://github.com/golang/go
             project_org: https://github.com/golang
             logo: Go.svg
             crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: Memcached
+            homepage_url: https://memcached.org
+            repo_url: https://github.com/memcached/memcached
+            logo: Memcached.svg
+            crunchbase: https://www.crunchbase.com/organization/memcached
           - item:
             name: Renode
             homepage_url: https://renode.io/
