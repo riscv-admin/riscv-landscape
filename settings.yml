@@ -149,7 +149,7 @@ big_picture:
         rows: 1
         width: 1250
         height: 100
-        top: 600
+        top: 525
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -158,7 +158,7 @@ big_picture:
         rows: 2
         width: 1250
         height: 175
-        top: 800
+        top: 650
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -166,8 +166,8 @@ big_picture:
         category: Hypervisor
         rows: 1
         width: 1250
-        height: 95
-        top: 1000
+        height: 100
+        top: 850
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -175,8 +175,8 @@ big_picture:
         category: Boot
         rows: 1
         width: 1250
-        height: 95
-        top: 1125
+        height: 100
+        top: 975
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -184,14 +184,14 @@ big_picture:
         rows: 3
         width: 300
         height: 250
-        top: 1260
+        top: 1100
         left: 0
         color: rgb(109,61,143)
         is_large: true
       - type: LandscapeInfo
         width: 1250
         height: 100
-        top: 1500
+        top: 1375
         left: 0
         children:
           - type: text
@@ -219,7 +219,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 1260
+        top: 1100
         left: 325
         color: rgb(109,61,143)
         is_large: true
@@ -229,7 +229,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 1260
+        top: 1100
         left: 475
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -238,7 +238,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 1260
+        top: 1100
         left: 625
         color: rgb(109,61,143)
 test:
