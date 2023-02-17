@@ -184,14 +184,14 @@ big_picture:
         rows: 3
         width: 300
         height: 250
-        top: 1100
+        top: 1300
         left: 0
         color: rgb(109,61,143)
         is_large: true
       - type: LandscapeInfo
         width: 1250
         height: 100
-        top: 1375
+        top: 1575
         left: 0
         children:
           - type: text
@@ -219,7 +219,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 1100
+        top: 1300
         left: 325
         color: rgb(109,61,143)
         is_large: true
@@ -229,7 +229,7 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 1100
+        top: 1300
         left: 475
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -238,8 +238,17 @@ big_picture:
         rows: 3
         width: 125
         height: 250
-        top: 1100
+        top: 1300
         left: 625
+        color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Design Tools + Compilers
+        rows: 2
+        width: 1250
+        height: 175
+        top: 1100
+        left: 0
         color: rgb(109,61,143)
 test:
   header: RISC-V Ecosystem Interactive Landscape
