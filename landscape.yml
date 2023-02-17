@@ -4,20 +4,7 @@ landscape:
     subcategories:
       - subcategory:
         name: CI/Testing
-        items:
-          - item:
-            name: Buildbot
-            homepage_url: https://buildbot.net/
-            repo_url: https://github.com/buildbot/buildbot
-            logo: Buildbot_logo.svg
-            organization:
-              name: Buildbot
-          - item:
-            name: Jenkins
-            homepage_url: https://www.jenkins.io/
-            repo_url: https://github.com/jenkinsci/jenkins
-            logo: jenkins.svg
-            crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+        items: []
       - subcategory:
         name: Simulators
         items:
@@ -622,4 +609,23 @@ landscape:
             name: Unified Extensible Firmware Interface (UEFI)
             homepage_url: https://uefi.org/
             logo: uefi.svg
-            crunchbase: https://www.crunchbase.com/organization/uefi-forum
+            crunchbase: https://www.crunchbase.com/organization/uefi-forum            
+  - category:
+    name: Design Tools + Compilers
+    subcategories:
+      - subcategory:
+        name: Design Tools + Compilers
+        items:
+          - item:
+            name: Buildbot
+            homepage_url: https://buildbot.net/
+            repo_url: https://github.com/buildbot/buildbot
+            logo: Buildbot_logo.svg
+            organization:
+              name: Buildbot
+          - item:
+            name: Jenkins
+            homepage_url: https://www.jenkins.io/
+            repo_url: https://github.com/jenkinsci/jenkins
+            logo: jenkins.svg
+            crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
