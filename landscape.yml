@@ -7,27 +7,7 @@ landscape:
         items: []
       - subcategory:
         name: Simulators
-        items:
-          - item:
-            name: QEMU
-            homepage_url: https://www.qemu.org/
-            repo_url: https://github.com/qemu/qemu
-            logo: qemu.svg
-            organization:
-              name: QEMU
-          - item:
-            name: SAIL
-            homepage_url: https://github.com/rems-project/sail
-            repo_url: https://github.com/rems-project/sail
-            logo: sail.svg
-            organization:
-              name: SAIL
-          - item:
-            name: SPIKE
-            homepage_url: https://github.com/riscv-software-src/riscv-isa-sim/blob/master/README.md
-            repo_url: https://github.com/riscv-software-src/riscv-isa-sim
-            logo: riscv.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
+        items: []
       - subcategory:
         name: Compilers
         items:
@@ -609,13 +589,33 @@ landscape:
             name: Unified Extensible Firmware Interface (UEFI)
             homepage_url: https://uefi.org/
             logo: uefi.svg
-            crunchbase: https://www.crunchbase.com/organization/uefi-forum            
+            crunchbase: https://www.crunchbase.com/organization/uefi-forum
   - category:
     name: Design Tools + Compilers
     subcategories:
       - subcategory:
         name: Design Tools + Compilers
         items:
+          - item:
+            name: QEMU
+            homepage_url: https://www.qemu.org/
+            repo_url: https://github.com/qemu/qemu
+            logo: qemu.svg
+            organization:
+              name: QEMU
+          - item:
+            name: SAIL
+            homepage_url: https://github.com/rems-project/sail
+            repo_url: https://github.com/rems-project/sail
+            logo: sail.svg
+            organization:
+              name: SAIL
+          - item:
+            name: SPIKE
+            homepage_url: https://github.com/riscv-software-src/riscv-isa-sim/blob/master/README.md
+            repo_url: https://github.com/riscv-software-src/riscv-isa-sim
+            logo: SPIKE.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
           - item:
             name: Buildbot
             homepage_url: https://buildbot.net/
