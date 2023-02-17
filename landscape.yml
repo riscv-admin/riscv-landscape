@@ -10,19 +10,7 @@ landscape:
         items: []
       - subcategory:
         name: Compilers
-        items:
-          - item:
-            name: GNU Compiler Collection
-            homepage_url: https://gcc.gnu.org/
-            repo_url: https://github.com/gcc-mirror/gcc
-            logo: gcc.svg
-            crunchbase: https://www.crunchbase.com/organization/free-software-foundation
-          - item:
-            name: LLVM
-            homepage_url: https://llvm.org/
-            repo_url: https://github.com/llvm/llvm-project
-            logo: llvm.svg
-            crunchbase: https://www.crunchbase.com/organization/llvm-foundation
+        items: []
   - category:
     name: RISC-V Members
     subcategories:
@@ -596,6 +584,18 @@ landscape:
       - subcategory:
         name: Design Tools + Compilers
         items:
+          - item:
+            name: GNU Compiler Collection
+            homepage_url: https://gcc.gnu.org/
+            repo_url: https://github.com/gcc-mirror/gcc
+            logo: gcc.svg
+            crunchbase: https://www.crunchbase.com/organization/free-software-foundation
+          - item:
+            name: LLVM
+            homepage_url: https://llvm.org/
+            repo_url: https://github.com/llvm/llvm-project
+            logo: LLVM.svg
+            crunchbase: https://www.crunchbase.com/organization/llvm-foundation
           - item:
             name: QEMU
             homepage_url: https://www.qemu.org/
