@@ -266,6 +266,13 @@ landscape:
         name: Libraries
         items:
           - item:
+            name: BLIS
+            homepage_url: https://github.com/flame/blis
+            repo_url: https://github.com/flame/blis
+            logo: BLIS.svg
+            organization:
+              name: The Science of High-Performance Computing Group
+          - item:
             name: Caffe
             homepage_url: http://caffe.berkeleyvision.org/
             repo_url: https://github.com/BVLC/caffe
@@ -280,6 +287,21 @@ landscape:
             logo: FFmpeg.svg
             organization:
               name: FFmpeg
+          - item:
+            name: FFTW
+            homepage_url: https://www.fftw.org/
+            repo_url: https://github.com/FFTW/fftw3
+            project_org: https://github.com/FFTW
+            logo: FFTW.svg
+            organization:
+              name: FFTW
+          - item:
+            name: FLAC
+            homepage_url: https://xiph.org/flac/
+            repo_url: https://github.com/xiph/flac
+            project_org: https://github.com/xiph
+            logo: FLAC.svg
+            crunchbase: https://www.crunchbase.com/organization/xiph-org
           - item:
             name: GStreamer
             homepage_url: https://gstreamer.freedesktop.org/
@@ -296,6 +318,13 @@ landscape:
               repo_url: https://git.musl-libc.org/cgit/musl
             organization:
               name: musl
+          - item:
+            name: OpenBLAS
+            homepage_url: https://www.openblas.net/
+            repo_url: https://github.com/xianyi/OpenBLAS
+            logo: OpenBLAS.svg
+            organization:
+              name: OpenBLAS
           - item:
             name: OpenCV
             homepage_url: https://opencv.org/
@@ -340,10 +369,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/pytorch
           - item:
             name: SEGGER
+            second_path: Runtimes / Runtimes
             homepage_url: https://www.segger.com/risc-v/
             logo: segger.svg
             crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
-            second_path: Runtimes / Runtimes
           - item:
             name: Speex
             homepage_url: https://www.speex.org/
@@ -371,35 +400,6 @@ landscape:
             project_org: https://github.com/wolfSSL
             logo: wolfSSL.svg
             crunchbase: https://www.crunchbase.com/organization/wolfssl-inc
-          - item:
-            name: FLAC
-            homepage_url: https://xiph.org/flac/
-            repo_url: https://github.com/xiph/flac
-            project_org: https://github.com/xiph
-            logo: FLAC.svg
-            crunchbase: https://www.crunchbase.com/organization/xiph-org
-          - item:
-            name: OpenBLAS
-            homepage_url: https://www.openblas.net/
-            repo_url: https://github.com/xianyi/OpenBLAS
-            logo: OpenBLAS.svg
-            organization:
-              name: OpenBLAS
-          - item:
-            name: BLIS
-            homepage_url: https://github.com/flame/blis
-            repo_url: https://github.com/flame/blis
-            logo: BLIS.svg
-            organization:
-              name: The Science of High-Performance Computing Group
-          - item:
-            name: FFTW
-            homepage_url: https://www.fftw.org/
-            repo_url: https://github.com/FFTW/fftw3
-            project_org: https://github.com/FFTW
-            logo: FFTW.svg
-            organization:
-              name: FFTW
   - category:
     name: Infrastructure
     subcategories:
@@ -414,18 +414,18 @@ landscape:
             logo: docker.svg
             crunchbase: https://www.crunchbase.com/organization/docker
           - item:
-            name: Memcached
-            homepage_url: https://memcached.org
-            repo_url: https://github.com/memcached/memcached
-            logo: Memcached.svg
-            crunchbase: https://www.crunchbase.com/organization/memcached
-          - item:
             name: Go
             homepage_url: https://go.dev/
             repo_url: https://github.com/golang/go
             project_org: https://github.com/golang
             logo: Go.svg
             crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: Memcached
+            homepage_url: https://memcached.org
+            repo_url: https://github.com/memcached/memcached
+            logo: Memcached.svg
+            crunchbase: https://www.crunchbase.com/organization/memcached
           - item:
             name: Renode
             homepage_url: https://renode.io/
@@ -445,6 +445,13 @@ landscape:
             repo_url: https://github.com/DPDK/dpdk
             logo: DPDK.svg
             crunchbase: https://www.crunchbase.com/organization/dpdk
+          - item:
+            name: Jupiter
+            homepage_url: https://jupitersim.gitbook.io/jupiter/
+            repo_url: https://github.com/andrescv/jupiter
+            logo: Jupiter.svg
+            organization:
+              name: Jupiter
           - item:
             name: OpenJDK
             homepage_url: https://openjdk.org/
@@ -470,13 +477,6 @@ landscape:
             repo_url: https://github.com/spdk/spdk
             logo: spdk.svg
             crunchbase: https://www.crunchbase.com/organization/intel
-          - item:
-            name: Jupiter
-            homepage_url: https://jupitersim.gitbook.io/jupiter/
-            repo_url: https://github.com/andrescv/jupiter
-            logo: Jupiter.svg
-            organization:
-              name: Jupiter
   - category:
     name: Operating Systems
     subcategories:
@@ -599,17 +599,17 @@ landscape:
             logo: OpenSBI.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
           - item:
-            name: Unified Extensible Firmware Interface (UEFI)
-            homepage_url: https://uefi.org/
-            logo: uefi.svg
-            crunchbase: https://www.crunchbase.com/organization/uefi-forum
-          - item:
             name: TianoCore
             homepage_url: https://www.tianocore.org/
             repo_url: https://github.com/tianocore/edk2
             project_org: https://github.com/tianocore
             logo: TianoCore.svg
             crunchbase: https://www.crunchbase.com/organization/uefi-forum
+          - item:
+            name: Unified Extensible Firmware Interface (UEFI)
+            homepage_url: https://uefi.org/
+            logo: uefi.svg
+            crunchbase: https://www.crunchbase.com/organization/uefi-forum            
   - category:
     name: Design Tools + Compilers
     subcategories:
