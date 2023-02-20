@@ -342,7 +342,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/pytorch
           - item:
             name: SEGGER
-            second_path: Runtimes / Runtimes
+            second_path:
+              - Runtimes / Runtimes
+              - Design Tools + Compilers / Design Tools + Compilers
             homepage_url: https://www.segger.com/risc-v/
             logo: segger.svg
             crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
