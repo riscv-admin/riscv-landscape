@@ -33,12 +33,6 @@ landscape:
         name: Implementations
         items:
           - item:
-            name: RISC-V Compatible
-            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
-            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
-            logo: RISCV-Compatible.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
             name: CHIPS Alliance
             homepage_url: https://chipsalliance.org/
             logo: chips.svg
@@ -55,6 +49,12 @@ landscape:
             homepage_url: https://www.openhwgroup.org/
             logo: OpenHW.svg
             crunchbase: https://www.crunchbase.com/organization/openhw
+          - item:
+            name: RISC-V Compatible
+            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
+            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
+            logo: RISCV-Compatible.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
   - category:
     name: Applications
     subcategories:
