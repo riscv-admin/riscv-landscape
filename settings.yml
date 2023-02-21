@@ -182,7 +182,7 @@ big_picture:
       - type: LandscapeInfo
         width: 1250
         height: 100
-        top: 1675
+        top: 1445
         left: 0
         children:
           - type: text
@@ -206,30 +206,12 @@ big_picture:
             top: 15
             title: Landscape Logo
       - type: HorizontalCategory
-        category: ISA
-        rows: 1
-        width: 1250
-        height: 100
-        top: 1300
-        left: 0
-        color: rgb(109,61,143)
-        is_large: true
-      - type: HorizontalCategory
-        is_large: true
-        category: Compatibility
-        rows: 1
-        width: 1250
-        height: 100
-        top: 1425
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
         is_large: true
         category: Implementations
         rows: 1
         width: 1250
-        height: 100
-        top: 1550
+        height: 120
+        top: 1300
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
