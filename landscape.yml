@@ -31,19 +31,18 @@ landscape:
     subcategories:
       - subcategory:
         name: ISA
-        items:
-          - item:
-            name: RISC-V
-            homepage_url: https://riscv.org/
-            project: null
-            repo_url: https://github.com/riscv/riscv-isa-manual
-            logo: riscv.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
+        items: []
   - category:
     name: Compatibility
     subcategories:
       - subcategory:
         name: Architecture Tests
+        items: []
+  - category:
+    name: Implementations
+    subcategories:
+      - subcategory:
+        name: Implementations
         items:
           - item:
             name: RISC-V Compatible
@@ -51,12 +50,6 @@ landscape:
             repo_url: https://github.com/riscv-non-isa/riscv-arch-test
             logo: RISCV-Compatible.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
-  - category:
-    name: Implementations
-    subcategories:
-      - subcategory:
-        name: Implementations
-        items:
           - item:
             name: CHIPS Alliance
             homepage_url: https://chipsalliance.org/
