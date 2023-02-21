@@ -158,31 +158,31 @@ big_picture:
         rows: 2
         width: 1250
         height: 175
-        top: 650
+        top: 525
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
         is_large: true
         category: Hypervisor
         rows: 1
-        width: 1250
+        width: 620
         height: 100
-        top: 850
+        top: 725
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
         is_large: true
         category: Boot
         rows: 1
-        width: 1250
+        width: 620
         height: 100
-        top: 975
-        left: 0
+        top: 725
+        left: 630
         color: rgb(109,61,143)
       - type: LandscapeInfo
         width: 1250
         height: 100
-        top: 1445
+        top: 1320
         left: 0
         children:
           - type: text
@@ -211,7 +211,7 @@ big_picture:
         rows: 1
         width: 1250
         height: 120
-        top: 1300
+        top: 1175
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -220,7 +220,7 @@ big_picture:
         rows: 2
         width: 1250
         height: 175
-        top: 1100
+        top: 975
         left: 0
         color: rgb(109,61,143)
 test:
