@@ -45,6 +45,7 @@ global:
       <meta name="twitter:image:width" content="1800" />
 
       <meta name="twitter:image:height" content="945" />
+      <script>window.addEventListener("DOMContentLoaded", function() { document.querySelector('.summary').style.display = "none"; document.querySelector('.disclaimer').innerHTML='<span><h1>RISC-V Ecosystem Interactive Landscape</h1></span>'});</script>
   membership: RISC-V Members
 twitter:
   search: riscv.cncf.io
