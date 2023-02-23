@@ -580,6 +580,11 @@ landscape:
             organization:
               name: Buildbot
           - item:
+            name: Codeplay
+            homepage_url: https://codeplay.com/
+            logo: Codeplay.svg
+            crunchbase: https://www.crunchbase.com/organization/intel
+          - item:
             name: GNU Compiler Collection
             homepage_url: https://gcc.gnu.org/
             repo_url: https://github.com/gcc-mirror/gcc
@@ -622,8 +627,3 @@ landscape:
             repo_url: https://github.com/riscv-software-src/riscv-isa-sim
             logo: SPIKE.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
-            name: Codeplay
-            homepage_url: https://codeplay.com/
-            logo: Codeplay.svg
-            crunchbase: https://www.crunchbase.com/organization/intel
