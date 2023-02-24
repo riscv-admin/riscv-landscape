@@ -585,11 +585,21 @@ landscape:
             logo: Codeplay.svg
             crunchbase: https://www.crunchbase.com/organization/intel
           - item:
+            name: Eclipse
+            homepage_url: https://www.eclipse.org/
+            logo: Eclipse.svg
+            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
+          - item:
             name: GNU Compiler Collection
             homepage_url: https://gcc.gnu.org/
             repo_url: https://github.com/gcc-mirror/gcc
             logo: gcc.svg
             crunchbase: https://www.crunchbase.com/organization/free-software-foundation
+          - item:
+            name: gprof
+            homepage_url: https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html
+            logo: gprof.svg
+            crunchbase: https://www.crunchbase.com/organization/gnu
           - item:
             name: Imperas
             homepage_url: https://www.imperas.com/
@@ -622,22 +632,6 @@ landscape:
             organization:
               name: Sail
           - item:
-            name: SPIKE
-            homepage_url: https://github.com/riscv-software-src/riscv-isa-sim/blob/master/README.md
-            repo_url: https://github.com/riscv-software-src/riscv-isa-sim
-            logo: SPIKE.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
-            name: Eclipse
-            homepage_url: https://www.eclipse.org/
-            logo: Eclipse.svg
-            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
-          - item:
-            name: gprof
-            homepage_url: https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html
-            logo: gprof.svg
-            crunchbase: https://www.crunchbase.com/organization/gnu
-          - item:
             name: Sparta
             homepage_url: https://sparcians.github.io/map/
             logo: Sparta.svg
@@ -646,9 +640,15 @@ landscape:
             organization:
               name: Sparta Modeling Framework
           - item:
+            name: SPIKE
+            homepage_url: https://github.com/riscv-software-src/riscv-isa-sim/blob/master/README.md
+            repo_url: https://github.com/riscv-software-src/riscv-isa-sim
+            logo: SPIKE.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
             name: TinyEMU
             license: MIT
             homepage_url: https://bellard.org/tinyemu/
             logo: TinyEMU.svg
             organization:
-              name: TinyEMU
+              name: TinyEMU            
