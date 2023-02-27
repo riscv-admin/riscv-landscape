@@ -590,6 +590,15 @@ landscape:
             logo: Eclipse.svg
             crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
           - item:
+            name: GDB
+            homepage_url: https://www.sourceware.org/gdb/
+            license: GPLv3
+            logo: GDB.svg
+            crunchbase: https://www.crunchbase.com/organization/free-software-foundation
+            extra:
+              Download: https://www.sourceware.org/gdb/download/
+              Wiki: https://sourceware.org/gdb/wiki/
+          - item:
             name: GNU Compiler Collection
             homepage_url: https://gcc.gnu.org/
             repo_url: https://github.com/gcc-mirror/gcc
@@ -600,6 +609,11 @@ landscape:
             homepage_url: https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html
             logo: gprof.svg
             crunchbase: https://www.crunchbase.com/organization/gnu
+          - item:
+            name: IAR
+            homepage_url: https://www.iar.com/
+            logo: iar.svg
+            crunchbase: https://www.crunchbase.com/organization/iar-systems
           - item:
             name: Imperas
             homepage_url: https://www.imperas.com/
@@ -653,22 +667,8 @@ landscape:
             organization:
               name: TinyEMU
           - item:
-            name: GDB
-            license: GPLv3
-            homepage_url: https://www.sourceware.org/gdb/
-            logo: GDB.svg
-            crunchbase: https://www.crunchbase.com/organization/free-software-foundation
-            extra:
-              Download: https://www.sourceware.org/gdb/download/
-              Wiki: https://sourceware.org/gdb/wiki/
-          - item:
             name: TVM
             homepage_url: https://tvm.apache.org/
             repo_url: https://github.com/apache/tvm
             logo: TVM.svg
             crunchbase: https://www.crunchbase.com/organization/apache
-          - item:
-            name: IAR
-            homepage_url: https://www.iar.com/
-            logo: iar.svg
-            crunchbase: https://www.crunchbase.com/organization/iar-systems
