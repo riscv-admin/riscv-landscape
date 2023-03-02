@@ -446,6 +446,13 @@ landscape:
             logo: android.svg
             crunchbase: https://www.crunchbase.com/organization/google
           - item:
+            name: Azure RTOS ThreadX
+            homepage_url: https://learn.microsoft.com/en-us/azure/rtos/threadx/
+            repo_url: https://github.com/azure-rtos/threadx
+            project_org: https://github.com/azure-rtos
+            logo: TheadX.svg
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
             name: Debian
             homepage_url: https://www.debian.org/
             repo_url: https://github.com/Debian/apt
@@ -456,6 +463,11 @@ landscape:
             homepage_url: https://www.segger.com/products/rtos/embos/
             logo: embOS.svg
             crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+          - item:
+            name: Fedora
+            homepage_url: https://getfedora.org/
+            logo: Fedora.svg
+            crunchbase: https://www.crunchbase.com/organization/the-fedora-project
           - item:
             name: FreeBSD
             homepage_url: https://www.freebsd.org
@@ -499,18 +511,6 @@ landscape:
             repo_url: https://github.com/zephyrproject-rtos/zephyr
             logo: zephyr.svg
             crunchbase: https://www.crunchbase.com/organization/zephy-project
-          - item:
-            name: Fedora
-            homepage_url: https://getfedora.org/
-            logo: Fedora.svg
-            crunchbase: https://www.crunchbase.com/organization/the-fedora-project
-          - item:
-            name: Azure RTOS ThreadX
-            homepage_url: https://learn.microsoft.com/en-us/azure/rtos/threadx/
-            repo_url: https://github.com/azure-rtos/threadx
-            project_org: https://github.com/azure-rtos
-            logo: TheadX.svg
-            crunchbase: https://www.crunchbase.com/organization/microsoft
   - category:
     name: Hypervisor
     subcategories:
