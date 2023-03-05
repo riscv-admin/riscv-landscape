@@ -446,6 +446,13 @@ landscape:
             logo: android.svg
             crunchbase: https://www.crunchbase.com/organization/google
           - item:
+            name: Azure RTOS ThreadX
+            homepage_url: https://learn.microsoft.com/en-us/azure/rtos/threadx/
+            repo_url: https://github.com/azure-rtos/threadx
+            project_org: https://github.com/azure-rtos
+            logo: TheadX.svg
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
             name: Debian
             homepage_url: https://www.debian.org/
             repo_url: https://github.com/Debian/apt
@@ -456,6 +463,11 @@ landscape:
             homepage_url: https://www.segger.com/products/rtos/embos/
             logo: embOS.svg
             crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+          - item:
+            name: Fedora
+            homepage_url: https://getfedora.org/
+            logo: Fedora.svg
+            crunchbase: https://www.crunchbase.com/organization/the-fedora-project
           - item:
             name: FreeBSD
             homepage_url: https://www.freebsd.org
@@ -629,6 +641,11 @@ landscape:
             logo: gprof.svg
             crunchbase: https://www.crunchbase.com/organization/gnu
           - item:
+            name: Green Hills Software
+            homepage_url: https://www.ghs.com/
+            logo: green-hills-software.svg
+            crunchbase: https://www.crunchbase.com/organization/green-hills-software
+          - item:
             name: IAR
             homepage_url: https://www.iar.com/
             logo: iar.svg
@@ -644,6 +661,11 @@ landscape:
             repo_url: https://github.com/jenkinsci/jenkins
             logo: jenkins.svg
             crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+          - item:
+            name: Lauterbach
+            homepage_url: https://www.lauterbach.com/
+            logo: Lauterbach.svg
+            crunchbase: https://www.crunchbase.com/organization/lauterbach
           - item:
             name: LLVM
             homepage_url: https://llvm.org/
@@ -691,13 +713,3 @@ landscape:
             repo_url: https://github.com/apache/tvm
             logo: TVM.svg
             crunchbase: https://www.crunchbase.com/organization/apache
-          - item:
-            name: Green Hills Software
-            homepage_url: https://www.ghs.com/
-            logo: green-hills-software.svg
-            crunchbase: https://www.crunchbase.com/organization/green-hills-software
-          - item:
-            name: Lauterbach
-            homepage_url: https://www.lauterbach.com/
-            logo: Lauterbach.svg
-            crunchbase: https://www.crunchbase.com/organization/lauterbach
