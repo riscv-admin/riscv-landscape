@@ -440,6 +440,13 @@ landscape:
         name: Operating Systems
         items:
           - item:
+            name: Alibaba Dragonwell
+            homepage_url: https://dragonwell-jdk.io/
+            repo_url: https://github.com/alibaba/dragonwell8
+            project_org: https://github.com/alibaba
+            logo: Alibaba-Dragonwell.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba
+          - item:
             name: Android
             homepage_url: https://www.android.com
             repo_url: https://github.com/aosp-mirror/platform_frameworks_base
@@ -488,6 +495,20 @@ landscape:
             logo: linux.svg
             crunchbase: https://www.crunchbase.com/organization/linux-foundation
           - item:
+            name: OpenBSD
+            homepage_url: https://www.openbsd.org/
+            repo_url: https://github.com/openbsd/src
+            project_org: https://github.com/openbsd
+            logo: OpenBSD.svg
+            crunchbase: https://www.crunchbase.com/organization/openbsd
+          - item:
+            name: openSUSE
+            homepage_url: https://www.opensuse.org/
+            repo_url: https://github.com/openSUSE/kernel-source
+            project_org: https://github.com/openSUSE
+            logo: openSUSE.svg
+            crunchbase: https://www.crunchbase.com/organization/opensuse
+          - item:
             name: RT-Thread
             homepage_url: https://www.rt-thread.io/
             repo_url: https://github.com/RT-Thread/rt-thread
@@ -506,19 +527,6 @@ landscape:
             logo: ubuntu.svg
             crunchbase: https://www.crunchbase.com/organization/ubuntu
           - item:
-            name: Zephyr
-            homepage_url: https://www.zephyrproject.org/
-            repo_url: https://github.com/zephyrproject-rtos/zephyr
-            logo: zephyr.svg
-            crunchbase: https://www.crunchbase.com/organization/zephy-project
-          - item:
-            name: openSUSE
-            homepage_url: https://www.opensuse.org/
-            repo_url: https://github.com/openSUSE/kernel-source
-            project_org: https://github.com/openSUSE
-            logo: openSUSE.svg
-            crunchbase: https://www.crunchbase.com/organization/opensuse
-          - item:
             name: Yocto Project
             homepage_url: https://www.yoctoproject.org/
             repo_url: https://github.com/yoctoproject/poky
@@ -526,26 +534,18 @@ landscape:
             logo: Yocto.svg
             crunchbase: https://www.crunchbase.com/organization/yocto-project
           - item:
-            name: Alibaba Dragonwell
-            homepage_url: https://dragonwell-jdk.io/
-            repo_url: https://github.com/alibaba/dragonwell8
-            project_org: https://github.com/alibaba
-            logo: Alibaba-Dragonwell.svg
-            crunchbase: https://www.crunchbase.com/organization/alibaba
-          - item:
-            name: OpenBSD
-            homepage_url: https://www.openbsd.org/
-            repo_url: https://github.com/openbsd/src
-            project_org: https://github.com/openbsd
-            logo: OpenBSD.svg
-            crunchbase: https://www.crunchbase.com/organization/openbsd
-          - item:
             name: openEuler
             homepage_url: https://openeuler.org/
             logo: openEuler.svg
             crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
             extra:
               Repo URL: https://gitee.com/openeuler
+          - item:
+            name: Zephyr
+            homepage_url: https://www.zephyrproject.org/
+            repo_url: https://github.com/zephyrproject-rtos/zephyr
+            logo: zephyr.svg
+            crunchbase: https://www.crunchbase.com/organization/zephy-project
   - category:
     name: Hypervisor
     subcategories:
@@ -658,10 +658,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/gnu
           - item:
             name: Green Hills Software
+            second_path: Operating Systems / Operating Systems
             homepage_url: https://www.ghs.com/
             logo: green-hills-software.svg
             crunchbase: https://www.crunchbase.com/organization/green-hills-software
-            second_path: Operating Systems / Operating Systems
           - item:
             name: IAR
             homepage_url: https://www.iar.com/
