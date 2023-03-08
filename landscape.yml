@@ -447,6 +447,13 @@ landscape:
             logo: Alibaba-Dragonwell.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba
           - item:
+            name: AliOS Things
+            homepage_url: https://cn.aliyun.com/product/aliosthings?from_alibabacloud=
+            repo_url: https://github.com/alibaba/AliOS-Things
+            project_org: https://github.com/alibaba
+            logo: AliOS-Things.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba
+          - item:
             name: Android
             homepage_url: https://www.android.com
             repo_url: https://github.com/aosp-mirror/platform_frameworks_base
@@ -502,6 +509,16 @@ landscape:
             logo: OpenBSD.svg
             crunchbase: https://www.crunchbase.com/organization/openbsd
           - item:
+            name: openEuler
+            description: >-
+              openEuler is an open source platform developed and operated by OpenAtom Foundation. Its unified and open OS supports multiple processor
+              architectures, helping promote a more robust software and hardware ecosystem through joint efforts of the community.
+            homepage_url: https://openeuler.org/
+            logo: openEuler.svg
+            crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
+            extra:
+              Repo URL: https://gitee.com/openeuler
+          - item:
             name: openSUSE
             homepage_url: https://www.opensuse.org/
             repo_url: https://github.com/openSUSE/kernel-source
@@ -521,6 +538,13 @@ landscape:
             logo: seL4.svg
             crunchbase: https://www.crunchbase.com/organization/linux-foundation
           - item:
+            name: SylixOS
+            homepage_url: https://sylixos.com/
+            logo: SylixOS.svg
+            crunchbase: https://www.crunchbase.com/organization/yihui-information
+            extra:
+              Git: http://git.sylixos.com/
+          - item:
             name: Ubuntu
             homepage_url: https://ubuntu.com/
             repo_url: https://github.com/ubuntu/ubuntu-make
@@ -534,35 +558,11 @@ landscape:
             logo: Yocto.svg
             crunchbase: https://www.crunchbase.com/organization/yocto-project
           - item:
-            name: openEuler
-            homepage_url: https://openeuler.org/
-            logo: openEuler.svg
-            crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
-            extra:
-              Repo URL: https://gitee.com/openeuler
-            description: >-
-              openEuler is an open source platform developed and operated by OpenAtom Foundation. Its unified and open OS supports multiple processor
-              architectures, helping promote a more robust software and hardware ecosystem through joint efforts of the community.
-          - item:
             name: Zephyr
             homepage_url: https://www.zephyrproject.org/
             repo_url: https://github.com/zephyrproject-rtos/zephyr
             logo: zephyr.svg
             crunchbase: https://www.crunchbase.com/organization/zephy-project
-          - item:
-            name: SylixOS
-            homepage_url: https://sylixos.com/
-            logo: SylixOS.svg
-            crunchbase: https://www.crunchbase.com/organization/yihui-information
-            extra:
-              Git: http://git.sylixos.com/
-          - item:
-            name: AliOS Things
-            homepage_url: https://cn.aliyun.com/product/aliosthings?from_alibabacloud=
-            repo_url: https://github.com/alibaba/AliOS-Things
-            project_org: https://github.com/alibaba
-            logo: AliOS-Things.svg
-            crunchbase: https://www.crunchbase.com/organization/alibaba
           - item:
             name: Slackware
             homepage_url: http://www.slackware.com/
@@ -603,6 +603,13 @@ landscape:
         name: Boot
         items:
           - item:
+            name: Berkeley Boot Loader (BBL)
+            homepage_url: https://lowrisc.org/docs/build-berkeley-boot-loader/
+            repo_url: https://github.com/riscv-software-src/riscv-pk
+            project_org: https://github.com/riscv-software-src
+            logo: BBL.svg
+            crunchbase: https://www.crunchbase.com/organization/lowrisc
+          - item:
             name: CoreBoot
             homepage_url: https://www.coreboot.org/
             project: null
@@ -635,13 +642,6 @@ landscape:
             homepage_url: https://uefi.org/
             logo: uefi.svg
             crunchbase: https://www.crunchbase.com/organization/uefi-forum
-          - item:
-            name: Berkeley Boot Loader (BBL)
-            homepage_url: https://lowrisc.org/docs/build-berkeley-boot-loader/
-            repo_url: https://github.com/riscv-software-src/riscv-pk
-            project_org: https://github.com/riscv-software-src
-            logo: BBL.svg
-            crunchbase: https://www.crunchbase.com/organization/lowrisc
   - category:
     name: Design Tools + Compilers
     subcategories:
