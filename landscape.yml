@@ -447,6 +447,13 @@ landscape:
             logo: Alibaba-Dragonwell.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba
           - item:
+            name: AliOS Things
+            homepage_url: https://cn.aliyun.com/product/aliosthings?from_alibabacloud=
+            repo_url: https://github.com/alibaba/AliOS-Things
+            project_org: https://github.com/alibaba
+            logo: AliOS-Things.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba
+          - item:
             name: Android
             homepage_url: https://www.android.com
             repo_url: https://github.com/aosp-mirror/platform_frameworks_base
@@ -531,6 +538,13 @@ landscape:
             logo: seL4.svg
             crunchbase: https://www.crunchbase.com/organization/linux-foundation
           - item:
+            name: SylixOS
+            homepage_url: https://sylixos.com/
+            logo: SylixOS.svg
+            crunchbase: https://www.crunchbase.com/organization/yihui-information
+            extra:
+              Git: http://git.sylixos.com/
+          - item:
             name: Ubuntu
             homepage_url: https://ubuntu.com/
             repo_url: https://github.com/ubuntu/ubuntu-make
@@ -549,20 +563,6 @@ landscape:
             repo_url: https://github.com/zephyrproject-rtos/zephyr
             logo: zephyr.svg
             crunchbase: https://www.crunchbase.com/organization/zephy-project
-          - item:
-            name: SylixOS
-            homepage_url: https://sylixos.com/
-            logo: SylixOS.svg
-            crunchbase: https://www.crunchbase.com/organization/yihui-information
-            extra:
-              Git: http://git.sylixos.com/
-          - item:
-            name: AliOS Things
-            homepage_url: https://cn.aliyun.com/product/aliosthings?from_alibabacloud=
-            repo_url: https://github.com/alibaba/AliOS-Things
-            project_org: https://github.com/alibaba
-            logo: AliOS-Things.svg
-            crunchbase: https://www.crunchbase.com/organization/alibaba
   - category:
     name: Hypervisor
     subcategories:
@@ -598,6 +598,13 @@ landscape:
         name: Boot
         items:
           - item:
+            name: Berkeley Boot Loader (BBL)
+            homepage_url: https://lowrisc.org/docs/build-berkeley-boot-loader/
+            repo_url: https://github.com/riscv-software-src/riscv-pk
+            project_org: https://github.com/riscv-software-src
+            logo: BBL.svg
+            crunchbase: https://www.crunchbase.com/organization/lowrisc
+          - item:
             name: CoreBoot
             homepage_url: https://www.coreboot.org/
             project: null
@@ -630,13 +637,6 @@ landscape:
             homepage_url: https://uefi.org/
             logo: uefi.svg
             crunchbase: https://www.crunchbase.com/organization/uefi-forum
-          - item:
-            name: Berkeley Boot Loader (BBL)
-            homepage_url: https://lowrisc.org/docs/build-berkeley-boot-loader/
-            repo_url: https://github.com/riscv-software-src/riscv-pk
-            project_org: https://github.com/riscv-software-src
-            logo: BBL.svg
-            crunchbase: https://www.crunchbase.com/organization/lowrisc
   - category:
     name: Design Tools + Compilers
     subcategories:
