@@ -4,7 +4,7 @@
 
 ![RISC-V Logo](https://landscape.riscv.org/images/left-logo.svg)
 
-- [RISC-V Ecosystem Landscape](#cloud-native-landscape)
+- [RISC-V Ecosystem Landscape](#riscv-landscape)
   * [Current Version](#current-version)
   * [Interactive Version](#interactive-version)
   * [New Entries](#new-entries)
@@ -36,29 +36,47 @@ Please see [landscape.riscv.org](https://landscape.riscv.org/).
 * Your project or company needs a logo and the logo needs to include the name.
 * Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
 
-If you think your project should be included, please open a pull request to add it to [landscape.yml](landscape.yml). For the logo, you can either upload an SVG to the `hosted_logos` directory or put a URL as the value, and it will be fetched.
+If you think your project should be included, please open a issue to add it to [landscape.yml](https://github.com/riscv-admin/riscv-landscape/issues/new/choose). Ensure to add all required data in the request. For the logo, you can either upload an SVG to the `hosted_logos` directory or put a URL as the value, and it will be fetched. Pull Requests are welcome.
 
 Netlify will generate a staging server for you to preview your updates. Please check that the logo and information appear correctly and then add `LGTM` to the pull request confirming your review and requesting a merge.
 
-Testing Locally
-1. $ git clone https://github.com/riscv-admin/riscv-landscape.git
-2. $ cd ./riscv-riscv-landscape
-3. Ensure you have Docker installed https://docs.docker.com/engine/install/
-4. $ make run-server-on-docker
-5. docker run -ti --rm -p 8001:8001 riscv/landscape
-6. Development server running at http://127.0.0.1:8001/
-7. Starting a new build...
-8. 2023-01-17T20:06:20.606Z build result: success
-9. open the latest Landscape build in your browser
-10. http://127.0.0.1:8001/
+### Testing Locally Using Containers
 
+Before you get startedm, ensure you have [Docker](https://docs.docker.com/engine/install/) (or [Podman](https://podman.io/getting-started/installation)) installed. Here we are using Docker. 
+
+#### Clone the source code of RISC-V Landscape
+
+```
+$ git clone https://github.com/riscv-admin/riscv-landscape.git
+$ cd ./riscv-riscv-landscape
+```
+
+#### Build and access your local RISC-V Landscape version
+
+```
+$ make run-server-on-docker
+# you can also run it directly
+$ docker run -ti --rm -p 8001:8001 riscv/landscape
+```
+
+As the build progress, if everything is working, a message like the following will be shown:
+
+```
+Development server running at http://127.0.0.1:8001/
+Starting a new build...
+2023-01-17T20:06:20.606Z build result: success
+open the latest Landscape build in your browser
+http://127.0.0.1:8001/
+```
+
+Then you can access it via you web browser, accessing http://127.0.0.1:8001/.
 
 ## Logos
 
 The following rules will produce the most readable and attractive logos:
 
 1. We require SVGs, as they are smaller, display correctly at any scale, and work on all modern browsers. If you only have the logo in another vector format (like AI or EPS), please open an issue and we'll convert it to an SVG for you, or you can often do it yourself at https://cloudconvert.com/. Note that you may need to zip your file to attach it to a GitHub issue. Please note that we require pure SVGs and will reject SVGs that contain embedded PNGs since they have the same problems of being bigger and not scaling seamlessly. We also require that SVGs convert fonts to outlines so that they will render correctly whether or not a font is installed. See [Proper SVGs](#proper-svgs) below.
-1. When multiple variants exist, use stacked (not horizontal) logos. For example, we use the second column (stacked), not the first (horizontal), of CNCF project [logos](https://github.com/cncf/artwork/#cncf-incubating-logos).
+1. When multiple variants exist, use stacked (not horizontal) logos.
 1. Don't use reversed logos (i.e., with a non-white, non-transparent background color). If you only have a reversed logo, create an issue with it attached and we'll produce a non-reversed version for you.
 1. Logos must include the company, product or project name in English. It's fine to also include words from another language. If you don't have a version of your logo with the name in it, please open an issue and we'll create one for you (and please specify the font).
 1. Match the item name to the English words in the logos. So an Acme Rocket logo that shows "Rocket" should have product name "Rocket", while if the logo shows "Acme Rocket", the product name should be "Acme Rocket". Otherwise, logos looks out of place when you sort alphabetically.
@@ -103,9 +121,9 @@ The interactive landscape displays the status (or non-existence) of a badge for 
 
 ## Non-Updated Items
 
-We generally remove open source projects that have not had a commit in over 3 months. Note that for projects not hosted on GitHub, we need them to mirror to GitHub to fetch updates, and we try to work with projects when their mirrors are broken. Here is view of projects sorted by last update: https://landscape.graphql.org/format=card-mode&grouping=no&license=open-source&sort=latest-commit
+We generally remove open source projects that have not had a commit in over 3 months. Note that for projects not hosted on GitHub, we need them to mirror to GitHub to fetch updates, and we try to work with projects when their mirrors are broken. [Here](https://landscape.riscv.org/card-mode?license=open-source&grouping=no&sort=latest-commit) is view of projects sorted by last update.
 
-We generally remove closed source products when they have not tweeted in over 3 months. This doesn't apply to Chinese companies without Twitter accounts, since Twitter is blocked there. Here is a view of products sorted by last tweet: https://landscape.graphql.org/format=card-mode&grouping=no&license=not-open-source&sort=latest-tweet
+We generally remove closed source products when they have not tweeted in over 3 months. This doesn't apply to Chinese companies without Twitter accounts, since Twitter is blocked there. [Here](https://landscape.riscv.org/card-mode?license=open-source&grouping=no&sort=latest-tweet) is a view of products sorted by last tweet.
 
 Items that have been removed can apply to be re-added using the regular New Entries criteria above.
 
@@ -128,32 +146,19 @@ You can install and run locally with the [install directions](INSTALL.md). It's 
 
 ## Vulnerability reporting
 
-Please open an [issue](https://github.com/cncf/landscape/issues/new) or, for sensitive information, email info@cncf.io.
+Please open an [issue](https://github.com/riscv-admin/riscv-landscape/issues/new/choose) or, for sensitive information, email info@cncf.io.
 
 ## Adjusting the Landscape View
-The file src/components/MainContent2.js describes the key elements of a
-landscape big picture. It specifies where to put these sections: App Definition
-and Development, Orchesteration & Management, Runtime,  Provisioning, Cloud,
-    Platform, Observability and Analyzis, Special. Also it specifies where to
-    locate the link to the serverless preview and an info with a QR code.
+The file src/components/MainContent2.js describes the key elements of a landscape big picture. It specifies where to put these sections: App Definition and Development, Orchesteration & Management, Runtime,  Provisioning, Cloud, Platform, Observability and Analyzis, Special. Also it specifies where to locate the link to the serverless preview and an info with a QR code.
 
-All these elements should have `top`, `left`, `width` and `height` properties to
-position them. `rows` and `cols` specify how much columns or rows we expect in a
-given horizontal or vertical section. 
+All these elements should have `top`, `left`, `width` and `height` properties to position them. `rows` and `cols` specify how much columns or rows we expect in a given horizontal or vertical section. 
 
-When we see that those elements can not fit the sections, we need to either increase
-the width of all the horizontal sections, or increase height and amount of rows
-in a single horitzontal section and adjust the position of sections below.
+When we see that those elements can not fit the sections, we need to either increase the width of all the horizontal sections, or increase height and amount of rows in a single horitzontal section and adjust the position of sections below.
 
-Beside that, we have to adjust the width of a parent div (1620), the width in a
-`src/components/BigPicture/FullscreenLandscape.js` (1640) and the width in a
-`tools/renderLandscape.js` (6560, because of x4 zoom and margins)
+Beside that, we have to adjust the width of a parent div (1620), the width in a `src/components/BigPicture/FullscreenLandscape.js` (1640) and the width in a `tools/renderLandscape.js` (6560, because of x4 zoom and margins)
 
-Sometimes the total height is changed too, then we need to adjust the height the
-same way as we adjust the width.
+Sometimes the total height is changed too, then we need to adjust the height the same way as we adjust the width.
 
-We have an experimental `fitWidth` property, it is good when you want to get rid of
-an extra space on the right of a section.
+We have an experimental `fitWidth` property, it is good when you want to get rid of an extra space on the right of a section.
 
-The best way to test that layout is ok, is to visit `/landscape`, and if it looks ok, run `PORT=3000 babel-node
-tools/renderLandscape` and see the rendered png files, they are in src/images folder.
+The best way to test that layout is ok, is to visit `/landscape`, and if it looks ok, run `PORT=3000 babel-node tools renderLandscape` and see the rendered png files, they are in src/images folder.
