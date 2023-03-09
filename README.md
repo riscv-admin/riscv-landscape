@@ -146,7 +146,7 @@ You can install and run locally with the [install directions](INSTALL.md). It's 
 
 ## Vulnerability reporting
 
-Please open an [issue](https://github.com/riscv-admin/riscv-landscape/issues/new/choose) or, for sensitive information, email info@cncf.io.
+Please open an [issue](https://github.com/riscv-admin/riscv-landscape/issues/new/choose) or, for sensitive information, email info@riscv.org.
 
 ## Adjusting the Landscape View
 The file src/components/MainContent2.js describes the key elements of a landscape big picture. It specifies where to put these sections: App Definition and Development, Orchesteration & Management, Runtime,  Provisioning, Cloud, Platform, Observability and Analyzis, Special. Also it specifies where to locate the link to the serverless preview and an info with a QR code.
