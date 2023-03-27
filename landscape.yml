@@ -655,6 +655,11 @@ landscape:
         name: Design Tools + Compilers
         items:
           - item:
+            name: Ashling
+            homepage_url: https://www.ashling.com/
+            logo: ashling.svg
+            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
+          - item:
             name: Buildbot
             homepage_url: https://buildbot.net/
             repo_url: https://github.com/buildbot/buildbot
@@ -671,6 +676,11 @@ landscape:
             homepage_url: https://www.eclipse.org/
             logo: Eclipse.svg
             crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
+          - item:
+            name: Embecosm
+            homepage_url: https://www.embecosm.com/
+            logo: embecosm.svg
+            crunchbase: https://www.crunchbase.com/organization/embecosm
           - item:
             name: GDB
             homepage_url: https://www.sourceware.org/gdb/
@@ -765,13 +775,3 @@ landscape:
             repo_url: https://github.com/apache/tvm
             logo: TVM.svg
             crunchbase: https://www.crunchbase.com/organization/apache
-          - item:
-            name: Ashling
-            homepage_url: https://www.ashling.com/
-            logo: ashling.svg
-            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
-          - item:
-            name: Embecosm
-            homepage_url: https://www.embecosm.com/
-            logo: embecosm.svg
-            crunchbase: https://www.crunchbase.com/organization/embecosm
