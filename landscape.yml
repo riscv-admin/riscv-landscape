@@ -433,6 +433,12 @@ landscape:
             repo_url: https://github.com/spdk/spdk
             logo: spdk.svg
             crunchbase: https://www.crunchbase.com/organization/intel
+          - item:
+            name: WasmEdge Runtime
+            homepage_url: https://wasmedge.org/
+            repo_url: https://github.com/WasmEdge/WasmEdge
+            logo: wasm-edge-runtime.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
   - category:
     name: Operating Systems
     subcategories:
@@ -538,6 +544,11 @@ landscape:
             logo: seL4.svg
             crunchbase: https://www.crunchbase.com/organization/linux-foundation
           - item:
+            name: Slackware
+            homepage_url: http://www.slackware.com/
+            logo: Slackware.svg
+            crunchbase: https://www.crunchbase.com/organization/slackware
+          - item:
             name: SylixOS
             homepage_url: https://sylixos.com/
             logo: SylixOS.svg
@@ -563,11 +574,6 @@ landscape:
             repo_url: https://github.com/zephyrproject-rtos/zephyr
             logo: zephyr.svg
             crunchbase: https://www.crunchbase.com/organization/zephy-project
-          - item:
-            name: Slackware
-            homepage_url: http://www.slackware.com/
-            logo: Slackware.svg
-            crunchbase: https://www.crunchbase.com/organization/slackware
   - category:
     name: Hypervisor
     subcategories:
@@ -665,6 +671,11 @@ landscape:
             homepage_url: https://www.eclipse.org/
             logo: Eclipse.svg
             crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
+          - item:
+            name: Embecosm
+            homepage_url: https://www.embecosm.com/
+            logo: embecosm.svg
+            crunchbase: https://www.crunchbase.com/organization/embecosm
           - item:
             name: GDB
             homepage_url: https://www.sourceware.org/gdb/
@@ -772,8 +783,3 @@ landscape:
               Ashling with their RiscFree™ SDK has grown to be synonymous in the embedded market with over 30 years of tool’s experience culminated in a
               toolchain which includes an IDE, Debugger, Compiler, Debug & Trace Probes for RISC-V development with support for customisation & heterogeneous
               environments.
-          - item:
-            name: Embecosm
-            homepage_url: https://www.embecosm.com/
-            logo: embecosm.svg
-            crunchbase: https://www.crunchbase.com/organization/embecosm
