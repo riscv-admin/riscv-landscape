@@ -763,7 +763,15 @@ landscape:
             name: Ashling
             homepage_url: https://www.ashling.com/
             logo: ashling.svg
-            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
+            organization:
+              name: Ashling
+            extra:
+              LinkedIn: https://www.linkedin.com/company/ashling-microsystems/
+              Headquarters: Limerick City, Ireland
+            description: >-
+              Ashling with their RiscFree™ SDK has grown to be synonymous in the embedded market with over 30 years of tool’s experience culminated in a
+              toolchain which includes an IDE, Debugger, Compiler, Debug & Trace Probes for RISC-V development with support for customisation & heterogeneous
+              environments.
           - item:
             name: Embecosm
             homepage_url: https://www.embecosm.com/
