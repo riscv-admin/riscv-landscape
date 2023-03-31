@@ -18,13 +18,13 @@ body:
       description: Clearly and concisely describe the solution you'd like to see implemented.
     validations:
       required: true
-   - type: textarea
+  - type: textarea
     attributes:
       label: Discuss any alternative solutions or features you've considered.
       description: Clearly and succinctly explain any alternative solutions or features you've explored.
     validations:
       required: false
-   - type: textarea
+  - type: textarea
     attributes:
       label: Additional information.
       description: Feel free to include any supplementary context or screenshots related to your feature request.
