@@ -1,0 +1,32 @@
+name: RISC-V Landscape Feature Request
+description: Suggest an idea for this project
+title: "[Feature Request] - [FEATURE NAME]"
+labels: ['enhancement']
+assignees: 
+  - bprestonlf
+  - rpsene
+body:
+  - type: textarea
+    attributes:
+      label: Does your feature request address a specific issue? Please elaborate.
+      description: Please provide a clear and succinct explanation of the problem you're encountering. For example, "I consistently experience frustration when [...]"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Outline your desired solution
+      description: Clearly and concisely describe the solution you'd like to see implemented.
+    validations:
+      required: true
+   - type: textarea
+    attributes:
+      label: Discuss any alternative solutions or features you've considered.
+      description: Clearly and succinctly explain any alternative solutions or features you've explored.
+    validations:
+      required: false
+   - type: textarea
+    attributes:
+      label: Additional information.
+      description: Feel free to include any supplementary context or screenshots related to your feature request.
+    validations:
+      required: false
