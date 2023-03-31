@@ -4,10 +4,11 @@ title: New Landscape Entry - [PROJECT]
 labels: ['new entry']
 assignees: 
   - bprestonlf
+  - rpsene
 body:
   - type: markdown
     attributes:
-      value: "Thank you for your interest in adding your project to the RISC-V Ecosystem Landscape. Please complete the form below to add your project to the RISC-V Ecosystem Landscape."
+      value: "Thank you for expressing interest in including your project within the RISC-V Ecosystem Landscape. To proceed with adding your project, kindly fill out the form provided below. Your contribution will be a valuable addition to the RISC-V Ecosystem Landscape."
   - type: input
     id: name
     attributes:
@@ -53,18 +54,18 @@ body:
       label: Category
       description: Pick the best category for your project
       options:
-        - Stack - Applications
-        - Stack - Infrastructure
-        - Stack - Runtimes
-        - Stack - Operating Systems
-        - Stack - Hypervisor
-        - Stack - Boot
-        - Build Automation - CI/Testing
-        - Build Automation - Perf Tools
-        - Build Automation - Simulators
-        - Build Automation - Compilers
-        - ISA - ISA
-        - Compatibility - Architecture Tests
+        - Applications
+        - Libraries
+        - Infrastructure
+        - Runtimes
+        - Operating Systems
+        - Hypervisor
+        - Boot
+        - Compilers
+        - Design Tools
+        - Implementations
+        - Electronic Design Automation (EDA)
+        - Instruction Set Simulator
         - Compatibility - SAIL
         - Verification - Verification
         - Implementations - Implementations
