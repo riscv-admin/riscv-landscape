@@ -31,7 +31,7 @@ body:
   - type: input
     id: repo_url
     attributes:
-      label: Repo URL
+      label: Repository URL
     validations:
       required: true
   - type: input
@@ -64,10 +64,5 @@ body:
         - Compilers
         - Design Tools
         - Implementations
-        - Electronic Design Automation (EDA)
-        - Instruction Set Simulator
-        - Compatibility - SAIL
-        - Verification - Verification
-        - Implementations - Implementations
     validations:
       required: true
