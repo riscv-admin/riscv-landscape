@@ -41,6 +41,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: ecosystem
+    attributes:
+      label: Evidence of RISC-V ecosystem support
+      description: Concrete examples, such as use cases, community discussions, papers, etc.
+    validations:
+      required: true
+  - type: textarea
     id: logo
     attributes:
       label: Logo
