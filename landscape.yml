@@ -556,11 +556,12 @@ landscape:
             extra:
               Git: http://git.sylixos.com/
           - item:
-            name: Ubuntu
+            name: Canonical Ubuntu
             homepage_url: https://ubuntu.com/
-            repo_url: https://github.com/ubuntu/ubuntu-make
-            logo: ubuntu.svg
-            crunchbase: https://www.crunchbase.com/organization/ubuntu
+            logo: canonical_ubuntu.svg
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+            extra:
+              Repository: https://ubuntu.com/download/risc-v
           - item:
             name: Yocto Project
             homepage_url: https://www.yoctoproject.org/
