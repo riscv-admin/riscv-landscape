@@ -473,6 +473,13 @@ landscape:
             logo: TheadX.svg
             crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
+            name: Canonical Ubuntu
+            homepage_url: https://ubuntu.com/
+            logo: canonical_ubuntu.svg
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+            extra:
+              Repository: https://ubuntu.com/download/risc-v
+          - item:
             name: Debian
             homepage_url: https://www.debian.org/
             repo_url: https://github.com/Debian/apt
@@ -555,13 +562,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/yihui-information
             extra:
               Git: http://git.sylixos.com/
-          - item:
-            name: Canonical Ubuntu
-            homepage_url: https://ubuntu.com/
-            logo: canonical_ubuntu.svg
-            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-            extra:
-              Repository: https://ubuntu.com/download/risc-v
           - item:
             name: Yocto Project
             homepage_url: https://www.yoctoproject.org/
