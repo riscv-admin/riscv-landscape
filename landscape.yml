@@ -49,6 +49,21 @@ landscape:
             homepage_url: https://www.openhwgroup.org/
             logo: OpenHW.svg
             crunchbase: https://www.crunchbase.com/organization/openhw
+            description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
+            license: Apache 2.0, Solderpad 2.1, EPL 2.0
+            repo_url: https://github.com/openhwgroup/core-v-cores
+            project_org: https://github.com/openhwgroup
+            additional_repos:
+              - repo_url: https://github.com/openhwgroup/cva6
+              - repo_url: https://github.com/openhwgroup/cva5
+              - repo_url: https://github.com/openhwgroup/cvw
+              - repo_url: https://github.com/openhwgroup/cv32e40p
+              - repo_url: https://github.com/openhwgroup/cv32e40s
+              - repo_url: https://github.com/openhwgroup/cv32e40x
+              - repo_url: https://github.com/openhwgroup/cv32e41p
+              - repo_url: https://github.com/openhwgroup/cve2
+              - repo_url: https://github.com/openhwgroup/cv-hpdcache
+              - repo_url: https://github.com/openhwgroup/core-v-verif
           - item:
             name: RISC-V Compatible
             homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
