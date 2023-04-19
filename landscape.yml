@@ -46,12 +46,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/lowrisc
           - item:
             name: OpenHW Group
-            homepage_url: https://www.openhwgroup.org/
-            logo: OpenHW.svg
-            crunchbase: https://www.crunchbase.com/organization/openhw
             description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
-            license: Apache 2.0, Solderpad 2.1, EPL 2.0
+            homepage_url: https://www.openhwgroup.org/
             repo_url: https://github.com/openhwgroup/core-v-cores
+            license: Apache 2.0, Solderpad 2.1, EPL 2.0
             additional_repos:
               - repo_url: https://github.com/openhwgroup/cva6
               - repo_url: https://github.com/openhwgroup/cva5
@@ -74,6 +72,8 @@ landscape:
               - repo_url: https://github.com/openhwgroup/core-v-sdk
               - repo_url: https://github.com/openhwgroup/core-v-mcu
               - repo_url: https://github.com/openhwgroup/core-v-mcu-devkit
+            logo: OpenHW.svg
+            crunchbase: https://www.crunchbase.com/organization/openhw
           - item:
             name: RISC-V Compatible
             homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
