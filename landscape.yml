@@ -614,6 +614,25 @@ landscape:
             repo_url: https://github.com/zephyrproject-rtos/zephyr
             logo: zephyr.svg
             crunchbase: https://www.crunchbase.com/organization/zephy-project
+          - item:
+            name: ProvenCore
+            description: >-
+              Implementing security functions require high-level abstractions of the hardware, typically provided by an Operating System (OS). Because the
+              correctness of the security functions depends on the correctness of these high-level abstractions, the OS that implements them should be free from
+              exploitable vulnerabilities.
+
+
+              The secure OS needs to be of the highest software quality possible and be as close as possible to zero defect. To meet that goal, the only
+              available strategy to date is to develop the OS using deductive formal methods.
+
+
+              This is why ProvenRun has developed ProvenCore, an formally proven ultra secure OS/TEE. It is a key milestone for being able to develop
+              secure-by-design connected devices in many sectors (automotive, railways, aeronautics, energy, industrial, medical, etc.), in a cost effective
+              way.
+            homepage_url: https://provenrun.com/products/provencore/
+            logo: ProvenCore.svg
+            organization:
+              name: ProvenRun
   - category:
     name: Hypervisor
     subcategories:
