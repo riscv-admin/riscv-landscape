@@ -34,7 +34,13 @@ landscape:
         items: []
       - subcategory:
         name: Strategic
-        items: []
+        items:
+          - item:
+            name: Allwinner Technology
+            second_path: Implementations / Single Board Computers
+            homepage_url: http://www.allwinnertech.com/
+            logo: allwinner.svg
+            crunchbase: https://www.crunchbase.com/organization/allwinner-technology
       - subcategory:
         name: Community
         items: []
@@ -103,6 +109,9 @@ landscape:
             logo: SERV.svg
             organization:
               name: Olof Kindgren Enterprises
+      - subcategory:
+        name: Single Board Computers
+        items: []
   - category:
     name: Applications
     subcategories:
