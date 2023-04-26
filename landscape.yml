@@ -52,6 +52,9 @@ landscape:
             homepage_url: https://starfivetech.com/
             logo: starfive.svg
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
+            extra:
+              Single Board Computers: https://www.starfivetech.com/en/site/boards
+            second_path: Implementations / Single Board Computers
           - item:
             name: Imperas
             homepage_url: https://www.imperas.com/
@@ -128,12 +131,7 @@ landscape:
               name: Olof Kindgren Enterprises
       - subcategory:
         name: Single Board Computers
-        items:
-          - item:
-            name: Shanghai StarFive Technology Co. - SBCs
-            homepage_url: https://www.starfivetech.com/en/site/boards
-            logo: starfive.svg
-            crunchbase: https://www.crunchbase.com/organization/starfive-technology
+        items: []
       - subcategory:
         name: Chips
         items: []
