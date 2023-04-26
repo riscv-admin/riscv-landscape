@@ -638,6 +638,19 @@ landscape:
             logo: ProvenCore.svg
             organization:
               name: ProvenRun
+          - item:
+            name: PX5 RTOS
+            description: >-
+              The PX5 RTOS features a native implementation of the industry standard POSIX pthreads API as well as best-of-class size and performance. As for
+              safety and security, the PX5 RTOS provides Pointer/Data Verification (PDV) technology, which developers can leverage at run-time to verify
+              function return addresses, function pointers, system objects, global data, and memory pools. This technology is unique to the PX5 RTOS. In
+              addition to the native POSIX pthread support (semaphore, mutex, message queue, etc.), the PX5 RTOS also offers real-time extensions such as event
+              flags, fast queues, tick timers, memory management, and more. Given the PX5 RTOS industry-standard POSIX pthreads API support, a wide range of
+              software stacks are instantly enabled – both open source and commercial – for real-time embedded IoT platforms.
+            homepage_url: http://www.px5rtos.com/
+            logo: PX5.svg
+            organization:
+              name: PX5
   - category:
     name: Hypervisor
     subcategories:
