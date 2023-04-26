@@ -172,7 +172,7 @@ big_picture:
       - type: LandscapeInfo
         width: 1250
         height: 100
-        top: 1195
+        top: 1340
         left: 0
         children:
           - type: text
@@ -201,7 +201,7 @@ big_picture:
         rows: 1
         width: 1250
         height: 120
-        top: 1050
+        top: 1195
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -213,6 +213,15 @@ big_picture:
         top: 850
         left: 0
         color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Services
+        rows: 1
+        width: 1250
+        height: 120
+        left: 0
+        color: rgb(109,61,143)
+        top: 1050
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RISC-V Member Products/Projects
