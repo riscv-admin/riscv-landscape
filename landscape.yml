@@ -151,7 +151,12 @@ landscape:
               name: Olof Kindgren Enterprises
       - subcategory:
         name: Single Board Computers
-        items: []
+        items:
+          - item:
+            name: SparkFun
+            homepage_url: https://www.sparkfun.com/categories/457
+            logo: sparkfun.svg
+            crunchbase: https://www.crunchbase.com/organization/sparkfun-electronics
       - subcategory:
         name: Chips
         items: []
