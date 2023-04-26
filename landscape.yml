@@ -41,7 +41,16 @@ landscape:
     name: Implementations
     subcategories:
       - subcategory:
-        name: Implementations
+        name: Other
+        items:
+          - item:
+            name: RISC-V Compatible
+            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
+            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
+            logo: RISCV-Compatible.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+      - subcategory:
+        name: IP
         items:
           - item:
             name: CHIPS Alliance
@@ -85,12 +94,6 @@ landscape:
               - repo_url: https://github.com/openhwgroup/core-v-mcu-devkit
             logo: OpenHW.svg
             crunchbase: https://www.crunchbase.com/organization/openhw
-          - item:
-            name: RISC-V Compatible
-            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
-            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
-            logo: RISCV-Compatible.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
           - item:
             name: SERV
             description: The award-winning SERV is the world's smallest RISC-V CPU
