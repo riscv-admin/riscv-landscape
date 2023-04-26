@@ -122,7 +122,12 @@ landscape:
               name: Olof Kindgren Enterprises
       - subcategory:
         name: Single Board Computers
-        items: []
+        items:
+          - item:
+            name: Shanghai StarFive Technology Co.
+            homepage_url: https://www.starfivetech.com/en/site/boards
+            logo: starfive.svg
+            crunchbase: https://www.crunchbase.com/organization/starfive-technology
       - subcategory:
         name: Chips
         items: []
