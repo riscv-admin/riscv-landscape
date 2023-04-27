@@ -95,6 +95,17 @@ landscape:
             logo: vrull.svg
             second_path: Services / Services
             crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
+          - item:
+            name: Ashling
+            description: >-
+              Ashling with their RiscFree™ SDK has grown to be synonymous in the embedded market with over 30 years of tool’s experience culminated in a
+              toolchain which includes an IDE, Debugger, Compiler, Debug & Trace Probes for RISC-V development with support for customisation & heterogeneous
+              environments.
+            homepage_url: https://www.ashling.com/
+            logo: ashling.svg
+            second_path: Design Tools + Compilers / Design Tools + Compilers
+            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
+            twitter: https://twitter.com/ashlingsystems
       - subcategory:
         name: Community
         items: []
@@ -837,19 +848,6 @@ landscape:
       - subcategory:
         name: Design Tools + Compilers
         items:
-          - item:
-            name: Ashling
-            description: >-
-              Ashling with their RiscFree™ SDK has grown to be synonymous in the embedded market with over 30 years of tool’s experience culminated in a
-              toolchain which includes an IDE, Debugger, Compiler, Debug & Trace Probes for RISC-V development with support for customisation & heterogeneous
-              environments.
-            homepage_url: https://www.ashling.com/
-            logo: ashling.svg
-            extra:
-              LinkedIn: https://www.linkedin.com/company/ashling-microsystems/
-              Headquarters: Limerick City, Ireland
-            organization:
-              name: Ashling
           - item:
             name: Buildbot
             homepage_url: https://buildbot.net/
