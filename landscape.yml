@@ -106,6 +106,14 @@ landscape:
             second_path: Design Tools + Compilers / Design Tools + Compilers
             crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
             twitter: https://twitter.com/ashlingsystems
+          - item:
+            name: Canonical Ubuntu
+            homepage_url: https://ubuntu.com/
+            logo: canonical_ubuntu.svg
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+            extra:
+              Repository: https://ubuntu.com/download/risc-v
+            second_path: Operating Systems / Operating Systems
       - subcategory:
         name: Community
         items: []
@@ -625,13 +633,6 @@ landscape:
             project_org: https://github.com/azure-rtos
             logo: TheadX.svg
             crunchbase: https://www.crunchbase.com/organization/microsoft
-          - item:
-            name: Canonical Ubuntu
-            homepage_url: https://ubuntu.com/
-            logo: canonical_ubuntu.svg
-            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-            extra:
-              Repository: https://ubuntu.com/download/risc-v
           - item:
             name: Debian
             homepage_url: https://www.debian.org/
