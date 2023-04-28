@@ -158,6 +158,14 @@ landscape:
             logo: valtrix.svg
             crunchbase: https://www.crunchbase.com/organization/valtrix-systems
             second_path: Design Tools + Compilers / Design Tools + Compilers
+          - item:
+            name: lowRISC
+            homepage_url: https://lowrisc.org/
+            repo_url: https://github.com/lowRISC/opentitan
+            project_org: https://github.com/lowRISC
+            logo: lowrisc.svg
+            crunchbase: https://www.crunchbase.com/organization/lowrisc
+            second_path: Implementations / IP
       - subcategory:
         name: Community
         items:
@@ -200,13 +208,6 @@ landscape:
       - subcategory:
         name: IP
         items:
-          - item:
-            name: lowRISC
-            homepage_url: https://lowrisc.org/
-            repo_url: https://github.com/lowRISC/opentitan
-            project_org: https://github.com/lowRISC
-            logo: lowrisc.svg
-            crunchbase: https://www.crunchbase.com/organization/lowrisc
           - item:
             name: OpenHW Group
             description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
