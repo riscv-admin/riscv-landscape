@@ -119,6 +119,14 @@ landscape:
             extra:
               Repository: https://ubuntu.com/download/risc-v
             second_path: Operating Systems / Operating Systems
+          - item:
+            name: Green Hills Software
+            second_path:
+              - Design Tools + Compilers / Design Tools + Compilers
+              - Operating Systems / Operating Systems
+            homepage_url: https://www.ghs.com/
+            logo: green-hills-software.svg
+            crunchbase: https://www.crunchbase.com/organization/green-hills-software
       - subcategory:
         name: Community
         items:
@@ -893,12 +901,6 @@ landscape:
             homepage_url: https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html
             logo: gprof.svg
             crunchbase: https://www.crunchbase.com/organization/gnu
-          - item:
-            name: Green Hills Software
-            second_path: Operating Systems / Operating Systems
-            homepage_url: https://www.ghs.com/
-            logo: green-hills-software.svg
-            crunchbase: https://www.crunchbase.com/organization/green-hills-software
           - item:
             name: IAR
             homepage_url: https://www.iar.com/
