@@ -121,7 +121,13 @@ landscape:
             second_path: Operating Systems / Operating Systems
       - subcategory:
         name: Community
-        items: []
+        items:
+          - item:
+            name: CHIPS Alliance
+            homepage_url: https://chipsalliance.org/
+            logo: chips.svg
+            crunchbase: https://www.crunchbase.com/organization/chips-alliance
+            second_path: Implementations / IP
   - category:
     name: Implementations
     subcategories:
@@ -137,11 +143,6 @@ landscape:
       - subcategory:
         name: IP
         items:
-          - item:
-            name: CHIPS Alliance
-            homepage_url: https://chipsalliance.org/
-            logo: chips.svg
-            crunchbase: https://www.crunchbase.com/organization/chips-alliance
           - item:
             name: lowRISC
             homepage_url: https://lowrisc.org/
