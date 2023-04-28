@@ -133,6 +133,15 @@ landscape:
             logo: lauterbach-icon.svg
             crunchbase: https://www.crunchbase.com/organization/lauterbach
             second_path: Design Tools + Compilers / Design Tools + Compilers
+          - item:
+            name: SEGGER
+            second_path:
+              - Design Tools + Compilers / Design Tools + Compilers
+              - Libraries / Libraries
+              - Runtimes / Runtimes
+            homepage_url: https://www.segger.com/risc-v/
+            logo: segger.svg
+            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
       - subcategory:
         name: Community
         items:
@@ -515,14 +524,6 @@ landscape:
             project_org: https://github.com/pytorch
             logo: PyTorch.svg
             crunchbase: https://www.crunchbase.com/organization/pytorch
-          - item:
-            name: SEGGER
-            second_path:
-              - Runtimes / Runtimes
-              - Design Tools + Compilers / Design Tools + Compilers
-            homepage_url: https://www.segger.com/risc-v/
-            logo: segger.svg
-            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
           - item:
             name: Speex
             homepage_url: https://www.speex.org/
