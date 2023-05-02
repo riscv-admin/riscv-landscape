@@ -854,6 +854,21 @@ landscape:
             logo: PX5.svg
             organization:
               name: PX5
+          - item:
+            name: LithOS
+            description: >-
+              LithOS is a real-time guest operating system specially designed for XtratuM hypervisor. LithOS is qualified for flight ECSS category B. LithOS
+              follows the ARINC-653 APEX standard, a software specification which ensures exclusive access to physical and temporal resources in partitioned
+              real-time embedded systems.
+
+
+              Choosing LithOS as your guest OS your system will be fully integrated as a XtratuM Partition.
+
+
+              LithOS is currently available to be run on top of a NOEL-V processor.
+            homepage_url: https://www.fentiss.com/lithos/
+            logo: fentISS.svg
+            crunchbase: https://www.crunchbase.com/organization/fentiss
   - category:
     name: Hypervisor
     subcategories:
