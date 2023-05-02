@@ -897,6 +897,21 @@ landscape:
             logo: xvisor.svg
             organization:
               name: XVisor
+          - item:
+            name: XtratuM Next Generation
+            description: >-
+              XtratuM Next Generation (XNG) is an embedded ECSS category B qualified type 1 hypervisor aimed at safe and efficient embedded real-time systems
+              through virtualization, allowing different applications to share the same hardware platform through the isolation in time and space of these
+              applications in partitions (TSP). Thanks to XtratuM, developers can build bare-metal applications or use different operating systems over the same
+              platform, as well as to allocate applications with different criticality levels to each partition. The use of XtratuM is convenient for systems in
+              which the main challenges deal with safety, the reuse of certified applications, dynamic software updates and size, weight, power and cost
+              reduction of embedded safety-critical systems.
+
+
+              XtratuM Next Generation is currently available to be run on top of a NOEL-V processor.
+            homepage_url: https://www.fentiss.com/xtratum/
+            logo: fentISS.svg
+            crunchbase: https://www.crunchbase.com/organization/fentiss
   - category:
     name: Boot
     subcategories:
