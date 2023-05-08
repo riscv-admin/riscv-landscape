@@ -15,4 +15,4 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           body: |
             Thank you for requesting a new entry to be added, @${{ github.event.issue.user.login }}!
-            Consider adding this entry at [RISC-V Exchange](https://riscv.org/exchange/).
+            Consider also adding this entry at [RISC-V Exchange](https://riscv.org/exchange/).
