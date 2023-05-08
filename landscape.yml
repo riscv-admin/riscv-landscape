@@ -952,10 +952,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/software-freedom-conservancy-inc
           - item:
             name: Das U-Boot
-            homepage_url: https://www.denx.de/wiki/U-Boot
-            repo_url: https://github.com/u-boot/u-boot
+            homepage_url: https://u-boot.readthedocs.io/en/latest/
             logo: dasuboot.svg
             crunchbase: https://www.crunchbase.com/organization/denx-software-engineering
+            extra:
+              Source Repository: https://source.denx.de/u-boot/u-boot
+            license: GPL-2.0
           - item:
             name: OpenSBI
             homepage_url: https://github.com/riscv-software-src/opensbi/blob/master/README.md
