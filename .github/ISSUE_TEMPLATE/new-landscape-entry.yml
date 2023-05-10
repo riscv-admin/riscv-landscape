@@ -67,16 +67,17 @@ body:
       label: Category
       description: Pick the best category for your project
       options:
-        - Applications
-        - Libraries
-        - Infrastructure
-        - Runtimes
-        - Operating Systems
-        - Hypervisor
-        - Boot
-        - Compilers
-        - Design Tools
-        - Implementations
-        - Services
+          - Applications
+          - Boot
+          - Compilers
+          - Design Tools
+          - Developer Boards
+          - Hypervisor
+          - Implementations
+          - Infrastructure
+          - Libraries
+          - Operating Systems
+          - Runtimes
+          - Services
     validations:
       required: true
