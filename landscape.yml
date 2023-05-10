@@ -1107,6 +1107,19 @@ landscape:
             homepage_url: https://uefi.org/
             logo: uefi.svg
             crunchbase: https://www.crunchbase.com/organization/uefi-forum
+          - item:
+            name: oreboot
+            description: |-
+              oreboot is a downstream fork of coreboot, i.e. oreboot is coreboot without 'c'.
+
+              oreboot is mostly written in Rust, with assembly where needed.
+
+              oreboot defaults to LinuxBoot payloads for a bootloader environment.
+            homepage_url: https://github.com/oreboot/oreboot/
+            repo_url: https://github.com/oreboot/oreboot
+            logo: oreboot.svg
+            organization:
+              name: oreboot community
   - category:
     name: Design Tools + Compilers
     subcategories:
