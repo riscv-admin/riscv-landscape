@@ -1199,6 +1199,19 @@ landscape:
             homepage_url: http://www.machineware.de/
             logo: simv.svg
             crunchbase: https://www.crunchbase.com/organization/machineware-gmbh
+          - item:
+            name: gem5
+            description: >-
+              The gem5 simulator is a modular platform for computer-system architecture research, encompassing system-level architecture as well as processor
+              microarchitecture. The gem5 project is community-led with an open governance model. The gem5 simulator was originally conceived for computer
+              architecture research in academia, but it has grown to be used in computer system design by academia, industry for research, and in teaching. The
+              gem5 simulator contains cycle-level models for processors, cache hierarchies, memory systems, and devices. It can boot Linux and run most
+              application for a variety of ISAs including Arm, RISC-V, and x86.
+            homepage_url: https://www.gem5.org/
+            repo_url: https://github.com/gem5/gem5
+            logo: gem5.svg
+            organization:
+              name: gem5 community
   - category:
     name: Services
     subcategories:
