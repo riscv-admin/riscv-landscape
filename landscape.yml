@@ -1026,6 +1026,16 @@ landscape:
             homepage_url: https://www.fentiss.com/xtratum/
             logo: fentISS.svg
             crunchbase: https://www.crunchbase.com/organization/fentiss
+          - item:
+            name: Salus
+            description: >-
+              Salus is a RISC-V 64 bit hypervisor used for TEE development. It is used to implement the TEE Security Manager (TSM) and the ABI proposed as part
+              of the CoVE (Confidential VM Extension) proposed in the RVI AP-TEE (non-isa) Task Group. It will also be used to used to interface with any
+              privileged ISA extensions developed as part of that TG (currently being discussed).
+            homepage_url: https://github.com/rivosinc/salus
+            repo_url: https://github.com/rivosinc/salus
+            logo: SALUS.svg
+            crunchbase: https://www.crunchbase.com/organization/rivos-inc
   - category:
     name: Boot
     subcategories:
