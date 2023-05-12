@@ -5,6 +5,7 @@ labels: ['new landscape entry']
 assignees: 
   - bprestonlf
   - rpsene
+  - andyjohnstonmoore
 body:
   - type: markdown
     attributes:
@@ -37,9 +38,9 @@ body:
   - type: input
     id: repo_url
     attributes:
-      label: Repository URL
+      label: Repository URL (Only if publicly available)
     validations:
-      required: true
+      required: false
   - type: input
     id: organization
     attributes:
@@ -65,7 +66,7 @@ body:
     id: category
     attributes:
       label: Category
-      description: Pick the best category for your project
+      description: Select the most fitting category for your landscape entry.
       options:
           - Applications
           - Boot
@@ -80,5 +81,13 @@ body:
           - Processors
           - Runtimes
           - Services
+      label: Sub-Category
+      description: Select the appropriate sub-category for your landscape entry, if applicable.
+      options:
+          - Implementations -> Other
+          - Implementations -> IP
+          - Implementations -> Single Boards Computers
+          - Implementations -> Chips
+          - Implementations -> Accelarators
     validations:
-      required: true
+      required: false
