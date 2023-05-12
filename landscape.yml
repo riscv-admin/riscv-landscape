@@ -1377,6 +1377,21 @@ landscape:
             logo: gem5.svg
             organization:
               name: gem5 community
+          - item:
+            name: RISCV-VP
+            description: >-
+              RISCV-VP is a configurable and extensible platform to build Virtual Prototypes (VP) for RISC-V using C++/SystemC and TLM. Features include support
+              for all standard RISC-V extension for the 32 and 64 bit architecture including the M/S/U privileged architecture, advanced software debugging
+              capabilities using a GDB interface with an optional Eclipse GUI, a HiFive1 configuration and support for graphical environment models, and support
+              for several operating systems including RIOT, Zephyr, FreeRTOS and Linux.
+
+
+              The VP can be used for early Software development and verification, as well as Hardware design space exploration and prototyping on the basis of
+              SystemC TLM 2.0.
+            homepage_url: https://agra.informatik.uni-bremen.de/projects/risc-v/
+            repo_url: https://github.com/agra-uni-bremen/riscv-vp
+            logo: RISCV-VP.svg
+            crunchbase: https://www.crunchbase.com/organization/university-of-bremen-2
   - category:
     name: Services
     subcategories:
