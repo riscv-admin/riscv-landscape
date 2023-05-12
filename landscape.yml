@@ -141,9 +141,7 @@ landscape:
             logo: starfive.svg
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
             extra:
-              Single Board Computers: https://www.starfivetech.com/en/site/boards
               Official GitHub: https://github.com/starfive-tech/
-            second_path: Implementations / Single Board Computers
           - item:
             name: Imperas
             homepage_url: https://www.imperas.com/
@@ -576,6 +574,11 @@ landscape:
             homepage_url: https://www.sifive.com/risc-v-core-ip
             logo: sifive-founding.svg
             crunchbase: https://www.crunchbase.com/organization/sifive
+          - item:
+            name: Dubhe
+            homepage_url: https://www.starfivetech.com/en/site/riscv-core-ip
+            logo: starfive.svg
+            crunchbase: https://www.crunchbase.com/organization/starfive-technology
       - subcategory:
         name: Single Board Computers
         items:
@@ -596,9 +599,19 @@ landscape:
             homepage_url: https://www.sifive.com/boards
             logo: sifive-founding.svg
             crunchbase: https://www.crunchbase.com/organization/sifive
+          - item:
+            name: VisionFive
+            homepage_url: https://www.starfivetech.com/en/site/boards
+            logo: starfive.svg
+            crunchbase: https://www.crunchbase.com/organization/starfive-technology
       - subcategory:
         name: Chips
-        items: []
+        items:
+          - item:
+            name: JH7100
+            homepage_url: https://www.starfivetech.com/en/site/soc
+            logo: starfive.svg
+            crunchbase: https://www.crunchbase.com/organization/starfive-technology
       - subcategory:
         name: Accelerators
         items:
