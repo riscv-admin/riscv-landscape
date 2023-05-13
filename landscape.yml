@@ -1058,6 +1058,25 @@ landscape:
             logo: freertos.svg
             crunchbase: https://www.crunchbase.com/organization/freertos
           - item:
+            name: Haiku
+            description: >-
+              Haiku is an open-source operating system that specifically targets personal computing. Inspired by the BeOS, 
+              Haiku is fast, simple to use, easy to learn, and yet very powerful.
+            homepage_url: https://www.haiku-os.org/
+            license: MIT
+            repo_url: https://git.haiku-os.org/haiku
+            additional_repos:
+              - repo_url: https://git.haiku-os.org/buildtools
+              - repo_url: https://git.haiku-os.org/userguide
+              - repo_url: https://github.com/haiku/haiku
+              - repo_url: https://github.com/haikuports/haikuports
+              - repo_url: https://github.com/haikuports/haikuports.cross
+            logo: haiku.svg
+            twitter: https://twitter.com/haikuOS
+            crunchbase: https://www.crunchbase.com/organization/haiku--inc-
+            extra:
+              Forum URL: https://discuss.haiku-os.org/
+          - item:
             name: Linux
             homepage_url: https://kernel.org
             repo_url: https://github.com/torvalds/linux
