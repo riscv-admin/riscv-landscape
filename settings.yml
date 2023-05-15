@@ -172,7 +172,7 @@ big_picture:
       - type: LandscapeInfo
         width: 1350
         height: 100
-        top: 1470
+        top: 1615
         left: 0
         children:
           - type: text
@@ -222,6 +222,15 @@ big_picture:
         left: 0
         color: rgb(109,61,143)
         top: 1050
+      - type: HorizontalCategory
+        is_large: true
+        category: RISC-V Programs
+        rows: 1
+        width: 1350
+        height: 120
+        top: 1470
+        left: 0
+        color: rgb(109,61,143)
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RISC-V Member Products/Projects
