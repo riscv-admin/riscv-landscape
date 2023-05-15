@@ -621,12 +621,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
       - subcategory:
         name: Chips
-        items:
-          - item:
-            name: JH7100
-            homepage_url: https://www.starfivetech.com/en/site/soc
-            logo: starfive.svg
-            crunchbase: https://www.crunchbase.com/organization/starfive-technology
+        items: []
       - subcategory:
         name: Accelerators
         items:
@@ -650,7 +645,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/applied-materials
       - subcategory:
         name: Chips + Processors
-        items: []
+        items:
+          - item:
+            name: JH7100
+            homepage_url: https://www.starfivetech.com/en/site/soc
+            logo: starfive.svg
+            crunchbase: https://www.crunchbase.com/organization/starfive-technology
   - category:
     name: Applications
     subcategories:
