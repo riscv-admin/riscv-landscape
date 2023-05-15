@@ -23,7 +23,7 @@ landscape:
             project: null
             logo: alibaba.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba
-            second_path: Implementations / Chips
+            second_path: Implementations / Chips + Processors
           - item:
             name: Andes Technology Corporation
             homepage_url: http://www.andestech.com/
@@ -36,7 +36,7 @@ landscape:
             logo: ventana.svg
             crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
             second_path:
-              - Implementations / Chips
+              - Implementations / Chips + Processors
               - Implementations / IP
             twitter: https://twitter.com/ventanamicro
             description: Ventana is creating high performance RISC-V chiplets and IP for the data center, automotive, 5G edge, and client markets.
@@ -63,7 +63,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/intel
           - item:
             name: SiFive
-            second_path: Implementations / Chips
+            second_path: Implementations / Chips + Processors
             homepage_url: https://sifive.com/
             logo: sifive-founding.svg
             crunchbase: https://www.crunchbase.com/organization/sifive
@@ -293,7 +293,7 @@ landscape:
             homepage_url: https://xmos.ai/
             logo: xmos.svg
             crunchbase: https://www.crunchbase.com/organization/xmos
-            second_path: Implementations / Chips
+            second_path: Implementations / Chips + Processors
             description: >-
               A deep tech company at the leading edge of the intelligent internet of things (IoT), XMOS addresses the evolving market need for flexible compute
               to serve an ever-widening range of smart things including voice, imaging and ambient sensing.
@@ -378,7 +378,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/tenstorrent
             second_path:
               - Implementations / IP
-              - Implementations / Chips
+              - Implementations / Chips + Processors
               - Implementations / Accelerators
           - item:
             name: Arduino
@@ -621,12 +621,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
       - subcategory:
         name: Chips
-        items:
-          - item:
-            name: JH7100
-            homepage_url: https://www.starfivetech.com/en/site/soc
-            logo: starfive.svg
-            crunchbase: https://www.crunchbase.com/organization/starfive-technology
+        items: []
       - subcategory:
         name: Accelerators
         items:
@@ -648,6 +643,14 @@ landscape:
             homepage_url: https://www.think-silicon.com/neox
             logo: ThinkSilicon.svg
             crunchbase: https://www.crunchbase.com/organization/applied-materials
+      - subcategory:
+        name: Chips + Processors
+        items:
+          - item:
+            name: JH7100
+            homepage_url: https://www.starfivetech.com/en/site/soc
+            logo: starfive.svg
+            crunchbase: https://www.crunchbase.com/organization/starfive-technology
   - category:
     name: Applications
     subcategories:
