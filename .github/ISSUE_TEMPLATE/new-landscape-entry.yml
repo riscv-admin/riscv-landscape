@@ -81,6 +81,9 @@ body:
           - Processors
           - Runtimes
           - Services
+  - type: dropdown
+    id: sub_category
+    attributes:
       label: Sub-Category
       description: Select the appropriate sub-category for your landscape entry, if applicable.
       options:
