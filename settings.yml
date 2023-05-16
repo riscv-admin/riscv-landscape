@@ -148,7 +148,7 @@ big_picture:
         rows: 2
         width: 1350
         height: 175
-        top: 525
+        top: 480
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -157,7 +157,7 @@ big_picture:
         rows: 1
         width: 665
         height: 100
-        top: 725
+        top: 665
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -166,13 +166,13 @@ big_picture:
         rows: 1
         width: 665
         height: 100
-        top: 725
+        top: 665
         left: 675
         color: rgb(109,61,143)
       - type: LandscapeInfo
         width: 1350
         height: 100
-        top: 1615
+        top: 1330
         left: 0
         children:
           - type: text
@@ -201,7 +201,7 @@ big_picture:
         rows: 3
         width: 1350
         height: 250
-        top: 1195
+        top: 1070
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -210,7 +210,7 @@ big_picture:
         rows: 2
         width: 1350
         height: 175
-        top: 850
+        top: 775
         left: 0
         color: rgb(109,61,143)
       - type: HorizontalCategory
@@ -218,10 +218,10 @@ big_picture:
         category: Services
         rows: 1
         width: 1350
-        height: 120
+        height: 100
         left: 0
         color: rgb(109,61,143)
-        top: 1050
+        top: 960
       - type: HorizontalCategory
         is_large: true
         category: RISC-V Programs
