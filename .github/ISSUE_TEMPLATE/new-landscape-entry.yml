@@ -1,6 +1,6 @@
 name: New Landscape Entry
 description: New entry for the Landscape
-title: New Landscape Entry - [PROJECT]
+title: New Landscape Entry - ADD THE NAME OF THE PROJECT/PRODUCT HERE
 labels: ['new landscape entry']
 assignees: 
   - bprestonlf
@@ -14,7 +14,7 @@ body:
     id: name
     attributes:
       label: Project Name
-      description: Also update `[PROJECT]` in the title above
+      description: Also update `ADD THE NAME OF THE PROJECT/PRODUCT HERE` in the title above
     validations:
       required: true
   - type: textarea
