@@ -154,7 +154,7 @@ landscape:
             logo: Imperas.svg
             crunchbase: https://www.crunchbase.com/organization/imperas
             second_path:
-              - Design Tools + Compilers / Design Tools + Compilers
+              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
               - Services / Services
           - item:
             name: Embecosm
@@ -162,14 +162,14 @@ landscape:
             logo: embecosm.svg
             crunchbase: https://www.crunchbase.com/organization/embecosm
             second_path:
-              - Design Tools + Compilers / Design Tools + Compilers
+              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
               - Services / Services
           - item:
             name: VRULL
             homepage_url: http://vrull.eu/
             logo: VRULL-new.svg
             second_path:
-              - Design Tools + Compilers / Design Tools + Compilers
+              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
               - Services / Services
             crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
           - item:
@@ -181,7 +181,7 @@ landscape:
 
             homepage_url: https://www.ashling.com/
             logo: ashling.svg
-            second_path: Design Tools + Compilers / Design Tools + Compilers
+            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
             crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
           - item:
             name: Canonical Ubuntu
@@ -194,7 +194,7 @@ landscape:
           - item:
             name: Green Hills Software
             second_path:
-              - Design Tools + Compilers / Design Tools + Compilers
+              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
               - Operating Systems / Operating Systems
               - Libraries / Libraries
             homepage_url: https://www.ghs.com/
@@ -205,11 +205,11 @@ landscape:
             homepage_url: https://www.lauterbach.com/
             logo: lauterbach-icon.svg
             crunchbase: https://www.crunchbase.com/organization/lauterbach
-            second_path: Design Tools + Compilers / Design Tools + Compilers
+            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
             name: SEGGER
             second_path:
-              - Design Tools + Compilers / Design Tools + Compilers
+              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
               - Libraries / Libraries
               - Runtimes / Runtimes
             homepage_url: https://www.segger.com/risc-v/
@@ -230,7 +230,7 @@ landscape:
             homepage_url: https://www.valtrix.in/
             logo: valtrix.svg
             crunchbase: https://www.crunchbase.com/organization/valtrix-systems
-            second_path: Design Tools + Compilers / Design Tools + Compilers
+            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
             name: lowRISC
             homepage_url: https://lowrisc.org/
@@ -244,7 +244,7 @@ landscape:
             homepage_url: https://www.iar.com/
             logo: iar.svg
             crunchbase: https://www.crunchbase.com/organization/iar-systems
-            second_path: Design Tools + Compilers / Design Tools + Compilers
+            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
             name: ProvenRun
             homepage_url: https://provenrun.com/
@@ -463,7 +463,7 @@ landscape:
             homepage_url: https://cycuity.com/
             logo: Cycuity.svg
             crunchbase: https://www.crunchbase.com/organization/tortuga-logic-inc
-            second_path: Design Tools + Compilers / Design Tools + Compilers
+            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
             name: Bluespec
             homepage_url: http://www.bluespec.com/
@@ -481,7 +481,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/renesas-electronics-corporation
           - item:
             name: Terapines
-            second_path: Design Tools + Compilers / Design Tools + Compilers
+            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
             description: Terapines is a HW/SW co-design toolchain provider for RISC-V based processors.
             homepage_url: https://www.terapines.com/
             repo_url: https://github.com/THU-DSP-LAB/llvm-project
@@ -592,7 +592,7 @@ landscape:
             homepage_url: https://www.eclipse.org/
             logo: eclipse-foundation.svg
             crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
-            second_path: Design Tools + Compilers / Design Tools + Compilers
+            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
             name: Zephyr Project
             homepage_url: https://www.zephyrproject.org/
@@ -1470,6 +1470,72 @@ landscape:
     subcategories:
       - subcategory:
         name: Design Tools + Compilers
+        items: []
+  - category:
+    name: Services
+    subcategories:
+      - subcategory:
+        name: Services
+        items:
+          - item:
+            name: Polarstar
+            description: >-
+              VORTEX-CoLab connects industry and academia through the experimental development of products and services from concept to market. We partner with
+              organizations to accelerate technology transfer. Polarstar addresses the transition to microservice-based applications in the RISC-V ecosystem
+              with its new software porting service.
+            homepage_url: https://www.vortex-colab.com/
+            logo: vortex.svg
+            crunchbase: https://www.crunchbase.com/organization/vortex-colab
+          - item:
+            name: Ashling Tools-as-a-Service
+            description: >-
+              Ashling’s Tools-as-a-Service™ (TaaS™) model allows development of a comprehensive tool suite tailored and optimised for your specific device. See
+              here for more details: https://www.ashling.com/services-taas/
+            homepage_url: https://www.ashling.com/services-compilers/
+            logo: ashling.svg
+            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
+  - category:
+    name: RISC-V Programs
+    subcategories:
+      - subcategory:
+        name: RISC-V Programs
+        items:
+          - item:
+            name: RISC-V Compatible
+            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
+            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
+            logo: RISCV-Compatible.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: RISC-V Developer Boards
+            homepage_url: https://riscv.org/risc-v-developer-boards/
+            logo: RVI-DevBoards.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: RISC-V Development Partner
+            homepage_url: https://riscv.org/risc-v-development-partner/
+            logo: RVI-DevPartner.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: RISC-V Learn
+            homepage_url: https://riscv.org/learn/
+            logo: RVI-Learn.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: RISC-V Advocate
+            homepage_url: https://riscv.org/risc-v-advocates/
+            logo: RVI-Advocate.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: RISC-V Alliance
+            homepage_url: https://riscv.org/alliances/
+            logo: RVI-Alliance.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+  - category:
+    name: Design Tools, Compilers and Verification
+    subcategories:
+      - subcategory:
+        name: Design Tools, Compilers and Verification
         items:
           - item:
             name: Renode
@@ -1612,63 +1678,3 @@ landscape:
             repo_url: https://github.com/Minres/TGC-VP
             logo: TGC-VP.svg
             crunchbase: https://www.crunchbase.com/organization/minres-technologies
-  - category:
-    name: Services
-    subcategories:
-      - subcategory:
-        name: Services
-        items:
-          - item:
-            name: Polarstar
-            description: >-
-              VORTEX-CoLab connects industry and academia through the experimental development of products and services from concept to market. We partner with
-              organizations to accelerate technology transfer. Polarstar addresses the transition to microservice-based applications in the RISC-V ecosystem
-              with its new software porting service.
-            homepage_url: https://www.vortex-colab.com/
-            logo: vortex.svg
-            crunchbase: https://www.crunchbase.com/organization/vortex-colab
-          - item:
-            name: Ashling Tools-as-a-Service
-            description: >-
-              Ashling’s Tools-as-a-Service™ (TaaS™) model allows development of a comprehensive tool suite tailored and optimised for your specific device. See
-              here for more details: https://www.ashling.com/services-taas/
-            homepage_url: https://www.ashling.com/services-compilers/
-            logo: ashling.svg
-            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
-  - category:
-    name: RISC-V Programs
-    subcategories:
-      - subcategory:
-        name: RISC-V Programs
-        items:
-          - item:
-            name: RISC-V Compatible
-            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
-            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
-            logo: RISCV-Compatible.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
-            name: RISC-V Developer Boards
-            homepage_url: https://riscv.org/risc-v-developer-boards/
-            logo: RVI-DevBoards.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
-            name: RISC-V Development Partner
-            homepage_url: https://riscv.org/risc-v-development-partner/
-            logo: RVI-DevPartner.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
-            name: RISC-V Learn
-            homepage_url: https://riscv.org/learn/
-            logo: RVI-Learn.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
-            name: RISC-V Advocate
-            homepage_url: https://riscv.org/risc-v-advocates/
-            logo: RVI-Advocate.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
-            name: RISC-V Alliance
-            homepage_url: https://riscv.org/alliances/
-            logo: RVI-Alliance.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
