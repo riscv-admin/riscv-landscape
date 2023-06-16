@@ -806,6 +806,19 @@ landscape:
             homepage_url: https://www.renesas.com/us/en/products/microcontrollers-microprocessors/risc-v
             logo: renesas.svg
             crunchbase: https://www.crunchbase.com/organization/renesas-electronics-corporation
+      - subcategory:
+        name: HPC Systems
+        items:
+          - item:
+            name: Monte Cimone
+            description: >-
+              High-performance RISC-V processors and accelerators have been announced, but RISC-V- based HPC systems will need a holistic co-design effort,
+              spanning memory, storage hierarchy interconnects and full software stack. Monte Cimone is a fully-operational multi-blade computer prototype and
+              hardware-software test-bed based on U740, a double-precision capable multi-core, 64-bit RISC-V SoC.
+            homepage_url: >-
+              https://www.e4company.com/en/2021/12/e4-announces-breakthrough-innovative-technologies-spanning-silicon-software-and-power-management-tools-integrated-in-the-risc-v-based-monte-cimone-cluster/
+            logo: e4.svg
+            crunchbase: https://www.crunchbase.com/organization/e4-computer-engineering-spa
   - category:
     name: Applications
     subcategories:
@@ -1522,16 +1535,6 @@ landscape:
             homepage_url: https://www.ashling.com/services-compilers/
             logo: ashling.svg
             crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
-          - item:
-            name: Monte Cimone
-            description: >-
-              High-performance RISC-V processors and accelerators have been announced, but RISC-V- based HPC systems will need a holistic co-design effort,
-              spanning memory, storage hierarchy interconnects and full software stack. Monte Cimone is a fully-operational multi-blade computer prototype and
-              hardware-software test-bed based on U740, a double-precision capable multi-core, 64-bit RISC-V SoC.
-            homepage_url: >-
-              https://www.e4company.com/en/2021/12/e4-announces-breakthrough-innovative-technologies-spanning-silicon-software-and-power-management-tools-integrated-in-the-risc-v-based-monte-cimone-cluster/
-            logo: e4.svg
-            crunchbase: https://www.crunchbase.com/organization/e4-computer-engineering-spa
   - category:
     name: RISC-V Programs
     subcategories:
