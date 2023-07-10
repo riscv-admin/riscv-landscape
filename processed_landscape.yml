@@ -3419,6 +3419,48 @@ landscape:
             homepage_url: https://www.xilinx.com/
             logo: amd-xilinx.svg
             crunchbase: https://www.crunchbase.com/organization/amd
+            crunchbase_data:
+              name: AMD
+              description: Advanced Micro Devices (AMD) is a semiconductor company that designs and develops graphics units, processors, and media solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.amd.com
+              city: Santa Clara
+              region: California
+              country: United States
+              twitter: https://twitter.com/amd
+              linkedin: https://www.linkedin.com/company/amd
+              acquisitions:
+                - date: '2002-02-06'
+                  acquiree: Alchemy Semiconductor
+                - date: '2006-07-24'
+                  acquiree: ATI Technologies
+                - date: '2012-02-29'
+                  acquiree: SeaMicro
+                - date: '2016-06-29'
+                  acquiree: HiAlgo
+                - date: '2017-04-10'
+                  acquiree: Nitero
+                - date: '2020-10-27'
+                  acquiree: Xilinx
+                - date: '2022-04-04'
+                  acquiree: AMD Pensando
+              parents: []
+              ticker: AMD
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Cloud Computing
+                - Computer
+                - Embedded Systems
+                - GPU
+                - Hardware
+                - Semiconductor
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 182904700928
+              effective_ticker: AMD
             image_data:
               fileName: advanced-micro-devices-amd.svg
               hash: xEsPiATEacNPM9xWMbU4rOrUPUD0FQwaJvhcL7VJOW8=
@@ -3430,6 +3472,60 @@ landscape:
             homepage_url: http://analog.com/
             logo: analog-devices.svg
             crunchbase: https://www.crunchbase.com/organization/analog-devices
+            crunchbase_data:
+              name: Analog Devices
+              description: 'Analog Devices (NYSE: ADI) defines innovation and excellence in signal processing. ADI''s analog, mixed-signal, and digital signal'
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.analog.com
+              city: Norwood
+              region: Massachusetts
+              country: United States
+              twitter: https://www.twitter.com/adi_news
+              linkedin: https://www.linkedin.com/company/3450
+              acquisitions:
+                - date: '2000-08-21'
+                  acquiree: BCO
+                - date: '2006-09-18'
+                  acquiree: AudioAsics
+                - date: '2011-06-13'
+                  acquiree: Lyric Semiconductor
+                - date: '2012-03-30'
+                  acquiree: Multigig
+                - date: '2014-06-09'
+                  acquiree: Hittite Microwave
+                - date: '2015-09-01'
+                  acquiree: Sand 9
+                - date: '2016-07-26'
+                  acquiree: Linear Technology
+                - date: '2016-10-27'
+                  acquiree: Innovasic Semiconductor
+                - date: '2016-11-17'
+                  acquiree: Laser Beam Steering Technology
+                - date: '2017-03-30'
+                  acquiree: OneTree Microdevices
+                - date: '2018-03-08'
+                  acquiree: Symeo
+                - date: '2018-05-04'
+                  acquiree: OtoSense
+                - date: '2019-10-29'
+                  acquiree: Test Motors
+                - date: '2020-07-13'
+                  acquiree: Maxim Integrated
+                - date: '2020-07-27'
+                  acquiree: INVECAS - High Definition Multimedia Interface
+              parents: []
+              ticker: ADI
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - DSP
+                - Electronics
+                - Lighting
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 95795904512
+              effective_ticker: ADI
             image_data:
               fileName: analog-devices.svg
               hash: YVNBiwxASWFMUPYhqmEA8IOBxdHGyJoxLNYnnB9N/WE=
@@ -4954,6 +5050,31 @@ landscape:
             homepage_url: http://espressif.com/
             logo: Espressif-founding.svg
             crunchbase: https://www.crunchbase.com/organization/espressif
+            crunchbase_data:
+              name: Espressif
+              description: Espressif designs, develops, and markets WiFi and Bluetooth solutions and devices for IoT deployments.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://espressif.com
+              city: San Antonio
+              region: Texas
+              country: United States
+              twitter: https://twitter.com/espressifsystem
+              linkedin: https://www.linkedin.com/company/espressif-systems/
+              acquisitions: []
+              parents: []
+              ticker: 688018.SS
+              funding: 0
+              stockExchange: sse
+              company_type: For Profit
+              industries:
+                - Internet
+                - Internet of Things
+                - Semiconductor
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1488187704
+              effective_ticker: 688018.SS
             image_data:
               fileName: espressif-systems.svg
               hash: PiYqsLwP2KNIv+vBLu/CETSv05M44xI+FYgTp1xMtvM=
