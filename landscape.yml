@@ -1067,6 +1067,17 @@ landscape:
             homepage_url: https://www.renesas.com/us/en/products/microcontrollers-microprocessors/risc-v
             logo: renesas.svg
             crunchbase: https://www.crunchbase.com/organization/renesas-electronics-corporation
+          - item:
+            name: NEORV32
+            second_path: Implementations / IP
+            description: >-
+              A tiny, customizable and highly extensible MCU-class 32-bit RISC-V soft-core CPU and microcontroller-like SoC written in platform-independent
+              VHDL.
+            homepage_url: https://github.com/stnolting/neorv32
+            repo_url: https://github.com/stnolting/neorv32
+            logo: NEORV32.svg
+            organization:
+              name: Stephan Nolting (RISC-V community member) / the NEORV32 open-source community
       - subcategory:
         name: HPC Systems
         items:
