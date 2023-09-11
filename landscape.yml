@@ -993,6 +993,21 @@ landscape:
             homepage_url: https://www.starfivetech.com/en/site/riscv-core-ip
             logo: starfive.svg
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
+          - item:
+            name: AIRISC
+            description: >-
+              The AIRISC family of RISC-V cores developed by Fraunhofer IMS enables efficient machine learning and AI in sensors, IoT devices, and other
+              embedded applications. AIRISC variants with extended safety mechanisms such as dual-core lock-stepping (DCLS) or error correcting codes (ECC) are
+              available for use in fail-safe systems according to ISO 26262 (up to ASIL-D) and DIN 61508.
+
+
+              The AIRISC Core Complex is based on a 32-bit RISC-V CPU compatible to the RISC-V unprivileged and privileged specifications also supporting the
+              RISC-V External Debug specification. The CPU implements a Harvard architecture with a four-level pipeline and separate AHB-Lite interfaces for
+              instruction fetch and data access. The core's RV32I_Zicsr base ISA can be further extended via a unified co-processor interface (PCPI).
+            homepage_url: https://www.ims.fraunhofer.de/en/Core-Competence/Smart-Sensor-Systems/Integrated-Sensor-Systems/airisc-family.html
+            repo_url: https://github.com/Fraunhofer-IMS/airisc_core_complex
+            logo: AIRISC.svg
+            crunchbase: https://www.crunchbase.com/organization/fraunhofer-verbund-mikroeleketronik
       - subcategory:
         name: Single Board Computers
         items:
