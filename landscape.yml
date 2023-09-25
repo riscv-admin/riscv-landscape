@@ -18,12 +18,11 @@ landscape:
         name: Premier
         items:
           - item:
-            name: Alibaba
+            name: Alibaba (member)
             homepage_url: https://www.alibabagroup.com/
             project: null
             logo: alibaba.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba
-            second_path: Implementations / Chips + Processors
           - item:
             name: Andes Technology Corporation
             homepage_url: http://www.andestech.com/
@@ -1314,6 +1313,11 @@ landscape:
             logo: NEORV32.svg
             organization:
               name: Stephan Nolting (RISC-V community member) / the NEORV32 open-source community
+          - item:
+            name: Alibaba
+            homepage_url: https://www.alibabagroup.com/
+            logo: alibaba.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba
       - subcategory:
         name: HPC Systems
         items:
