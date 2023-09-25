@@ -1457,34 +1457,6 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: Ministry of Electronics & Information Technology
-            homepage_url: https://meity.gov.in/
-            logo: MeitY.svg
-            twitter: https://twitter.com/GoI_MeitY
-            crunchbase: https://www.crunchbase.com/organization/ministry-of-electronics-and-information-technology-meity
-            crunchbase_data:
-              name: Ministry of Electronics and Information Technology - MeitY
-              description: The Ministry of Electronics and Information Technology is an executive agency of the Union Government of the Republic of India.
-              num_employees_min: 501
-              num_employees_max: 1000
-              homepage: https://www.meity.gov.in
-              city: New Delhi
-              region: Delhi
-              country: India
-              twitter: https://twitter.com/GoI_MeitY
-              linkedin: https://www.linkedin.com/company/meity-in/
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: ''
-              industries: []
-            image_data:
-              fileName: ministry-of-electronics-information-technology.svg
-              hash: 42xgFnRCCW6R05FnPA3G/Rr2VVsKfUfK4KKEdyh8o8w=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
             name: Qualcomm
             homepage_url: http://www.qualcomm.com/
             logo: Qualcomm-founding.svg
@@ -1653,6 +1625,36 @@ landscape:
             image_data:
               fileName: syntacore-ltd.svg
               hash: AE6nWJkkjP7FGSwop8TpONIWdhzJqpCjOLt6B8LaZJA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Chengwei Capital
+            homepage_url: http://www.chengwei.com/
+            logo: chengwei.svg
+            crunchbase: https://www.crunchbase.com/organization/chengwei-capital
+            crunchbase_data:
+              name: Chengwei Capital
+              description: Chengwei Ventures is a venture capital firm.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.chengwei.com
+              city: Shanghai
+              region: Shanghai
+              country: China
+              twitter: null
+              linkedin: https://www.linkedin.com/company/chengwei-capital/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Finance
+                - Impact Investing
+                - Venture Capital
+            image_data:
+              fileName: chengwei-capital.svg
+              hash: 6ubNDFGMuH4CFgkb6aDDgkoUEK+4bKMx8PIoKCtnvfM=
             best_practice_data:
               badge: false
               percentage: null
@@ -2994,6 +2996,9 @@ landscape:
             homepage_url: https://www.codasip.com/
             logo: codasip-founding.svg
             crunchbase: https://www.crunchbase.com/organization/codasip
+            second_path:
+              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
+              - Implementations / IP
             crunchbase_data:
               name: Codasip
               description: Codasip is a processor solutions company which uniquely helps developers to differentiate their products
@@ -5466,7 +5471,7 @@ landscape:
           - item:
             name: Inspur Group
             homepage_url: https://www.inspur.com/
-            logo: inspur.svg
+            logo: inspur-new.svg
             crunchbase: https://www.crunchbase.com/organization/inspur-group
             crunchbase_data:
               name: Inspur Group
@@ -5497,7 +5502,7 @@ landscape:
               effective_ticker: 000977.SZ
             image_data:
               fileName: inspur-group.svg
-              hash: +VAvno+LIAnL4vgRx16LL37KrgSAQ7rvpiz9hBVQasY=
+              hash: Tk3jDATlr+8q/Qc2QruySL+yOOfIbtR0dW4+HuWTxQY=
             best_practice_data:
               badge: false
               percentage: null
@@ -6153,6 +6158,2944 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Akeana
+            homepage_url: https://akeana.io/
+            logo: AKEANA.svg
+            crunchbase: https://www.crunchbase.com/organization/akeana
+            crunchbase_data:
+              name: Akeana
+              description: Semiconductor Manufacturing
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: https://akeana.io/
+              city: San Jose
+              region: California
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/akeana/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries: []
+            image_data:
+              fileName: akeana.svg
+              hash: sVLsRVnY1o9U/BQtAWDjNfnvIWxUMEk8R8hrHoj7j9A=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: LeapFrog Semiconductor
+            homepage_url: https://leapfrogsemi.com/
+            logo: LeapFrog.svg
+            crunchbase: https://www.crunchbase.com/organization/leapfrog-semiconductor
+            crunchbase_data:
+              name: LeapFrog Semiconductor
+              description: LeapFrog Semiconductor is a silicon and software startup revolutionizing wireless signal processing.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://leapfrogsemi.com
+              city: San Diego
+              region: California
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/leapfrog-semiconductor-inc
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Communication Hardware
+                - Semiconductor
+                - Test and Measurement
+                - Wireless
+            image_data:
+              fileName: leap-frog-semiconductor.svg
+              hash: dQ7U+NXAgS1Lbr1Xod5W2wjjX4wH3t0Ex6SP5fxQWHI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Cortus
+            description: >-
+              Founded in 2005, Cortus is a French fabless semiconductor manufacturing group headquartered in Mauguio (near Montpellier, France) with
+              subsidiaries in Italy, Greece and Spain. Cortus designs IC devices from simple MCUs to high-end SoCs drawing on its broad IP portfolio which
+              includes processors 32/64-bit (Cortus ISA and RISC-V ISA), digital, analog, mixed-signal, RF and security IPs. Cortus own IP portfolio addresses
+              applications such as Automotive, Consumer, IoT/NB-IoT, Edge Computing and Industrial control. Over 15 billion devices have been manufactured using
+              Cortus know-how.
+            homepage_url: https://cortus.com/
+            logo: Cortus_Founding.svg
+            crunchbase: https://www.crunchbase.com/organization/cortus-sa
+            second_path:
+              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
+              - Services / Services
+              - Implementations / IP
+              - Implementations / Single Board Computers
+              - Implementations / Accelerators
+              - Implementations / Chips + Processors
+            crunchbase_data:
+              name: Cortus SAS
+              description: Cortus S.A.S. Makes analog, mixed signal and digital SoCs. Including embedded processors. Own ISAs and RISC-V ISAs.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: http://www.cortus.com
+              city: Montpellier
+              region: Languedoc-Roussillon
+              country: France
+              twitter: null
+              linkedin: https://www.linkedin.com/in/michael-chapman-at-cortus/
+              acquisitions: []
+              parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Computer
+                - Embedded Systems
+                - Hardware
+                - Information Technology
+            image_data:
+              fileName: cortus.svg
+              hash: lh9hqo3RVHjvDZV8g/NtuayBxh5Fuu9fK0GCzYAKLbI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: HPMicro
+            homepage_url: https://hpmicro.com/
+            logo: HPMicro.svg
+            crunchbase: https://www.crunchbase.com/organization/hpmicro
+            crunchbase_data:
+              name: HPMicro
+              description: HPMicro is committed to the development of high-performance embedded solutions.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.hpmicro.com/
+              city: Shanghai
+              region: Shanghai
+              country: China
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Semiconductor
+            image_data:
+              fileName: hp-micro.svg
+              hash: gbO/LvGck87NsI9n0mOnh05sX7OYwwd4dwEbOqanpac=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Silicon Labs
+            homepage_url: https://www.silabs.com/
+            logo: SiliconLabs.svg
+            crunchbase: https://www.crunchbase.com/organization/silicon-laboratories
+            crunchbase_data:
+              name: Silicon Labs
+              description: Silicon Labs is a leading provider of silicon, software and solutions for a smarter, more connected world.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://silabs.com/
+              city: Austin
+              region: Texas
+              country: United States
+              twitter: http://twitter.com/silabs
+              linkedin: https://www.linkedin.com/company/siliconlabs/
+              acquisitions:
+                - date: '2000-08-08'
+                  acquiree: Krypton Isolation
+                - date: '2000-10-02'
+                  acquiree: SNR Semiconductor
+                - date: '2003-09-25'
+                  acquiree: Cygnal Integrated Products
+                - date: '2005-08-19'
+                  acquiree: Silicon MAGIKE
+                - date: '2006-05-16'
+                  acquiree: Silembia
+                - date: '2006-07-19'
+                  acquiree: StackCom
+                - date: '2007-10-09'
+                  acquiree: SourceCore
+                - date: '2008-06-24'
+                  acquiree: Integration Associates
+                - date: '2010-04-28'
+                  acquiree: Silicon Clocks
+                - date: '2010-10-13'
+                  acquiree: ChipSensors
+                - date: '2011-01-26'
+                  acquiree: SpectraLinear
+                - date: '2013-06-07'
+                  acquiree: Energy Micro
+                - date: '2014-03-05'
+                  acquiree: Touchstone Semiconductor
+                - date: '2015-02-03'
+                  acquiree: Bluegiga Technologies
+                - date: '2015-11-23'
+                  acquiree: Telegesis
+                - date: '2016-10-03'
+                  acquiree: Micrium
+                - date: '2017-01-23'
+                  acquiree: Zentri
+                - date: '2017-12-07'
+                  acquiree: Sigma Designs
+                - date: '2020-03-12'
+                  acquiree: Redpine Signals
+              parents: []
+              ticker: SLAB
+              funding: 12750039
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Hardware
+                - Internet of Things
+                - Software
+            yahoo_finance_data:
+              effective_ticker: SLAB
+            image_data:
+              fileName: silicon-labs.svg
+              hash: 1PzsmlGhOEJP5CBbmx+904OUUvo9cakYqFxLHmWV1fQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Software Hardware & Consulting
+            description: >-
+              SH Consulting Group (SHC) is located in 3 global locations, specialized in FPGA and system on chip (SoC) microcontroller IP solutions, embedded
+              security, voice, speech, wired and wireless connectivity solutions.
+
+
+              SHC engineers have experience in microprocessor and system on chip design, automotive In-Vehicle-Information (IVI) system, engine control (ECU)
+              and security systems. Engineers participated in epic automotive projects as Chrysler BlueConnect and Audi 3GMMI System, and Security Element
+              development project for a Large Silicon Valley mobile handset company.
+
+
+              In 2014 SHC started processor design. Our engineers are designing micro controllers for FPGAs and SoCs. Some projects involve open source hardware
+              (e.g. www.0pf.org).
+            homepage_url: http://swhwc.com/
+            logo: SoftwareHardwareConsulting.svg
+            organization:
+              name: Software Hardware & Consulting
+            crunchbase_data:
+              name: Software Hardware & Consulting
+              parents: []
+            image_data:
+              fileName: software-hardware-consulting.svg
+              hash: dh+/vNmiJ9jrNxlLQwauYNoX4G1wz8S40es4CwrrYVY=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Nokia
+            homepage_url: https://www.nokia.com/
+            logo: Nokia.svg
+            crunchbase: https://www.crunchbase.com/organization/nokia
+            crunchbase_data:
+              name: Nokia
+              description: Nokia is a Finnish multinational communications corporation engaged in the manufacturing of mobile devices and network infrastructure.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.nokia.com
+              city: Espoo
+              region: Southern Finland
+              country: Finland
+              twitter: http://twitter.com/nokia
+              linkedin: https://www.linkedin.com/company/nokia
+              acquisitions:
+                - date: '1997-12-09'
+                  acquiree: Ipsilon Networks
+                - date: '1998-08-20'
+                  acquiree: User Interface Design
+                - date: '1998-09-17'
+                  acquiree: NE-Products
+                - date: '1998-12-18'
+                  acquiree: Vienna Systems Corporation
+                - date: '1999-02-16'
+                  acquiree: Diamond Lane Communications
+                - date: '1999-02-18'
+                  acquiree: InTalk Corp.
+                - date: '1999-09-02'
+                  acquiree: Rooftop Communications, LLC
+                - date: '1999-10-22'
+                  acquiree: Telekol Corporation
+                - date: '1999-12-13'
+                  acquiree: TeamWARE - security software business
+                - date: '2000-02-01'
+                  acquiree: Network Alchemy
+                - date: '2000-08-08'
+                  acquiree: DiscoveryCom
+                - date: '2000-12-07'
+                  acquiree: Ramp Networks
+                - date: '2001-07-25'
+                  acquiree: Amber Networks
+                - date: '2003-04-22'
+                  acquiree: Eizel Technologies
+                - date: '2006-02-10'
+                  acquiree: Intellisync
+                - date: '2006-08-08'
+                  acquiree: Loudeye
+                - date: '2006-10-12'
+                  acquiree: gate5
+                - date: '2007-04-01'
+                  acquiree: Pixto
+                - date: '2007-07-24'
+                  acquiree: Twango
+                - date: '2007-10-08'
+                  acquiree: Enpocket
+                - date: '2007-10-23'
+                  acquiree: Vivento Technical Services
+                - date: '2007-12-04'
+                  acquiree: Avvenu
+                - date: '2008-01-28'
+                  acquiree: Qt Software
+                - date: '2008-06-05'
+                  acquiree: Trolltech
+                - date: '2008-06-23'
+                  acquiree: Plazes
+                - date: '2008-06-24'
+                  acquiree: Symbian Software Ltd.
+                - date: '2008-07-10'
+                  acquiree: Navteq
+                - date: '2008-09-30'
+                  acquiree: OZ Communications
+                - date: '2009-02-09'
+                  acquiree: Bit-side
+                - date: '2009-07-24'
+                  acquiree: Cellity
+                - date: '2009-09-23'
+                  acquiree: Dopplr
+                - date: '2010-03-26'
+                  acquiree: Novarra
+                - date: '2010-04-09'
+                  acquiree: MetaCarta
+                - date: '2010-07-19'
+                  acquiree: Motorola Wireless
+                - date: '2010-08-20'
+                  acquiree: Motally
+                - date: '2011-01-05'
+                  acquiree: IRIS Telecom
+                - date: '2012-01-07'
+                  acquiree: Smarterphone
+                - date: '2012-07-24'
+                  acquiree: Scalado
+                - date: '2012-11-13'
+                  acquiree: earthmine
+                - date: '2014-05-30'
+                  acquiree: Desti
+                - date: '2014-06-06'
+                  acquiree: Mesaplexx
+                - date: '2014-08-25'
+                  acquiree: SAC Wireless
+                - date: '2015-04-15'
+                  acquiree: Alcatel-Lucent
+                - date: '2016-02-21'
+                  acquiree: Nakina Systems
+                - date: '2016-04-26'
+                  acquiree: Withings
+                - date: '2016-06-09'
+                  acquiree: Gainspeed
+                - date: '2016-10-05'
+                  acquiree: Etadevices
+                - date: '2016-12-15'
+                  acquiree: DeepField
+                - date: '2017-02-09'
+                  acquiree: Comptel
+                - date: '2018-02-25'
+                  acquiree: Unium
+                - date: '2018-05-07'
+                  acquiree: SpaceTime Insight
+                - date: '2020-02-19'
+                  acquiree: Elenion Technologies
+              parents: []
+              funding: 868070947
+              stockExchange: hel
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Enterprise Software
+                - Internet of Things
+                - Mobile Devices
+                - Telecommunications
+              kind: funding
+            image_data:
+              fileName: nokia.svg
+              hash: s3zXkdvCNAkpNDALhzbRB0+poUZYeZ69fq3Ztf6dY6s=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: HighTec EDV-Systeme GmbH
+            homepage_url: https://hightec-rt.com/en/
+            logo: HighTec.svg
+            crunchbase: https://www.crunchbase.com/organization/high-tec
+            crunchbase_data:
+              name: HighTec EDV-Systeme GmbH
+              description: HighTec designs and develops software with a focus on functional safety and performance optimization with efficient solutions.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://www.hightec-rt.com
+              city: Saarbrücken
+              region: Saarland
+              country: Germany
+              twitter: null
+              linkedin: https://www.linkedin.com/company/hightec-edv-systeme-gmbh/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Embedded Software
+                - Information Technology
+                - Software
+                - Training
+            image_data:
+              fileName: high-tec-edv-systeme-gmb-h.svg
+              hash: ZrH5vYN+ITKzpJ7Sg0Q+ypvuWJKRmNloPSS4lRjbFN4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SUSE
+            homepage_url: https://www.suse.com/
+            logo: suse-llc.svg
+            crunchbase: https://www.crunchbase.com/organization/suse
+            crunchbase_data:
+              name: SUSE
+              description: SUSE provides reliable and interoperable Linux and cloud infrastructure solutions that give enterprises greater control and flexibility.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.suse.com
+              city: Nuremberg
+              region: Bayern
+              country: Germany
+              twitter: https://twitter.com/SUSE
+              linkedin: https://www.linkedin.com/company/suse
+              acquisitions:
+                - date: '2020-07-08'
+                  acquiree: Rancher Labs
+                - date: '2021-10-28'
+                  acquiree: NeuVector
+              parents: []
+              ticker: SUSE.F
+              stockExchange: fra
+              company_type: For Profit
+              industries:
+                - Cloud Computing
+                - Enterprise Software
+                - Linux
+                - Software
+            yahoo_finance_data:
+              effective_ticker: SUSE.F
+            image_data:
+              fileName: suse.svg
+              hash: DKlIvjPKY0y3w77tKbSnPg782MJH0jYiMZxeIHstv0Q=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Synopsys
+            homepage_url: https://www.synopsys.com/
+            logo: synopsys.svg
+            crunchbase: https://www.crunchbase.com/organization/synopsys
+            crunchbase_data:
+              name: Synopsys
+              description: Synopsys is a software company providing electronic design automation (EDA), semiconductor IP, software quality, and security solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.synopsys.com
+              city: Mountain View
+              region: California
+              country: United States
+              twitter: http://twitter.com/synopsys
+              linkedin: https://www.linkedin.com/company/synopsys
+              acquisitions:
+                - date: '1993-01-01'
+                  acquiree: Compiled Designs GmbH
+                - date: '1993-06-05'
+                  acquiree: ExperTest
+                - date: '1994-01-01'
+                  acquiree: Arcad SA
+                - date: '1994-01-01'
+                  acquiree: Cadis GmbH
+                - date: '1994-02-18'
+                  acquiree: Logic Modeling Corporation
+                - date: '1997-01-01'
+                  acquiree: Advanced Test Technology, Inc.
+                - date: '1997-01-01'
+                  acquiree: Viewlogic Systems
+                - date: '1997-02-28'
+                  acquiree: EPIC Design Technology
+                - date: '1998-01-26'
+                  acquiree: Radiant Design Tools
+                - date: '1998-07-21'
+                  acquiree: Systems Science
+                - date: '1998-10-27'
+                  acquiree: Everest Design Automation
+                - date: '1999-01-01'
+                  acquiree: Silicon Architects
+                - date: '1999-01-01'
+                  acquiree: Smartech Oy
+                - date: '1999-03-29'
+                  acquiree: Gambit Automated Design
+                - date: '1999-06-23'
+                  acquiree: Stanza Systems
+                - date: '2000-02-21'
+                  acquiree: Leda SA
+                - date: '2001-12-03'
+                  acquiree: Avant! Corp.
+                - date: '2002-07-23'
+                  acquiree: inSilicon Corp.
+                - date: '2002-08-28'
+                  acquiree: Co-Design Automation
+                - date: '2003-01-13'
+                  acquiree: Numerical Technologies
+                - date: '2003-06-25'
+                  acquiree: InnoLogic Systems
+                - date: '2004-01-01'
+                  acquiree: Integrated Systems Engineering
+                - date: '2004-01-01'
+                  acquiree: Progressant Technologies
+                - date: '2004-01-28'
+                  acquiree: Analog Design Automation
+                - date: '2004-02-24'
+                  acquiree: Accelerant Networks
+                - date: '2004-10-18'
+                  acquiree: Monterey Design Systems
+                - date: '2004-10-19'
+                  acquiree: Cascade Semiconductor Solutions
+                - date: '2004-11-02'
+                  acquiree: LEDA Systems
+                - date: '2004-12-02'
+                  acquiree: Nassda
+                - date: '2005-01-01'
+                  acquiree: TriCN Associates
+                - date: '2005-10-03'
+                  acquiree: HPL Technologies, Inc.
+                - date: '2006-05-16'
+                  acquiree: Virtio
+                - date: '2006-08-16'
+                  acquiree: SIGMA-C Software AG
+                - date: '2007-07-16'
+                  acquiree: Conversant Intellectual Property Management
+                - date: '2007-10-02'
+                  acquiree: ArchPro Design Automation
+                - date: '2007-10-02'
+                  acquiree: Sandwork Design
+                - date: '2008-03-20'
+                  acquiree: Syncplicity
+                - date: '2008-12-01'
+                  acquiree: PRO DESIGN Electronic
+                - date: '2009-05-11'
+                  acquiree: Chipidea Microelectrónica
+                - date: '2009-11-01'
+                  acquiree: Gemini Design Technology
+                - date: '2010-01-01'
+                  acquiree: ZEROSOFT
+                - date: '2010-02-01'
+                  acquiree: VaST Systems Technology
+                - date: '2010-02-08'
+                  acquiree: CoWare
+                - date: '2010-06-10'
+                  acquiree: Synfora
+                - date: '2010-06-10'
+                  acquiree: Virage Logic Corporation
+                - date: '2010-06-28'
+                  acquiree: Nusym Technology
+                - date: '2010-10-08'
+                  acquiree: Optical Research Associates
+                - date: '2011-09-02'
+                  acquiree: nSys Design Systems
+                - date: '2011-10-07'
+                  acquiree: Extreme DA
+                - date: '2011-11-30'
+                  acquiree: Magma Design Automation
+                - date: '2012-01-23'
+                  acquiree: ExpertIO
+                - date: '2012-05-08'
+                  acquiree: RSoft Design Group
+                - date: '2012-07-30'
+                  acquiree: CiraNova
+                - date: '2012-08-03'
+                  acquiree: SpringSoft
+                - date: '2012-10-04'
+                  acquiree: Emulation and Verification Engineering
+                - date: '2014-02-07'
+                  acquiree: Target Compiler Technologies
+                - date: '2014-02-19'
+                  acquiree: Coverity
+                - date: '2015-04-20'
+                  acquiree: Codenomicon
+                - date: '2015-06-07'
+                  acquiree: Atrenta
+                - date: '2015-06-30'
+                  acquiree: Elliptic Technologies
+                - date: '2015-07-16'
+                  acquiree: Silicon Vision
+                - date: '2015-11-06'
+                  acquiree: Protecode
+                - date: '2015-12-18'
+                  acquiree: Goanna Software
+                - date: '2016-03-03'
+                  acquiree: WinterLogic
+                - date: '2016-05-17'
+                  acquiree: Simpleware
+                - date: '2016-05-23'
+                  acquiree: Gold Standard Simulations
+                - date: '2016-11-07'
+                  acquiree: Cigital
+                - date: '2016-11-07'
+                  acquiree: Codiscope
+                - date: '2017-01-10'
+                  acquiree: Forcheck
+                - date: '2017-09-18'
+                  acquiree: QuantumWise
+                - date: '2017-10-17'
+                  acquiree: Sidense
+                - date: '2017-11-02'
+                  acquiree: BlackDuck
+                - date: '2018-01-10'
+                  acquiree: Kilopass
+                - date: '2018-02-08'
+                  acquiree: PhoeniX Software
+                - date: '2019-08-06'
+                  acquiree: QTronic
+                - date: '2020-01-10'
+                  acquiree: Tinfoil Security
+                - date: '2020-02-23'
+                  acquiree: Terrain EDA
+                - date: '2020-06-10'
+                  acquiree: Qualtera
+                - date: '2020-11-11'
+                  acquiree: Moortec Semiconductor
+                - date: '2021-05-04'
+                  acquiree: MoreThanIP GmbH
+                - date: '2021-06-08'
+                  acquiree: Code Dx
+                - date: '2021-09-02'
+                  acquiree: BISTel
+                - date: '2021-11-01'
+                  acquiree: Concertio
+                - date: '2022-04-27'
+                  acquiree: WhiteHat Security
+                - date: '2023-05-04'
+                  acquiree: Silicon Frontline Technology
+                - date: '2023-08-23'
+                  acquiree: PikeTec
+              parents: []
+              ticker: SNPS
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Electronic Design Automation (EDA)
+                - Information Services
+                - Information Technology
+                - Software
+            yahoo_finance_data:
+              effective_ticker: SNPS
+            image_data:
+              fileName: synopsys.svg
+              hash: EvmRvv8HGKfy9g5MXK+eBq+UUBpOhEblW+P1CAhiYco=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Syntronix Corporation
+            description: Syntronix wishes to build the smart home ecosystem to control many devices.
+            homepage_url: https://www.syntronix.com.tw/index.php/en/home-en/
+            logo: syntronix.svg
+            organization:
+              name: Syntronix Corporation
+            crunchbase_data:
+              name: Syntronix Corporation
+              parents: []
+            image_data:
+              fileName: syntronix-corporation.svg
+              hash: bPap6bdEZuSqB4bUF0i8DQCEQslUz/LErTnhai5Klpk=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: TASKING
+            homepage_url: https://www.tasking.com/
+            logo: TASKING.svg
+            crunchbase: https://www.crunchbase.com/organization/tasking
+            crunchbase_data:
+              name: TASKING
+              description: TASKING is a provider of embedded system compiler technology.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: https://www.tasking.com/
+              city: Munich
+              region: Bayern
+              country: Germany
+              twitter: null
+              linkedin: https://www.linkedin.com/company/tasking-inc
+              acquisitions: []
+              parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Embedded Software
+                - Software
+            image_data:
+              fileName: tasking.svg
+              hash: bsSasKzpc6WnffvxCdaxBSaJZREwGSnSX9pYQIsZYOA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Technology Innovation Institute
+            homepage_url: https://www.tii.ae/
+            logo: TII.svg
+            crunchbase: https://www.crunchbase.com/organization/technology-innovation-institute
+            crunchbase_data:
+              name: Technology Innovation Institute
+              description: Technology Innovation Institute is a research company.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://www.tii.ae/
+              city: Abu Dhabi
+              region: Abu Dhabi
+              country: United Arab Emirates
+              twitter: null
+              linkedin: https://www.linkedin.com/company/tiiuae/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries: []
+            image_data:
+              fileName: technology-innovation-institute.svg
+              hash: Uc650nRchOPcVh3H6PmTUL6uFsilD1RNG/RZi0ivfps=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Texas Instruments
+            homepage_url: https://www.ti.com/
+            logo: ti.svg
+            crunchbase: https://www.crunchbase.com/organization/texas-instruments
+            crunchbase_data:
+              name: Texas Instruments
+              description: Texas Instruments is a global semiconductor company that manufactures, designs, tests, and sells embedded and analog processing chips.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.ti.com
+              city: Dallas
+              region: Texas
+              country: United States
+              twitter: http://twitter.com/txinstruments
+              linkedin: https://www.linkedin.com/company/texas-instruments
+              acquisitions:
+                - date: '1996-02-27'
+                  acquiree: Savi Technology
+                - date: '1996-05-07'
+                  acquiree: Tartan
+                - date: '1996-06-05'
+                  acquiree: Silicon Systems Incorporated
+                - date: '1997-03-03'
+                  acquiree: Intersect Technologies
+                - date: '1997-11-19'
+                  acquiree: Amati Communications Corporation
+                - date: '1997-12-18'
+                  acquiree: GO DSP Corporation
+                - date: '1998-01-22'
+                  acquiree: Spectron Microsystems
+                - date: '1999-01-20'
+                  acquiree: Butterfly VLSI
+                - date: '1999-05-03'
+                  acquiree: Integrated Sensor Solutions
+                - date: '1999-06-07'
+                  acquiree: Telogy Networks
+                - date: '1999-06-15'
+                  acquiree: ATL Research A/S
+                - date: '1999-06-21'
+                  acquiree: Libit Signal Processing
+                - date: '1999-10-04'
+                  acquiree: PowerTrends
+                - date: '1999-10-15'
+                  acquiree: Unitrode Corporation
+                - date: '2000-03-16'
+                  acquiree: Toccata Technology
+                - date: '2000-06-21'
+                  acquiree: Burr-Brown Corporation
+                - date: '2000-06-23'
+                  acquiree: Alantro Communications
+                - date: '2000-06-29'
+                  acquiree: Dot Wireless
+                - date: '2001-09-04'
+                  acquiree: Graychip
+                - date: '2002-03-01'
+                  acquiree: Condat
+                - date: '2002-03-04'
+                  acquiree: Envoy Networks
+                - date: '2003-07-30'
+                  acquiree: Radia Communications
+                - date: '2006-01-24'
+                  acquiree: Chipcon
+                - date: '2007-08-15'
+                  acquiree: Integrated Circuit Designs
+                - date: '2007-10-10'
+                  acquiree: POWERPRECISE Solutions
+                - date: '2008-05-13'
+                  acquiree: Commergy Technologies, Ltd
+                - date: '2008-06-11'
+                  acquiree: Innovative Design Solutions
+                - date: '2009-02-11'
+                  acquiree: Ciclon Semiconductor Device Corporation
+                - date: '2009-05-14'
+                  acquiree: Luminary Micro
+                - date: '2011-04-04'
+                  acquiree: National Semiconductor
+              parents: []
+              ticker: TXN
+              funding: 5300000000
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Computer
+                - DSP
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: TXN
+            image_data:
+              fileName: texas-instruments.svg
+              hash: CX7WUUGslyYmPnoxIPA0MUnjAnyJWiOe4STdgCTTwXo=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Thales
+            homepage_url: https://www.thalesgroup.com/en
+            logo: Thales.svg
+            crunchbase: https://www.crunchbase.com/organization/thales-group
+            crunchbase_data:
+              name: Thales Group
+              description: Thales is a technology in the aerospace, transportation and defense and security markets.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.thalesgroup.com
+              city: Paris
+              region: Ile-de-France
+              country: France
+              twitter: http://twitter.com/thalesgroup
+              linkedin: https://www.linkedin.com/company/thales
+              acquisitions:
+                - date: '2000-02-01'
+                  acquiree: Thales Air Defence
+                - date: '2004-04-22'
+                  acquiree: Arisem
+                - date: '2005-11-30'
+                  acquiree: TDA Armements
+                - date: '2006-02-23'
+                  acquiree: Omnisys Engenharia
+                - date: '2006-09-11'
+                  acquiree: SVS Video Solutions
+                - date: '2007-04-04'
+                  acquiree: Thales Alenia Space
+                - date: '2008-07-11'
+                  acquiree: nCipher
+                - date: '2008-12-18'
+                  acquiree: CMT Medical Technologies
+                - date: '2012-11-15'
+                  acquiree: SYSGO AG
+                - date: '2013-02-21'
+                  acquiree: InterSense
+                - date: '2013-02-21'
+                  acquiree: Visionix
+                - date: '2014-03-17'
+                  acquiree: LiveTV
+                - date: '2016-07-01'
+                  acquiree: THALES RAYTHEON Systems
+                - date: '2016-10-21'
+                  acquiree: Avio Book
+                - date: '2017-04-29'
+                  acquiree: Guavus
+                - date: '2017-11-28'
+                  acquiree: Aveillant
+                - date: '2017-12-17'
+                  acquiree: Gemalto
+                - date: '2018-05-29'
+                  acquiree: Cubris
+                - date: '2019-01-31'
+                  acquiree: ERCOM
+                - date: '2019-06-07'
+                  acquiree: Psibernetix
+                - date: '2022-05-17'
+                  acquiree: Excellium Services
+                - date: '2022-05-17'
+                  acquiree: S21sec
+                - date: '2022-07-12'
+                  acquiree: OneWelcome
+                - date: '2023-07-25'
+                  acquiree: Imperva
+              parents: []
+              ticker: HO.PA
+              stockExchange: epa
+              company_type: For Profit
+              industries:
+                - Aerospace
+                - Cyber Security
+                - Industrial Manufacturing
+                - Security
+                - Transportation
+            yahoo_finance_data:
+              effective_ticker: HO.PA
+            image_data:
+              fileName: thales.svg
+              hash: +mrbKy0PuWknHhfKGVAwadS8wUFcU6YOJfFF3OJMkcM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Draper
+            homepage_url: https://www.draper.com/
+            logo: Draper.svg
+            crunchbase: https://www.crunchbase.com/organization/draper
+            crunchbase_data:
+              name: Draper
+              description: Draper is a non-profit laboratory focused on applied research, engineering development, education, and technology transfer.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.draper.com
+              city: Cambridge
+              region: Massachusetts
+              country: United States
+              twitter: https://twitter.com/draperlab
+              linkedin: https://www.linkedin.com/company/draper-laboratory
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Innovation Management
+                - Medical
+                - National Security
+                - Non Profit
+            image_data:
+              fileName: draper.svg
+              hash: kwFchbd4tn1G9Mlb/sfZbKwg20UF9yKGDBYeV8M0c9g=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Tactical Computing Laboratories
+            description: >-
+              Tactical Computing Laboratories was founded upon the premise that software is a first-order design principle in hardware development. Optimizing a
+              platform’s micro architecture or building accelerators for application-specific workloads is only useful if the necessary software tools &
+              optimizations are present to exploit it. Our experience in designing advanced computing platforms for computationally-intensive and data-intensive
+              workloads has proven this time and time again. As a result, we are at the forefront of advanced platform development that efficiently marries
+              traditional programming models and advanced hardware technologies.
+            homepage_url: https://tactcomplabs.com/
+            logo: TCL.svg
+            twitter: https://twitter.com/TactCompLabs
+            organization:
+              name: Tactical Computing Laboratories
+            crunchbase_data:
+              name: Tactical Computing Laboratories
+              parents: []
+            image_data:
+              fileName: tactical-computing-laboratories.svg
+              hash: nxezprqmng9eC8rW1eZ3av/axl2AcU+SqfaqLfJX4Z8=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Tiempo Secure
+            homepage_url: https://www.tiempo-secure.com/
+            logo: Tiempo-Secure.svg
+            crunchbase: https://www.crunchbase.com/organization/tiempo
+            crunchbase_data:
+              name: Tiempo
+              description: Tiempo Secure develops and qualifies high end products to address critical applications.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.tiempo-secure.com
+              city: Montbonnot-saint-martin
+              region: Rhone-Alpes
+              country: France
+              twitter: null
+              linkedin: https://in.linkedin.com/company/tiempo-s-a-s-
+              acquisitions: []
+              parents: []
+              funding: 9374264
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Automotive
+                - Cyber Security
+                - Electronics
+                - Medical Device
+              kind: funding
+            image_data:
+              fileName: tiempo-secure.svg
+              hash: ZbNHBmYMthLEwVbZm8/eN0TD8ovFVheVK9c5ra1snT0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: UC Techip
+            description: We provide high-quality silicon-proven RISC-V compatible processor IP core, verification suite, software and toolchains.
+            homepage_url: https://www.uctechip.com/
+            logo: UC Techip.svg
+            organization:
+              name: UC Techip
+            crunchbase_data:
+              name: UC Techip
+              parents: []
+            image_data:
+              fileName: uc-techip.svg
+              hash: JpEyuWq/d4gpT2bGkdqxPoXVjsAsJTJSJWpLOdcxSiI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: UNISOC
+            homepage_url: https://www.unisoc.com/cn_zh/
+            logo: UNISOC.svg
+            crunchbase: https://www.crunchbase.com/organization/unisoc
+            crunchbase_data:
+              name: UNISOC
+              description: UNISOC is a semiconductor company committed to the independent research and development of core chipsets in mobile communications and IoT.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.unisoc.com
+              city: Shanghai
+              region: Shanghai
+              country: China
+              twitter: https://twitter.com/unisoctech
+              linkedin: https://www.linkedin.com/company/unisoctechnologies
+              acquisitions:
+                - date: '2007-11-19'
+                  acquiree: Quorum Systems
+                - date: '2011-07-19'
+                  acquiree: Telegent Systems
+              parents: []
+              funding: 1583443639
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consumer Electronics
+                - Hardware
+                - Manufacturing
+                - Semiconductor
+                - Telecommunications
+              kind: funding
+            image_data:
+              fileName: unisoc.svg
+              hash: CVAwWUGN80pKBvBjQKjKhRPtdmVJ2viHTwOQUTF9Ens=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Nordic Semiconductor
+            homepage_url: https://www.nordicsemi.com/
+            logo: Nordic-Semiconductor.svg
+            crunchbase: https://www.crunchbase.com/organization/nordic-semiconductor-2
+            crunchbase_data:
+              name: Nordic Semiconductor
+              description: Nordic Semiconductor World leading semiconductor company specializing in ultra low power short range wireless communication.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.nordicsemi.com/
+              city: Oslo
+              region: Oslo
+              country: Norway
+              twitter: https://twitter.com/NordicTweets
+              linkedin: https://www.linkedin.com/company/nordic-semiconductor-asa
+              acquisitions:
+                - date: '2022-07-08'
+                  acquiree: Mobile Semiconductor
+                - date: '2023-08-15'
+                  acquiree: Atlazo
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Semiconductor
+            image_data:
+              fileName: nordic-semiconductor.svg
+              hash: yigKMQlN68eaaYlfOh0fwCFX4BZ8mD0cmw7UmgauAmM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Anlogic
+            homepage_url: https://anlogic.com/
+            logo: Anlogic.svg
+            crunchbase: https://www.crunchbase.com/organization/anlogic
+            crunchbase_data:
+              name: Anlogic
+              description: Anlogic is a Programmable logic device and chip manufacturer.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.anlogic.com/
+              city: Shanghai
+              region: Shanghai
+              country: China
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              ticker: 688107.SS
+              funding: 0
+              stockExchange: sse
+              company_type: For Profit
+              industries:
+                - Manufacturing
+            yahoo_finance_data:
+              effective_ticker: 688107.SS
+            image_data:
+              fileName: anlogic.svg
+              hash: YrrgX0zMjZcJmj8xSr2w2cN9K/ziiPzG6LFsGn6wzes=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: AISemiCon
+            description: >-
+              Applied Intelligence Semiconductors Private Limited (AISemiCon), an innovative product enterprise is founded by seasoned semiconductor
+              professionals, envisioned to deliver cutting edge products for the globe. With a vision to accelerating the transformation of technology
+              universally and mission to revolutionising the future of data-driven innovation.
+            homepage_url: https://aisemicon.in/
+            logo: AISemiCon.svg
+            organization:
+              name: Applied Intelligence Semiconductors Private Limited
+            crunchbase_data:
+              name: Applied Intelligence Semiconductors Private Limited
+              parents: []
+            image_data:
+              fileName: ai-semi-con.svg
+              hash: ndY0+lMT90tglvZEhhhE1C9OkI+TGhfXtaVIhN6GrsQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Beijing Haawking Technology Co., Ltd.
+            homepage_url: http://haawking.com/
+            logo: HAAWKING.svg
+            crunchbase: https://www.crunchbase.com/organization/haawking
+            crunchbase_data:
+              name: HAAWKING
+              description: HAAWKING is a company engaged in R&D of industrial control microprocessor and special chip for machine vision & graphic image processing.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.haawking.com
+              city: Haidian
+              region: Beijing
+              country: China
+              twitter: null
+              linkedin: >-
+                https://www.linkedin.com/company/%E5%8C%97%E4%BA%AC%E4%B8%AD%E7%A7%91%E6%98%8A%E8%8A%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/people/
+              acquisitions: []
+              parents: []
+              funding: 31370751
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Industrial
+                - Information Technology
+                - Semiconductor
+              kind: funding
+            image_data:
+              fileName: beijing-haawking-technology-co-ltd.svg
+              hash: ystQd1g602UEQYQKO664SIaUUXVnWGCI0rV2pA7KKkU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Canaan
+            homepage_url: https://www.canaan-creative.com/
+            logo: Canaan.svg
+            crunchbase: https://www.crunchbase.com/organization/canaan-creative
+            crunchbase_data:
+              name: Canaan Creative
+              description: Canaan Creative is a producer of Blockchain servers and solutions for repetition ASIC chips.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://canaan.io
+              city: Beijing
+              region: Beijing
+              country: China
+              twitter: https://twitter.com/canaanio
+              linkedin: https://www.linkedin.com/company/%E5%98%89%E6%A5%A0%E8%80%98%E6%99%BA/
+              acquisitions:
+                - date: '2017-05-20'
+                  acquiree: Proof of Existence
+              parents: []
+              ticker: CAN
+              funding: 43450427
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Bitcoin
+                - Electronics
+                - Information Technology
+                - Manufacturing
+                - Semiconductor
+                - Software
+            yahoo_finance_data:
+              effective_ticker: CAN
+            image_data:
+              fileName: canaan.svg
+              hash: n+kWa+ok3pnSf3QfxA918Nl5/8bwhjTuF1MzUyDO3BU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Chengdu Qunxin Microelectronics Technology Co., Ltd.
+            homepage_url: https://masscore.cn/
+            logo: MASSCORE.svg
+            organization:
+              name: Chengdu Qunxin Microelectronics Technology Co., Ltd.
+            crunchbase_data:
+              name: Chengdu Qunxin Microelectronics Technology Co., Ltd.
+              parents: []
+            image_data:
+              fileName: chengdu-qunxin-microelectronics-technology-co-ltd.svg
+              hash: TWH6KdRiADxo3wAQM3JRh3QjP5QkezW/P6c1rIja92w=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Hyperion Core
+            description: Hyperion Core develops the first true universal processor.
+            homepage_url: https://www.hyperion-core.com/
+            logo: Hyperion-Core.svg
+            organization:
+              name: Hyperion Core
+            crunchbase: https://www.crunchbase.com/organization/hyperion-core
+            twitter: https://twitter.com/hyperioncoreinc
+            crunchbase_data:
+              name: Hyperion Core
+              parents: []
+            image_data:
+              fileName: hyperion-core.svg
+              hash: /gdj1251B91jnOAdaCd845R40vpcehY1dFfUS6D2T3E=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: CIP United
+            homepage_url: https://www.cipunited.com/
+            logo: CIP.svg
+            crunchbase: https://www.crunchbase.com/organization/xinlianxin-intelligent-technology
+            crunchbase_data:
+              name: CIP United Co. Ltd.
+              description: CIP United Co. Ltd. is a provider of value-added services for advanced SOC designs.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: https://www.cipunited.com
+              city: Shanghai
+              region: Shanghai
+              country: China
+              twitter: null
+              linkedin: https://www.linkedin.com/company/cip-united/
+              acquisitions: []
+              parents: []
+              funding: 26875456
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Application Specific Integrated Circuit (ASIC)
+                - Computer
+                - Hardware
+                - Product Design
+              kind: funding
+            image_data:
+              fileName: cip-united.svg
+              hash: weg5PUhy8MFH7OLYToULtlFLvmbRcKMcgeKUQTn7gxw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Technolution
+            homepage_url: https://www.technolution.com/
+            logo: Technolution.svg
+            crunchbase: https://www.crunchbase.com/organization/technolution-ac5d
+            crunchbase_data:
+              name: Technolution
+              description: Technolution specializes in mobility and technology solutions.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: https://www.technolution.com/
+              city: Gouda
+              region: Zuid-Holland
+              country: The Netherlands
+              twitter: null
+              linkedin: https://www.linkedin.com/company/technolution
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Information Technology
+                - Software
+            image_data:
+              fileName: technolution.svg
+              hash: F3LYbtz+sX2uhtx36QQaSt/JIbTwBv4kqeIXGhIzVxo=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Qamcom
+            homepage_url: https://www.qamcom.com/
+            logo: Qamcom.svg
+            crunchbase: https://www.crunchbase.com/organization/qamcom
+            crunchbase_data:
+              name: Qamcom
+              description: Qamcom provides solutions, products, and services within Wireless Connectivity, Autonomous Systems, and Industrial IoT.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: https://www.qamcom.com
+              city: Göteborg
+              region: Vastra Gotaland
+              country: Sweden
+              twitter: https://twitter.com/qamcom
+              linkedin: https://www.linkedin.com/company-beta/76793
+              acquisitions: []
+              parents: []
+              funding: 56064
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Internet of Things
+                - Telecommunications
+                - Wired Telecommunications
+                - Wireless
+              kind: funding
+            image_data:
+              fileName: qamcom.svg
+              hash: 7KI0aa7WuMjq7YUZ2J2hZvrkKXDUZ0hWz58jkC76BSQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Rambus
+            homepage_url: https://www.rambus.com/
+            logo: Rambus.svg
+            crunchbase: https://www.crunchbase.com/organization/rambus
+            crunchbase_data:
+              name: Rambus
+              description: Rambus designs, develops and licenses chip interface technologies and architectures that are used in digital electronics products.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.rambus.com/us
+              city: Los Altos
+              region: California
+              country: United States
+              twitter: http://twitter.com/rambusinc
+              linkedin: https://www.linkedin.com/company/rambus?trk
+              acquisitions:
+                - date: '2009-12-14'
+                  acquiree: Global Lighting Technologies
+                - date: '2011-05-12'
+                  acquiree: Cryptography Research
+                - date: '2012-02-06'
+                  acquiree: Unity Semiconductor
+                - date: '2016-01-25'
+                  acquiree: Bell ID
+                - date: '2016-01-25'
+                  acquiree: Smart Card Software
+                - date: '2016-06-30'
+                  acquiree: Inphi - Memory Interconnect Business
+                - date: '2016-08-08'
+                  acquiree: Snowbush
+                - date: '2019-07-29'
+                  acquiree: Northwest Logic
+                - date: '2021-06-16'
+                  acquiree: AnalogX
+              parents: []
+              ticker: RMBS
+              funding: 288565568
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Architecture
+                - Lighting
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: RMBS
+            image_data:
+              fileName: rambus.svg
+              hash: M06WhbN7459tPXz7vOJ/RNJUKO6xdO+3f34oTp2hDdE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: FermionIC Design Private Limited
+            homepage_url: https://www.fermionic.design/
+            logo: fermionic.svg
+            crunchbase: https://www.crunchbase.com/organization/fermionic-design
+            crunchbase_data:
+              name: FermionIC Design
+              description: FermionIC Design is a fabless semiconductor firm that focuses on high-speed SERDES and PLLs.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.fermionic.design
+              city: Bengaluru
+              region: Karnataka
+              country: India
+              twitter: null
+              linkedin: https://www.linkedin.com/company/fermionic-design
+              acquisitions: []
+              parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Semiconductor
+            image_data:
+              fileName: fermion-ic-design-private-limited.svg
+              hash: mMk+5JLTQoDXCTlqjnHfN+SKIVOeH0YSnew+KszpNiI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Intensivate, Inc.
+            homepage_url: https://intensivate.com/
+            logo: intensivate.svg
+            crunchbase: https://www.crunchbase.com/organization/intensivate
+            crunchbase_data:
+              name: Intensivate
+              description: Intensivate provides a chip technology for cloud-based analytics and database workloads.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://intensivate.com
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/intensivate
+              acquisitions: []
+              parents: []
+              funding: 17912988
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Analytics
+                - Computer
+                - Data Center
+                - Hardware
+              kind: funding
+            image_data:
+              fileName: intensivate-inc.svg
+              hash: 4KYy60/87RTNfaNc7FgSGEjwKFZkNV8JFM4s/cxQkdE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Marvell Semiconductors Ltd
+            homepage_url: https://www.marvell.com/
+            logo: marvell.svg
+            crunchbase: https://www.crunchbase.com/organization/marvell-semiconductor
+            crunchbase_data:
+              name: Marvell
+              description: Marvell is a technology company that manufactures and offers integrated circuit solutions using communications mixed-signal processing.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.marvell.com/
+              city: Santa Clara
+              region: California
+              country: United States
+              twitter: https://twitter.com/marvellsemi
+              linkedin: https://www.linkedin.com/company/marvell
+              acquisitions:
+                - date: '2001-01-22'
+                  acquiree: Galileo Technology
+                - date: '2002-06-21'
+                  acquiree: SysKonnect GmbH
+                - date: '2003-06-27'
+                  acquiree: Marvell Software Solutions Israel
+                - date: '2006-02-21'
+                  acquiree: Avago - Printer ASICs
+                - date: '2008-01-01'
+                  acquiree: PicoMobile Networks
+                - date: '2008-11-26'
+                  acquiree: Iamba Networks
+                - date: '2010-08-19'
+                  acquiree: Diseño de Sistemas en Silicio S.A.
+                - date: '2012-04-01'
+                  acquiree: Xelerated
+                - date: '2017-11-19'
+                  acquiree: Cavium
+                - date: '2019-05-06'
+                  acquiree: Aquantia
+                - date: '2019-05-20'
+                  acquiree: Avera Semiconductor
+                - date: '2020-10-29'
+                  acquiree: INPHI
+                - date: '2021-08-03'
+                  acquiree: Innovium
+                - date: '2022-05-09'
+                  acquiree: Tanzanite Silicon Solutions
+              parents: []
+              ticker: MRVL
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - DSP
+                - Internet of Things
+                - Manufacturing
+                - Semiconductor
+                - Wireless
+            yahoo_finance_data:
+              effective_ticker: MRVL
+            image_data:
+              fileName: marvell-semiconductors-ltd.svg
+              hash: M9jLF9c/95snguD49N14bjh7DAcHfiUnr8mfJ5FkCvc=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Maven Silicon Softech Private Limited
+            homepage_url: http://maven-silicon.com/
+            logo: Maven.svg
+            crunchbase: https://www.crunchbase.com/organization/maven-silicon
+            crunchbase_data:
+              name: Maven Silicon
+              description: Maven Silicon is a VLSI training institute.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.maven-silicon.com
+              city: Bangalore
+              region: Karnataka
+              country: India
+              twitter: https://twitter.com/MavenSilicon
+              linkedin: https://www.linkedin.com/company/maven-silicon
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Corporate Training
+                - Semiconductor
+                - Training
+            image_data:
+              fileName: maven-silicon-softech-private-limited.svg
+              hash: DNVN9V+09pmV4DVCikxw9SuM+fX+0xs2V8IVCwTkuCI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: MediaTek Inc
+            homepage_url: https://www.mediatek.com/
+            logo: mediatekinc.svg
+            crunchbase: https://www.crunchbase.com/organization/mediatek
+            crunchbase_data:
+              name: MediaTek
+              description: MediaTek Inc. is a Taiwanese fabless semiconductor company that provides system-on-chip solutions for wireless communications.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.mediatek.com
+              city: Hsinchu
+              region: T'ai-wan
+              country: Taiwan
+              twitter: http://twitter.com/MediaTek
+              linkedin: https://www.linkedin.com/company/17763
+              acquisitions:
+                - date: '2006-10-27'
+                  acquiree: Pollex Mobile Holdings
+                - date: '2007-03-22'
+                  acquiree: NuCore Technologies Inc.
+                - date: '2007-09-06'
+                  acquiree: K-Will Corporation
+                - date: '2012-04-10'
+                  acquiree: Coresonic
+                - date: '2012-08-14'
+                  acquiree: MStar Semiconductor
+                - date: '2015-09-18'
+                  acquiree: Richtek Technology Corporation
+              parents: []
+              ticker: 2454.TW
+              stockExchange: tpe
+              company_type: For Profit
+              industries:
+                - Internet of Things
+                - Semiconductor
+                - Wireless
+            yahoo_finance_data:
+              effective_ticker: 2454.TW
+            image_data:
+              fileName: media-tek-inc.svg
+              hash: OQftz5bKqoCA1gDZ5+EssuS2iHuGgZLFHxUy/om+XvQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Meta Platforms, Inc.
+            homepage_url: https://www.meta.com/
+            logo: meta.svg
+            crunchbase: https://www.crunchbase.com/organization/facebook
+            crunchbase_data:
+              name: Meta
+              description: Meta is a social technology company that enables people to connect, find communities, and grow businesses.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://meta.com
+              city: Menlo Park
+              region: California
+              country: United States
+              twitter: https://www.twitter.com/Meta
+              linkedin: https://www.linkedin.com/company/meta
+              acquisitions:
+                - date: '2007-07-01'
+                  acquiree: Parakey
+                - date: '2009-08-10'
+                  acquiree: FriendFeed
+                - date: '2010-02-19'
+                  acquiree: Octazen Solutions
+                - date: '2010-04-02'
+                  acquiree: Divvyshot
+                - date: '2010-05-26'
+                  acquiree: ShareGrove
+                - date: '2010-07-28'
+                  acquiree: Hot Potato
+                - date: '2010-08-15'
+                  acquiree: Chai Labs
+                - date: '2010-09-25'
+                  acquiree: Nextstop
+                - date: '2010-10-29'
+                  acquiree: drop.io
+                - date: '2010-11-16'
+                  acquiree: Zenbe
+                - date: '2011-01-25'
+                  acquiree: Rel8tion
+                - date: '2011-02-25'
+                  acquiree: Pursuit
+                - date: '2011-03-01'
+                  acquiree: Beluga
+                - date: '2011-03-20'
+                  acquiree: Snaptu
+                - date: '2011-04-27'
+                  acquiree: Daytum
+                - date: '2011-06-09'
+                  acquiree: Sofa
+                - date: '2011-08-02'
+                  acquiree: Push Pop Press
+                - date: '2011-11-07'
+                  acquiree: Digital Staircase
+                - date: '2011-11-08'
+                  acquiree: Strobe
+                - date: '2011-11-15'
+                  acquiree: MailRank
+                - date: '2011-11-28'
+                  acquiree: WhoGlue
+                - date: '2011-12-02'
+                  acquiree: Gowalla (acquired by facebook)
+                - date: '2012-02-29'
+                  acquiree: Sendoid
+                - date: '2012-03-03'
+                  acquiree: Friend.ly
+                - date: '2012-03-10'
+                  acquiree: GazeHawk
+                - date: '2012-04-09'
+                  acquiree: Instagram
+                - date: '2012-04-13'
+                  acquiree: Tagtile
+                - date: '2012-05-04'
+                  acquiree: Glancee
+                - date: '2012-05-15'
+                  acquiree: Lightbox
+                - date: '2012-05-18'
+                  acquiree: Karma
+                - date: '2012-06-11'
+                  acquiree: Pieceable
+                - date: '2012-06-18'
+                  acquiree: Face.com
+                - date: '2012-06-21'
+                  acquiree: Bolt | Peters
+                - date: '2012-07-14'
+                  acquiree: Spool
+                - date: '2012-07-20'
+                  acquiree: Acrylic Software
+                - date: '2012-08-24'
+                  acquiree: threadsy
+                - date: '2013-02-28'
+                  acquiree: Atlas Solutions
+                - date: '2013-03-08'
+                  acquiree: Storylane
+                - date: '2013-03-14'
+                  acquiree: Hot Studio
+                - date: '2013-04-11'
+                  acquiree: Osmeta
+                - date: '2013-04-23'
+                  acquiree: Spaceport.io
+                - date: '2013-04-25'
+                  acquiree: Parse
+                - date: '2013-07-18'
+                  acquiree: Monoidics
+                - date: '2013-08-12'
+                  acquiree: Jibbigo
+                - date: '2013-10-14'
+                  acquiree: Onavo
+                - date: '2013-12-17'
+                  acquiree: SportStream
+                - date: '2014-01-13'
+                  acquiree: Branch
+                - date: '2014-02-19'
+                  acquiree: WhatsApp
+                - date: '2014-03-25'
+                  acquiree: Oculus
+                - date: '2014-03-28'
+                  acquiree: Ascenta (UK)
+                - date: '2014-04-24'
+                  acquiree: Moves
+                - date: '2014-04-24'
+                  acquiree: ProtoGeo
+                - date: '2014-06-14'
+                  acquiree: Pryte
+                - date: '2014-07-01'
+                  acquiree: Little Eye Labs
+                - date: '2014-08-07'
+                  acquiree: PrivateCore
+                - date: '2014-08-14'
+                  acquiree: LiveRail
+                - date: '2015-01-05'
+                  acquiree: Wit.ai
+                - date: '2015-01-08'
+                  acquiree: QuickFire Networks
+                - date: '2015-01-16'
+                  acquiree: Teehan+Lax
+                - date: '2015-03-13'
+                  acquiree: TheFind, Inc.
+                - date: '2015-05-20'
+                  acquiree: Tugboat Yards
+                - date: '2015-10-05'
+                  acquiree: Endaga
+                - date: '2016-03-09'
+                  acquiree: Masquerade
+                - date: '2016-05-23'
+                  acquiree: Two Big Ears Ltd
+                - date: '2016-08-08'
+                  acquiree: Eyegroove
+                - date: '2016-09-19'
+                  acquiree: Nascent Objects Inc
+                - date: '2016-11-11'
+                  acquiree: CrowdTangle
+                - date: '2017-07-24'
+                  acquiree: Source3
+                - date: '2017-07-31'
+                  acquiree: Ozlo
+                - date: '2017-08-11'
+                  acquiree: Fayteq AG
+                - date: '2017-10-16'
+                  acquiree: tbh
+                - date: '2018-01-23'
+                  acquiree: Confirm
+                - date: '2018-07-02'
+                  acquiree: Bloomsbury AI
+                - date: '2018-07-26'
+                  acquiree: RedKix
+                - date: '2018-08-14'
+                  acquiree: Vidpresso
+                - date: '2018-10-01'
+                  acquiree: Refdash
+                - date: '2018-11-28'
+                  acquiree: Dreambit
+                - date: '2019-02-08'
+                  acquiree: Grokstyle
+                - date: '2019-03-13'
+                  acquiree: Sonics
+                - date: '2019-09-22'
+                  acquiree: Servicefriend
+                - date: '2019-09-23'
+                  acquiree: CTRL-labs
+                - date: '2019-12-13'
+                  acquiree: Atlas ML
+                - date: '2019-12-19'
+                  acquiree: PlayGiga
+                - date: '2019-12-20'
+                  acquiree: Packagd
+                - date: '2020-02-09'
+                  acquiree: Scape Technologies
+                - date: '2020-02-25'
+                  acquiree: Sanzaru Games
+                - date: '2020-05-15'
+                  acquiree: Giphy
+                - date: '2020-06-18'
+                  acquiree: Mapillary
+                - date: '2020-09-22'
+                  acquiree: Lemnis Technologies
+                - date: '2020-11-30'
+                  acquiree: Kustomer
+                - date: '2021-06-04'
+                  acquiree: Unit 2 Games
+                - date: '2021-10-12'
+                  acquiree: AI.Reverie
+                - date: '2021-10-29'
+                  acquiree: Within (VR/AR)
+                - date: '2021-12-21'
+                  acquiree: ImagineOptix
+                - date: '2022-04-14'
+                  acquiree: presize.ai
+                - date: '2022-09-02'
+                  acquiree: Lofelt
+                - date: '2022-10-11'
+                  acquiree: Armature Studio
+                - date: '2022-10-11'
+                  acquiree: Camouflaj
+                - date: '2022-10-11'
+                  acquiree: Twisted Pixel Games
+                - date: '2022-12-31'
+                  acquiree: Luxexcel
+                - date: '2023-01-12'
+                  acquiree: Gary Sharp Innovations
+              parents: []
+              ticker: META
+              funding: 24622817488
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Augmented Reality
+                - Social Media
+                - Social Network
+                - Virtual Reality
+            yahoo_finance_data:
+              effective_ticker: META
+            image_data:
+              fileName: meta-platforms-inc.svg
+              hash: hAi6tf6yJTrEjCCXurqGC/K/KfSMq842e+GywUITjUg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Micro Magic, Inc.
+            homepage_url: http://micromagic.com/
+            logo: Micro Magic.svg
+            crunchbase: https://www.crunchbase.com/organization/micro-magic
+            crunchbase_data:
+              name: Micro Magic
+              description: Micro Magic is the industry leader in true 3-dimensional TSV layout tools.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.micromagic.com/
+              city: Sunnyvale
+              region: California
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/micro-magic-inc./
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Product Design
+                - Semiconductor
+            image_data:
+              fileName: micro-magic-inc.svg
+              hash: AdxX5QpeLO/CQSV4MAAsIA2ezI0DDpCc0PDjae0+C14=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: MIPS Tech LLC.
+            homepage_url: https://www.mips.com/
+            logo: mips-technologies.svg
+            crunchbase: https://www.crunchbase.com/organization/mips-technologies
+            crunchbase_data:
+              name: MIPS Technologies
+              description: MIPS Technologies develops embedded processors and related intellectual property for use in performance-oriented markets, such as
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.mips.com
+              city: San Jose
+              region: California
+              country: United States
+              twitter: http://twitter.com/MIPSGuru
+              linkedin: https://www.linkedin.com/company/mips-technologies
+              acquisitions:
+                - date: '2002-07-18'
+                  acquiree: Algorithmics Ltd
+                - date: '2005-09-06'
+                  acquiree: First Silicon Solutions
+                - date: '2007-08-27'
+                  acquiree: Chipidea Microelectrónica
+              parents: []
+              funding: 0
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Hardware
+                - Intellectual Property
+                - Semiconductor
+                - Wireless
+            image_data:
+              fileName: mips-tech-llc.svg
+              hash: 3aabokZemMJmghovJA1TypIcgdTLFOq5ORCLoJNun/o=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Morse Micro Pty. Ltd
+            homepage_url: https://www.morsemicro.com/
+            logo: Morse Micro.svg
+            crunchbase: https://www.crunchbase.com/organization/morse-micro
+            crunchbase_data:
+              name: Morse Micro
+              description: Morse Micro is a semiconductor startup developing Wi-Fi HaLow / 802.11ah chips for the Internet of Things (IoT) market.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: http://www.morsemicro.com
+              city: Surry Hills
+              region: New South Wales
+              country: Australia
+              twitter: https://twitter.com/morsemicro
+              linkedin: https://www.linkedin.com/company/morse-micro/
+              acquisitions: []
+              parents: []
+              funding: 147736648
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Internet of Things
+                - Semiconductor
+                - Wireless
+              kind: funding
+            image_data:
+              fileName: morse-micro-pty-ltd.svg
+              hash: HxtGM5pzqiyTc/zYNjdFwd0SIVsZgMU8IdeVjn/zWF0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Nanjing Qinheng Microelectronics Co., Ltd
+            homepage_url: https://www.wch.cn/
+            logo: nanjing-qinheng.svg
+            organization:
+              name: Nanjing Qinheng Microelectronics
+            crunchbase_data:
+              name: Nanjing Qinheng Microelectronics
+              parents: []
+            image_data:
+              fileName: nanjing-qinheng-microelectronics-co-ltd.svg
+              hash: N1Tf4f/1kbMbBBbRQ0V/6FZj+6F1qCMeiRwg7RGFQUU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Nanjing SemiDrive Technology Ltd.
+            homepage_url: https://www.semidrive.com/
+            logo: SemiDrive.svg
+            crunchbase: https://www.crunchbase.com/organization/semidrive
+            crunchbase_data:
+              name: SemiDrive
+              description: SemiDrive is a Car smart driving chip developer
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.semidrive.com/
+              city: Nanjing
+              region: Jiangsu
+              country: China
+              twitter: null
+              linkedin: https://www.linkedin.com/company/semidrive-semiconductor
+              acquisitions: []
+              parents: []
+              funding: 366378487
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Semiconductor
+              kind: funding
+            image_data:
+              fileName: nanjing-semi-drive-technology-ltd.svg
+              hash: h7t4OfzeiagoLyPivKshiyvSby94dNuM6qFfisXkGiw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: NewAE Technology Inc
+            homepage_url: https://www.newae.com/
+            logo: newae-technology-inc.svg
+            crunchbase: https://www.crunchbase.com/organization/newae-technology
+            crunchbase_data:
+              name: NewAE Technology
+              description: Revolutionizing the hardware security market, by making every engineer and designer aware of side-channel power analysis
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://newae.com/
+              city: Halifax
+              region: Nova Scotia
+              country: Canada
+              twitter: https://www.twitter.com/newaetech
+              linkedin: https://www.linkedin.com/company/newae-technology-inc-
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Computer
+                - Information Technology
+                - Security
+            image_data:
+              fileName: new-ae-technology-inc.svg
+              hash: CCI8ziEdXCsAO81b/ih5meEmBK5Hs+szAz6yklBZLjs=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: NSITEXE, Inc.
+            homepage_url: https://www.nsitexe.com/
+            logo: NSITEXE.svg
+            crunchbase: https://www.crunchbase.com/organization/nsitexe
+            crunchbase_data:
+              name: NSITEXE
+              description: Our mission is to contribute the evolution of next-generation semiconductor technology through our semiconductor IP products.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.nsitexe.com/
+              city: ' N/A'
+              region: ' N/A'
+              country: ' N/A'
+              twitter: null
+              linkedin: https://www.linkedin.com/company/nsitexe/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Semiconductor
+            image_data:
+              fileName: nsitexe-inc.svg
+              hash: hWVnZdDyseSZphzgGoqV+p0pV/tzaXpFuyGWfZFNEPE=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: NTLAB, UAB
+            homepage_url: https://ntlab.lt/
+            logo: NTLAB.svg
+            crunchbase: https://www.crunchbase.com/organization/ntlab
+            crunchbase_data:
+              name: NTLab
+              description: NTLab is a microelectronics company that provides chip design and production services.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://ntlab.com
+              city: Vilnius
+              region: Vilniaus Apskritis
+              country: Lithuania
+              twitter: https://twitter.com/ntlab_com
+              linkedin: https://www.linkedin.com/company/ntlab
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Manufacturing
+                - Product Design
+                - Semiconductor
+            image_data:
+              fileName: ntlab-uab.svg
+              hash: Sdt0n/Dal2EEwWvvZ+g67E6e1XgNCTT2++P3XCT8qao=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: NVIDIA Corporation
+            homepage_url: https://www.nvidia.com/en-us/
+            logo: nvidia.svg
+            crunchbase: https://www.crunchbase.com/organization/nvidia
+            crunchbase_data:
+              name: NVIDIA
+              description: NVIDIA is a computing platform company operating at the intersection of graphics, HPC, and AI.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://www.nvidia.com
+              city: Santa Clara
+              region: California
+              country: United States
+              twitter: https://www.twitter.com/nvidia
+              linkedin: https://www.linkedin.com/company/nvidia
+              acquisitions:
+                - date: '2000-12-01'
+                  acquiree: 3Dfx Interactive
+                - date: '2002-07-23'
+                  acquiree: Exluna
+                - date: '2003-08-04'
+                  acquiree: MediaQ,Inc
+                - date: '2004-04-23'
+                  acquiree: iReady
+                - date: '2005-12-14'
+                  acquiree: ULi Electronics
+                - date: '2006-03-22'
+                  acquiree: Hybrid Graphics
+                - date: '2006-11-06'
+                  acquiree: PortalPlayer
+                - date: '2007-12-13'
+                  acquiree: mental images
+                - date: '2008-02-04'
+                  acquiree: AGEIA Technologies
+                - date: '2008-05-23'
+                  acquiree: RayScale
+                - date: '2011-05-09'
+                  acquiree: Icera
+                - date: '2013-07-29'
+                  acquiree: PGI
+                - date: '2015-06-11'
+                  acquiree: TransGaming
+                - date: '2019-03-12'
+                  acquiree: Mellanox Technologies
+                - date: '2019-12-17'
+                  acquiree: Parabricks
+                - date: '2020-03-06'
+                  acquiree: SwiftStack
+                - date: '2020-05-04'
+                  acquiree: Cumulus Networks
+                - date: '2021-06-10'
+                  acquiree: DeepMap
+                - date: '2022-01-10'
+                  acquiree: Bright Computing
+                - date: '2022-03-07'
+                  acquiree: Excelero Storage
+                - date: '2022-05-01'
+                  acquiree: Animatico
+                - date: '2023-02-01'
+                  acquiree: OmniML
+              parents: []
+              ticker: NVDA
+              funding: 4095000000
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Artificial Intelligence
+                - GPU
+                - Hardware
+                - Software
+                - Virtual Reality
+            yahoo_finance_data:
+              effective_ticker: NVDA
+            image_data:
+              fileName: nvidia-corporation.svg
+              hash: bnpe8ZiSyK9ko82R7j+TQTpBQXMmmdFM3I9DLVxe5/4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: NXP Semiconductors Netherlands B.V.
+            homepage_url: https://www.nxp.com/
+            logo: nxp.svg
+            crunchbase: https://www.crunchbase.com/organization/nxp-semiconductors
+            crunchbase_data:
+              name: NXP Semiconductors
+              description: NXP Semiconductors produces secure connectivity solutions for embedded applications
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.nxp.com
+              city: Eindhoven
+              region: Noord-Brabant
+              country: The Netherlands
+              twitter: http://twitter.com/NXP
+              linkedin: https://www.linkedin.com/company/nxp-semiconductors
+              acquisitions:
+                - date: '1999-05-04'
+                  acquiree: VLSI Technology
+                - date: '2007-12-21'
+                  acquiree: GloNav
+                - date: '2008-08-11'
+                  acquiree: Conexant Systems
+                - date: '2010-07-26'
+                  acquiree: Jennic
+                - date: '2012-04-04'
+                  acquiree: Catena Holding
+                - date: '2013-05-01'
+                  acquiree: Code Red Technologies
+                - date: '2014-11-24'
+                  acquiree: Quintic
+                - date: '2015-03-02'
+                  acquiree: Freescale Semiconductor
+                - date: '2015-03-10'
+                  acquiree: Athena Smartcard
+                - date: '2018-09-03'
+                  acquiree: OmniPHY Semiconductor
+              parents: []
+              ticker: NXPI
+              funding: 596250
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Automotive
+                - Energy Efficiency
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: NXPI
+            image_data:
+              fileName: nxp-semiconductors-netherlands-b-v.svg
+              hash: BySWnO88I0JRvK0O3HDmCDkZiH3iUvp03Z3tyRKMByM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: OTSL, Inc
+            homepage_url: https://www.otsl.jp/
+            logo: otsl.svg
+            crunchbase: https://www.crunchbase.com/organization/otsl
+            crunchbase_data:
+              name: OTSL
+              description: We contribute to the development of mankind through logic
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.otsl.jp
+              city: Nagoya
+              region: Aichi
+              country: Japan
+              twitter: https://twitter.com/OTSL_Inc
+              linkedin: https://www.linkedin.com/company/otsl-inc-jp/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Software
+            image_data:
+              fileName: otsl-inc.svg
+              hash: 5C520iRyVJSKgwk2NLIPVal0UDk3ad/LHAGwjt/3ooI=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Panmnesia
+            homepage_url: https://panmnesia.com/
+            logo: panmnesia.svg
+            crunchbase: https://www.crunchbase.com/organization/panmnesia
+            crunchbase_data:
+              name: Panmnesia
+              description: Panmnesia is a Korean chip startup. It limits memory resource and makes the system sharable and more intelligent.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://panmnesia.com/
+              city: Seongnam
+              region: Kyonggi-do
+              country: South Korea
+              twitter: null
+              linkedin: https://www.linkedin.com/company/panmnesia/
+              acquisitions: []
+              parents: []
+              funding: 12500000
+              stockExchange: null
+              company_type: For Profit
+              industries: []
+              kind: funding
+            image_data:
+              fileName: panmnesia.svg
+              hash: 3gmq0VVhlKwgqe8dFMOgT5drvBnjdb5KuaEnK03Up2k=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: PEZY Computing, K.K.
+            homepage_url: https://www.pezy.co.jp/
+            logo: PEZY Computing.svg
+            crunchbase: https://www.crunchbase.com/organization/pezy-computing
+            crunchbase_data:
+              name: PEZY Computing
+              description: PEZY Computing specializes in the development and sales of processors, PCB boards, systems and software.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.pezy.co.jp/
+              city: Sarugakucho
+              region: Tokyo
+              country: Japan
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Computer
+                - Hardware
+                - Software
+            image_data:
+              fileName: pezy-computing-k-k.svg
+              hash: Z+DPK4W5sGkhzsXJXPHtLWl4hLQbfC5mV9sYkKwF6+c=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Picocom
+            homepage_url: https://picocom.com/
+            logo: picocom.svg
+            crunchbase: https://www.crunchbase.com/organization/picocom
+            crunchbase_data:
+              name: Picocom
+              description: Picocom is a 5G open RAN baseband semiconductor and software specialist.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://www.picocom.com/
+              city: Bristol
+              region: Bristol, City of
+              country: United Kingdom
+              twitter: https://twitter.com/PicocomT
+              linkedin: https://www.linkedin.com/company/picocom/
+              acquisitions: []
+              parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Infrastructure
+                - Semiconductor
+                - Software
+            image_data:
+              fileName: picocom.svg
+              hash: ruuCtbXzsjkLDJAgKx2qMH4nQIT0yDHh1R5pbBfznmM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Pixilica
+            homepage_url: https://www.pixilica.com/
+            logo: Pixilica.svg
+            organization:
+              name: Pixilica
+            crunchbase_data:
+              name: Pixilica
+              parents: []
+            image_data:
+              fileName: pixilica.svg
+              hash: 0e+AbgwAmnBzBBBfaA0Oq3zlalygcp4f64L9zVNpNFM=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: PLC2 GmbH
+            homepage_url: https://plc2.com/
+            logo: plc2.svg
+            crunchbase: https://www.crunchbase.com/organization/plc2
+            crunchbase_data:
+              name: PLC2
+              description: PLC2
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.plc2.com/
+              city: Freiburg
+              region: Baden-Wurttemberg
+              country: Germany
+              twitter: https://twitter.com/plc2gmbh?lang=de
+              linkedin: https://www.linkedin.com/company/plc2-gmbh/?originalSubdomain=de
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries: []
+            image_data:
+              fileName: plc2-gmb-h.svg
+              hash: I4BL1yo8/juwmU60WpK5dkGDZSDonLPemS3Vx8UsUN0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: PQShield Ltd.
+            homepage_url: https://pqshield.com/
+            logo: PQShield.svg
+            crunchbase: https://www.crunchbase.com/organization/pqshield
+            crunchbase_data:
+              name: PQShield
+              description: At PQShield, we help customers transition their product lines from legacy RSA and Elliptic Curve cryptography to quantum-safe standards.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://pqshield.com/
+              city: Oxford
+              region: Oxfordshire
+              country: United Kingdom
+              twitter: https://twitter.com/PqShield
+              linkedin: https://www.linkedin.com/company/pqshield/
+              acquisitions: []
+              parents: []
+              funding: 26937122
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Cyber Security
+                - Software
+              kind: funding
+            image_data:
+              fileName: pq-shield-ltd.svg
+              hash: 0iQDmsSLoHmyMeLm13peRCug+GXC1EO6U7jn9qB050Y=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Raspberry Pi (Trading) Ltd
+            homepage_url: https://www.raspberrypi.org/
+            logo: Raspberry_Pi.svg
+            crunchbase: https://www.crunchbase.com/organization/raspberry-pi
+            crunchbase_data:
+              name: Raspberry Pi
+              description: Raspberry Pi is a computer product manufacturing company that offers hardware and software solutions to homes and corporates.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: https://www.raspberrypi.com/
+              city: Cambridge
+              region: Cambridgeshire
+              country: United Kingdom
+              twitter: https://twitter.com/Raspberry_Pi
+              linkedin: https://www.linkedin.com/company/raspberrypi/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Hardware
+                - Internet
+                - Software
+            image_data:
+              fileName: raspberry-pi-trading-ltd.svg
+              hash: 6TkUWX9XuZbEjTBIqMYy3JvL/noU+hG1Az45EDWaNpU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: RTX
+            homepage_url: https://www.rtx.com/
+            logo: Raytheon_Technologies.svg
+            crunchbase: https://www.crunchbase.com/organization/raytheon-technologies-defense-training-and-mission-critical-solutions-business
+            crunchbase_data:
+              name: Raytheon Technologies - Defense Training and Mission Critical Solutions business
+              description: Raytheon Technologies - Defense Training and Mission Critical Solutions business is a provider of training and sustainment services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://www.rtx.com/our-company/our-businesses/rmd
+              city: Waltham
+              region: Massachusetts
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/raytheontechnologies
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/raytheon
+              ticker: UTC1
+              funding: 3000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Service Industry
+                - Training
+            yahoo_finance_data:
+              effective_ticker: UTC1
+            image_data:
+              fileName: rtx.svg
+              hash: HTSfLXrKxowpD+1OttPB15RkIzwE1+GG09jHB6c/6Hw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: RiVAI
+            homepage_url: https://www.rivai-ic.com.cn/overview
+            logo: RiVAI.svg
+            crunchbase: https://www.crunchbase.com/organization/rivai
+            crunchbase_data:
+              name: RiVAI
+              description: RiVAI is an AI chip R&D company that develops processors and AI chip products.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://rivai-ic.com.cn/
+              city: Shenzhen
+              region: Guangdong
+              country: China
+              twitter: null
+              linkedin: https://www.linkedin.com/company/rivai-technologies/
+              acquisitions: []
+              parents: []
+              funding: 428721
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Artificial Intelligence
+                - Machine Learning
+                - Manufacturing
+                - Semiconductor
+                - Software
+              kind: funding
+            image_data:
+              fileName: ri-vai.svg
+              hash: URmndanMl+gnT0t1Mt7KwxkIg6JkZStw7LdSh8AkybQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Rockchip Electronics CO., Ltd.
+            homepage_url: https://www.rock-chips.com/
+            logo: rock-chips.svg
+            crunchbase: https://www.crunchbase.com/organization/rockchip
+            crunchbase_data:
+              name: Rockchip
+              description: Rockchip is a integrated circuit design company, providing professional chip solutions for intelligent cellphone, tablet computer, phablet.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.rock-chips.com
+              city: Foochow
+              region: Fujian
+              country: China
+              twitter: http://twitter.com/RockchipsCES
+              linkedin: https://www.linkedin.com/company/rockchip/
+              acquisitions: []
+              parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Apps
+                - Mobile
+            image_data:
+              fileName: rockchip-electronics-co-ltd.svg
+              hash: H8s3cndSZqMdOTcxDOPRIHzwlaz6W3E/2RltfjNBUcs=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Rumble Development Corporation
+            homepage_url: http://www.rumbledev.com/
+            logo: rumble-founding.svg
+            organization:
+              name: Rumble Development Corporation
+            crunchbase_data:
+              name: Rumble Development Corporation
+              parents: []
+            image_data:
+              fileName: rumble-development-corporation.svg
+              hash: mOTgFJix1NqGAYiIJxAxSUccu//5fOq92HJNt06Em04=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: S2C Limited
+            homepage_url: https://www.s2cinc.com/
+            logo: s2c-limited.svg
+            crunchbase: https://www.crunchbase.com/organization/s2c
+            crunchbase_data:
+              name: S2C
+              description: S2C provides rapid SoC prototyping solutions for rapid FPGA-based prototyping hardware, automation software . and Prototype Ready IP/
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: https://www.s2ceda.com/en/
+              city: San Jose
+              region: California
+              country: United States
+              twitter: https://www.twitter.com/s2cinc
+              linkedin: https://www.linkedin.com/company/s2c
+              acquisitions: []
+              parents: []
+              funding: 4600000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Data Integration
+                - Hardware
+                - Manufacturing
+                - Software
+              kind: funding
+            image_data:
+              fileName: s2-c-limited.svg
+              hash: lXnQFhLiJzgakNq5m78c71Yw/K5K3/nkisieKssvA5o=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Samsung Electronics Co. Ltd.
+            homepage_url: https://www.samsung.com/us/
+            logo: samsung.svg
+            crunchbase: https://www.crunchbase.com/organization/samsung-electronics
+            crunchbase_data:
+              name: Samsung Electronics
+              description: Samsung Electronics is an electronics company that engages in consumer electronics, IT and mobile communications, and device solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.samsung.com
+              city: Seoul
+              region: Seoul-t'ukpyolsi
+              country: South Korea
+              twitter: https://www.twitter.com/samsung
+              linkedin: https://www.linkedin.com/company/samsung-electronics
+              acquisitions:
+                - date: '2007-08-09'
+                  acquiree: Genoa Color Technologies
+                - date: '2008-03-01'
+                  acquiree: Clairvoyante, Inc.
+                - date: '2011-01-19'
+                  acquiree: Liquavista
+                - date: '2011-08-01'
+                  acquiree: Grandis
+                - date: '2011-11-15'
+                  acquiree: Nexus Dx
+                - date: '2011-12-01'
+                  acquiree: ZigZag Software
+                - date: '2012-05-09'
+                  acquiree: mSpot
+                - date: '2012-06-01'
+                  acquiree: Nanoradio
+                - date: '2012-12-15'
+                  acquiree: NVELO
+                - date: '2013-01-29'
+                  acquiree: NeuroLogica
+                - date: '2013-05-06'
+                  acquiree: MOVL
+                - date: '2013-07-03'
+                  acquiree: Boxee
+                - date: '2013-08-09'
+                  acquiree: Novaled
+                - date: '2014-06-05'
+                  acquiree: Shelby.tv
+                - date: '2014-07-14'
+                  acquiree: SmartThings
+                - date: '2014-09-02'
+                  acquiree: PrinterOn
+                - date: '2014-11-02'
+                  acquiree: Proximal Data
+                - date: '2015-01-30'
+                  acquiree: Simpress
+                - date: '2015-02-18'
+                  acquiree: LoopPay
+                - date: '2015-03-17'
+                  acquiree: YESCO Electronics
+                - date: '2016-06-16'
+                  acquiree: AdGear
+                - date: '2016-06-16'
+                  acquiree: Joyent
+                - date: '2016-08-10'
+                  acquiree: DACOR
+                - date: '2016-10-05'
+                  acquiree: Viv
+                - date: '2016-10-27'
+                  acquiree: Tachyon
+                - date: '2016-11-14'
+                  acquiree: Harman International
+                - date: '2016-11-15'
+                  acquiree: NewNet Communication Technologies
+                - date: '2016-11-23'
+                  acquiree: QD Vision
+                - date: '2017-02-03'
+                  acquiree: Perch
+                - date: '2017-02-15'
+                  acquiree: Melaud
+                - date: '2017-06-16'
+                  acquiree: VRB
+                - date: '2017-07-10'
+                  acquiree: innoetics
+                - date: '2017-11-28'
+                  acquiree: Fluenty
+                - date: '2018-03-06'
+                  acquiree: Kngine
+                - date: '2018-10-17'
+                  acquiree: Zhilabs
+                - date: '2019-01-28'
+                  acquiree: Corephotonics
+                - date: '2020-01-13'
+                  acquiree: TeleWorld Solutions
+                - date: '2022-06-28'
+                  acquiree: Cynora
+              parents: []
+              ticker: 005930.KS
+              funding: 0
+              stockExchange: krx
+              company_type: For Profit
+              industries:
+                - Consumer Electronics
+                - Electronics
+                - Manufacturing
+                - Mobile
+                - Mobile Devices
+            yahoo_finance_data:
+              effective_ticker: 005930.KS
+            image_data:
+              fileName: samsung-electronics-co-ltd.svg
+              hash: poNeeavfgMvEiaGrHHXF48SB3+q+D52SllopnF3aT6k=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Secure-IC
+            homepage_url: https://www.secure-ic.com/
+            logo: Secure-IC.svg
+            crunchbase: https://www.crunchbase.com/organization/secure-ic
+            crunchbase_data:
+              name: Secure-IC
+              description: Secure-IC is quickly becoming a thought leader in the creation of sustainable embedded technologies.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://secure-ic.com
+              city: Cesson-sévigné
+              region: Bretagne
+              country: France
+              twitter: https://www.twitter.com/secureic
+              linkedin: https://www.linkedin.com/company/secure-ic
+              acquisitions:
+                - date: '2022-11-03'
+                  acquiree: Silex Insight
+              parents: []
+              funding: 22626021
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consumer Electronics
+                - Cyber Security
+                - Information Technology
+                - Virtual Reality
+              kind: funding
+            image_data:
+              fileName: secure-ic.svg
+              hash: Ae4+kxOpsFHMGPccJo+8H9kZ41Cx+qDC/F3WYSvIDXU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: SemiFive
+            homepage_url: https://semifive.com/
+            logo: SemiFive.svg
+            crunchbase: https://www.crunchbase.com/organization/semi-five
+            crunchbase_data:
+              name: SEMIFIVE
+              description: SEMIFIVE is an end to end semiconductor custom silicon design company.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://www.semifive.com
+              city: Seongnam
+              region: Kyonggi-do
+              country: South Korea
+              twitter: null
+              linkedin: https://www.linkedin.com/company/40820599/
+              acquisitions:
+                - date: '2021-12-14'
+                  acquiree: Hanatec
+              parents: []
+              funding: 199000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Product Design
+                - Semiconductor
+              kind: funding
+            image_data:
+              fileName: semi-five.svg
+              hash: 6KFNF7py6IatfbFAvDLk16ombBl5XrY4DGidxWRG9sg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Shanghai MoLian Information Technology Co., Ltd
+            homepage_url: http://aitos.io/
+            logo: shanghai-molian.svg
+            crunchbase: https://www.crunchbase.com/organization/molian-technology
+            crunchbase_data:
+              name: Molian Technology
+              description: Molian Technology focuses on identity authentication and data privacy protection.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://aitos.io/en/index.html
+              city: Shanghai
+              region: Shanghai
+              country: China
+              twitter: null
+              linkedin: https://www.linkedin.com/company/aitos-io/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Identity Management
+                - Information Technology
+                - Internet of Things
+            image_data:
+              fileName: shanghai-mo-lian-information-technology-co-ltd.svg
+              hash: T5cK2QoWFaPT//ZjRZIBmjF53dUyMwPMMB5py7dUMrw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Wanxiang Blockchain
+            homepage_url: https://www.wxblockchain.com/#/home
+            logo: wxblockchain.svg
+            crunchbase: https://www.crunchbase.com/organization/shanghai-wanxiang-blockchain-inc
+            crunchbase_data:
+              name: Wanxiang Blockchain
+              description: Wanxiang Blockchain provides technology, capital and resources to industrial development and business adoption in blockchain industry.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://www.wxblockchain.com/
+              city: Shanghai
+              region: Shanghai
+              country: China
+              twitter: https://twitter.com/wxblockchain
+              linkedin: https://www.linkedin.com/company/wxblockchain/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Finance
+                - Financial Services
+            image_data:
+              fileName: wanxiang-blockchain.svg
+              hash: SgRvVOEpNH0++cReE4S/v0aFwkJwmbykbM9r6HAVX8A=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: ShenZhen Bluetrum Technology Co., Ltd
+            homepage_url: https://www.bluetrum.com/
+            logo: Bluetrum.svg
+            organization:
+              name: ShenZhen Bluetrum Technology Co., Ltd
+            crunchbase_data:
+              name: ShenZhen Bluetrum Technology Co., Ltd
+              parents: []
+            image_data:
+              fileName: shen-zhen-bluetrum-technology-co-ltd.svg
+              hash: zEarrruyKO3eVz0f/qrJkTF4Lsh05PYErNoyaHdBL2w=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Shenzhen MilkV Technology Co., Ltd
+            homepage_url: https://milkv.io/
+            logo: milkv.svg
+            organization:
+              name: Shenzhen MilkV Technology Co., Ltd
+            crunchbase_data:
+              name: Shenzhen MilkV Technology Co., Ltd
+              parents: []
+            image_data:
+              fileName: shenzhen-milk-v-technology-co-ltd.svg
+              hash: jz195zFwe/5NteXIFTTj2iqtwtUxPyD/7xB8BVlWxIo=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Signaloid
+            homepage_url: https://signaloid.com/
+            logo: Signaloid.svg
+            crunchbase: https://www.crunchbase.com/organization/signaloid
+            crunchbase_data:
+              name: Signaloid
+              description: Signaloid is a cloud-based computing platform.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.signaloid.ai/
+              city: Cambridge
+              region: Cambridgeshire
+              country: United Kingdom
+              twitter: null
+              linkedin: https://www.linkedin.com/company/signaloid/
+              acquisitions: []
+              parents: []
+              funding: 3695009
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Cloud Computing
+                - Information Technology
+                - Software
+              kind: funding
+            image_data:
+              fileName: signaloid.svg
+              hash: vM+C7CO7yVrZVx1oYEW9Wsgi0DBva+knXG5jueFGRy0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Signoff Semiconductors Inc.
+            homepage_url: https://signoffsemiconductors.com/
+            logo: SignOff.svg
+            organization:
+              name: Signoff Semiconductors Inc.
+            crunchbase_data:
+              name: Signoff Semiconductors Inc.
+              parents: []
+            image_data:
+              fileName: signoff-semiconductors-inc.svg
+              hash: JFywakWDfDK/3EzH15CYy8lb2YhyqKHF5tz5/69dFnw=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Silansys Semiconductor Ltd
+            homepage_url: http://silansys.com/
+            logo: silansys.svg
+            crunchbase: https://www.crunchbase.com/organization/silansys-semiconductor
+            crunchbase_data:
+              name: Silansys Semiconductor
+              description: Silansys Semicondictor delivers turnkey ASIC product and IC design services for complex mixed-signal intensive products.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.silansys.com
+              city: Dublin
+              region: Dublin
+              country: Ireland
+              twitter: null
+              linkedin: https://www.linkedin.com/company-beta/8572166/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Manufacturing
+                - Product Design
+            image_data:
+              fileName: silansys-semiconductor-ltd.svg
+              hash: UWIDV+S0kQwZAGa3PTCJ/6YK+0UOvrqOUsCP2u8aE1U=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Silicon Integrated Systems Corp.
+            homepage_url: https://www.sis.com/default.aspx
+            logo: SiS.svg
+            crunchbase: https://www.crunchbase.com/organization/silicon-integrated-systems
+            crunchbase_data:
+              name: Silicon Integrated Systems
+              description: Silicon Integrated Systems operates as an integrated circuits design company that provides touch solutions.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.sis.com/
+              city: Hsinchu
+              region: T'ai-wan
+              country: Taiwan
+              twitter: null
+              linkedin: https://www.linkedin.com/company/silicon-integrated-systems-
+              acquisitions: []
+              parents: []
+              ticker: 2363.TW
+              stockExchange: tpe
+              company_type: For Profit
+              industries:
+                - Electronics
+                - Manufacturing
+                - Semiconductor
+            yahoo_finance_data:
+              effective_ticker: 2363.TW
+            image_data:
+              fileName: silicon-integrated-systems-corp.svg
+              hash: kZuJMssVqsscvZk41nFt31YpCB3AcdE4HCROLkKD0+w=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Solid Sands
+            homepage_url: https://solidsands.com/
+            logo: Solid Sands.svg
+            organization:
+              name: Solid Sands
+            crunchbase_data:
+              name: Solid Sands
+              parents: []
+            image_data:
+              fileName: solid-sands.svg
+              hash: RLdX1m/lGUo82LFPurt0FQe54au/nqAD9bfNZK31NkI=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Community
         items:
@@ -6692,6 +9635,33 @@ landscape:
             image_data:
               fileName: university-of-bremen.svg
               hash: jw7m4wa0wJGmy0X2jTsBltGeIt8rkrjmlYoJ5+jSkEQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Politecnico di Milano
+            homepage_url: https://polimi.it/
+            logo: Polimi.svg
+            crunchbase: https://www.crunchbase.com/organization/politecnico-di-milano-9430
+            crunchbase_data:
+              name: Politecnico di Milano
+              description: Politecnico Milano is a scientific-technological university which trains engineers, architects and designers.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: null
+              city: ' N/A'
+              region: ' N/A'
+              country: ' N/A'
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            image_data:
+              fileName: politecnico-di-milano.svg
+              hash: 3PW/K8iBZOIYSTNAGaebPqm8Zm25WYbqIfUhbWKPwYc=
             best_practice_data:
               badge: false
               percentage: null
@@ -7376,6 +10346,89 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: AIRISC
+            description: >-
+              The AIRISC family of RISC-V cores developed by Fraunhofer IMS enables efficient machine learning and AI in sensors, IoT devices, and other
+              embedded applications. AIRISC variants with extended safety mechanisms such as dual-core lock-stepping (DCLS) or error correcting codes (ECC) are
+              available for use in fail-safe systems according to ISO 26262 (up to ASIL-D) and DIN 61508.
+
+
+              The AIRISC Core Complex is based on a 32-bit RISC-V CPU compatible to the RISC-V unprivileged and privileged specifications also supporting the
+              RISC-V External Debug specification. The CPU implements a Harvard architecture with a four-level pipeline and separate AHB-Lite interfaces for
+              instruction fetch and data access. The core's RV32I_Zicsr base ISA can be further extended via a unified co-processor interface (PCPI).
+            homepage_url: https://www.ims.fraunhofer.de/en/Core-Competence/Smart-Sensor-Systems/Integrated-Sensor-Systems/airisc-family.html
+            repo_url: https://github.com/Fraunhofer-IMS/airisc_core_complex
+            logo: AIRISC.svg
+            crunchbase: https://www.crunchbase.com/organization/fraunhofer-verbund-mikroeleketronik
+            second_path: Implementations / Chips + Processors
+            crunchbase_data:
+              name: Fraunhofer - Verbund Mikroeleketronik
+              description: The Fraunhofer Society is a research organization based on different fields of applied science.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.mikroelektronik.fraunhofer.de
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: null
+              linkedin: https://www.linkedin.com/company/fraunhofer-verbund-mikroelektronik
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Data Integration
+                - Electronics
+                - Market Research
+            github_data:
+              languages:
+                - name: Verilog
+                  value: 604265
+                  color: '#b2b7f8'
+                - name: Tcl
+                  value: 178477
+                  color: '#e4cc98'
+                - name: SystemVerilog
+                  value: 131902
+                  color: '#DAE1C2'
+                - name: C
+                  value: 98888
+                  color: '#555555'
+                - name: Makefile
+                  value: 31972
+                  color: '#427819'
+                - name: Assembly
+                  value: 4125
+                  color: '#6E4C13'
+                - name: Shell
+                  value: 586
+                  color: '#89e051'
+                - name: GDB
+                  value: 77
+              contributions: 0;0;0;0;0;4;23;0;0;0;0;3;1;0;0;0;5;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;10;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2022-10-02Z
+              stars: 58
+              license: Other
+              description: Fraunhofer IMS processor core. RISC-V ISA (RV32IM) with additional peripherals for embedded AI applications and smart sensors.
+              latest_commit_date: '2023-06-02T15:55:13Z'
+              latest_commit_link: /Fraunhofer-IMS/airisc_core_complex/commit/faecbe6460a69fd9eff6d6460c61cf31544f0325
+              release_date: '2023-06-02T15:50:14Z'
+              release_link: https://github.com/Fraunhofer-IMS/airisc_core_complex/releases
+              contributors_count: 4
+              contributors_link: https://github.com/Fraunhofer-IMS/airisc_core_complex/graphs/contributors
+            repos:
+              - url: https://github.com/Fraunhofer-IMS/airisc_core_complex
+                stars: 58
+            github_start_commit_data:
+              start_commit_link: /Fraunhofer-IMS/airisc_core_complex/commit/a5a18eaf52f8fe4e14c2a051df3d1d0dd5b52861
+              start_date: '2021-12-13T13:47:45Z'
+            image_data:
+              fileName: airisc.svg
+              hash: cY9+q4KfSmkZm69UZMHpjwu/DjJlFGbO3SRPIZIWaAA=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Single Board Computers
         items:
@@ -7749,6 +10802,68 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: NEORV32
+            second_path: Implementations / IP
+            description: >-
+              A tiny, customizable and highly extensible MCU-class 32-bit RISC-V soft-core CPU and microcontroller-like SoC written in platform-independent
+              VHDL.
+            homepage_url: https://github.com/stnolting/neorv32
+            repo_url: https://github.com/stnolting/neorv32
+            logo: NEORV32.svg
+            organization:
+              name: Stephan Nolting (RISC-V community member) / the NEORV32 open-source community
+            crunchbase_data:
+              name: Stephan Nolting (RISC-V community member) / the NEORV32 open-source community
+              parents: []
+            github_data:
+              languages:
+                - name: VHDL
+                  value: 1324006
+                  color: '#adb2cb'
+                - name: C
+                  value: 1209121
+                  color: '#555555'
+                - name: Makefile
+                  value: 43490
+                  color: '#427819'
+                - name: Assembly
+                  value: 29400
+                  color: '#6E4C13'
+                - name: C++
+                  value: 5464
+                  color: '#f34b7d'
+                - name: Shell
+                  value: 4250
+                  color: '#89e051'
+                - name: Python
+                  value: 3829
+                  color: '#3572A5'
+              contributions: 6;6;19;8;11;38;11;4;0;23;29;32;50;1;32;32;19;3;23;24;28;54;91;61;49;26;28;32;35;40;27;15;4;21;0;18;0;8;23;21;0;31;73;53;27;14;31;19;28;9;15;13
+              firstWeek: 2022-10-02Z
+              stars: 1234
+              license: BSD 3-Clause "New" or "Revised" License
+              description: >-
+                🖥️ A tiny, customizable and highly extensible MCU-class 32-bit RISC-V soft-core CPU and microcontroller-like SoC written in
+                platform-independent VHDL.
+              latest_commit_date: '2023-09-23T07:32:50Z'
+              latest_commit_link: /stnolting/neorv32/commit/dc15bebd162e717e5c4d5859f49fe7ced05b0092
+              release_date: '2023-09-09T08:34:38Z'
+              release_link: https://github.com/stnolting/neorv32/releases
+              contributors_count: 32
+              contributors_link: https://github.com/stnolting/neorv32/graphs/contributors
+            repos:
+              - url: https://github.com/stnolting/neorv32
+                stars: 1234
+            github_start_commit_data:
+              start_commit_link: /stnolting/neorv32/commit/45d64ba6fe99e33c619efc06f5bfe706c44c3add
+              start_date: '2020-06-23T15:29:42Z'
+            image_data:
+              fileName: neorv32.svg
+              hash: +VoAQ0I0ffdiPDuJXfZIHmrZHV/smGqdiAErdoS7zQo=
+            best_practice_data:
+              badge: 4093
+              percentage: 66
       - subcategory:
         name: HPC Systems
         items:
@@ -22014,6 +25129,70 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Cloud-V
+            description: >-
+              Software development/CI platform created by 10xEngineers based on RISC-V hardware and emulated compute instances for building applications on
+              RISC-V.
+            homepage_url: https://cloud-v.co/
+            repo_url: https://github.com/10x-Engineers/riscv-ci-partners
+            logo: Cloud-V.svg
+            crunchbase: https://www.crunchbase.com/organization/10xengineers
+            crunchbase_data:
+              name: 10xEngineers
+              description: 10xEngineers provides hardware verification services.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.10xengineers.ai
+              city: Irvine
+              region: California
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/10xengineers/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Hardware
+                - Recruiting
+                - Semiconductor
+                - Training
+            github_data:
+              languages:
+                - name: HTML
+                  value: 140078
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 106930
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 4597
+                  color: '#563d7c'
+                - name: Shell
+                  value: 58
+                  color: '#89e051'
+              contributions: 2;39;7;11;6;4;2;8;6;3;9;1;1;23;8;2;0;0;0;0;0;1;0;1;5;0;0;0;0;0;0;0;4;1;0;0;1;0;0;0;1;0;0;0;0;0;0;1;0;0;1;2
+              firstWeek: 2022-10-02Z
+              stars: 3
+              license: MIT License
+              description: RISC-V CI Partners Project
+              latest_commit_date: '2023-09-21T06:17:35Z'
+              latest_commit_link: /10x-Engineers/riscv-ci-partners/commit/880d8dcdcc0a8cac9e0910cde21cde2b88658621
+              contributors_count: 2
+              contributors_link: https://github.com/10x-Engineers/riscv-ci-partners/graphs/contributors
+            repos:
+              - url: https://github.com/10x-Engineers/riscv-ci-partners
+                stars: 3
+            github_start_commit_data:
+              start_commit_link: /10x-Engineers/riscv-ci-partners/commit/0423cd590234f5f24e7ddfbea5cef62f938b0e4c
+              start_date: '2022-06-30T10:55:57Z'
+            image_data:
+              fileName: cloud-v.svg
+              hash: 2pegLZ4FT8npW7o8fBrw3h9Yy+G7Ap3dc0M38d0Z+Vo=
+            best_practice_data:
+              badge: false
+              percentage: null
   - category:
     name: RISC-V Programs
     subcategories:
@@ -22026,6 +25205,11 @@ landscape:
             repo_url: https://github.com/riscv-non-isa/riscv-arch-test
             logo: RISCV-Compatible.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
+            description: >-
+              The “RISC-V CompatibleTM” trademarks are the only RISC-V trademarks used for purposes of software compatibility across cores; other trademarks do
+              and will exist around the usage of  “RISC-V”. By convention, product collateral may only use the word “compatible” in the context of “RISC-V
+              Compatible” (e.g. profiles like RISC-V CompatibleTM RVA22) or an individual extension (e.g. RISC-V CompatibleTM V Extension) or platforms (naming
+              TBD by the platform HSC).
             crunchbase_data:
               name: RISC - V (Risk Five)
               description: RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.
@@ -22078,6 +25262,9 @@ landscape:
             homepage_url: https://riscv.org/risc-v-developer-boards/
             logo: RVI-DevBoards.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
+            description: >-
+              The RISC-V Developer Boards program serves to evangelize and promote the RISC-V architecture by partnering with RISC-V hardware vendors to donate
+              hardware to projects.
             crunchbase_data:
               name: RISC - V (Risk Five)
               description: RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.
@@ -22108,6 +25295,9 @@ landscape:
             homepage_url: https://riscv.org/risc-v-development-partner/
             logo: RVI-DevPartner.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
+            description: >-
+              The RISC-V Development Partner Program recognizes the investment and dedication of organizations making significant technical contributions to
+              RISC-V.
             crunchbase_data:
               name: RISC - V (Risk Five)
               description: RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.
@@ -22138,6 +25328,9 @@ landscape:
             homepage_url: https://riscv.org/learn/
             logo: RVI-Learn.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
+            description: >-
+              RISC-V Learn offers resources to get you started with your RISC-V learning or take your experience to the next level with university resources and
+              courses from our trusted training partners.
             crunchbase_data:
               name: RISC - V (Risk Five)
               description: RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.
@@ -22168,6 +25361,9 @@ landscape:
             homepage_url: https://riscv.org/risc-v-advocates/
             logo: RVI-Advocate.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
+            description: >-
+              Advocates are RISC-V enthusiasts who work together with RISC-V International to ensure global momentum and adoption. Successful advocates include
+              engineering students and early stage adopters who are passionate about sharing their knowledge and love of RISC-V with the community.
             crunchbase_data:
               name: RISC - V (Risk Five)
               description: RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.
@@ -22198,6 +25394,11 @@ landscape:
             homepage_url: https://riscv.org/alliances/
             logo: RVI-Alliance.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
+            description: >-
+              The growth and popularity of RISC-V can be attributed to the many regional and industry alliances we maintain around the world. Regional alliances
+              are able to communicate locally, provide local events, and maintain relationships in a way that no single organization could do on its own.
+              Likewise, industry alliances create multiple feedback channels on both technical and non-technical topics that help both the RISC-V community and
+              the industries using the RISC-V technology.
             crunchbase_data:
               name: RISC - V (Risk Five)
               description: RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.
@@ -22223,6 +25424,39 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2023-04-19T18:19:34.000Z
+          - item:
+            name: RISC-V Landscape
+            homepage_url: https://riscv.org/risc-v-landscape/
+            logo: RISC-V_Landscape.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+            description: >-
+              The RISC-V Ecosystem Landscape is a living document that developers, investors, vendors, researchers and others can use as a resource on the
+              ecosystem supported by RISC-V.
+            crunchbase_data:
+              name: RISC - V (Risk Five)
+              description: RISC - V (Risk Five) is a new instruction set architecture, supporting computer architecture research and education.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://riscv.org/
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: http://twitter.com/RISC_V
+              linkedin: https://www.linkedin.com/company/risc-v-foundation
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+            image_data:
+              fileName: risc-v-landscape.svg
+              hash: n4PJzXQQXeeo/Yr2iYPY+1CDP7ScTP/+L5ubj1yWPeo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-19T18:19:34.000Z
   - category:
     name: Design Tools, Compilers and Verification
     subcategories:
@@ -22236,6 +25470,9 @@ landscape:
             project_org: https://github.com/renode
             logo: Renode.svg
             crunchbase: https://www.crunchbase.com/organization/antmicro
+            description: Renode is a development framework which accelerates IoT and embedded systems development, by simulating physical hardware systems
+            license: MIT License
+            twitter: https://twitter.com/renodeio
             crunchbase_data:
               name: Antmicro
               description: Antmicro is an embedded software company working with emerging technologies, prototyping and feasibility studies.
@@ -22334,8 +25571,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-19T10:18:08.000Z
           - item:
             name: Buildbot
             homepage_url: https://buildbot.net/
