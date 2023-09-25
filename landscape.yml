@@ -36,29 +36,27 @@ landscape:
             twitter: https://twitter.com/ventanamicro
             description: Ventana is creating high performance RISC-V chiplets and IP for the data center, automotive, 5G edge, and client markets.
           - item:
-            name: Beijing Institute of Open Source Chip
+            name: Beijing Institute of Open Source Chip (member)
             homepage_url: https://www.bosc.ac.cn/
             logo: beijing-institute-of-open-source-chip.svg
             crunchbase: https://www.crunchbase.com/organization/beijing-institute-of-open-source-chip
           - item:
-            name: Huawei Technologies
+            name: Huawei Technologies (member)
             homepage_url: https://www.huawei.com/
             logo: huawei.svg
             crunchbase: https://www.crunchbase.com/organization/huawei
           - item:
-            name: Imagination Technologies Group Ltd.
+            name: Imagination Technologies Group Ltd. (member)
             homepage_url: https://imgtec.com/
             logo: imagination.svg
             crunchbase: https://www.crunchbase.com/organization/imagination-technologies
-            second_path: Implementations / IP
           - item:
-            name: Intel Corporation
+            name: Intel Corporation (member)
             homepage_url: https://www.intel.com/
             logo: intel-corporation.svg
             crunchbase: https://www.crunchbase.com/organization/intel
           - item:
-            name: SiFive
-            second_path: Implementations / Chips + Processors
+            name: SiFive (member)
             homepage_url: https://sifive.com/
             logo: sifive-founding.svg
             crunchbase: https://www.crunchbase.com/organization/sifive
@@ -1233,6 +1231,11 @@ landscape:
             homepage_url: http://www.andestech.com/
             logo: andes-founding.svg
             crunchbase: https://www.crunchbase.com/organization/andes-technology
+          - item:
+            name: Imagination Technologies Group Ltd.
+            homepage_url: https://imgtec.com/
+            logo: imagination.svg
+            crunchbase: https://www.crunchbase.com/organization/imagination-technologies
       - subcategory:
         name: Single Board Computers
         items:
@@ -1327,6 +1330,11 @@ landscape:
             logo: VentanaLogo.svg
             twitter: https://twitter.com/ventanamicro
             crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
+          - item:
+            name: SiFive
+            homepage_url: https://sifive.com/
+            logo: sifive-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/sifive
       - subcategory:
         name: HPC Systems
         items:
