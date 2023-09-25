@@ -29,13 +29,10 @@ landscape:
             logo: andes-founding.svg
             crunchbase: https://www.crunchbase.com/organization/andes-technology
           - item:
-            name: Ventana Micro Systems
+            name: Ventana Micro Systems (member)
             homepage_url: https://www.ventanamicro.com/
             logo: VentanaLogo.svg
             crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
-            second_path:
-              - Implementations / Chips + Processors
-              - Implementations / IP
             twitter: https://twitter.com/ventanamicro
             description: Ventana is creating high performance RISC-V chiplets and IP for the data center, automotive, 5G edge, and client markets.
           - item:
@@ -1319,6 +1316,14 @@ landscape:
             homepage_url: https://www.alibabagroup.com/
             logo: alibaba.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba
+          - item:
+            name: Ventana Micro Systems
+            second_path: Implementations / IP
+            description: Ventana is creating high performance RISC-V chiplets and IP for the data center, automotive, 5G edge, and client markets.
+            homepage_url: https://www.ventanamicro.com/
+            logo: VentanaLogo.svg
+            twitter: https://twitter.com/ventanamicro
+            crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
       - subcategory:
         name: HPC Systems
         items:
