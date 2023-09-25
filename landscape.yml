@@ -145,13 +145,10 @@ landscape:
             extra:
               Official GitHub: https://github.com/starfive-tech/
           - item:
-            name: Imperas
+            name: Imperas (member)
             homepage_url: https://www.imperas.com/
             logo: Imperas.svg
             crunchbase: https://www.crunchbase.com/organization/imperas
-            second_path:
-              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
-              - Services / Services
           - item:
             name: Embecosm
             homepage_url: https://www.embecosm.com/
@@ -2041,7 +2038,13 @@ landscape:
     subcategories:
       - subcategory:
         name: Design Tools + Compilers
-        items: []
+        items:
+          - item:
+            name: Imperas
+            second_path: Services / Services
+            homepage_url: https://www.imperas.com/
+            logo: Imperas.svg
+            crunchbase: https://www.crunchbase.com/organization/imperas
   - category:
     name: Services
     subcategories:
