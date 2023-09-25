@@ -278,11 +278,12 @@ landscape:
             logo: microchip-founding.svg
             crunchbase: https://www.crunchbase.com/organization/microchip-technology
           - item:
-            name: Antmicro
-            second_path: Services / Services
+            name: Antmicro (member)
             homepage_url: https://antmicro.com/
             logo: antmicro-founding.svg
             crunchbase: https://www.crunchbase.com/organization/antmicro
+            extra:
+              hide_no_best_practices: 'true'
           - item:
             name: MachineWare
             homepage_url: https://machineware.de/
@@ -2050,6 +2051,11 @@ landscape:
             repo_url: https://github.com/10x-Engineers/riscv-ci-partners
             logo: Cloud-V.svg
             crunchbase: https://www.crunchbase.com/organization/10xengineers
+          - item:
+            name: Antmicro
+            homepage_url: https://antmicro.com/
+            logo: antmicro-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/antmicro
   - category:
     name: RISC-V Programs
     subcategories:
