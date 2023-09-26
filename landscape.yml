@@ -365,17 +365,13 @@ landscape:
             extra:
               GitHub: https://github.com/Nuclei-Software/
           - item:
-            name: Tenstorrent
+            name: Tenstorrent (member)
             description: >-
               Tenstorrent builds AI/ML accelerators and RISC-V processors in the form of IP, chiplets, chips, and boards that are scalable from 8-wide for data
               centers to 2-wide for edge and embedded IoT solutions.
             homepage_url: https://tenstorrent.com/
             logo: tenstorrent.svg
             crunchbase: https://www.crunchbase.com/organization/tenstorrent
-            second_path:
-              - Implementations / IP
-              - Implementations / Chips + Processors
-              - Implementations / Accelerators
           - item:
             name: Arduino
             homepage_url: https://arduino.org/
@@ -1219,6 +1215,17 @@ landscape:
             homepage_url: https://imgtec.com/
             logo: imagination.svg
             crunchbase: https://www.crunchbase.com/organization/imagination-technologies
+          - item:
+            name: Tenstorrent
+            second_path:
+              - Implementations / Chips + Processors
+              - Implementations / Accelerators
+            description: >-
+              Tenstorrent builds AI/ML accelerators and RISC-V processors in the form of IP, chiplets, chips, and boards that are scalable from 8-wide for data
+              centers to 2-wide for edge and embedded IoT solutions.
+            homepage_url: https://tenstorrent.com/
+            logo: tenstorrent.svg
+            crunchbase: https://www.crunchbase.com/organization/tenstorrent
       - subcategory:
         name: Single Board Computers
         items:
