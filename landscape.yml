@@ -155,12 +155,9 @@ landscape:
             logo: embecosm.svg
             crunchbase: https://www.crunchbase.com/organization/embecosm
           - item:
-            name: VRULL
+            name: VRULL (member)
             homepage_url: http://vrull.eu/
             logo: VRULL-new.svg
-            second_path:
-              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
-              - Services / Services
             crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
           - item:
             name: Ashling
@@ -2319,3 +2316,9 @@ landscape:
             homepage_url: https://cortus.com/
             logo: Cortus_Founding.svg
             crunchbase: https://www.crunchbase.com/organization/cortus-sa
+          - item:
+            name: VRULL
+            second_path: Services / Services
+            homepage_url: http://vrull.eu/
+            logo: VRULL-new.svg
+            crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
