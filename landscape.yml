@@ -368,17 +368,13 @@ landscape:
             extra:
               GitHub: https://github.com/Nuclei-Software/
           - item:
-            name: Tenstorrent
+            name: Tenstorrent (member)
             description: >-
               Tenstorrent builds AI/ML accelerators and RISC-V processors in the form of IP, chiplets, chips, and boards that are scalable from 8-wide for data
               centers to 2-wide for edge and embedded IoT solutions.
             homepage_url: https://tenstorrent.com/
             logo: tenstorrent.svg
             crunchbase: https://www.crunchbase.com/organization/tenstorrent
-            second_path:
-              - Implementations / IP
-              - Implementations / Chips + Processors
-              - Implementations / Accelerators
           - item:
             name: Arduino
             homepage_url: https://arduino.org/
@@ -664,7 +660,7 @@ landscape:
             logo: LeapFrog.svg
             crunchbase: https://www.crunchbase.com/organization/leapfrog-semiconductor
           - item:
-            name: Cortus
+            name: Cortus (member)
             description: >-
               Founded in 2005, Cortus is a French fabless semiconductor manufacturing group headquartered in Mauguio (near Montpellier, France) with
               subsidiaries in Italy, Greece and Spain. Cortus designs IC devices from simple MCUs to high-end SoCs drawing on its broad IP portfolio which
@@ -674,13 +670,6 @@ landscape:
             homepage_url: https://cortus.com/
             logo: Cortus_Founding.svg
             crunchbase: https://www.crunchbase.com/organization/cortus-sa
-            second_path:
-              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
-              - Services / Services
-              - Implementations / IP
-              - Implementations / Single Board Computers
-              - Implementations / Accelerators
-              - Implementations / Chips + Processors
           - item:
             name: HPMicro (member)
             homepage_url: https://hpmicro.com/
@@ -1229,6 +1218,17 @@ landscape:
             homepage_url: https://imgtec.com/
             logo: imagination.svg
             crunchbase: https://www.crunchbase.com/organization/imagination-technologies
+          - item:
+            name: Tenstorrent
+            second_path:
+              - Implementations / Chips + Processors
+              - Implementations / Accelerators
+            description: >-
+              Tenstorrent builds AI/ML accelerators and RISC-V processors in the form of IP, chiplets, chips, and boards that are scalable from 8-wide for data
+              centers to 2-wide for edge and embedded IoT solutions.
+            homepage_url: https://tenstorrent.com/
+            logo: tenstorrent.svg
+            crunchbase: https://www.crunchbase.com/organization/tenstorrent
       - subcategory:
         name: Single Board Computers
         items:
@@ -2305,3 +2305,20 @@ landscape:
             homepage_url: https://www.embecosm.com/
             logo: embecosm.svg
             crunchbase: https://www.crunchbase.com/organization/embecosm
+          - item:
+            name: Cortus
+            second_path:
+              - Services / Services
+              - Implementations / IP
+              - Implementations / Single Board Computers
+              - Implementations / Accelerators
+              - Implementations / Chips + Processors
+            description: >-
+              Founded in 2005, Cortus is a French fabless semiconductor manufacturing group headquartered in Mauguio (near Montpellier, France) with
+              subsidiaries in Italy, Greece and Spain. Cortus designs IC devices from simple MCUs to high-end SoCs drawing on its broad IP portfolio which
+              includes processors 32/64-bit (Cortus ISA and RISC-V ISA), digital, analog, mixed-signal, RF and security IPs. Cortus own IP portfolio addresses
+              applications such as Automotive, Consumer, IoT/NB-IoT, Edge Computing and Industrial control. Over 15 billion devices have been manufactured using
+              Cortus know-how.
+            homepage_url: https://cortus.com/
+            logo: Cortus_Founding.svg
+            crunchbase: https://www.crunchbase.com/organization/cortus-sa
