@@ -177,26 +177,17 @@ landscape:
             extra:
               Repository: https://ubuntu.com/download/risc-v
           - item:
-            name: Green Hills Software
-            second_path:
-              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
-              - Operating Systems / Operating Systems
-              - Libraries / Libraries
+            name: Green Hills Software (members)
             homepage_url: https://www.ghs.com/
             logo: green-hills-software.svg
             crunchbase: https://www.crunchbase.com/organization/green-hills-software
           - item:
-            name: Lauterbach
+            name: Lauterbach (member)
             homepage_url: https://www.lauterbach.com/
             logo: lauterbach-icon.svg
             crunchbase: https://www.crunchbase.com/organization/lauterbach
-            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
-            name: SEGGER
-            second_path:
-              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
-              - Libraries / Libraries
-              - Runtimes / Runtimes
+            name: SEGGER (member)
             homepage_url: https://www.segger.com/risc-v/
             logo: segger.svg
             crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
@@ -206,7 +197,7 @@ landscape:
             logo: wind-river.svg
             crunchbase: https://www.crunchbase.com/organization/wind-river
           - item:
-            name: Valtrix Systems
+            name: Valtrix Systems (member)
             description: >-
               Valtrix Systems - an EDA company from Bangalore, India, is into the development of CPU and SoC design verification tools. STING, the flagship
               product of Valtrix, is a commercially supported design verification tool for RISC-V used by several CPU and SoC vendors for ensuring functional
@@ -215,7 +206,6 @@ landscape:
             homepage_url: https://www.valtrix.in/
             logo: valtrix.svg
             crunchbase: https://www.crunchbase.com/organization/valtrix-systems
-            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
             name: lowRISC
             homepage_url: https://lowrisc.org/
@@ -2347,3 +2337,34 @@ landscape:
             homepage_url: https://www.ashling.com/
             logo: ashling.svg
             crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
+          - item:
+            name: Green Hills Software
+            second_path:
+              - Operating Systems / Operating Systems
+              - Libraries / Libraries
+            homepage_url: https://www.ghs.com/
+            logo: green-hills-software.svg
+            crunchbase: https://www.crunchbase.com/organization/green-hills-software
+          - item:
+            name: Lauterbach
+            homepage_url: https://www.lauterbach.com/
+            logo: lauterbach-icon.svg
+            crunchbase: https://www.crunchbase.com/organization/lauterbach
+          - item:
+            name: SEGGER
+            second_path:
+              - Libraries / Libraries
+              - Runtimes / Runtimes
+            homepage_url: https://www.segger.com/risc-v/
+            logo: segger.svg
+            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+          - item:
+            name: Valtrix Systems
+            description: >-
+              Valtrix Systems - an EDA company from Bangalore, India, is into the development of CPU and SoC design verification tools. STING, the flagship
+              product of Valtrix, is a commercially supported design verification tool for RISC-V used by several CPU and SoC vendors for ensuring functional
+              correctness and architectural compliance. The tool can be configured to generate portable bare-metal programs containing self-checking
+              architecturally-correct test stimulus, which can then be enabled on simulation, FPGA prototypes, emulation or silicon.
+            homepage_url: https://www.valtrix.in/
+            logo: valtrix.svg
+            crunchbase: https://www.crunchbase.com/organization/valtrix-systems
