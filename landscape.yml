@@ -661,7 +661,7 @@ landscape:
             logo: LeapFrog.svg
             crunchbase: https://www.crunchbase.com/organization/leapfrog-semiconductor
           - item:
-            name: Cortus
+            name: Cortus (member)
             description: >-
               Founded in 2005, Cortus is a French fabless semiconductor manufacturing group headquartered in Mauguio (near Montpellier, France) with
               subsidiaries in Italy, Greece and Spain. Cortus designs IC devices from simple MCUs to high-end SoCs drawing on its broad IP portfolio which
@@ -671,13 +671,6 @@ landscape:
             homepage_url: https://cortus.com/
             logo: Cortus_Founding.svg
             crunchbase: https://www.crunchbase.com/organization/cortus-sa
-            second_path:
-              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
-              - Services / Services
-              - Implementations / IP
-              - Implementations / Single Board Computers
-              - Implementations / Accelerators
-              - Implementations / Chips + Processors
           - item:
             name: HPMicro (member)
             homepage_url: https://hpmicro.com/
@@ -2302,3 +2295,20 @@ landscape:
             homepage_url: https://www.embecosm.com/
             logo: embecosm.svg
             crunchbase: https://www.crunchbase.com/organization/embecosm
+          - item:
+            name: Cortus
+            second_path:
+              - Services / Services
+              - Implementations / IP
+              - Implementations / Single Board Computers
+              - Implementations / Accelerators
+              - Implementations / Chips + Processors
+            description: >-
+              Founded in 2005, Cortus is a French fabless semiconductor manufacturing group headquartered in Mauguio (near Montpellier, France) with
+              subsidiaries in Italy, Greece and Spain. Cortus designs IC devices from simple MCUs to high-end SoCs drawing on its broad IP portfolio which
+              includes processors 32/64-bit (Cortus ISA and RISC-V ISA), digital, analog, mixed-signal, RF and security IPs. Cortus own IP portfolio addresses
+              applications such as Automotive, Consumer, IoT/NB-IoT, Edge Computing and Industrial control. Over 15 billion devices have been manufactured using
+              Cortus know-how.
+            homepage_url: https://cortus.com/
+            logo: Cortus_Founding.svg
+            crunchbase: https://www.crunchbase.com/organization/cortus-sa
