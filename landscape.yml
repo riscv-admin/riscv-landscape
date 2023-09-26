@@ -236,12 +236,11 @@ landscape:
             logo: ProvenCore.svg
             crunchbase: https://www.crunchbase.com/organization/prove-run
           - item:
-            name: RT-Thread
+            name: RT-Thread (member)
             homepage_url: https://www.rt-thread.io/
             repo_url: https://github.com/RT-Thread/rt-thread
             logo: RT-Thread-Color.svg
             crunchbase: https://www.crunchbase.com/organization/rt-thread
-            second_path: Operating Systems / Operating Systems
           - item:
             name: Codasip
             homepage_url: https://www.codasip.com/
@@ -1910,6 +1909,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
             extra:
               Repository: https://ubuntu.com/download/risc-v
+          - item:
+            name: RT-Thread
+            homepage_url: https://www.rt-thread.io/
+            repo_url: https://github.com/RT-Thread/rt-thread
+            logo: RT-Thread-Color.svg
+            crunchbase: https://www.crunchbase.com/organization/rt-thread
   - category:
     name: Hypervisor
     subcategories:
