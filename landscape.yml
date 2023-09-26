@@ -177,11 +177,7 @@ landscape:
             extra:
               Repository: https://ubuntu.com/download/risc-v
           - item:
-            name: Green Hills Software
-            second_path:
-              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
-              - Operating Systems / Operating Systems
-              - Libraries / Libraries
+            name: Green Hills Software (members)
             homepage_url: https://www.ghs.com/
             logo: green-hills-software.svg
             crunchbase: https://www.crunchbase.com/organization/green-hills-software
@@ -2344,3 +2340,11 @@ landscape:
             homepage_url: https://www.ashling.com/
             logo: ashling.svg
             crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
+          - item:
+            name: Green Hills Software
+            second_path:
+              - Operating Systems / Operating Systems
+              - Libraries / Libraries
+            homepage_url: https://www.ghs.com/
+            logo: green-hills-software.svg
+            crunchbase: https://www.crunchbase.com/organization/green-hills-software
