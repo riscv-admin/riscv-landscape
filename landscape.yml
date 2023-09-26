@@ -187,11 +187,7 @@ landscape:
             logo: lauterbach-icon.svg
             crunchbase: https://www.crunchbase.com/organization/lauterbach
           - item:
-            name: SEGGER
-            second_path:
-              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
-              - Libraries / Libraries
-              - Runtimes / Runtimes
+            name: SEGGER (member)
             homepage_url: https://www.segger.com/risc-v/
             logo: segger.svg
             crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
@@ -2352,3 +2348,11 @@ landscape:
             homepage_url: https://www.lauterbach.com/
             logo: lauterbach-icon.svg
             crunchbase: https://www.crunchbase.com/organization/lauterbach
+          - item:
+            name: SEGGER
+            second_path:
+              - Libraries / Libraries
+              - Runtimes / Runtimes
+            homepage_url: https://www.segger.com/risc-v/
+            logo: segger.svg
+            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
