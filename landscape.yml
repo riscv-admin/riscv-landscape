@@ -170,13 +170,12 @@ landscape:
             logo: ashling.svg
             crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
           - item:
-            name: Canonical Ubuntu
+            name: Canonical Ubuntu (member)
             homepage_url: https://ubuntu.com/
             logo: canonical_ubuntu.svg
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
             extra:
               Repository: https://ubuntu.com/download/risc-v
-            second_path: Operating Systems / Operating Systems
           - item:
             name: Green Hills Software
             second_path:
@@ -1904,6 +1903,13 @@ landscape:
             homepage_url: https://www.sysgo.com/
             logo: sysgo.svg
             crunchbase: https://www.crunchbase.com/organization/sysgo-ag
+          - item:
+            name: Canonical Ubuntu
+            homepage_url: https://ubuntu.com/
+            logo: canonical_ubuntu.svg
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+            extra:
+              Repository: https://ubuntu.com/download/risc-v
   - category:
     name: Hypervisor
     subcategories:
