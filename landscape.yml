@@ -207,19 +207,17 @@ landscape:
             logo: valtrix.svg
             crunchbase: https://www.crunchbase.com/organization/valtrix-systems
           - item:
-            name: lowRISC
+            name: lowRISC (member)
             homepage_url: https://lowrisc.org/
             repo_url: https://github.com/lowRISC/opentitan
             project_org: https://github.com/lowRISC
             logo: lowrisc-founding.svg
             crunchbase: https://www.crunchbase.com/organization/lowrisc
-            second_path: Implementations / IP
           - item:
-            name: IAR
+            name: IAR (member)
             homepage_url: https://www.iar.com/
             logo: iar.svg
             crunchbase: https://www.crunchbase.com/organization/iar-systems
-            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
             name: ProvenRun (member)
             homepage_url: https://provenrun.com/
@@ -254,25 +252,23 @@ landscape:
             logo: antmicro-founding.svg
             crunchbase: https://www.crunchbase.com/organization/antmicro
           - item:
-            name: MachineWare
+            name: MachineWare (member)
             homepage_url: https://machineware.de/
             logo: machineware-new.svg
             crunchbase: https://www.crunchbase.com/organization/machineware-gmbh
             description: >-
               MachineWare's virtual prototypes simulate RISC-V hardware at bit-level accuracy, shortening development time and enhancing software security,
               stability, and quality.
-            second_path: Services / Services
           - item:
             name: Crypto Quantique (member)
             homepage_url: https://cryptoquantique.com/
             logo: crypto-quantique.svg
             crunchbase: https://www.crunchbase.com/organization/crypto-quantique
           - item:
-            name: XMOS
+            name: XMOS (member)
             homepage_url: https://xmos.ai/
             logo: xmos.svg
             crunchbase: https://www.crunchbase.com/organization/xmos
-            second_path: Implementations / Chips + Processors
             description: >-
               A deep tech company at the leading edge of the intelligent internet of things (IoT), XMOS addresses the evolving market need for flexible compute
               to serve an ever-widening range of smart things including voice, imaging and ambient sensing.
@@ -289,11 +285,10 @@ landscape:
             logo: digital-core-design.svg
             crunchbase: https://www.crunchbase.com/organization/digital-core-design
           - item:
-            name: Semidynamics Technology Services, S.L.
+            name: Semidynamics Technology Services, S.L. (member)
             homepage_url: https://www.semidynamics.com/
             logo: semidynamics.svg
             crunchbase: https://www.crunchbase.com/organization/semidynamics
-            second_path: Implementations / IP
           - item:
             name: ACL Digital (member)
             homepage_url: https://www.acldigital.com/industries/semiconductor
@@ -332,8 +327,7 @@ landscape:
             description: Think Silicon is a leading provider of ultra-low power GPU IP for embedded systems.
             twitter: https://twitter.com/ThinkSilicon
           - item:
-            name: Nuclei Technology Corporation
-            second_path: Implementations / IP
+            name: Nuclei Technology Corporation (member)
             description: >-
               Established in 2018, Nuclei Technology Corporation is a leading RISC-V processor IP vendor in China.
 
@@ -383,7 +377,7 @@ landscape:
             logo: axelera-ai.svg
             crunchbase: https://www.crunchbase.com/organization/axelera-ai
           - item:
-            name: MINRES Technologies GmbH
+            name: MINRES Technologies GmbH (member)
             description: >-
               Trustworthy Software-Driven Hardware for the Intelligent Edge.
 
@@ -395,11 +389,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/minres-technologies
             extra:
               GitHub: https://github.com/Minres
-            second_path:
-              - Implementations / IP
-              - Services / Services
           - item:
-            name: BaseALT
+            name: BaseALT (member)
             homepage_url: https://www.basealt.ru/
             logo: basealt.svg
             crunchbase: https://www.crunchbase.com/organization/basealt
@@ -409,17 +400,17 @@ landscape:
             logo: baylibre-inc.svg
             crunchbase: https://www.crunchbase.com/organization/baylibre
           - item:
-            name: Beijing ESWIN Technology Group Co., Ltd.
+            name: Beijing ESWIN Technology Group Co., Ltd. (member)
             homepage_url: http://eswin.com/
             logo: eswin.svg
             crunchbase: https://www.crunchbase.com/organization/eswin
           - item:
-            name: Beijing Vcore Technology Co.,Ltd.
+            name: Beijing Vcore Technology Co.,Ltd. (member)
             homepage_url: http://www.rvcore.com/
             logo: vcore-logo.svg
             crunchbase: https://www.crunchbase.com/organization/microcore-cd2b
           - item:
-            name: Breker Verification Systems
+            name: Breker Verification Systems (member)
             homepage_url: https://brekersystems.com/
             logo: Breker.svg
             crunchbase: https://www.crunchbase.com/organization/breker-verification-systems
@@ -435,17 +426,17 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/tortuga-logic-inc
             second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
-            name: Bluespec
+            name: Bluespec (member)
             homepage_url: http://www.bluespec.com/
             logo: Bluespec-founding.svg
             crunchbase: https://www.crunchbase.com/organization/bluespec
           - item:
-            name: Beijing Smartchip
+            name: Beijing Smartchip (member)
             homepage_url: http://www.sgcc.com.cn/
             logo: Beijing-Smartchip.svg
             crunchbase: https://www.crunchbase.com/organization/state-grid-corporation-of-china
           - item:
-            name: Renesas Electronics Corporation
+            name: Renesas Electronics Corporation (member)
             homepage_url: https://www.renesas.com/
             logo: renesas.svg
             crunchbase: https://www.crunchbase.com/organization/renesas-electronics-corporation
@@ -1211,6 +1202,47 @@ landscape:
             homepage_url: https://tenstorrent.com/
             logo: tenstorrent.svg
             crunchbase: https://www.crunchbase.com/organization/tenstorrent
+          - item:
+            name: lowRISC
+            homepage_url: https://lowrisc.org/
+            logo: lowrisc-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/lowrisc
+          - item:
+            name: Semidynamics Technology Services, S.L.
+            homepage_url: https://www.semidynamics.com/
+            logo: semidynamics.svg
+            crunchbase: https://www.crunchbase.com/organization/semidynamics
+          - item:
+            name: Nuclei Technology Corporation
+            description: >-
+              Established in 2018, Nuclei Technology Corporation is a leading RISC-V processor IP vendor in China.
+
+              Nuclei dedicates to developing high-performance/low-power processors and their associated SoC platforms to serve the rapidly growing computing
+              system applications worldwide.
+
+
+              Starting from scratch, Nuclei provides a full series of processors that can meet various markets and applications, covering 5G communication,
+              industrial control, artificial intelligence, automotive electronics, Internet of things, storage, MCU, network security, etc. As of today, more
+              than 150 customers have officially licensed Nucleis' processor IPs.
+            homepage_url: https://www.nucleisys.com/
+            logo: nuclei.svg
+            crunchbase: https://www.crunchbase.com/organization/nuclei-system-technology
+            extra:
+              GitHub: https://github.com/Nuclei-Software/
+          - item:
+            name: MINRES Technologies GmbH
+            second_path: Services / Services
+            description: >-
+              Trustworthy Software-Driven Hardware for the Intelligent Edge.
+
+
+              Making modern technologies accessible to Small and Medium Enterprises (SME) allows them to leverage advances in semiconductor and deploy powerfull
+              solutions at the edge.
+            homepage_url: https://www.minres.com/
+            logo: MINRES.svg
+            crunchbase: https://www.crunchbase.com/organization/minres-technologies
+            extra:
+              GitHub: https://github.com/Minres
       - subcategory:
         name: Single Board Computers
         items:
@@ -1320,6 +1352,18 @@ landscape:
             homepage_url: https://sifive.com/
             logo: sifive-founding.svg
             crunchbase: https://www.crunchbase.com/organization/sifive
+          - item:
+            name: XMOS
+            description: >-
+              A deep tech company at the leading edge of the intelligent internet of things (IoT), XMOS addresses the evolving market need for flexible compute
+              to serve an ever-widening range of smart things including voice, imaging and ambient sensing.
+
+
+              The company's uniquely flexible xcore processors allow product designers to architect system-on-chip solutions purely in software, enabling faster
+              time to market with differentiated systems that are cost-effective and energy efficient.
+            homepage_url: https://xmos.ai/
+            logo: xmos.svg
+            crunchbase: https://www.crunchbase.com/organization/xmos
       - subcategory:
         name: HPC Systems
         items:
@@ -2076,6 +2120,14 @@ landscape:
             homepage_url: https://antmicro.com/
             logo: antmicro-founding.svg
             crunchbase: https://www.crunchbase.com/organization/antmicro
+          - item:
+            name: MachineWare
+            description: >-
+              MachineWare's virtual prototypes simulate RISC-V hardware at bit-level accuracy, shortening development time and enhancing software security,
+              stability, and quality.
+            homepage_url: https://machineware.de/
+            logo: machineware-new.svg
+            crunchbase: https://www.crunchbase.com/organization/machineware-gmbh
   - category:
     name: RISC-V Programs
     subcategories:
@@ -2368,3 +2420,8 @@ landscape:
             homepage_url: https://www.valtrix.in/
             logo: valtrix.svg
             crunchbase: https://www.crunchbase.com/organization/valtrix-systems
+          - item:
+            name: IAR
+            homepage_url: https://www.iar.com/
+            logo: iar.svg
+            crunchbase: https://www.crunchbase.com/organization/iar-systems
