@@ -374,7 +374,7 @@ landscape:
             logo: axelera-ai.svg
             crunchbase: https://www.crunchbase.com/organization/axelera-ai
           - item:
-            name: MINRES Technologies GmbH
+            name: MINRES Technologies GmbH (member)
             description: >-
               Trustworthy Software-Driven Hardware for the Intelligent Edge.
 
@@ -386,9 +386,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/minres-technologies
             extra:
               GitHub: https://github.com/Minres
-            second_path:
-              - Implementations / IP
-              - Services / Services
           - item:
             name: BaseALT
             homepage_url: https://www.basealt.ru/
@@ -1229,6 +1226,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nuclei-system-technology
             extra:
               GitHub: https://github.com/Nuclei-Software/
+          - item:
+            name: MINRES Technologies GmbH
+            second_path: Services / Services
+            logo: MINRES.svg
       - subcategory:
         name: Single Board Computers
         items:
