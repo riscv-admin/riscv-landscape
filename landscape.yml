@@ -1055,7 +1055,7 @@ landscape:
             logo: freebsd-foundation.svg
             crunchbase: https://www.crunchbase.com/organization/the-freebsd-foundation
           - item:
-            name: OpenHW Group
+            name: OpenHW Group (member)
             description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
             homepage_url: https://www.openhwgroup.org/
             repo_url: https://github.com/openhwgroup/core-v-cores
@@ -1084,7 +1084,6 @@ landscape:
               - repo_url: https://github.com/openhwgroup/core-v-mcu-devkit
             logo: OpenHW.svg
             crunchbase: https://www.crunchbase.com/organization/openhw
-            second_path: Implementations / IP
           - item:
             name: ETH Zurich (member)
             homepage_url: https://www.ethz.ch/
@@ -1241,6 +1240,7 @@ landscape:
             logo: chips.svg
             crunchbase: https://www.crunchbase.com/organization/chips-alliance
           - item:
+            name: OpenHW Group
             logo: OpenHW.svg
       - subcategory:
         name: Single Board Computers
