@@ -209,8 +209,6 @@ landscape:
           - item:
             name: lowRISC (member)
             homepage_url: https://lowrisc.org/
-            repo_url: https://github.com/lowRISC/opentitan
-            project_org: https://github.com/lowRISC
             logo: lowrisc-founding.svg
             crunchbase: https://www.crunchbase.com/organization/lowrisc
           - item:
@@ -443,7 +441,6 @@ landscape:
             name: Terapines (member)
             description: Terapines is a HW/SW co-design toolchain provider for RISC-V based processors.
             homepage_url: https://www.terapines.com/
-            repo_url: https://github.com/THU-DSP-LAB/llvm-project
             logo: TeraPines.svg
             crunchbase: https://www.crunchbase.com/organization/terapines-technology
           - item:
@@ -548,8 +545,7 @@ landscape:
             logo: Espressif-founding.svg
             crunchbase: https://www.crunchbase.com/organization/espressif
           - item:
-            name: Siemens EDA
-            second_path: Services / Services
+            name: Siemens EDA (member)
             homepage_url: https://eda.sw.siemens.com/en-US/ic/tessent/
             logo: Siemens.svg
             crunchbase: https://www.crunchbase.com/organization/siemens
@@ -752,7 +748,7 @@ landscape:
             logo: UNISOC.svg
             crunchbase: https://www.crunchbase.com/organization/unisoc
           - item:
-            name: Nordic Semiconductor
+            name: Nordic Semiconductor (member)
             homepage_url: https://www.nordicsemi.com/
             logo: Nordic-Semiconductor.svg
             crunchbase: https://www.crunchbase.com/organization/nordic-semiconductor-2
@@ -1032,24 +1028,20 @@ landscape:
         name: Community
         items:
           - item:
-            name: CHIPS Alliance
+            name: CHIPS Alliance (member)
             homepage_url: https://chipsalliance.org/
             logo: chips.svg
             crunchbase: https://www.crunchbase.com/organization/chips-alliance
-            second_path: Implementations / IP
           - item:
-            name: Eclipse Foundation
+            name: Eclipse Foundation (member)
             homepage_url: https://www.eclipse.org/
             logo: eclipse-foundation.svg
             crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
-            second_path: Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
           - item:
-            name: Zephyr Project
+            name: Zephyr Project (member)
             homepage_url: https://www.zephyrproject.org/
-            repo_url: https://github.com/zephyrproject-rtos/zephyr
             logo: zephyr.svg
             crunchbase: https://www.crunchbase.com/organization/zephy-project
-            second_path: Operating Systems / Operating Systems
           - item:
             name: Cloud Native Computing Foundation (member)
             homepage_url: https://www.cncf.io/
@@ -1061,36 +1053,11 @@ landscape:
             logo: freebsd-foundation.svg
             crunchbase: https://www.crunchbase.com/organization/the-freebsd-foundation
           - item:
-            name: OpenHW Group
+            name: OpenHW Group (member)
             description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
             homepage_url: https://www.openhwgroup.org/
-            repo_url: https://github.com/openhwgroup/core-v-cores
-            license: Apache 2.0, Solderpad 2.1, EPL 2.0
-            additional_repos:
-              - repo_url: https://github.com/openhwgroup/cva6
-              - repo_url: https://github.com/openhwgroup/cva5
-              - repo_url: https://github.com/openhwgroup/cvw
-              - repo_url: https://github.com/openhwgroup/cv32e40p
-              - repo_url: https://github.com/openhwgroup/cv32e40s
-              - repo_url: https://github.com/openhwgroup/cv32e40x
-              - repo_url: https://github.com/openhwgroup/cv32e41p
-              - repo_url: https://github.com/openhwgroup/cve2
-              - repo_url: https://github.com/openhwgroup/cv-hpdcache
-              - repo_url: https://github.com/openhwgroup/core-v-verif
-              - repo_url: https://github.com/openhwgroup/force-riscv
-              - repo_url: https://github.com/openhwgroup/advanced-riscv-verification-methodologies
-              - repo_url: https://github.com/openhwgroup/core-v-sw
-              - repo_url: https://github.com/openhwgroup/corev-gcc
-              - repo_url: https://github.com/openhwgroup/corev-llvm-project
-              - repo_url: https://github.com/openhwgroup/core-v-freertos-kernel
-              - repo_url: https://github.com/openhwgroup/core-v-freertos
-              - repo_url: https://github.com/openhwgroup/corev-qemu
-              - repo_url: https://github.com/openhwgroup/core-v-sdk
-              - repo_url: https://github.com/openhwgroup/core-v-mcu
-              - repo_url: https://github.com/openhwgroup/core-v-mcu-devkit
             logo: OpenHW.svg
             crunchbase: https://www.crunchbase.com/organization/openhw
-            second_path: Implementations / IP
           - item:
             name: ETH Zurich (member)
             homepage_url: https://www.ethz.ch/
@@ -1203,6 +1170,8 @@ landscape:
           - item:
             name: lowRISC
             homepage_url: https://lowrisc.org/
+            repo_url: https://github.com/lowRISC/opentitan
+            project_org: https://github.com/lowRISC
             logo: lowrisc-founding.svg
             crunchbase: https://www.crunchbase.com/organization/lowrisc
           - item:
@@ -1241,6 +1210,41 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/minres-technologies
             extra:
               GitHub: https://github.com/Minres
+          - item:
+            name: CHIPS Alliance
+            homepage_url: https://chipsalliance.org/
+            logo: chips.svg
+            crunchbase: https://www.crunchbase.com/organization/chips-alliance
+          - item:
+            name: OpenHW Group
+            license: Apache 2.0, Solderpad 2.1, EPL 2.0
+            description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
+            homepage_url: https://www.openhwgroup.org/
+            repo_url: https://github.com/openhwgroup/core-v-cores
+            additional_repos:
+              - repo_url: https://github.com/openhwgroup/cva6
+              - repo_url: https://github.com/openhwgroup/cva5
+              - repo_url: https://github.com/openhwgroup/cvw
+              - repo_url: https://github.com/openhwgroup/cv32e40p
+              - repo_url: https://github.com/openhwgroup/cv32e40s
+              - repo_url: https://github.com/openhwgroup/cv32e40x
+              - repo_url: https://github.com/openhwgroup/cv32e41p
+              - repo_url: https://github.com/openhwgroup/cve2
+              - repo_url: https://github.com/openhwgroup/cv-hpdcache
+              - repo_url: https://github.com/openhwgroup/core-v-verif
+              - repo_url: https://github.com/openhwgroup/force-riscv
+              - repo_url: https://github.com/openhwgroup/advanced-riscv-verification-methodologies
+              - repo_url: https://github.com/openhwgroup/core-v-sw
+              - repo_url: https://github.com/openhwgroup/corev-gcc
+              - repo_url: https://github.com/openhwgroup/corev-llvm-project
+              - repo_url: https://github.com/openhwgroup/core-v-freertos-kernel
+              - repo_url: https://github.com/openhwgroup/core-v-freertos
+              - repo_url: https://github.com/openhwgroup/corev-qemu
+              - repo_url: https://github.com/openhwgroup/core-v-sdk
+              - repo_url: https://github.com/openhwgroup/core-v-mcu
+              - repo_url: https://github.com/openhwgroup/core-v-mcu-devkit
+            logo: OpenHW.svg
+            crunchbase: https://www.crunchbase.com/organization/openhw
       - subcategory:
         name: Single Board Computers
         items:
@@ -1953,6 +1957,12 @@ landscape:
             repo_url: https://github.com/RT-Thread/rt-thread
             logo: RT-Thread-Color.svg
             crunchbase: https://www.crunchbase.com/organization/rt-thread
+          - item:
+            name: Zephyr Project
+            homepage_url: https://www.zephyrproject.org/
+            repo_url: https://github.com/zephyrproject-rtos/zephyr
+            logo: zephyr.svg
+            crunchbase: https://www.crunchbase.com/organization/zephy-project
   - category:
     name: Hypervisor
     subcategories:
@@ -2126,6 +2136,13 @@ landscape:
             homepage_url: https://machineware.de/
             logo: machineware-new.svg
             crunchbase: https://www.crunchbase.com/organization/machineware-gmbh
+          - item:
+            name: Siemens EDA
+            homepage_url: https://eda.sw.siemens.com/en-US/ic/tessent/
+            logo: Siemens.svg
+            crunchbase: https://www.crunchbase.com/organization/siemens
+            extra:
+              LinkedIn: https://linkedin.com/showcase/Tessent-solutions/
   - category:
     name: RISC-V Programs
     subcategories:
@@ -2432,5 +2449,11 @@ landscape:
             name: Terapines
             description: Terapines is a HW/SW co-design toolchain provider for RISC-V based processors.
             homepage_url: https://www.terapines.com/
+            repo_url: https://github.com/THU-DSP-LAB/llvm-project
             logo: TeraPines.svg
             crunchbase: https://www.crunchbase.com/organization/terapines-technology
+          - item:
+            name: Eclipse Foundation
+            homepage_url: https://www.eclipse.org/
+            logo: eclipse-foundation.svg
+            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
