@@ -207,13 +207,12 @@ landscape:
             logo: valtrix.svg
             crunchbase: https://www.crunchbase.com/organization/valtrix-systems
           - item:
-            name: lowRISC
+            name: lowRISC (member)
             homepage_url: https://lowrisc.org/
             repo_url: https://github.com/lowRISC/opentitan
             project_org: https://github.com/lowRISC
             logo: lowrisc-founding.svg
             crunchbase: https://www.crunchbase.com/organization/lowrisc
-            second_path: Implementations / IP
           - item:
             name: IAR (member)
             homepage_url: https://www.iar.com/
@@ -1205,6 +1204,11 @@ landscape:
             homepage_url: https://tenstorrent.com/
             logo: tenstorrent.svg
             crunchbase: https://www.crunchbase.com/organization/tenstorrent
+          - item:
+            name: lowRISC
+            homepage_url: https://lowrisc.org/
+            logo: lowrisc-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/lowrisc
       - subcategory:
         name: Single Board Computers
         items:
