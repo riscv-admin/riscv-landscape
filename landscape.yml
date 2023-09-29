@@ -1029,11 +1029,10 @@ landscape:
         name: Community
         items:
           - item:
-            name: CHIPS Alliance
+            name: CHIPS Alliance (member)
             homepage_url: https://chipsalliance.org/
             logo: chips.svg
             crunchbase: https://www.crunchbase.com/organization/chips-alliance
-            second_path: Implementations / IP
           - item:
             name: Eclipse Foundation
             homepage_url: https://www.eclipse.org/
@@ -1239,6 +1238,7 @@ landscape:
             extra:
               GitHub: https://github.com/Minres
           - item:
+            name: CHIPS Alliance
             logo: chips.svg
       - subcategory:
         name: Single Board Computers
