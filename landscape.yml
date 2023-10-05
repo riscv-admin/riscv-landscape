@@ -1047,55 +1047,75 @@ landscape:
             homepage_url: http://aitos.io/
             logo: shanghai-molian.svg
             crunchbase: https://www.crunchbase.com/organization/molian-technology
+            extra:
+              hide_license: 'true'
           - item:
             name: Wanxiang Blockchain (member)
             homepage_url: https://www.wxblockchain.com/#/home
             logo: wxblockchain.svg
             crunchbase: https://www.crunchbase.com/organization/shanghai-wanxiang-blockchain-inc
+            extra:
+              hide_license: 'true'
           - item:
             name: ShenZhen Bluetrum Technology Co., Ltd (member)
             homepage_url: https://www.bluetrum.com/
             logo: Bluetrum.svg
             organization:
               name: ShenZhen Bluetrum Technology Co., Ltd
+            extra:
+              hide_license: 'true'
           - item:
             name: Shenzhen MilkV Technology Co., Ltd (member)
             homepage_url: https://milkv.io/
             logo: milkv.svg
             organization:
               name: Shenzhen MilkV Technology Co., Ltd
+            extra:
+              hide_license: 'true'
           - item:
             name: Signaloid (member)
             homepage_url: https://signaloid.com/
             logo: Signaloid.svg
             crunchbase: https://www.crunchbase.com/organization/signaloid
+            extra:
+              hide_license: 'true'
           - item:
             name: Signoff Semiconductors Inc. (member)
             homepage_url: https://signoffsemiconductors.com/
             logo: SignOff.svg
             organization:
               name: Signoff Semiconductors Inc.
+            extra:
+              hide_license: 'true'
           - item:
             name: Silansys Semiconductor Ltd (member)
             homepage_url: http://silansys.com/
             logo: silansys.svg
             crunchbase: https://www.crunchbase.com/organization/silansys-semiconductor
+            extra:
+              hide_license: 'true'
           - item:
             name: Silicon Integrated Systems Corp. (member)
             homepage_url: https://www.sis.com/default.aspx
             logo: SiS.svg
             crunchbase: https://www.crunchbase.com/organization/silicon-integrated-systems
+            extra:
+              hide_license: 'true'
           - item:
             name: Solid Sands (member)
             homepage_url: https://solidsands.com/
             logo: Solid Sands.svg
             organization:
               name: Solid Sands
+            extra:
+              hide_license: 'true'
           - item:
             name: Sony Semiconductor Solutions Corporation (member)
             homepage_url: https://www.sony-semicon.com/ja/index.html
             logo: sony.svg
             crunchbase: https://www.crunchbase.com/organization/sony-semiconductor
+            extra:
+              hide_license: 'true'
           - item:
             name: Sophgo Technologies Ltd. (member)
             homepage_url: https://www.sophgo.com/
@@ -1110,6 +1130,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/soundai
             extra:
               hide_license: 'true'
+          - item:
+            name: SpacemiT (member)
+            homepage_url: https://www.spacemit.com/
+            logo: SpacemiT.svg
+            crunchbase: https://www.crunchbase.com/organization/spacemit
+            extra:
+              hide_license: 'true'
       - subcategory:
         name: Community
         items:
@@ -1118,37 +1145,51 @@ landscape:
             homepage_url: https://chipsalliance.org/
             logo: chips.svg
             crunchbase: https://www.crunchbase.com/organization/chips-alliance
+            extra:
+              hide_license: 'true'
           - item:
             name: Eclipse Foundation (member)
             homepage_url: https://www.eclipse.org/
             logo: eclipse-foundation.svg
             crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
+            extra:
+              hide_license: 'true'
           - item:
             name: Zephyr Project (member)
             homepage_url: https://www.zephyrproject.org/
             logo: zephyr.svg
             crunchbase: https://www.crunchbase.com/organization/zephy-project
+            extra:
+              hide_license: 'true'
           - item:
             name: Cloud Native Computing Foundation (member)
             homepage_url: https://www.cncf.io/
             logo: cncf.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              hide_license: 'true'
           - item:
             name: FreeBSD Foundation (member)
             homepage_url: https://freebsdfoundation.org/
             logo: freebsd-foundation.svg
             crunchbase: https://www.crunchbase.com/organization/the-freebsd-foundation
+            extra:
+              hide_license: 'true'
           - item:
             name: OpenHW Group (member)
             description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
             homepage_url: https://www.openhwgroup.org/
             logo: OpenHW.svg
             crunchbase: https://www.crunchbase.com/organization/openhw
+            extra:
+              hide_license: 'true'
           - item:
             name: ETH Zurich (member)
             homepage_url: https://www.ethz.ch/
             logo: ETHzurich-founding.svg
             crunchbase: https://www.crunchbase.com/organization/eth-zurich
+            extra:
+              hide_license: 'true'
           - item:
             name: VORTEX-CoLab (member)
             description: >-
@@ -1158,16 +1199,22 @@ landscape:
             homepage_url: https://www.vortex-colab.com/
             logo: vortex.svg
             crunchbase: https://www.crunchbase.com/organization/vortex-colab
+            extra:
+              hide_license: 'true'
           - item:
             name: University of Bremen (member)
             homepage_url: https://uni-bremen.de/
             logo: university-of-bremen.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-bremen-2
+            extra:
+              hide_license: 'true'
           - item:
             name: Politecnico di Milano (member)
             homepage_url: https://polimi.it/
             logo: Polimi.svg
             crunchbase: https://www.crunchbase.com/organization/politecnico-di-milano-9430
+            extra:
+              hide_license: 'true'
   - category:
     name: Implementations
     subcategories:
