@@ -23,11 +23,15 @@ landscape:
             project: null
             logo: alibaba.svg
             crunchbase: https://www.crunchbase.com/organization/alibaba
+            extra:
+              hide_license: 'true'
           - item:
             name: Andes Technology Corporation (member)
             homepage_url: http://www.andestech.com/
             logo: andes-founding.svg
             crunchbase: https://www.crunchbase.com/organization/andes-technology
+            extra:
+              hide_license: 'true'
           - item:
             name: Ventana Micro Systems (member)
             homepage_url: https://www.ventanamicro.com/
@@ -35,6 +39,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
             twitter: https://twitter.com/ventanamicro
             description: Ventana is creating high performance RISC-V chiplets and IP for the data center, automotive, 5G edge, and client markets.
+            extra:
+              hide_license: 'true'
           - item:
             name: Beijing Institute of Open Source Chip (member)
             homepage_url: https://www.bosc.ac.cn/
@@ -54,6 +60,8 @@ landscape:
             homepage_url: https://imgtec.com/
             logo: imagination.svg
             crunchbase: https://www.crunchbase.com/organization/imagination-technologies
+            extra:
+              hide_license: 'true'
           - item:
             name: Intel Corporation (member)
             homepage_url: https://www.intel.com/
@@ -66,36 +74,50 @@ landscape:
             homepage_url: https://sifive.com/
             logo: sifive-founding.svg
             crunchbase: https://www.crunchbase.com/organization/sifive
+            extra:
+              hide_license: 'true'
           - item:
             name: Google (member)
             homepage_url: https://www.google.com/
             logo: google-founders.svg
             crunchbase: https://www.crunchbase.com/organization/google
+            extra:
+              hide_license: 'true'
           - item:
             name: Haihe Laboratory of Information Technology Application Innovation (member)
             homepage_url: https://www.hl-it.cn/
             logo: haihe.svg
             crunchbase: https://www.crunchbase.com/organization/haihe-laboratory-of-information-technology-application-innovation
+            extra:
+              hide_license: 'true'
           - item:
             name: Stream Computing (member)
             homepage_url: https://www.streamcomputing.com/
             logo: stream-computing.svg
             crunchbase: https://www.crunchbase.com/organization/stream-computing
+            extra:
+              hide_license: 'true'
           - item:
             name: Seagate Technology LLC (member)
             homepage_url: http://www.seagate.com/
             logo: Seagate.svg
             crunchbase: https://www.crunchbase.com/organization/seagate
+            extra:
+              hide_license: 'true'
           - item:
             name: Rivos Inc (member)
             homepage_url: https://www.rivosinc.com/
             logo: rivos-inc.svg
             crunchbase: https://www.crunchbase.com/organization/rivos-inc
+            extra:
+              hide_license: 'true'
           - item:
             name: RIOS Lab (member)
             homepage_url: http://rioslab.org/
             logo: rios.svg
             crunchbase: https://www.crunchbase.com/organization/rios-lab
+            extra:
+              hide_license: 'true'
           - item:
             name: Qualcomm (member)
             homepage_url: http://www.qualcomm.com/
@@ -108,6 +130,8 @@ landscape:
             homepage_url: http://www.syntacore.com/
             logo: Syntacore-founding.svg
             crunchbase: https://www.crunchbase.com/organization/syntacore
+            extra:
+              hide_license: 'true'
           - item:
             name: Chengwei Capital (member)
             homepage_url: http://www.chengwei.com/
@@ -145,6 +169,8 @@ landscape:
             homepage_url: https://ict.cas.cn/
             logo: ICT-founding.svg
             crunchbase: https://www.crunchbase.com/organization/chinese-academy-of-sciences
+            extra:
+              hide_license: 'true'
       - subcategory:
         name: Strategic
         items:
@@ -1074,6 +1100,15 @@ landscape:
             homepage_url: https://www.sophgo.com/
             logo: SOPHGO.svg
             crunchbase: https://www.crunchbase.com/organization/sophgo
+            extra:
+              hide_license: 'true'
+          - item:
+            name: SoundAI Technology Co., Ltd. (member)
+            homepage_url: https://www.soundai.com/
+            logo: SoundAI.svg
+            crunchbase: https://www.crunchbase.com/organization/soundai
+            extra:
+              hide_license: 'true'
       - subcategory:
         name: Community
         items:
