@@ -188,6 +188,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
             extra:
               Official GitHub: https://github.com/starfive-tech/
+              hide_license: 'true'
           - item:
             name: Imperas (member)
             homepage_url: https://www.imperas.com/
@@ -200,11 +201,15 @@ landscape:
             homepage_url: https://www.embecosm.com/
             logo: embecosm.svg
             crunchbase: https://www.crunchbase.com/organization/embecosm
+            extra:
+              hide_license: 'true'
           - item:
             name: VRULL (member)
             homepage_url: http://vrull.eu/
             logo: VRULL-new.svg
             crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
+            extra:
+              hide_license: 'true'
           - item:
             name: Ashling (member)
             description: >+
@@ -215,6 +220,8 @@ landscape:
             homepage_url: https://www.ashling.com/
             logo: ashling.svg
             crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
+            extra:
+              hide_license: 'true'
           - item:
             name: Canonical Ubuntu (member)
             homepage_url: https://ubuntu.com/
@@ -222,11 +229,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
             extra:
               Repository: https://ubuntu.com/download/risc-v
+              hide_license: 'true'
           - item:
             name: Green Hills Software (members)
             homepage_url: https://www.ghs.com/
             logo: green-hills-software.svg
             crunchbase: https://www.crunchbase.com/organization/green-hills-software
+            extra:
+              hide_license: 'true'
           - item:
             name: Lauterbach (member)
             homepage_url: https://www.lauterbach.com/
@@ -239,11 +249,15 @@ landscape:
             homepage_url: https://www.segger.com/risc-v/
             logo: segger.svg
             crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+            extra:
+              hide_license: 'true'
           - item:
             name: Wind River (member)
             homepage_url: https://windriver.com/
             logo: wind-river.svg
             crunchbase: https://www.crunchbase.com/organization/wind-river
+            extra:
+              hide_license: 'true'
           - item:
             name: Valtrix Systems (member)
             description: >-
@@ -254,26 +268,36 @@ landscape:
             homepage_url: https://www.valtrix.in/
             logo: valtrix.svg
             crunchbase: https://www.crunchbase.com/organization/valtrix-systems
+            extra:
+              hide_license: 'true'
           - item:
             name: lowRISC (member)
             homepage_url: https://lowrisc.org/
             logo: lowrisc-founding.svg
             crunchbase: https://www.crunchbase.com/organization/lowrisc
+            extra:
+              hide_license: 'true'
           - item:
             name: IAR (member)
             homepage_url: https://www.iar.com/
             logo: iar.svg
             crunchbase: https://www.crunchbase.com/organization/iar-systems
+            extra:
+              hide_license: 'true'
           - item:
             name: ProvenRun (member)
             homepage_url: https://provenrun.com/
             logo: ProvenCore.svg
             crunchbase: https://www.crunchbase.com/organization/prove-run
+            extra:
+              hide_license: 'true'
           - item:
             name: RT-Thread (member)
             homepage_url: https://www.rt-thread.io/
             logo: RT-Thread-Color.svg
             crunchbase: https://www.crunchbase.com/organization/rt-thread
+            extra:
+              hide_license: 'true'
           - item:
             name: Codasip (member)
             homepage_url: https://www.codasip.com/
@@ -282,16 +306,22 @@ landscape:
             second_path:
               - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
               - Implementations / IP
+            extra:
+              hide_license: 'true'
           - item:
             name: Esperanto Technologies (member)
             homepage_url: http://www.esperantotech.com/
             logo: esperanto-founding.svg
             crunchbase: https://www.crunchbase.com/organization/esperanto-technologies
+            extra:
+              hide_license: 'true'
           - item:
             name: Microchip (member)
             homepage_url: https://www.microchip.com/
             logo: microchip-founding.svg
             crunchbase: https://www.crunchbase.com/organization/microchip-technology
+            extra:
+              hide_license: 'true'
           - item:
             name: Antmicro (member)
             homepage_url: https://antmicro.com/
@@ -308,11 +338,15 @@ landscape:
             description: >-
               MachineWare's virtual prototypes simulate RISC-V hardware at bit-level accuracy, shortening development time and enhancing software security,
               stability, and quality.
+            extra:
+              hide_license: 'true'
           - item:
             name: Crypto Quantique (member)
             homepage_url: https://cryptoquantique.com/
             logo: crypto-quantique.svg
             crunchbase: https://www.crunchbase.com/organization/crypto-quantique
+            extra:
+              hide_license: 'true'
           - item:
             name: XMOS (member)
             homepage_url: https://xmos.ai/
@@ -328,21 +362,28 @@ landscape:
             extra:
               Media Release: https://www.xmos.ai/xmos-announces-software-defined-soc-platform-now-compatible-with-risc-v/
               Whitepaper: https://www.xmos.ai/using-risc-v-to-define-socs-in-software/
+              hide_license: 'true'
           - item:
             name: Digital Core Design (member)
             homepage_url: https://www.dcd.pl/
             logo: digital-core-design.svg
             crunchbase: https://www.crunchbase.com/organization/digital-core-design
+            extra:
+              hide_license: 'true'
           - item:
             name: Semidynamics Technology Services, S.L. (member)
             homepage_url: https://www.semidynamics.com/
             logo: semidynamics.svg
             crunchbase: https://www.crunchbase.com/organization/semidynamics
+            extra:
+              hide_license: 'true'
           - item:
             name: ACL Digital (member)
             homepage_url: https://www.acldigital.com/industries/semiconductor
             logo: ACL-Digital-Logo.svg
             crunchbase: https://www.crunchbase.com/organization/alten-calsoft-labs
+            extra:
+              hide_license: 'true'
           - item:
             name: Agile Analog (member)
             homepage_url: http://agileanalog.com/
