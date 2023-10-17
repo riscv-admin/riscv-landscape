@@ -1035,8 +1035,6 @@ landscape:
             description: Hyperion Core develops the first true universal processor.
             homepage_url: https://www.hyperion-core.com/
             logo: Hyperion-Core.svg
-            organization:
-              name: Hyperion Core
             crunchbase: https://www.crunchbase.com/organization/hyperion-core
             twitter: https://twitter.com/hyperioncoreinc
             extra:
@@ -1784,6 +1782,16 @@ landscape:
               - repo_url: https://github.com/openhwgroup/core-v-mcu-devkit
             logo: OpenHW.svg
             crunchbase: https://www.crunchbase.com/organization/openhw
+          - item:
+            name: Syntacore
+            second_path: Implementations / Chips + Processors
+            description: >-
+              Syntacore is a RISC-V processor IP specialist. We create flexible, highly-efficient microprocessor cores that help customers to design unique
+              solutions for the IoT, data storage and processing, embedded systems, cognitive, machine learning and artificial intelligence applications.
+            homepage_url: http://www.syntacore.com/
+            project: null
+            logo: Syntacore-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/syntacore
       - subcategory:
         name: Single Board Computers
         items:
