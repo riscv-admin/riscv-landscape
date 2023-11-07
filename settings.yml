@@ -67,14 +67,17 @@ membership:
     name: RISC-V
     label: Premier Member
     funding: Premier
+    is_large: true
   Premier TSC:
     name: RISC-V
     label: Premier TSC Member
     funding: Premier TSC
+    is_large: true
   Strategic:
     name: RISC-V
     label: Strategic Member
     funding: Strategic
+    is_large: true
   Community:
     name: RISC-V
     label: Community Member
@@ -233,6 +236,42 @@ big_picture:
         left: 0
         color: rgb(109,61,143)
     fullscreen_header: https://riscv.org/
+  members:
+    tab_index: 2
+    name: RISC-V Members
+    url: members
+    short_name: Memb....
+    title: RISC-V Members
+    fullscreen_header: https://riscv.org/members/
+    category: RISC-V Members
+    elements:
+      - type: HorizontalCategory
+        is_large: true
+        category: Premier
+        rows: 2
+        width: 1350
+        height: 175
+        top: 0
+        left: 0
+        color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Premier TSC
+        rows: 1
+        width: 1350
+        height: 100
+        top: 185
+        left: 0
+        color: rgb(109,61,143)
+      - type: HorizontalCategory
+        is_large: true
+        category: Strategic
+        rows: 12
+        color: rgb(109,61,143)
+        left: 0
+        width: 1350
+        height: 800
+        top: 305
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RISC-V Member Products/Projects
