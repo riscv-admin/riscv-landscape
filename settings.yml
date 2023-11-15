@@ -249,7 +249,7 @@ big_picture:
         is_large: true
         category: Premier
         rows: 2
-        width: 1350
+        width: 1100
         height: 175
         top: 0
         left: 0
@@ -257,11 +257,11 @@ big_picture:
       - type: HorizontalCategory
         is_large: true
         category: Premier TSC
-        rows: 1
-        width: 1350
-        height: 100
-        top: 185
-        left: 0
+        rows: 2
+        width: 240
+        height: 175
+        top: 0
+        left: 1110
         color: rgb(109,61,143)
       - type: HorizontalCategory
         is_large: true
@@ -271,7 +271,7 @@ big_picture:
         left: 0
         width: 1350
         height: 800
-        top: 305
+        top: 185
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RISC-V Member Products/Projects
