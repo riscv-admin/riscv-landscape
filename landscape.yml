@@ -1746,10 +1746,17 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: Boston University
+            name: Boston University (member)
             homepage_url: https://www.bu.edu/
             logo: Boston_University.svg
             crunchbase: https://www.crunchbase.com/organization/boston-university
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Brandenburg University of Technology (member)
+            homepage_url: https://www.b-tu.de/en/fg-technische-informatik/
+            logo: Brandenburg.svg
+            crunchbase: https://www.crunchbase.com/organization/brandenburg-university-of-technology
             extra:
               hide_license: 'true'
   - category:
