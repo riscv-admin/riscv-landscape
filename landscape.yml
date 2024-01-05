@@ -18,6 +18,13 @@ landscape:
         name: Premier
         items:
           - item:
+            name: Akeana (member)
+            homepage_url: https://akeana.io/
+            logo: AKEANA.svg
+            crunchbase: https://www.crunchbase.com/organization/akeana
+            extra:
+              hide_license: 'true'
+          - item:
             name: Alibaba (member)
             homepage_url: https://www.alibabagroup.com/
             project: null
@@ -33,19 +40,31 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: Ventana Micro Systems (member)
-            homepage_url: https://www.ventanamicro.com/
-            logo: VentanaLogo.svg
-            crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
-            twitter: https://twitter.com/ventanamicro
-            description: Ventana is creating high performance RISC-V chiplets and IP for the data center, automotive, 5G edge, and client markets.
-            extra:
-              hide_license: 'true'
-          - item:
             name: Beijing Institute of Open Source Chip (member)
             homepage_url: https://www.bosc.ac.cn/
             logo: beijing-institute-of-open-source-chip.svg
             crunchbase: https://www.crunchbase.com/organization/beijing-institute-of-open-source-chip
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Chengwei Capital (member)
+            homepage_url: http://www.chengwei.com/
+            logo: chengwei.svg
+            crunchbase: https://www.crunchbase.com/organization/chengwei-capital
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Google (member)
+            homepage_url: https://www.google.com/
+            logo: google-founders.svg
+            crunchbase: https://www.crunchbase.com/organization/google
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Haihe Laboratory of Information Technology Application Innovation (member)
+            homepage_url: https://www.hl-it.cn/
+            logo: haihe.svg
+            crunchbase: https://www.crunchbase.com/organization/haihe-laboratory-of-information-technology-application-innovation
             extra:
               hide_license: 'true'
           - item:
@@ -70,52 +89,10 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: SiFive (member)
-            homepage_url: https://sifive.com/
-            logo: sifive-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/sifive
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Google (member)
-            homepage_url: https://www.google.com/
-            logo: google-founders.svg
-            crunchbase: https://www.crunchbase.com/organization/google
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Haihe Laboratory of Information Technology Application Innovation (member)
-            homepage_url: https://www.hl-it.cn/
-            logo: haihe.svg
-            crunchbase: https://www.crunchbase.com/organization/haihe-laboratory-of-information-technology-application-innovation
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Stream Computing (member)
-            homepage_url: https://www.streamcomputing.com/
-            logo: stream-computing.svg
-            crunchbase: https://www.crunchbase.com/organization/stream-computing
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Seagate Technology LLC (member)
-            homepage_url: http://www.seagate.com/
-            logo: Seagate.svg
-            crunchbase: https://www.crunchbase.com/organization/seagate
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Rivos Inc (member)
-            homepage_url: https://www.rivosinc.com/
-            logo: rivos-inc.svg
-            crunchbase: https://www.crunchbase.com/organization/rivos-inc
-            extra:
-              hide_license: 'true'
-          - item:
-            name: RIOS Lab (member)
-            homepage_url: http://rioslab.org/
-            logo: rios.svg
-            crunchbase: https://www.crunchbase.com/organization/rios-lab
+            name: NVIDIA Corporation (member)
+            homepage_url: https://www.nvidia.com/en-us/
+            logo: nvidia.svg
+            crunchbase: https://www.crunchbase.com/organization/nvidia
             extra:
               hide_license: 'true'
           - item:
@@ -126,24 +103,38 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: Syntacore Ltd (member)
-            homepage_url: http://www.syntacore.com/
-            logo: Syntacore-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/syntacore
+            name: RIOS Lab (member)
+            homepage_url: http://rioslab.org/
+            logo: rios.svg
+            crunchbase: https://www.crunchbase.com/organization/rios-lab
             extra:
               hide_license: 'true'
           - item:
-            name: Chengwei Capital (member)
-            homepage_url: http://www.chengwei.com/
-            logo: chengwei.svg
-            crunchbase: https://www.crunchbase.com/organization/chengwei-capital
+            name: Rivos Inc (member)
+            homepage_url: https://www.rivosinc.com/
+            logo: rivos-inc.svg
+            crunchbase: https://www.crunchbase.com/organization/rivos-inc
             extra:
               hide_license: 'true'
           - item:
-            name: Akeana (member)
-            homepage_url: https://akeana.io/
-            logo: AKEANA.svg
-            crunchbase: https://www.crunchbase.com/organization/akeana
+            name: Seagate Technology LLC (member)
+            homepage_url: http://www.seagate.com/
+            logo: Seagate.svg
+            crunchbase: https://www.crunchbase.com/organization/seagate
+            extra:
+              hide_license: 'true'
+          - item:
+            name: SiFive (member)
+            homepage_url: https://sifive.com/
+            logo: sifive-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/sifive
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Stream Computing (member)
+            homepage_url: https://www.streamcomputing.com/
+            logo: stream-computing.svg
+            crunchbase: https://www.crunchbase.com/organization/stream-computing
             extra:
               hide_license: 'true'
           - item:
@@ -154,27 +145,29 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: NVIDIA Corporation (member)
-            homepage_url: https://www.nvidia.com/en-us/
-            logo: nvidia.svg
-            crunchbase: https://www.crunchbase.com/organization/nvidia
+            name: Syntacore Ltd (member)
+            homepage_url: http://www.syntacore.com/
+            logo: Syntacore-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/syntacore
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Ventana Micro Systems (member)
+            description: Ventana is creating high performance RISC-V chiplets and IP for the data center, automotive, 5G edge, and client markets.
+            homepage_url: https://www.ventanamicro.com/
+            logo: VentanaLogo.svg
+            twitter: https://twitter.com/ventanamicro
+            crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
             extra:
               hide_license: 'true'
       - subcategory:
         name: Premier TSC
         items:
           - item:
-            name: Tencent (member)
-            homepage_url: https://www.tencent.com/
-            logo: tencent.svg
-            crunchbase: https://www.crunchbase.com/organization/tencent
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Sanechips Technology Co Ltd (member)
-            homepage_url: http://www.sanechips.com.cn/
-            logo: ZTE.svg
-            crunchbase: https://www.crunchbase.com/organization/sanechips-technology
+            name: Institute of Computing Technology, Chinese Academy of Sciences (member)
+            homepage_url: https://ict.cas.cn/
+            logo: ICT-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/chinese-academy-of-sciences
             extra:
               hide_license: 'true'
           - item:
@@ -186,216 +179,27 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: Institute of Computing Technology, Chinese Academy of Sciences (member)
-            homepage_url: https://ict.cas.cn/
-            logo: ICT-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/chinese-academy-of-sciences
+            name: Sanechips Technology Co Ltd (member)
+            homepage_url: http://www.sanechips.com.cn/
+            logo: ZTE.svg
+            crunchbase: https://www.crunchbase.com/organization/sanechips-technology
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Tencent (member)
+            homepage_url: https://www.tencent.com/
+            logo: tencent.svg
+            crunchbase: https://www.crunchbase.com/organization/tencent
             extra:
               hide_license: 'true'
       - subcategory:
         name: Strategic
         items:
           - item:
-            name: Allwinner Technology (member)
-            homepage_url: http://www.allwinnertech.com/
-            logo: allwinner.svg
-            crunchbase: https://www.crunchbase.com/organization/allwinner-technology
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Shanghai StarFive Technology Co. (member)
-            homepage_url: https://starfivetech.com/
-            logo: starfive.svg
-            crunchbase: https://www.crunchbase.com/organization/starfive-technology
-            extra:
-              Official GitHub: https://github.com/starfive-tech/
-              hide_license: 'true'
-          - item:
-            name: Imperas (member)
-            homepage_url: https://www.imperas.com/
-            logo: Imperas.svg
-            crunchbase: https://www.crunchbase.com/organization/imperas
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Embecosm (member)
-            homepage_url: https://www.embecosm.com/
-            logo: embecosm.svg
-            crunchbase: https://www.crunchbase.com/organization/embecosm
-            extra:
-              hide_license: 'true'
-          - item:
-            name: VRULL (member)
-            homepage_url: http://vrull.eu/
-            logo: VRULL-new.svg
-            crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Ashling (member)
-            description: >+
-              Ashling with their RiscFree™ SDK has grown to be synonymous in the embedded market with over 30 years of tool’s experience culminated in a
-              toolchain which includes an IDE, Debugger, Compiler, Debug & Trace Probes for RISC-V development with support for customisation & heterogeneous
-              environments.
-
-            homepage_url: https://www.ashling.com/
-            logo: ashling.svg
-            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Canonical Ubuntu (member)
-            homepage_url: https://ubuntu.com/
-            logo: canonical_ubuntu.svg
-            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-            extra:
-              Repository: https://ubuntu.com/download/risc-v
-              hide_license: 'true'
-          - item:
-            name: Green Hills Software (member)
-            homepage_url: https://www.ghs.com/
-            logo: green-hills-software.svg
-            crunchbase: https://www.crunchbase.com/organization/green-hills-software
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Lauterbach (member)
-            homepage_url: https://www.lauterbach.com/
-            logo: lauterbach-icon.svg
-            crunchbase: https://www.crunchbase.com/organization/lauterbach
-            extra:
-              hide_license: 'true'
-          - item:
-            name: SEGGER (member)
-            homepage_url: https://www.segger.com/risc-v/
-            logo: segger.svg
-            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Wind River (member)
-            homepage_url: https://windriver.com/
-            logo: wind-river.svg
-            crunchbase: https://www.crunchbase.com/organization/wind-river
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Valtrix Systems (member)
-            description: >-
-              Valtrix Systems - an EDA company from Bangalore, India, is into the development of CPU and SoC design verification tools. STING, the flagship
-              product of Valtrix, is a commercially supported design verification tool for RISC-V used by several CPU and SoC vendors for ensuring functional
-              correctness and architectural compliance. The tool can be configured to generate portable bare-metal programs containing self-checking
-              architecturally-correct test stimulus, which can then be enabled on simulation, FPGA prototypes, emulation or silicon.
-            homepage_url: https://www.valtrix.in/
-            logo: valtrix.svg
-            crunchbase: https://www.crunchbase.com/organization/valtrix-systems
-            extra:
-              hide_license: 'true'
-          - item:
-            name: lowRISC (member)
-            homepage_url: https://lowrisc.org/
-            logo: lowrisc-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/lowrisc
-            extra:
-              hide_license: 'true'
-          - item:
-            name: IAR (member)
-            homepage_url: https://www.iar.com/
-            logo: iar.svg
-            crunchbase: https://www.crunchbase.com/organization/iar-systems
-            extra:
-              hide_license: 'true'
-          - item:
-            name: ProvenRun (member)
-            homepage_url: https://provenrun.com/
-            logo: ProvenCore.svg
-            crunchbase: https://www.crunchbase.com/organization/prove-run
-            extra:
-              hide_license: 'true'
-          - item:
-            name: RT-Thread (member)
-            homepage_url: https://www.rt-thread.io/
-            logo: RT-Thread-Color.svg
-            crunchbase: https://www.crunchbase.com/organization/rt-thread
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Codasip (member)
-            homepage_url: https://www.codasip.com/
-            logo: codasip-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/codasip
-            second_path:
-              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
-              - Implementations / IP
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Esperanto Technologies (member)
-            homepage_url: http://www.esperantotech.com/
-            logo: esperanto-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/esperanto-technologies
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Microchip (member)
-            homepage_url: https://www.microchip.com/
-            logo: microchip-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/microchip-technology
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Antmicro (member)
-            homepage_url: https://antmicro.com/
-            logo: antmicro-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/antmicro
-            extra:
-              hide_license: 'true'
-              override_linked_in: https://www.linkedin.com/company/antmicro-ltd/
-          - item:
-            name: MachineWare (member)
-            homepage_url: https://machineware.de/
-            logo: machineware-new.svg
-            crunchbase: https://www.crunchbase.com/organization/machineware-gmbh
-            description: >-
-              MachineWare's virtual prototypes simulate RISC-V hardware at bit-level accuracy, shortening development time and enhancing software security,
-              stability, and quality.
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Crypto Quantique (member)
-            homepage_url: https://cryptoquantique.com/
-            logo: crypto-quantique.svg
-            crunchbase: https://www.crunchbase.com/organization/crypto-quantique
-            extra:
-              hide_license: 'true'
-          - item:
-            name: XMOS (member)
-            homepage_url: https://xmos.ai/
-            logo: xmos.svg
-            crunchbase: https://www.crunchbase.com/organization/xmos
-            description: >-
-              A deep tech company at the leading edge of the intelligent internet of things (IoT), XMOS addresses the evolving market need for flexible compute
-              to serve an ever-widening range of smart things including voice, imaging and ambient sensing.
-
-
-              The company's uniquely flexible xcore processors allow product designers to architect system-on-chip solutions purely in software, enabling faster
-              time to market with differentiated systems that are cost-effective and energy efficient.
-            extra:
-              Media Release: https://www.xmos.ai/xmos-announces-software-defined-soc-platform-now-compatible-with-risc-v/
-              Whitepaper: https://www.xmos.ai/using-risc-v-to-define-socs-in-software/
-              hide_license: 'true'
-          - item:
-            name: Digital Core Design (member)
-            homepage_url: https://www.dcd.pl/
-            logo: digital-core-design.svg
-            crunchbase: https://www.crunchbase.com/organization/digital-core-design
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Semidynamics Technology Services, S.L. (member)
-            homepage_url: https://www.semidynamics.com/
-            logo: semidynamics.svg
-            crunchbase: https://www.crunchbase.com/organization/semidynamics
+            name: 10xEngineers (member)
+            homepage_url: http://10xengineers.ai/
+            logo: 10x.svg
+            crunchbase: https://www.crunchbase.com/organization/10xengineers
             extra:
               hide_license: 'true'
           - item:
@@ -413,6 +217,13 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Allwinner Technology (member)
+            homepage_url: http://www.allwinnertech.com/
+            logo: allwinner.svg
+            crunchbase: https://www.crunchbase.com/organization/allwinner-technology
+            extra:
+              hide_license: 'true'
+          - item:
             name: Analog Devices (member)
             homepage_url: http://analog.com/
             logo: analog-devices.svg
@@ -420,49 +231,20 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: 10xEngineers (member)
-            homepage_url: http://10xengineers.ai/
-            logo: 10x.svg
-            crunchbase: https://www.crunchbase.com/organization/10xengineers
+            name: Anlogic (member)
+            homepage_url: https://anlogic.com/
+            logo: Anlogic.svg
+            crunchbase: https://www.crunchbase.com/organization/anlogic
             extra:
               hide_license: 'true'
           - item:
-            name: Think Silicon (member)
-            homepage_url: https://think-silicon.com/
-            logo: ThinkSilicon.svg
-            crunchbase: https://www.crunchbase.com/organization/think-silicon-2
-            description: Think Silicon is a leading provider of ultra-low power GPU IP for embedded systems.
-            twitter: https://twitter.com/ThinkSilicon
+            name: Antmicro (member)
+            homepage_url: https://antmicro.com/
+            logo: antmicro-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/antmicro
             extra:
               hide_license: 'true'
-          - item:
-            name: Nuclei Technology Corporation (member)
-            description: >-
-              Established in 2018, Nuclei Technology Corporation is a leading RISC-V processor IP vendor in China.
-
-              Nuclei dedicates to developing high-performance/low-power processors and their associated SoC platforms to serve the rapidly growing computing
-              system applications worldwide.
-
-
-              Starting from scratch, Nuclei provides a full series of processors that can meet various markets and applications, covering 5G communication,
-              industrial control, artificial intelligence, automotive electronics, Internet of things, storage, MCU, network security, etc. As of today, more
-              than 150 customers have officially licensed Nucleis' processor IPs.
-            homepage_url: https://www.nucleisys.com/
-            logo: nuclei.svg
-            crunchbase: https://www.crunchbase.com/organization/nuclei-system-technology
-            extra:
-              GitHub: https://github.com/Nuclei-Software/
-              hide_license: 'true'
-          - item:
-            name: Tenstorrent (member)
-            description: >-
-              Tenstorrent builds AI/ML accelerators and RISC-V processors in the form of IP, chiplets, chips, and boards that are scalable from 8-wide for data
-              centers to 2-wide for edge and embedded IoT solutions.
-            homepage_url: https://tenstorrent.com/
-            logo: tenstorrent.svg
-            crunchbase: https://www.crunchbase.com/organization/tenstorrent
-            extra:
-              hide_license: 'true'
+              override_linked_in: https://www.linkedin.com/company/antmicro-ltd/
           - item:
             name: Arduino (member)
             homepage_url: https://arduino.org/
@@ -485,10 +267,30 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Ashling (member)
+            description: >+
+              Ashling with their RiscFree™ SDK has grown to be synonymous in the embedded market with over 30 years of tool’s experience culminated in a
+              toolchain which includes an IDE, Debugger, Compiler, Debug & Trace Probes for RISC-V development with support for customisation & heterogeneous
+              environments.
+
+            homepage_url: https://www.ashling.com/
+            logo: ashling.svg
+            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
+            extra:
+              hide_license: 'true'
+          - item:
             name: Astra Linux (member)
             homepage_url: https://rusbitech.ru/
             logo: astra-linux.svg
             crunchbase: https://www.crunchbase.com/organization/rpa-rusbitech-jsc
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Australian Semiconductor Technology Company (ASTC Pty Ltd) (member)
+            homepage_url: https://astc-design.com/
+            project: null
+            logo: astc.svg
+            crunchbase: https://www.crunchbase.com/organization/astc
             extra:
               hide_license: 'true'
           - item:
@@ -499,18 +301,11 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: MINRES Technologies GmbH (member)
-            description: >-
-              Trustworthy Software-Driven Hardware for the Intelligent Edge.
-
-
-              Making modern technologies accessible to Small and Medium Enterprises (SME) allows them to leverage advances in semiconductor and deploy powerfull
-              solutions at the edge.
-            homepage_url: https://www.minres.com/
-            logo: MINRES.svg
-            crunchbase: https://www.crunchbase.com/organization/minres-technologies
+            name: Axiomise (member)
+            homepage_url: http://axiomise.com/
+            logo: axiomise.svg
+            crunchbase: https://www.crunchbase.com/organization/axiomise
             extra:
-              GitHub: https://github.com/Minres
               hide_license: 'true'
           - item:
             name: BaseALT (member)
@@ -534,10 +329,31 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Beijing Haawking Technology Co., Ltd. (member)
+            homepage_url: http://haawking.com/
+            logo: haawking-new.svg
+            crunchbase: https://www.crunchbase.com/organization/haawking
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Beijing Smartchip (member)
+            homepage_url: http://www.sgcc.com.cn/
+            logo: Beijing-Smartchip.svg
+            crunchbase: https://www.crunchbase.com/organization/state-grid-corporation-of-china
+            extra:
+              hide_license: 'true'
+          - item:
             name: Beijing Vcore Technology Co.,Ltd. (member)
             homepage_url: http://www.rvcore.com/
             logo: vcore-logo.svg
             crunchbase: https://www.crunchbase.com/organization/microcore-cd2b
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Bluespec (member)
+            homepage_url: http://www.bluespec.com/
+            logo: Bluespec-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/bluespec
             extra:
               hide_license: 'true'
           - item:
@@ -555,46 +371,53 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: Cycuity (member)
-            homepage_url: https://cycuity.com/
-            logo: Cycuity.svg
-            crunchbase: https://www.crunchbase.com/organization/tortuga-logic-inc
+            name: Canaan (member)
+            homepage_url: https://www.canaan-creative.com/
+            logo: Canaan.svg
+            crunchbase: https://www.crunchbase.com/organization/canaan-creative
             extra:
               hide_license: 'true'
           - item:
-            name: Bluespec (member)
-            homepage_url: http://www.bluespec.com/
-            logo: Bluespec-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/bluespec
+            name: Canonical Ubuntu (member)
+            homepage_url: https://ubuntu.com/
+            logo: canonical_ubuntu.svg
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
             extra:
-              hide_license: 'true'
-          - item:
-            name: Beijing Smartchip (member)
-            homepage_url: http://www.sgcc.com.cn/
-            logo: Beijing-Smartchip.svg
-            crunchbase: https://www.crunchbase.com/organization/state-grid-corporation-of-china
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Renesas Electronics Corporation (member)
-            homepage_url: https://www.renesas.com/
-            logo: renesas.svg
-            crunchbase: https://www.crunchbase.com/organization/renesas-electronics-corporation
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Terapines (member)
-            description: Terapines is a HW/SW co-design toolchain provider for RISC-V based processors.
-            homepage_url: https://www.terapines.com/
-            logo: TeraPines.svg
-            crunchbase: https://www.crunchbase.com/organization/terapines-technology
-            extra:
+              Repository: https://ubuntu.com/download/risc-v
               hide_license: 'true'
           - item:
             name: CAST, Inc. (member)
             homepage_url: https://cast-inc.com/
             logo: cast.svg
             crunchbase: https://www.crunchbase.com/organization/cast
+            extra:
+              hide_license: 'true'
+          - item:
+            name: CEVA, Inc. (member)
+            homepage_url: https://www.ceva-dsp.com/
+            logo: CEVA-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/ceva
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Chengdu Qunxin Microelectronics Technology Co., Ltd. (member)
+            homepage_url: https://masscore.cn/
+            logo: MASSCORE.svg
+            crunchbase: https://www.crunchbase.com/organization/chengdu-qunxin-microelectronics-technology-co
+            extra:
+              hide_license: 'true'
+          - item:
+            name: ChipFlow (member)
+            homepage_url: https://www.chipflow.io/
+            logo: ChipFlow.svg
+            crunchbase: https://www.crunchbase.com/organization/chipflow
+            extra:
+              hide_license: 'true'
+          - item:
+            name: CIP United (member)
+            homepage_url: https://www.cipunited.com/
+            logo: CIP.svg
+            crunchbase: https://www.crunchbase.com/organization/xinlianxin-intelligent-technology
             extra:
               hide_license: 'true'
           - item:
@@ -605,10 +428,33 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Codasip (member)
+            second_path:
+              - Design Tools, Compilers and Verification / Design Tools, Compilers and Verification
+              - Implementations / IP
+            homepage_url: https://www.codasip.com/
+            logo: codasip-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/codasip
+            extra:
+              hide_license: 'true'
+          - item:
             name: Codethink (member)
             homepage_url: https://www.codethink.co.uk/
             logo: codethink.svg
             crunchbase: https://www.crunchbase.com/organization/codethink
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Cortus (member)
+            description: >-
+              Founded in 2005, Cortus is a French fabless semiconductor manufacturing group headquartered in Mauguio (near Montpellier, France) with
+              subsidiaries in Italy, Greece and Spain. Cortus designs IC devices from simple MCUs to high-end SoCs drawing on its broad IP portfolio which
+              includes processors 32/64-bit (Cortus ISA and RISC-V ISA), digital, analog, mixed-signal, RF and security IPs. Cortus own IP portfolio addresses
+              applications such as Automotive, Consumer, IoT/NB-IoT, Edge Computing and Industrial control. Over 15 billion devices have been manufactured using
+              Cortus know-how.
+            homepage_url: https://cortus.com/
+            logo: Cortus_Founding.svg
+            crunchbase: https://www.crunchbase.com/organization/cortus-sa
             extra:
               hide_license: 'true'
           - item:
@@ -619,10 +465,45 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Crypto Quantique (member)
+            homepage_url: https://cryptoquantique.com/
+            logo: crypto-quantique.svg
+            crunchbase: https://www.crunchbase.com/organization/crypto-quantique
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Cycuity (member)
+            homepage_url: https://cycuity.com/
+            logo: Cycuity.svg
+            crunchbase: https://www.crunchbase.com/organization/tortuga-logic-inc
+            extra:
+              hide_license: 'true'
+          - item:
+            name: DeepComputing (member)
+            homepage_url: https://deepcomputing.io/
+            logo: DeepComputing-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/deepcomputing
+            extra:
+              hide_license: 'true'
+          - item:
             name: DFRobot (member)
             homepage_url: https://dfrobot.com/
             logo: dfrobot.svg
             crunchbase: https://www.crunchbase.com/organization/dfrobot
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Digital Core Design (member)
+            homepage_url: https://www.dcd.pl/
+            logo: digital-core-design.svg
+            crunchbase: https://www.crunchbase.com/organization/digital-core-design
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Draper (member)
+            homepage_url: https://www.draper.com/
+            logo: Draper.svg
+            crunchbase: https://www.crunchbase.com/organization/draper
             extra:
               hide_license: 'true'
           - item:
@@ -633,10 +514,38 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Embecosm (member)
+            homepage_url: https://www.embecosm.com/
+            logo: embecosm.svg
+            crunchbase: https://www.crunchbase.com/organization/embecosm
+            extra:
+              hide_license: 'true'
+          - item:
             name: Emdalo Technologies (member)
             homepage_url: http://www.emdalo.com/
             logo: emdalotechnologies.svg
             crunchbase: https://www.crunchbase.com/organization/emdalo-technologies
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Emproof (member)
+            homepage_url: https://www.emproof.com/
+            logo: emproof.svg
+            crunchbase: https://www.crunchbase.com/organization/emproof
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Esperanto Technologies (member)
+            homepage_url: http://www.esperantotech.com/
+            logo: esperanto-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/esperanto-technologies
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Espressif Systems (member)
+            homepage_url: http://espressif.com/
+            logo: Espressif-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/espressif
             extra:
               hide_license: 'true'
           - item:
@@ -647,10 +556,24 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: FermionIC Design Private Limited (member)
+            homepage_url: https://www.fermionic.design/
+            logo: fermionic.svg
+            crunchbase: https://www.crunchbase.com/organization/fermionic-design
+            extra:
+              hide_license: 'true'
+          - item:
             name: Fraunhofer-Gesellschaft (member)
             homepage_url: https://www.fraunhofer.de/
             logo: fraunhofer.svg
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Frontgrade Gaisler (member)
+            homepage_url: https://gaisler.com/
+            logo: Gaisler.svg
+            crunchbase: https://www.crunchbase.com/organization/frontgrade-gaisler
             extra:
               hide_license: 'true'
           - item:
@@ -675,6 +598,13 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Green Hills Software (member)
+            homepage_url: https://www.ghs.com/
+            logo: green-hills-software.svg
+            crunchbase: https://www.crunchbase.com/organization/green-hills-software
+            extra:
+              hide_license: 'true'
+          - item:
             name: GreenWaves Technologies (member)
             homepage_url: http://greenwaves-technologies.com/en/first-internet-things-iot-processor/
             logo: greenwaves.svg
@@ -689,6 +619,13 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: HighTec EDV-Systeme GmbH (member)
+            homepage_url: https://hightec-rt.com/en/
+            logo: HighTec.svg
+            crunchbase: https://www.crunchbase.com/organization/high-tec
+            extra:
+              hide_license: 'true'
+          - item:
             name: Hitachi, Ltd. (member)
             homepage_url: http://www.hitachi.com/
             logo: hitachi.svg
@@ -696,39 +633,47 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: Frontgrade Gaisler (member)
-            homepage_url: https://gaisler.com/
-            logo: Gaisler.svg
-            crunchbase: https://www.crunchbase.com/organization/frontgrade-gaisler
+            name: HPMicro (member)
+            homepage_url: https://hpmicro.com/
+            logo: HPMicro.svg
+            crunchbase: https://www.crunchbase.com/organization/hpmicro
             extra:
               hide_license: 'true'
           - item:
-            name: CEVA, Inc. (member)
-            homepage_url: https://www.ceva-dsp.com/
-            logo: CEVA-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/ceva
+            name: Hyperion Core (member)
+            description: Hyperion Core develops the first true universal processor.
+            homepage_url: https://www.hyperion-core.com/
+            logo: Hyperion-Core.svg
+            twitter: https://twitter.com/hyperioncoreinc
+            crunchbase: https://www.crunchbase.com/organization/hyperion-core
             extra:
               hide_license: 'true'
           - item:
-            name: Espressif Systems (member)
-            homepage_url: http://espressif.com/
-            logo: Espressif-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/espressif
+            name: IAR (member)
+            homepage_url: https://www.iar.com/
+            logo: iar.svg
+            crunchbase: https://www.crunchbase.com/organization/iar-systems
             extra:
               hide_license: 'true'
           - item:
-            name: Siemens EDA (member)
-            homepage_url: https://eda.sw.siemens.com/en-US/ic/tessent/
-            logo: Siemens.svg
-            crunchbase: https://www.crunchbase.com/organization/siemens
+            name: IBM (member)
+            homepage_url: http://www.ibm.com/
+            logo: IBM-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
             extra:
-              LinkedIn: https://linkedin.com/showcase/Tessent-solutions/
               hide_license: 'true'
           - item:
-            name: Axiomise (member)
-            homepage_url: http://axiomise.com/
-            logo: axiomise.svg
-            crunchbase: https://www.crunchbase.com/organization/axiomise
+            name: IMachines (member)
+            homepage_url: https://imachinesinc.com/
+            logo: IMachines.svg
+            crunchbase: https://www.crunchbase.com/organization/imachines
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Imperas (member)
+            homepage_url: https://www.imperas.com/
+            logo: Imperas.svg
+            crunchbase: https://www.crunchbase.com/organization/imperas
             extra:
               hide_license: 'true'
           - item:
@@ -753,6 +698,13 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Ingenic Semiconductor (member)
+            homepage_url: http://www.ingenic.com.cn/
+            logo: Ingenic.svg
+            crunchbase: https://www.crunchbase.com/organization/ingenic-semiconductor
+            extra:
+              hide_license: 'true'
+          - item:
             name: Inspire Semiconductor (member)
             homepage_url: https://inspiresemi.com/
             logo: inspiresemi.svg
@@ -767,10 +719,24 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Intensivate, Inc. (member)
+            homepage_url: https://intensivate.com/
+            logo: intensivate.svg
+            crunchbase: https://www.crunchbase.com/organization/intensivate
+            extra:
+              hide_license: 'true'
+          - item:
             name: Jump Operations (member)
             homepage_url: https://www.jumptrading.com/
             logo: jump-operations.svg
             crunchbase: https://www.crunchbase.com/organization/jump-trading-llc
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Keysom (member)
+            homepage_url: https://keysom.io/
+            logo: keysom.svg
+            crunchbase: https://www.crunchbase.com/organization/keysom
             extra:
               hide_license: 'true'
           - item:
@@ -781,24 +747,10 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: LeapFive (member)
-            homepage_url: https://www.leapfive.com/
-            logo: LeapFive.svg
-            crunchbase: https://www.crunchbase.com/organization/yuefang-technology
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Ingenic Semiconductor (member)
-            homepage_url: http://www.ingenic.com.cn/
-            logo: Ingenic.svg
-            crunchbase: https://www.crunchbase.com/organization/ingenic-semiconductor
-            extra:
-              hide_license: 'true'
-          - item:
-            name: IBM (member)
-            homepage_url: http://www.ibm.com/
-            logo: IBM-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/ibm
+            name: Krutrim SI Designs (member)
+            homepage_url: https://www.crunchbase.com/organization/krutrim-si-designs
+            logo: Krutrim SI Designs.svg
+            crunchbase: https://www.crunchbase.com/organization/krutrim-si-designs
             extra:
               hide_license: 'true'
           - item:
@@ -809,6 +761,20 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Lauterbach (member)
+            homepage_url: https://www.lauterbach.com/
+            logo: lauterbach-icon.svg
+            crunchbase: https://www.crunchbase.com/organization/lauterbach
+            extra:
+              hide_license: 'true'
+          - item:
+            name: LeapFive (member)
+            homepage_url: https://www.leapfive.com/
+            logo: LeapFive.svg
+            crunchbase: https://www.crunchbase.com/organization/yuefang-technology
+            extra:
+              hide_license: 'true'
+          - item:
             name: LeapFrog Semiconductor (member)
             homepage_url: https://leapfrogsemi.com/
             logo: LeapFrog.svg
@@ -816,201 +782,20 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: Cortus (member)
+            name: lowRISC (member)
+            homepage_url: https://lowrisc.org/
+            logo: lowrisc-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/lowrisc
+            extra:
+              hide_license: 'true'
+          - item:
+            name: MachineWare (member)
             description: >-
-              Founded in 2005, Cortus is a French fabless semiconductor manufacturing group headquartered in Mauguio (near Montpellier, France) with
-              subsidiaries in Italy, Greece and Spain. Cortus designs IC devices from simple MCUs to high-end SoCs drawing on its broad IP portfolio which
-              includes processors 32/64-bit (Cortus ISA and RISC-V ISA), digital, analog, mixed-signal, RF and security IPs. Cortus own IP portfolio addresses
-              applications such as Automotive, Consumer, IoT/NB-IoT, Edge Computing and Industrial control. Over 15 billion devices have been manufactured using
-              Cortus know-how.
-            homepage_url: https://cortus.com/
-            logo: Cortus_Founding.svg
-            crunchbase: https://www.crunchbase.com/organization/cortus-sa
-            extra:
-              hide_license: 'true'
-          - item:
-            name: HPMicro (member)
-            homepage_url: https://hpmicro.com/
-            logo: HPMicro.svg
-            crunchbase: https://www.crunchbase.com/organization/hpmicro
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Silicon Labs (member)
-            homepage_url: https://www.silabs.com/
-            logo: SiliconLabs.svg
-            crunchbase: https://www.crunchbase.com/organization/silicon-laboratories
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Nokia (member)
-            homepage_url: https://www.nokia.com/
-            logo: Nokia.svg
-            crunchbase: https://www.crunchbase.com/organization/nokia
-            extra:
-              hide_license: 'true'
-          - item:
-            name: HighTec EDV-Systeme GmbH (member)
-            homepage_url: https://hightec-rt.com/en/
-            logo: HighTec.svg
-            crunchbase: https://www.crunchbase.com/organization/high-tec
-            extra:
-              hide_license: 'true'
-          - item:
-            name: SUSE (member)
-            homepage_url: https://www.suse.com/
-            logo: suse-llc.svg
-            crunchbase: https://www.crunchbase.com/organization/suse
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Syntronix Corporation (member)
-            homepage_url: https://www.syntronix.com.tw/index.php/en/home-en/
-            logo: syntronix.svg
-            extra:
-              hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/syntronix
-          - item:
-            name: TASKING (member)
-            homepage_url: https://www.tasking.com/
-            logo: TASKING.svg
-            crunchbase: https://www.crunchbase.com/organization/tasking
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Technology Innovation Institute (member)
-            homepage_url: https://www.tii.ae/
-            logo: TII.svg
-            crunchbase: https://www.crunchbase.com/organization/technology-innovation-institute
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Thales (member)
-            homepage_url: https://www.thalesgroup.com/en
-            logo: Thales.svg
-            crunchbase: https://www.crunchbase.com/organization/thales-group
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Draper (member)
-            homepage_url: https://www.draper.com/
-            logo: Draper.svg
-            crunchbase: https://www.crunchbase.com/organization/draper
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Tactical Computing Laboratories (member)
-            homepage_url: https://tactcomplabs.com/
-            logo: TCL.svg
-            twitter: https://twitter.com/TactCompLabs
-            extra:
-              hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/tactical-computing-laboratories-b3a5
-          - item:
-            name: Tiempo Secure (member)
-            homepage_url: https://www.tiempo-secure.com/
-            logo: Tiempo-Secure.svg
-            crunchbase: https://www.crunchbase.com/organization/tiempo
-            extra:
-              hide_license: 'true'
-          - item:
-            name: UC Techip (member)
-            homepage_url: https://www.uctechip.com/
-            logo: UC Techip.svg
-            extra:
-              hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/uc-techip
-          - item:
-            name: UNISOC (member)
-            homepage_url: https://www.unisoc.com/cn_zh/
-            logo: UNISOC.svg
-            crunchbase: https://www.crunchbase.com/organization/unisoc
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Nordic Semiconductor (member)
-            homepage_url: https://www.nordicsemi.com/
-            logo: Nordic-Semiconductor.svg
-            crunchbase: https://www.crunchbase.com/organization/nordic-semiconductor-2
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Anlogic (member)
-            homepage_url: https://anlogic.com/
-            logo: Anlogic.svg
-            crunchbase: https://www.crunchbase.com/organization/anlogic
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Beijing Haawking Technology Co., Ltd. (member)
-            homepage_url: http://haawking.com/
-            logo: haawking-new.svg
-            crunchbase: https://www.crunchbase.com/organization/haawking
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Canaan (member)
-            homepage_url: https://www.canaan-creative.com/
-            logo: Canaan.svg
-            crunchbase: https://www.crunchbase.com/organization/canaan-creative
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Chengdu Qunxin Microelectronics Technology Co., Ltd. (member)
-            homepage_url: https://masscore.cn/
-            logo: MASSCORE.svg
-            extra:
-              hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/chengdu-qunxin-microelectronics-technology-co
-          - item:
-            name: Hyperion Core (member)
-            description: Hyperion Core develops the first true universal processor.
-            homepage_url: https://www.hyperion-core.com/
-            logo: Hyperion-Core.svg
-            crunchbase: https://www.crunchbase.com/organization/hyperion-core
-            twitter: https://twitter.com/hyperioncoreinc
-            extra:
-              hide_license: 'true'
-          - item:
-            name: CIP United (member)
-            homepage_url: https://www.cipunited.com/
-            logo: CIP.svg
-            crunchbase: https://www.crunchbase.com/organization/xinlianxin-intelligent-technology
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Technolution (member)
-            homepage_url: https://www.technolution.com/
-            logo: Technolution.svg
-            crunchbase: https://www.crunchbase.com/organization/technolution-ac5d
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Qamcom (member)
-            homepage_url: https://www.qamcom.com/
-            logo: Qamcom.svg
-            crunchbase: https://www.crunchbase.com/organization/qamcom
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Rambus (member)
-            homepage_url: https://www.rambus.com/
-            logo: Rambus-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/rambus
-            extra:
-              hide_license: 'true'
-          - item:
-            name: FermionIC Design Private Limited (member)
-            homepage_url: https://www.fermionic.design/
-            logo: fermionic.svg
-            crunchbase: https://www.crunchbase.com/organization/fermionic-design
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Intensivate, Inc. (member)
-            homepage_url: https://intensivate.com/
-            logo: intensivate.svg
-            crunchbase: https://www.crunchbase.com/organization/intensivate
+              MachineWare's virtual prototypes simulate RISC-V hardware at bit-level accuracy, shortening development time and enhancing software security,
+              stability, and quality.
+            homepage_url: https://machineware.de/
+            logo: machineware-new.svg
+            crunchbase: https://www.crunchbase.com/organization/machineware-gmbh
             extra:
               hide_license: 'true'
           - item:
@@ -1049,6 +834,34 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Microchip (member)
+            homepage_url: https://www.microchip.com/
+            logo: microchip-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/microchip-technology
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Microip Inc. (member)
+            homepage_url: https://www.micro-ip.com/
+            logo: microip.svg
+            crunchbase: https://www.crunchbase.com/organization/microip
+            extra:
+              hide_license: 'true'
+          - item:
+            name: MINRES Technologies GmbH (member)
+            description: >-
+              Trustworthy Software-Driven Hardware for the Intelligent Edge.
+
+
+              Making modern technologies accessible to Small and Medium Enterprises (SME) allows them to leverage advances in semiconductor and deploy powerfull
+              solutions at the edge.
+            homepage_url: https://www.minres.com/
+            logo: MINRES.svg
+            crunchbase: https://www.crunchbase.com/organization/minres-technologies
+            extra:
+              GitHub: https://github.com/Minres
+              hide_license: 'true'
+          - item:
             name: MIPS Tech LLC. (member)
             homepage_url: https://www.mips.com/
             logo: mips-technologies.svg
@@ -1066,9 +879,9 @@ landscape:
             name: Nanjing Qinheng Microelectronics Co., Ltd (member)
             homepage_url: https://www.wch.cn/
             logo: nanjing-qinheng.svg
+            crunchbase: https://www.crunchbase.com/organization/nanjing-qinheng-microelectronics-co
             extra:
               hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/nanjing-qinheng-microelectronics-co
           - item:
             name: Nanjing SemiDrive Technology Ltd. (member)
             homepage_url: https://www.semidrive.com/
@@ -1084,11 +897,43 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Nokia (member)
+            homepage_url: https://www.nokia.com/
+            logo: Nokia.svg
+            crunchbase: https://www.crunchbase.com/organization/nokia
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Nordic Semiconductor (member)
+            homepage_url: https://www.nordicsemi.com/
+            logo: Nordic-Semiconductor.svg
+            crunchbase: https://www.crunchbase.com/organization/nordic-semiconductor-2
+            extra:
+              hide_license: 'true'
+          - item:
             name: NTLAB, UAB (member)
             homepage_url: https://ntlab.lt/
             logo: NTLAB.svg
             crunchbase: https://www.crunchbase.com/organization/ntlab
             extra:
+              hide_license: 'true'
+          - item:
+            name: Nuclei Technology Corporation (member)
+            description: >-
+              Established in 2018, Nuclei Technology Corporation is a leading RISC-V processor IP vendor in China.
+
+              Nuclei dedicates to developing high-performance/low-power processors and their associated SoC platforms to serve the rapidly growing computing
+              system applications worldwide.
+
+
+              Starting from scratch, Nuclei provides a full series of processors that can meet various markets and applications, covering 5G communication,
+              industrial control, artificial intelligence, automotive electronics, Internet of things, storage, MCU, network security, etc. As of today, more
+              than 150 customers have officially licensed Nucleis' processor IPs.
+            homepage_url: https://www.nucleisys.com/
+            logo: nuclei.svg
+            crunchbase: https://www.crunchbase.com/organization/nuclei-system-technology
+            extra:
+              GitHub: https://github.com/Nuclei-Software/
               hide_license: 'true'
           - item:
             name: NXP Semiconductors Netherlands B.V. (member)
@@ -1112,6 +957,13 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: PerfXLab (member)
+            homepage_url: https://perfxlab.com/
+            logo: PerfXLab.svg
+            crunchbase: https://www.crunchbase.com/organization/perfxlab
+            extra:
+              hide_license: 'true'
+          - item:
             name: PEZY Computing, K.K. (member)
             homepage_url: https://www.pezy.co.jp/
             logo: PEZY Computing.svg
@@ -1122,14 +974,35 @@ landscape:
             name: Pixilica (member)
             homepage_url: https://www.pixilica.com/
             logo: Pixilica.svg
+            crunchbase: https://www.crunchbase.com/organization/pixilica
             extra:
               hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/pixilica
           - item:
             name: PQShield Ltd. (member)
             homepage_url: https://pqshield.com/
             logo: PQShield.svg
             crunchbase: https://www.crunchbase.com/organization/pqshield
+            extra:
+              hide_license: 'true'
+          - item:
+            name: ProvenRun (member)
+            homepage_url: https://provenrun.com/
+            logo: ProvenCore.svg
+            crunchbase: https://www.crunchbase.com/organization/prove-run
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Qamcom (member)
+            homepage_url: https://www.qamcom.com/
+            logo: Qamcom.svg
+            crunchbase: https://www.crunchbase.com/organization/qamcom
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Rambus (member)
+            homepage_url: https://www.rambus.com/
+            logo: Rambus-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/rambus
             extra:
               hide_license: 'true'
           - item:
@@ -1140,10 +1013,10 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: RTX (member)
-            homepage_url: https://www.rtx.com/
-            logo: Raytheon_Technologies.svg
-            crunchbase: https://www.crunchbase.com/organization/raytheon-technologies-defense-training-and-mission-critical-solutions-business
+            name: Renesas Electronics Corporation (member)
+            homepage_url: https://www.renesas.com/
+            logo: renesas.svg
+            crunchbase: https://www.crunchbase.com/organization/renesas-electronics-corporation
             extra:
               hide_license: 'true'
           - item:
@@ -1161,12 +1034,26 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: RT-Thread (member)
+            homepage_url: https://www.rt-thread.io/
+            logo: RT-Thread-Color.svg
+            crunchbase: https://www.crunchbase.com/organization/rt-thread
+            extra:
+              hide_license: 'true'
+          - item:
+            name: RTX (member)
+            homepage_url: https://www.rtx.com/
+            logo: Raytheon_Technologies.svg
+            crunchbase: https://www.crunchbase.com/organization/raytheon-technologies-defense-training-and-mission-critical-solutions-business
+            extra:
+              hide_license: 'true'
+          - item:
             name: Rumble Development Corporation (member)
             homepage_url: http://www.rumbledev.com/
             logo: rumble-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/rumble-development-corporation
             extra:
               hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/rumble-development-corporation
           - item:
             name: S2C Limited (member)
             homepage_url: https://www.s2cinc.com/
@@ -1182,10 +1069,46 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: SBT Industries (member)
+            homepage_url: https://sbtindustries.com/
+            logo: SBT.svg
+            crunchbase: https://www.crunchbase.com/organization/sbt-industries
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Scaledge (member)
+            homepage_url: https://scaledge.io/
+            project: null
+            logo: scaledge-inc.svg
+            crunchbase: https://www.crunchbase.com/organization/scaledge-cf06
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Schneider Electric (member)
+            homepage_url: https://www.se.com/ww/en/
+            logo: schneiderelectric.svg
+            crunchbase: https://www.crunchbase.com/organization/schneider-electric
+            extra:
+              hide_license: 'true'
+          - item:
             name: Secure-IC (member)
             homepage_url: https://www.secure-ic.com/
             logo: Secure-IC.svg
             crunchbase: https://www.crunchbase.com/organization/secure-ic
+            extra:
+              hide_license: 'true'
+          - item:
+            name: SEGGER (member)
+            homepage_url: https://www.segger.com/risc-v/
+            logo: segger.svg
+            crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Semidynamics Technology Services, S.L. (member)
+            homepage_url: https://www.semidynamics.com/
+            logo: semidynamics.svg
+            crunchbase: https://www.crunchbase.com/organization/semidynamics
             extra:
               hide_license: 'true'
           - item:
@@ -1203,26 +1126,42 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: Wanxiang Blockchain (member)
-            homepage_url: https://www.wxblockchain.com/#/home
-            logo: wxblockchain.svg
-            crunchbase: https://www.crunchbase.com/organization/shanghai-wanxiang-blockchain-inc
+            name: Shanghai StarFive Technology Co. (member)
+            homepage_url: https://starfivetech.com/
+            logo: starfive.svg
+            crunchbase: https://www.crunchbase.com/organization/starfive-technology
             extra:
+              Official GitHub: https://github.com/starfive-tech/
               hide_license: 'true'
           - item:
             name: ShenZhen Bluetrum Technology Co., Ltd (member)
             homepage_url: https://www.bluetrum.com/
             logo: Bluetrum.svg
+            crunchbase: https://www.crunchbase.com/organization/shenzhen-bluetrum-technology-co
             extra:
               hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/shenzhen-bluetrum-technology-co
+          - item:
+            name: Shenzhen Jaguar Microsystems (member)
+            homepage_url: https://www.jaguarmicro.com/
+            logo: jaguar-microsystems.svg
+            crunchbase: https://www.crunchbase.com/organization/jaguar-microsystems
+            extra:
+              hide_license: 'true'
           - item:
             name: Shenzhen MilkV Technology Co., Ltd (member)
             homepage_url: https://milkv.io/
             logo: milkv.svg
+            crunchbase: https://www.crunchbase.com/organization/shenzhen-milkv-technology-co
             extra:
               hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/shenzhen-milkv-technology-co
+          - item:
+            name: Siemens EDA (member)
+            homepage_url: https://eda.sw.siemens.com/en-US/ic/tessent/
+            logo: Siemens.svg
+            crunchbase: https://www.crunchbase.com/organization/siemens
+            extra:
+              LinkedIn: https://linkedin.com/showcase/Tessent-solutions/
+              hide_license: 'true'
           - item:
             name: Signaloid (member)
             homepage_url: https://signaloid.com/
@@ -1234,14 +1173,21 @@ landscape:
             name: Signoff Semiconductors Inc. (member)
             homepage_url: https://signoffsemiconductors.com/
             logo: SignOff.svg
+            crunchbase: https://www.crunchbase.com/organization/signoff-semiconductors
             extra:
               hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/signoff-semiconductors
           - item:
             name: Silansys Semiconductor Ltd (member)
             homepage_url: http://silansys.com/
             logo: silansys.svg
             crunchbase: https://www.crunchbase.com/organization/silansys-semiconductor
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Silicon Labs (member)
+            homepage_url: https://www.silabs.com/
+            logo: SiliconLabs.svg
+            crunchbase: https://www.crunchbase.com/organization/silicon-laboratories
             extra:
               hide_license: 'true'
           - item:
@@ -1280,17 +1226,92 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: SUSE (member)
+            homepage_url: https://www.suse.com/
+            logo: suse-llc.svg
+            crunchbase: https://www.crunchbase.com/organization/suse
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Syntronix Corporation (member)
+            homepage_url: https://www.syntronix.com.tw/index.php/en/home-en/
+            logo: syntronix.svg
+            crunchbase: https://www.crunchbase.com/organization/syntronix
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Tactical Computing Laboratories (member)
+            homepage_url: https://tactcomplabs.com/
+            logo: TCL.svg
+            crunchbase: https://www.crunchbase.com/organization/tactical-computing-laboratories-b3a5
+            extra:
+              hide_license: 'true'
+          - item:
+            name: TASKING (member)
+            homepage_url: https://www.tasking.com/
+            logo: TASKING.svg
+            crunchbase: https://www.crunchbase.com/organization/tasking
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Technology Innovation Institute (member)
+            homepage_url: https://www.tii.ae/
+            logo: TII.svg
+            crunchbase: https://www.crunchbase.com/organization/technology-innovation-institute
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Technolution (member)
+            homepage_url: https://www.technolution.com/
+            logo: Technolution.svg
+            crunchbase: https://www.crunchbase.com/organization/technolution-ac5d
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Tenstorrent (member)
+            description: >-
+              Tenstorrent builds AI/ML accelerators and RISC-V processors in the form of IP, chiplets, chips, and boards that are scalable from 8-wide for data
+              centers to 2-wide for edge and embedded IoT solutions.
+            homepage_url: https://tenstorrent.com/
+            logo: tenstorrent.svg
+            crunchbase: https://www.crunchbase.com/organization/tenstorrent
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Terapines (member)
+            description: Terapines is a HW/SW co-design toolchain provider for RISC-V based processors.
+            homepage_url: https://www.terapines.com/
+            logo: TeraPines.svg
+            crunchbase: https://www.crunchbase.com/organization/terapines-technology
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Thales (member)
+            homepage_url: https://www.thalesgroup.com/en
+            logo: Thales.svg
+            crunchbase: https://www.crunchbase.com/organization/thales-group
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Think Silicon (member)
+            description: Think Silicon is a leading provider of ultra-low power GPU IP for embedded systems.
+            homepage_url: https://think-silicon.com/
+            logo: ThinkSilicon.svg
+            crunchbase: https://www.crunchbase.com/organization/think-silicon-2
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Tiempo Secure (member)
+            homepage_url: https://www.tiempo-secure.com/
+            logo: Tiempo-Secure.svg
+            crunchbase: https://www.crunchbase.com/organization/tiempo
+            extra:
+              hide_license: 'true'
+          - item:
             name: Trilinear Technologies, Inc. (member)
             homepage_url: https://trilineartech.com/
             logo: trilinear.svg
-            extra:
-              hide_license: 'true'
             crunchbase: https://www.crunchbase.com/organization/trilinear-technologies
-          - item:
-            name: Ubilite (member)
-            homepage_url: https://www.ubilite.com/
-            logo: Ubilite.svg
-            crunchbase: https://www.crunchbase.com/organization/ubilite
             extra:
               hide_license: 'true'
           - item:
@@ -1301,12 +1322,52 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: Ubilite (member)
+            homepage_url: https://www.ubilite.com/
+            logo: Ubilite.svg
+            crunchbase: https://www.crunchbase.com/organization/ubilite
+            extra:
+              hide_license: 'true'
+          - item:
+            name: UC Techip (member)
+            homepage_url: https://www.uctechip.com/
+            logo: UC Techip.svg
+            crunchbase: https://www.crunchbase.com/organization/uc-techip
+            extra:
+              hide_license: 'true'
+          - item:
+            name: UltraRISC Technology (Shanghai) Co., Ltd. (member)
+            homepage_url: https://ultrarisc.com/
+            logo: ultrarisc.svg
+            crunchbase: https://www.crunchbase.com/organization/ultrarisc-technology-shanghai-co-ltd
+            extra:
+              hide_license: 'true'
+          - item:
+            name: UNISOC (member)
+            homepage_url: https://www.unisoc.com/cn_zh/
+            logo: UNISOC.svg
+            crunchbase: https://www.crunchbase.com/organization/unisoc
+            extra:
+              hide_license: 'true'
+          - item:
             name: UNO Laboratories, Ltd. (member)
             homepage_url: https://www.unolabo.co.jp/
             logo: UNO.svg
+            crunchbase: https://www.crunchbase.com/organization/uno-laboratories
             extra:
               hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/uno-laboratories
+          - item:
+            name: Valtrix Systems (member)
+            description: >-
+              Valtrix Systems - an EDA company from Bangalore, India, is into the development of CPU and SoC design verification tools. STING, the flagship
+              product of Valtrix, is a commercially supported design verification tool for RISC-V used by several CPU and SoC vendors for ensuring functional
+              correctness and architectural compliance. The tool can be configured to generate portable bare-metal programs containing self-checking
+              architecturally-correct test stimulus, which can then be enabled on simulation, FPGA prototypes, emulation or silicon.
+            homepage_url: https://www.valtrix.in/
+            logo: valtrix.svg
+            crunchbase: https://www.crunchbase.com/organization/valtrix-systems
+            extra:
+              hide_license: 'true'
           - item:
             name: Vates (member)
             homepage_url: https://vates.tech/
@@ -1325,14 +1386,21 @@ landscape:
             name: Vision Microsystems (Shanghai), Co. Ltd. (member)
             homepage_url: http://www.visionmc.com/
             logo: Vision Microsystems.svg
+            crunchbase: https://www.crunchbase.com/organization/vision-microsystems
             extra:
               hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/vision-microsystems
           - item:
             name: VRRB Labs, Inc (member)
             homepage_url: https://versatus.io/
             logo: VRRB-Labs.svg
             crunchbase: https://www.crunchbase.com/organization/vrrb-labs
+            extra:
+              hide_license: 'true'
+          - item:
+            name: VRULL (member)
+            homepage_url: http://vrull.eu/
+            logo: VRULL-new.svg
+            crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
             extra:
               hide_license: 'true'
           - item:
@@ -1347,6 +1415,27 @@ landscape:
             homepage_url: https://www.vypercore.com/
             logo: vypercore.svg
             crunchbase: https://www.crunchbase.com/organization/vypercore
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Wanxiang Blockchain (member)
+            homepage_url: https://www.wxblockchain.com/#/home
+            logo: wxblockchain.svg
+            crunchbase: https://www.crunchbase.com/organization/shanghai-wanxiang-blockchain-inc
+            extra:
+              hide_license: 'true'
+          - item:
+            name: WIN SOURCE ELECTRONICS (member)
+            homepage_url: https://www.win-source.net/
+            logo: WINSOURCE.svg
+            crunchbase: https://www.crunchbase.com/organization/win-source-electronics
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Wind River (member)
+            homepage_url: https://windriver.com/
+            logo: wind-river.svg
+            crunchbase: https://www.crunchbase.com/organization/wind-river
             extra:
               hide_license: 'true'
           - item:
@@ -1367,9 +1456,39 @@ landscape:
             name: X-Silicon (member)
             homepage_url: https://www.x-silicon.com/
             logo: x-silicon.svg
+            crunchbase: https://www.crunchbase.com/organization/x-silicon
             extra:
               hide_license: 'true'
-            crunchbase: https://www.crunchbase.com/organization/x-silicon
+          - item:
+            name: Xcelerium (member)
+            homepage_url: https://xcelerium.com/
+            logo: xcelerium.svg
+            crunchbase: https://www.crunchbase.com/organization/xcelerium
+            extra:
+              hide_license: 'true'
+          - item:
+            name: XinSheng Technology Co., LTD (member)
+            homepage_url: https://www.xinshengcmiot.cn/
+            logo: xinsheng.svg
+            crunchbase: https://www.crunchbase.com/organization/china-mobile
+            extra:
+              hide_license: 'true'
+          - item:
+            name: XMOS (member)
+            description: >-
+              A deep tech company at the leading edge of the intelligent internet of things (IoT), XMOS addresses the evolving market need for flexible compute
+              to serve an ever-widening range of smart things including voice, imaging and ambient sensing.
+
+
+              The company's uniquely flexible xcore processors allow product designers to architect system-on-chip solutions purely in software, enabling faster
+              time to market with differentiated systems that are cost-effective and energy efficient.
+            homepage_url: https://xmos.ai/
+            logo: xmos.svg
+            crunchbase: https://www.crunchbase.com/organization/xmos
+            extra:
+              Media Release: https://www.xmos.ai/xmos-announces-software-defined-soc-platform-now-compatible-with-risc-v/
+              Whitepaper: https://www.xmos.ai/using-risc-v-to-define-socs-in-software/
+              hide_license: 'true'
           - item:
             name: Zaram Technology (member)
             homepage_url: https://zaram.com/
@@ -1391,212 +1510,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/zeropoint-technologies-ab
             extra:
               hide_license: 'true'
-          - item:
-            name: ChipFlow (member)
-            homepage_url: https://www.chipflow.io/
-            logo: ChipFlow.svg
-            crunchbase: https://www.crunchbase.com/organization/chipflow
-            extra:
-              hide_license: 'true'
-          - item:
-            name: PerfXLab (member)
-            homepage_url: https://perfxlab.com/
-            logo: PerfXLab.svg
-            crunchbase: https://www.crunchbase.com/organization/perfxlab
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Australian Semiconductor Technology Company (ASTC Pty Ltd) (member)
-            homepage_url: https://astc-design.com/
-            project: null
-            logo: astc.svg
-            crunchbase: https://www.crunchbase.com/organization/astc
-            extra:
-              hide_license: 'true'
-          - item:
-            name: SBT Industries (member)
-            homepage_url: https://sbtindustries.com/
-            logo: SBT.svg
-            crunchbase: https://www.crunchbase.com/organization/sbt-industries
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Krutrim SI Designs (member)
-            homepage_url: https://www.crunchbase.com/organization/krutrim-si-designs
-            logo: Krutrim SI Designs.svg
-            crunchbase: https://www.crunchbase.com/organization/krutrim-si-designs
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Xcelerium (member)
-            homepage_url: https://xcelerium.com/
-            logo: xcelerium.svg
-            crunchbase: https://www.crunchbase.com/organization/xcelerium
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Shenzhen Jaguar Microsystems (member)
-            homepage_url: https://www.jaguarmicro.com/
-            logo: jaguar-microsystems.svg
-            crunchbase: https://www.crunchbase.com/organization/jaguar-microsystems
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Scaledge (member)
-            homepage_url: https://scaledge.io/
-            project: null
-            logo: scaledge-inc.svg
-            crunchbase: https://www.crunchbase.com/organization/scaledge-cf06
-            extra:
-              hide_license: 'true'
-          - item:
-            name: IMachines (member)
-            homepage_url: https://imachinesinc.com/
-            logo: IMachines.svg
-            crunchbase: https://www.crunchbase.com/organization/imachines
-            extra:
-              hide_license: 'true'
-          - item:
-            name: DeepComputing (member)
-            homepage_url: https://deepcomputing.io/
-            logo: DeepComputing-logo.svg
-            crunchbase: https://www.crunchbase.com/organization/deepcomputing
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Keysom (member)
-            homepage_url: https://keysom.io/
-            logo: keysom.svg
-            crunchbase: https://www.crunchbase.com/organization/keysom
-            extra:
-              hide_license: 'true'
-          - item:
-            name: UltraRISC Technology (Shanghai) Co., Ltd. (member)
-            homepage_url: https://ultrarisc.com/
-            logo: ultrarisc.svg
-            crunchbase: https://www.crunchbase.com/organization/ultrarisc-technology-shanghai-co-ltd
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Schneider Electric (member)
-            homepage_url: https://www.se.com/ww/en/
-            logo: schneiderelectric.svg
-            crunchbase: https://www.crunchbase.com/organization/schneider-electric
-            extra:
-              hide_license: 'true'
-          - item:
-            name: WIN SOURCE ELECTRONICS (member)
-            homepage_url: https://www.win-source.net/
-            logo: WINSOURCE.svg
-            crunchbase: https://www.crunchbase.com/organization/win-source-electronics
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Microip Inc. (member)
-            homepage_url: https://www.micro-ip.com/
-            logo: microip.svg
-            crunchbase: https://www.crunchbase.com/organization/microip
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Emproof (member)
-            homepage_url: https://www.emproof.com/
-            logo: emproof.svg
-            crunchbase: https://www.crunchbase.com/organization/emproof
-            extra:
-              hide_license: 'true'
-          - item:
-            name: XinSheng Technology Co., LTD (member)
-            homepage_url: https://www.xinshengcmiot.cn/
-            logo: xinsheng.svg
-            crunchbase: https://www.crunchbase.com/organization/china-mobile
-            extra:
-              hide_license: 'true'
       - subcategory:
         name: Community
         items:
-          - item:
-            name: CHIPS Alliance (member)
-            homepage_url: https://chipsalliance.org/
-            logo: chips.svg
-            crunchbase: https://www.crunchbase.com/organization/chips-alliance
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Eclipse Foundation (member)
-            homepage_url: https://www.eclipse.org/
-            logo: eclipse-foundation.svg
-            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Zephyr Project (member)
-            homepage_url: https://www.zephyrproject.org/
-            logo: zephyr.svg
-            crunchbase: https://www.crunchbase.com/organization/zephy-project
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Cloud Native Computing Foundation (member)
-            homepage_url: https://www.cncf.io/
-            logo: cncf.svg
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            extra:
-              hide_license: 'true'
-          - item:
-            name: FreeBSD Foundation (member)
-            homepage_url: https://freebsdfoundation.org/
-            logo: freebsd-foundation.svg
-            crunchbase: https://www.crunchbase.com/organization/the-freebsd-foundation
-            extra:
-              hide_license: 'true'
-          - item:
-            name: OpenHW Group (member)
-            description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
-            homepage_url: https://www.openhwgroup.org/
-            logo: OpenHW.svg
-            crunchbase: https://www.crunchbase.com/organization/openhw
-            extra:
-              hide_license: 'true'
-          - item:
-            name: ETH Zurich (member)
-            homepage_url: https://www.ethz.ch/
-            logo: ETHzurich-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/eth-zurich
-            extra:
-              hide_license: 'true'
-          - item:
-            name: VORTEX-CoLab (member)
-            description: >-
-              VORTEX-CoLab connects industry and academia through experimental development of products and services from concept to market. We partner with
-              organizations to accelerate technology transfer. llhsc is an experimental development tool that enables the construction of customized
-              configurations for systems running the Bao static-partitioning hypervisor and also consists of a Devicetree syntax and semantic checker.
-            homepage_url: https://www.vortex-colab.com/
-            logo: vortex.svg
-            crunchbase: https://www.crunchbase.com/organization/vortex-colab
-            extra:
-              hide_license: 'true'
-          - item:
-            name: University of Bremen (member)
-            homepage_url: https://uni-bremen.de/
-            logo: university-of-bremen.svg
-            crunchbase: https://www.crunchbase.com/organization/university-of-bremen-2
-            extra:
-              hide_license: 'true'
-          - item:
-            name: Politecnico di Milano (member)
-            homepage_url: https://polimi.it/
-            logo: Polimi.svg
-            crunchbase: https://www.crunchbase.com/organization/politecnico-di-milano-9430
-            extra:
-              hide_license: 'true'
-          - item:
-            name: openEuler Community (member)
-            homepage_url: https://www.openeuler.org/en/
-            logo: openeuler.svg
-            crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
-            extra:
-              hide_license: 'true'
           - item:
             name: Aalto University (member)
             homepage_url: https://www.aalto.fi/en
@@ -1682,6 +1598,13 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
+            name: C-DAC (member)
+            homepage_url: https://cdac.in/
+            logo: C-DAC.svg
+            crunchbase: https://www.crunchbase.com/organization/centre-for-development-of-advanced-computing
+            extra:
+              hide_license: 'true'
+          - item:
             name: CA/Meme Forum (member)
             homepage_url: https://camemeforum.org/
             logo: cameme-forum.svg
@@ -1726,17 +1649,17 @@ landscape:
             extra:
               hide_license: 'true'
           - item:
-            name: C-DAC (member)
-            homepage_url: https://cdac.in/
-            logo: C-DAC.svg
-            crunchbase: https://www.crunchbase.com/organization/centre-for-development-of-advanced-computing
-            extra:
-              hide_license: 'true'
-          - item:
             name: China University of Petroleum (member)
             homepage_url: https://cup.edu.cn/
             logo: china-university-of-petroleum-beijing.svg
             crunchbase: https://www.crunchbase.com/organization/china-university-of-petroleum
+            extra:
+              hide_license: 'true'
+          - item:
+            name: CHIPS Alliance (member)
+            homepage_url: https://chipsalliance.org/
+            logo: chips.svg
+            crunchbase: https://www.crunchbase.com/organization/chips-alliance
             extra:
               hide_license: 'true'
           - item:
@@ -1750,15 +1673,20 @@ landscape:
             name: CINECA (member)
             homepage_url: https://www.cineca.it/
             logo: cineca.svg
-            twitter: https://twitter.com/cineca1969
             crunchbase: https://www.crunchbase.com/organization/cineca
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Cloud Native Computing Foundation (member)
+            homepage_url: https://www.cncf.io/
+            logo: cncf.svg
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             extra:
               hide_license: 'true'
           - item:
             name: CMC Microsystems (member)
             homepage_url: https://www.cmc.ca/
             logo: cmc-microsystems.svg
-            twitter: https://twitter.com/CMCMicrosystems
             crunchbase: https://www.crunchbase.com/organization/cmc-microsystems
             extra:
               hide_license: 'true'
@@ -1783,6 +1711,74 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/confidential-computing-consortium
             extra:
               hide_license: 'true'
+          - item:
+            name: Eclipse Foundation (member)
+            homepage_url: https://www.eclipse.org/
+            logo: eclipse-foundation.svg
+            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
+            extra:
+              hide_license: 'true'
+          - item:
+            name: ETH Zurich (member)
+            homepage_url: https://www.ethz.ch/
+            logo: ETHzurich-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
+            extra:
+              hide_license: 'true'
+          - item:
+            name: FreeBSD Foundation (member)
+            homepage_url: https://freebsdfoundation.org/
+            logo: freebsd-foundation.svg
+            crunchbase: https://www.crunchbase.com/organization/the-freebsd-foundation
+            extra:
+              hide_license: 'true'
+          - item:
+            name: openEuler Community (member)
+            homepage_url: https://www.openeuler.org/en/
+            logo: openeuler.svg
+            crunchbase: https://www.crunchbase.com/organization/%E5%BC%80%E6%94%BE%E5%8E%9F%E5%AD%90%E5%BC%80%E6%BA%90%E5%9F%BA%E9%87%91%E4%BC%9A
+            extra:
+              hide_license: 'true'
+          - item:
+            name: OpenHW Group (member)
+            description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
+            homepage_url: https://www.openhwgroup.org/
+            logo: OpenHW.svg
+            crunchbase: https://www.crunchbase.com/organization/openhw
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Politecnico di Milano (member)
+            homepage_url: https://polimi.it/
+            logo: Polimi.svg
+            crunchbase: https://www.crunchbase.com/organization/politecnico-di-milano-9430
+            extra:
+              hide_license: 'true'
+          - item:
+            name: University of Bremen (member)
+            homepage_url: https://uni-bremen.de/
+            logo: university-of-bremen.svg
+            crunchbase: https://www.crunchbase.com/organization/university-of-bremen-2
+            extra:
+              hide_license: 'true'
+          - item:
+            name: VORTEX-CoLab (member)
+            description: >-
+              VORTEX-CoLab connects industry and academia through experimental development of products and services from concept to market. We partner with
+              organizations to accelerate technology transfer. llhsc is an experimental development tool that enables the construction of customized
+              configurations for systems running the Bao static-partitioning hypervisor and also consists of a Devicetree syntax and semantic checker.
+            homepage_url: https://www.vortex-colab.com/
+            logo: vortex.svg
+            crunchbase: https://www.crunchbase.com/organization/vortex-colab
+            extra:
+              hide_license: 'true'
+          - item:
+            name: Zephyr Project (member)
+            homepage_url: https://www.zephyrproject.org/
+            logo: zephyr.svg
+            crunchbase: https://www.crunchbase.com/organization/zephy-project
+            extra:
+              hide_license: 'true'
   - category:
     name: Implementations
     subcategories:
@@ -1790,49 +1786,8 @@ landscape:
         name: IP
         items:
           - item:
-            name: SERV
-            description: The award-winning SERV is the world's smallest RISC-V CPU
-            homepage_url: https://serv.readthedocs.io/
-            repo_url: https://github.com/olofk/serv
-            logo: SERV.svg
-            organization:
-              name: Olof Kindgren Enterprises
-          - item:
-            name: DRV32IMZicsr
-            description: DCD’s RV32IMZicsr RISC-V Core
-            homepage_url: https://www.dcd.pl/product-category/cpus/#riscv-2
-            logo: digital-core-design.svg
-            crunchbase: https://www.crunchbase.com/organization/digital-core-design
-          - item:
-            name: PULP Platform
-            description: PULP Platform has developed permissively-licensed open-source RISC-V based energy-efficient computing architectures since 2013.
-            homepage_url: https://pulp-platform.org/
-            repo_url: https://github.com/pulp-platform/pulp
-            project_org: https://github.com/pulp-platform
-            logo: PULP.svg
-            crunchbase: https://www.crunchbase.com/organization/eth-zurich
-          - item:
-            name: µRV32 - MicroRV32
-            description: >-
-              µRV32 is a bundle of a SpinalHDL based RTL implementation of the RISC-V ISA and a SystemC TLM 2.0 based VP of the RTL model. The platform is built
-              for the use on FPGAs and aims for research and educational use. The VP enables fast development and design exploration cycles for software
-              development and hardware extensions of the ISA or the platform.
-            homepage_url: https://agra.informatik.uni-bremen.de/projects/risc-v/
-            repo_url: https://github.com/agra-uni-bremen/microrv32
-            logo: urv32.svg
-            crunchbase: https://www.crunchbase.com/organization/university-of-bremen-2
-          - item:
-            name: SiFive® Core IP
-            homepage_url: https://www.sifive.com/risc-v-core-ip
-            logo: sifive-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/sifive
-          - item:
-            name: Dubhe
-            homepage_url: https://www.starfivetech.com/en/site/riscv-core-ip
-            logo: starfive.svg
-            crunchbase: https://www.crunchbase.com/organization/starfive-technology
-          - item:
             name: AIRISC
+            second_path: Implementations / Chips + Processors
             description: >-
               The AIRISC family of RISC-V cores developed by Fraunhofer IMS enables efficient machine learning and AI in sensors, IoT devices, and other
               embedded applications. AIRISC variants with extended safety mechanisms such as dual-core lock-stepping (DCLS) or error correcting codes (ECC) are
@@ -1846,28 +1801,55 @@ landscape:
             repo_url: https://github.com/Fraunhofer-IMS/airisc_core_complex
             logo: AIRISC.svg
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-verbund-mikroeleketronik
-            second_path: Implementations / Chips + Processors
           - item:
             name: Andes Technology Corporation
             homepage_url: http://www.andestech.com/
             logo: andes-founding.svg
             crunchbase: https://www.crunchbase.com/organization/andes-technology
           - item:
+            name: CHIPS Alliance
+            homepage_url: https://chipsalliance.org/
+            logo: chips.svg
+            crunchbase: https://www.crunchbase.com/organization/chips-alliance
+          - item:
+            name: CloudBEAR
+            description: >-
+              CloudBEAR company presents on the market a wide range of processor IP of different classes, compatible with RISC-V instruction system: from
+              microcontroller level to high-performance processors with Linux support and the ability to customize for user tasks. The company's products
+              include the BM-series of cores for microcontroller applications, BR-series for embedded systems requiring high real-time performance, and the BI
+              series of Linux-enabled cores.
+            homepage_url: http://cloudbear.ru/
+            logo: cloudbear.svg
+            crunchbase: https://www.crunchbase.com/organization/cloudbear
+          - item:
+            name: DRV32IMZicsr
+            description: DCD’s RV32IMZicsr RISC-V Core
+            homepage_url: https://www.dcd.pl/product-category/cpus/#riscv-2
+            logo: digital-core-design.svg
+            crunchbase: https://www.crunchbase.com/organization/digital-core-design
+          - item:
+            name: Dubhe
+            homepage_url: https://www.starfivetech.com/en/site/riscv-core-ip
+            logo: starfive.svg
+            crunchbase: https://www.crunchbase.com/organization/starfive-technology
+          - item:
             name: Imagination Technologies Group Ltd.
             homepage_url: https://imgtec.com/
             logo: imagination.svg
             crunchbase: https://www.crunchbase.com/organization/imagination-technologies
           - item:
-            name: Tenstorrent
+            name: InCore Semiconductors
             second_path:
-              - Implementations / Chips + Processors
               - Implementations / Accelerators
+              - Implementations / Chips + Processors
             description: >-
-              Tenstorrent builds AI/ML accelerators and RISC-V processors in the form of IP, chiplets, chips, and boards that are scalable from 8-wide for data
-              centers to 2-wide for edge and embedded IoT solutions.
-            homepage_url: https://tenstorrent.com/
-            logo: tenstorrent.svg
-            crunchbase: https://www.crunchbase.com/organization/tenstorrent
+              Incore Semiconductors is a fabless core IP & chip design startup building fully customizable RISC-V cores and SoCs, to create high-performance,
+              low-power, and cost-effective solutions for a variety of embedded applications. The founding team at InCore was previously responsible for the
+              creation of Shakti - India’s first indigenously designed microprocessor (built on RISC-V), at the RISE lab at IIT Madras. Our CTO Neel Gala is the
+              co-chair of the RISC-V compliance committee.
+            homepage_url: https://incoresemi.com/
+            logo: incore.svg
+            crunchbase: https://www.crunchbase.com/organization/incore-semiconductors
           - item:
             name: lowRISC
             homepage_url: https://lowrisc.org/
@@ -1876,10 +1858,19 @@ landscape:
             logo: lowrisc-founding.svg
             crunchbase: https://www.crunchbase.com/organization/lowrisc
           - item:
-            name: Semidynamics Technology Services, S.L.
-            homepage_url: https://www.semidynamics.com/
-            logo: semidynamics.svg
-            crunchbase: https://www.crunchbase.com/organization/semidynamics
+            name: MINRES Technologies GmbH
+            second_path: Services / Services
+            description: >-
+              Trustworthy Software-Driven Hardware for the Intelligent Edge.
+
+
+              Making modern technologies accessible to Small and Medium Enterprises (SME) allows them to leverage advances in semiconductor and deploy powerfull
+              solutions at the edge.
+            homepage_url: https://www.minres.com/
+            logo: MINRES.svg
+            crunchbase: https://www.crunchbase.com/organization/minres-technologies
+            extra:
+              GitHub: https://github.com/Minres
           - item:
             name: Nuclei Technology Corporation
             description: >-
@@ -1898,30 +1889,11 @@ landscape:
             extra:
               GitHub: https://github.com/Nuclei-Software/
           - item:
-            name: MINRES Technologies GmbH
-            second_path: Services / Services
-            description: >-
-              Trustworthy Software-Driven Hardware for the Intelligent Edge.
-
-
-              Making modern technologies accessible to Small and Medium Enterprises (SME) allows them to leverage advances in semiconductor and deploy powerfull
-              solutions at the edge.
-            homepage_url: https://www.minres.com/
-            logo: MINRES.svg
-            crunchbase: https://www.crunchbase.com/organization/minres-technologies
-            extra:
-              GitHub: https://github.com/Minres
-          - item:
-            name: CHIPS Alliance
-            homepage_url: https://chipsalliance.org/
-            logo: chips.svg
-            crunchbase: https://www.crunchbase.com/organization/chips-alliance
-          - item:
             name: OpenHW Group
-            license: Apache 2.0, Solderpad 2.1, EPL 2.0
             description: Developing the CORE-V ecosystem of high quality open-source cores, related IP, software and tools in line with industry best practices
             homepage_url: https://www.openhwgroup.org/
             repo_url: https://github.com/openhwgroup/core-v-cores
+            license: Apache 2.0, Solderpad 2.1, EPL 2.0
             additional_repos:
               - repo_url: https://github.com/openhwgroup/cva6
               - repo_url: https://github.com/openhwgroup/cva5
@@ -1947,6 +1919,32 @@ landscape:
             logo: OpenHW.svg
             crunchbase: https://www.crunchbase.com/organization/openhw
           - item:
+            name: PULP Platform
+            description: PULP Platform has developed permissively-licensed open-source RISC-V based energy-efficient computing architectures since 2013.
+            homepage_url: https://pulp-platform.org/
+            repo_url: https://github.com/pulp-platform/pulp
+            project_org: https://github.com/pulp-platform
+            logo: PULP.svg
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
+          - item:
+            name: Semidynamics Technology Services, S.L.
+            homepage_url: https://www.semidynamics.com/
+            logo: semidynamics.svg
+            crunchbase: https://www.crunchbase.com/organization/semidynamics
+          - item:
+            name: SERV
+            description: The award-winning SERV is the world's smallest RISC-V CPU
+            homepage_url: https://serv.readthedocs.io/
+            repo_url: https://github.com/olofk/serv
+            logo: SERV.svg
+            organization:
+              name: Olof Kindgren Enterprises
+          - item:
+            name: SiFive® Core IP
+            homepage_url: https://www.sifive.com/risc-v-core-ip
+            logo: sifive-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/sifive
+          - item:
             name: Syntacore
             description: >-
               Syntacore is a RISC-V processor IP specialist. We create flexible, highly-efficient microprocessor cores that help customers to design unique
@@ -1956,36 +1954,39 @@ landscape:
             logo: Syntacore-founding.svg
             crunchbase: https://www.crunchbase.com/organization/syntacore
           - item:
-            name: CloudBEAR
-            homepage_url: http://cloudbear.ru/
-            logo: cloudbear.svg
-            crunchbase: https://www.crunchbase.com/organization/cloudbear
-            description: >-
-              CloudBEAR company presents on the market a wide range of processor IP of different classes, compatible with RISC-V instruction system: from
-              microcontroller level to high-performance processors with Linux support and the ability to customize for user tasks. The company's products
-              include the BM-series of cores for microcontroller applications, BR-series for embedded systems requiring high real-time performance, and the BI
-              series of Linux-enabled cores.
-          - item:
-            name: InCore Semiconductors
-            description: >-
-              Incore Semiconductors is a fabless core IP & chip design startup building fully customizable RISC-V cores and SoCs, to create high-performance,
-              low-power, and cost-effective solutions for a variety of embedded applications. The founding team at InCore was previously responsible for the
-              creation of Shakti - India’s first indigenously designed microprocessor (built on RISC-V), at the RISE lab at IIT Madras. Our CTO Neel Gala is the
-              co-chair of the RISC-V compliance committee.
-            homepage_url: https://incoresemi.com/
-            logo: incore.svg
-            crunchbase: https://www.crunchbase.com/organization/incore-semiconductors
+            name: Tenstorrent
             second_path:
-              - Implementations / Accelerators
               - Implementations / Chips + Processors
+              - Implementations / Accelerators
+            description: >-
+              Tenstorrent builds AI/ML accelerators and RISC-V processors in the form of IP, chiplets, chips, and boards that are scalable from 8-wide for data
+              centers to 2-wide for edge and embedded IoT solutions.
+            homepage_url: https://tenstorrent.com/
+            logo: tenstorrent.svg
+            crunchbase: https://www.crunchbase.com/organization/tenstorrent
+          - item:
+            name: µRV32 - MicroRV32
+            description: >-
+              µRV32 is a bundle of a SpinalHDL based RTL implementation of the RISC-V ISA and a SystemC TLM 2.0 based VP of the RTL model. The platform is built
+              for the use on FPGAs and aims for research and educational use. The VP enables fast development and design exploration cycles for software
+              development and hardware extensions of the ISA or the platform.
+            homepage_url: https://agra.informatik.uni-bremen.de/projects/risc-v/
+            repo_url: https://github.com/agra-uni-bremen/microrv32
+            logo: urv32.svg
+            crunchbase: https://www.crunchbase.com/organization/university-of-bremen-2
       - subcategory:
         name: Single Board Computers
         items:
           - item:
-            name: SparkFun
-            homepage_url: https://www.sparkfun.com/categories/457
-            logo: sparkfun.svg
-            crunchbase: https://www.crunchbase.com/organization/sparkfun-electronics
+            name: Allwinner Technology
+            homepage_url: http://www.allwinnertech.com/
+            logo: allwinner.svg
+            crunchbase: https://www.crunchbase.com/organization/allwinner-technology
+          - item:
+            name: HiFive
+            homepage_url: https://www.sifive.com/boards
+            logo: sifive-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/sifive
           - item:
             name: MangoPi
             homepage_url: https://mangopi.org/
@@ -1994,23 +1995,29 @@ landscape:
             organization:
               name: MangoPi
           - item:
-            name: HiFive
-            homepage_url: https://www.sifive.com/boards
-            logo: sifive-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/sifive
+            name: SparkFun
+            homepage_url: https://www.sparkfun.com/categories/457
+            logo: sparkfun.svg
+            crunchbase: https://www.crunchbase.com/organization/sparkfun-electronics
           - item:
             name: VisionFive
             homepage_url: https://www.starfivetech.com/en/site/boards
             logo: starfive.svg
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
-          - item:
-            name: Allwinner Technology
-            homepage_url: http://www.allwinnertech.com/
-            logo: allwinner.svg
-            crunchbase: https://www.crunchbase.com/organization/allwinner-technology
       - subcategory:
         name: Accelerators
         items:
+          - item:
+            name: Esperanto Technologies
+            homepage_url: http://www.esperantotech.com/
+            logo: esperanto-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/esperanto-technologies
+          - item:
+            name: NEOX
+            description: Think Silicon is a leading provider of ultra-low power GPU IP for embedded systems.
+            homepage_url: https://www.think-silicon.com/neox
+            logo: ThinkSilicon.svg
+            crunchbase: https://www.crunchbase.com/organization/think-silicon-2
           - item:
             name: Untether AI
             homepage_url: https://www.untether.ai/
@@ -2024,26 +2031,30 @@ landscape:
             twitter: https://twitter.com/ztachip
             organization:
               name: ztachip
-          - item:
-            name: NEOX
-            homepage_url: https://www.think-silicon.com/neox
-            logo: ThinkSilicon.svg
-            crunchbase: https://www.crunchbase.com/organization/think-silicon-2
-            description: Think Silicon is a leading provider of ultra-low power GPU IP for embedded systems.
-            twitter: https://twitter.com/ThinkSilicon
-          - item:
-            name: Esperanto Technologies
-            homepage_url: http://www.esperantotech.com/
-            logo: esperanto-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/esperanto-technologies
       - subcategory:
         name: Chips + Processors
         items:
+          - item:
+            name: Alibaba
+            homepage_url: https://www.alibabagroup.com/
+            logo: alibaba.svg
+            crunchbase: https://www.crunchbase.com/organization/alibaba
           - item:
             name: JH7100
             homepage_url: https://www.starfivetech.com/en/site/soc
             logo: starfive.svg
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
+          - item:
+            name: NEORV32
+            second_path: Implementations / IP
+            description: >-
+              A tiny, customizable and highly extensible MCU-class 32-bit RISC-V soft-core CPU and microcontroller-like SoC written in platform-independent
+              VHDL.
+            homepage_url: https://github.com/stnolting/neorv32
+            repo_url: https://github.com/stnolting/neorv32
+            logo: NEORV32.svg
+            organization:
+              name: Stephan Nolting (RISC-V community member) / the NEORV32 open-source community
           - item:
             name: Renesas RISC-V 32 & 64-Bit MCUs and MPUs
             description: >-
@@ -2059,21 +2070,10 @@ landscape:
             logo: renesas.svg
             crunchbase: https://www.crunchbase.com/organization/renesas-electronics-corporation
           - item:
-            name: NEORV32
-            second_path: Implementations / IP
-            description: >-
-              A tiny, customizable and highly extensible MCU-class 32-bit RISC-V soft-core CPU and microcontroller-like SoC written in platform-independent
-              VHDL.
-            homepage_url: https://github.com/stnolting/neorv32
-            repo_url: https://github.com/stnolting/neorv32
-            logo: NEORV32.svg
-            organization:
-              name: Stephan Nolting (RISC-V community member) / the NEORV32 open-source community
-          - item:
-            name: Alibaba
-            homepage_url: https://www.alibabagroup.com/
-            logo: alibaba.svg
-            crunchbase: https://www.crunchbase.com/organization/alibaba
+            name: SiFive
+            homepage_url: https://sifive.com/
+            logo: sifive-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/sifive
           - item:
             name: Ventana Micro Systems
             second_path: Implementations / IP
@@ -2082,11 +2082,6 @@ landscape:
             logo: VentanaLogo.svg
             twitter: https://twitter.com/ventanamicro
             crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
-          - item:
-            name: SiFive
-            homepage_url: https://sifive.com/
-            logo: sifive-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/sifive
           - item:
             name: XMOS
             description: >-
@@ -2514,6 +2509,22 @@ landscape:
             logo: TheadX.svg
             crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
+            name: Buildroot
+            description: Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.
+            homepage_url: https://buildroot.org/
+            logo: Buildroot.svg
+            extra:
+              Download: https://buildroot.org/download.html
+            organization:
+              name: Buildroot Association
+          - item:
+            name: Canonical Ubuntu
+            homepage_url: https://ubuntu.com/
+            logo: canonical_ubuntu.svg
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
+            extra:
+              Repository: https://ubuntu.com/download/risc-v
+          - item:
             name: Debian
             homepage_url: https://www.debian.org/
             repo_url: https://github.com/Debian/apt
@@ -2547,8 +2558,8 @@ landscape:
               Haiku is an open-source operating system that specifically targets personal computing. Inspired by the BeOS,  Haiku is fast, simple to use, easy
               to learn, and yet very powerful.
             homepage_url: https://www.haiku-os.org/
-            license: MIT
             repo_url: https://git.haiku-os.org/haiku
+            license: MIT
             additional_repos:
               - repo_url: https://git.haiku-os.org/buildtools
               - repo_url: https://git.haiku-os.org/userguide
@@ -2567,6 +2578,21 @@ landscape:
             license: GNU General Public License version 2 only (GPL-2.0)
             logo: linux.svg
             crunchbase: https://www.crunchbase.com/organization/linux-foundation
+          - item:
+            name: LithOS
+            description: >-
+              LithOS is a real-time guest operating system specially designed for XtratuM hypervisor. LithOS is qualified for flight ECSS category B. LithOS
+              follows the ARINC-653 APEX standard, a software specification which ensures exclusive access to physical and temporal resources in partitioned
+              real-time embedded systems.
+
+
+              Choosing LithOS as your guest OS your system will be fully integrated as a XtratuM Partition.
+
+
+              LithOS is currently available to be run on top of a NOEL-V processor.
+            homepage_url: https://www.fentiss.com/lithos/
+            logo: fentISS.svg
+            crunchbase: https://www.crunchbase.com/organization/fentiss
           - item:
             name: OpenBSD
             homepage_url: https://www.openbsd.org/
@@ -2592,30 +2618,11 @@ landscape:
             logo: openSUSE.svg
             crunchbase: https://www.crunchbase.com/organization/opensuse
           - item:
-            name: seL4
-            homepage_url: https://sel4.systems/
-            repo_url: https://github.com/seL4/seL4
-            logo: seL4.svg
-            crunchbase: https://www.crunchbase.com/organization/linux-foundation
-          - item:
-            name: Slackware
-            homepage_url: http://www.slackware.com/
-            logo: Slackware.svg
-            crunchbase: https://www.crunchbase.com/organization/slackware
-          - item:
-            name: SylixOS
-            homepage_url: https://sylixos.com/
-            logo: SylixOS.svg
-            crunchbase: https://www.crunchbase.com/organization/yihui-information
-            extra:
-              Git: http://git.sylixos.com/
-          - item:
-            name: Yocto Project
-            homepage_url: https://www.yoctoproject.org/
-            repo_url: https://github.com/yoctoproject/poky
-            project_org: https://github.com/yoctoproject
-            logo: Yocto.svg
-            crunchbase: https://www.crunchbase.com/organization/yocto-project
+            name: PikeOS
+            description: SYSGO has announced that its real-time operating system PikeOS does now support a broad range of RISC-V based architectures.
+            homepage_url: https://www.sysgo.com/
+            logo: sysgo.svg
+            crunchbase: https://www.crunchbase.com/organization/sysgo-ag
           - item:
             name: ProvenCore
             description: >-
@@ -2648,54 +2655,36 @@ landscape:
             organization:
               name: PX5
           - item:
-            name: LithOS
-            description: >-
-              LithOS is a real-time guest operating system specially designed for XtratuM hypervisor. LithOS is qualified for flight ECSS category B. LithOS
-              follows the ARINC-653 APEX standard, a software specification which ensures exclusive access to physical and temporal resources in partitioned
-              real-time embedded systems.
-
-
-              Choosing LithOS as your guest OS your system will be fully integrated as a XtratuM Partition.
-
-
-              LithOS is currently available to be run on top of a NOEL-V processor.
-            homepage_url: https://www.fentiss.com/lithos/
-            logo: fentISS.svg
-            crunchbase: https://www.crunchbase.com/organization/fentiss
-          - item:
-            name: Buildroot
-            description: Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.
-            homepage_url: https://buildroot.org/
-            logo: Buildroot.svg
-            extra:
-              Download: https://buildroot.org/download.html
-            organization:
-              name: Buildroot Association
-          - item:
-            name: PikeOS
-            description: SYSGO has announced that its real-time operating system PikeOS does now support a broad range of RISC-V based architectures.
-            homepage_url: https://www.sysgo.com/
-            logo: sysgo.svg
-            crunchbase: https://www.crunchbase.com/organization/sysgo-ag
-          - item:
-            name: Canonical Ubuntu
-            homepage_url: https://ubuntu.com/
-            logo: canonical_ubuntu.svg
-            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
-            extra:
-              Repository: https://ubuntu.com/download/risc-v
-          - item:
             name: RT-Thread
             homepage_url: https://www.rt-thread.io/
             repo_url: https://github.com/RT-Thread/rt-thread
             logo: RT-Thread-Color.svg
             crunchbase: https://www.crunchbase.com/organization/rt-thread
           - item:
-            name: Zephyr Project
-            homepage_url: https://www.zephyrproject.org/
-            repo_url: https://github.com/zephyrproject-rtos/zephyr
-            logo: zephyr.svg
-            crunchbase: https://www.crunchbase.com/organization/zephy-project
+            name: seL4
+            homepage_url: https://sel4.systems/
+            repo_url: https://github.com/seL4/seL4
+            logo: seL4.svg
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
+          - item:
+            name: Slackware
+            homepage_url: http://www.slackware.com/
+            logo: Slackware.svg
+            crunchbase: https://www.crunchbase.com/organization/slackware
+          - item:
+            name: SylixOS
+            homepage_url: https://sylixos.com/
+            logo: SylixOS.svg
+            crunchbase: https://www.crunchbase.com/organization/yihui-information
+            extra:
+              Git: http://git.sylixos.com/
+          - item:
+            name: Yocto Project
+            homepage_url: https://www.yoctoproject.org/
+            repo_url: https://github.com/yoctoproject/poky
+            project_org: https://github.com/yoctoproject
+            logo: Yocto.svg
+            crunchbase: https://www.crunchbase.com/organization/yocto-project
           - item:
             name: ZAYA Secure OS
             description: >-
@@ -2706,6 +2695,12 @@ landscape:
             homepage_url: https://www.zayatech.com/
             logo: zaya.svg
             crunchbase: https://www.crunchbase.com/organization/zaya-a148
+          - item:
+            name: Zephyr Project
+            homepage_url: https://www.zephyrproject.org/
+            repo_url: https://github.com/zephyrproject-rtos/zephyr
+            logo: zephyr.svg
+            crunchbase: https://www.crunchbase.com/organization/zephy-project
   - category:
     name: Hypervisor
     subcategories:
@@ -2728,12 +2723,15 @@ landscape:
             organization:
               name: KVM
           - item:
-            name: Xvisor
-            homepage_url: http://xhypervisor.org/
-            repo_url: https://github.com/xvisor/xvisor
-            logo: xvisor.svg
-            organization:
-              name: XVisor
+            name: Salus
+            description: >-
+              Salus is a RISC-V 64 bit hypervisor used for TEE development. It is used to implement the TEE Security Manager (TSM) and the ABI proposed as part
+              of the CoVE (Confidential VM Extension) proposed in the RVI AP-TEE (non-isa) Task Group. It will also be used to used to interface with any
+              privileged ISA extensions developed as part of that TG (currently being discussed).
+            homepage_url: https://github.com/rivosinc/salus
+            repo_url: https://github.com/rivosinc/salus
+            logo: SALUS.svg
+            crunchbase: https://www.crunchbase.com/organization/rivos-inc
           - item:
             name: XtratuM Next Generation
             description: >-
@@ -2750,15 +2748,12 @@ landscape:
             logo: fentISS.svg
             crunchbase: https://www.crunchbase.com/organization/fentiss
           - item:
-            name: Salus
-            description: >-
-              Salus is a RISC-V 64 bit hypervisor used for TEE development. It is used to implement the TEE Security Manager (TSM) and the ABI proposed as part
-              of the CoVE (Confidential VM Extension) proposed in the RVI AP-TEE (non-isa) Task Group. It will also be used to used to interface with any
-              privileged ISA extensions developed as part of that TG (currently being discussed).
-            homepage_url: https://github.com/rivosinc/salus
-            repo_url: https://github.com/rivosinc/salus
-            logo: SALUS.svg
-            crunchbase: https://www.crunchbase.com/organization/rivos-inc
+            name: Xvisor
+            homepage_url: http://xhypervisor.org/
+            repo_url: https://github.com/xvisor/xvisor
+            logo: xvisor.svg
+            organization:
+              name: XVisor
           - item:
             name: ZAYA Hypervisor
             description: >-
@@ -2792,19 +2787,32 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/software-freedom-conservancy-inc
           - item:
             name: Das U-Boot
+            description: '"Das U-Boot" Source Tree'
             homepage_url: https://u-boot.readthedocs.io/en/latest/
+            license: GPL-2.0
             logo: dasuboot.svg
             crunchbase: https://www.crunchbase.com/organization/denx-software-engineering
             extra:
               Source Repository: https://source.denx.de/u-boot/u-boot
-            license: GPL-2.0
-            description: '"Das U-Boot" Source Tree'
           - item:
             name: OpenSBI
             homepage_url: https://github.com/riscv-software-src/opensbi/blob/master/README.md
             repo_url: https://github.com/riscv-software-src/opensbi
             logo: OpenSBI.svg
             crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: oreboot
+            description: |-
+              oreboot is a downstream fork of coreboot, i.e. oreboot is coreboot without 'c'.
+
+              oreboot is mostly written in Rust, with assembly where needed.
+
+              oreboot defaults to LinuxBoot payloads for a bootloader environment.
+            homepage_url: https://github.com/oreboot/oreboot/
+            repo_url: https://github.com/oreboot/oreboot
+            logo: oreboot.svg
+            organization:
+              name: oreboot community
           - item:
             name: Rust SBI
             homepage_url: https://www.rust-lang.org/
@@ -2825,19 +2833,6 @@ landscape:
             homepage_url: https://uefi.org/
             logo: uefi.svg
             crunchbase: https://www.crunchbase.com/organization/uefi-forum
-          - item:
-            name: oreboot
-            description: |-
-              oreboot is a downstream fork of coreboot, i.e. oreboot is coreboot without 'c'.
-
-              oreboot is mostly written in Rust, with assembly where needed.
-
-              oreboot defaults to LinuxBoot payloads for a bootloader environment.
-            homepage_url: https://github.com/oreboot/oreboot/
-            repo_url: https://github.com/oreboot/oreboot
-            logo: oreboot.svg
-            organization:
-              name: oreboot community
   - category:
     name: Design Tools + Compilers
     subcategories:
@@ -2851,14 +2846,12 @@ landscape:
         name: Services
         items:
           - item:
-            name: Polarstar
-            description: >-
-              VORTEX-CoLab connects industry and academia through the experimental development of products and services from concept to market. We partner with
-              organizations to accelerate technology transfer. Polarstar addresses the transition to microservice-based applications in the RISC-V ecosystem
-              with its new software porting service.
-            homepage_url: https://www.vortex-colab.com/
-            logo: vortex.svg
-            crunchbase: https://www.crunchbase.com/organization/vortex-colab
+            name: Antmicro
+            homepage_url: https://antmicro.com/
+            logo: antmicro-founding.svg
+            crunchbase: https://www.crunchbase.com/organization/antmicro
+            extra:
+              hide_license: 'true'
           - item:
             name: Ashling Tools-as-a-Service
             description: >-
@@ -2877,13 +2870,11 @@ landscape:
             logo: Cloud-V.svg
             crunchbase: https://www.crunchbase.com/organization/10xengineers
           - item:
-            name: Antmicro
-            homepage_url: https://antmicro.com/
-            logo: antmicro-founding.svg
-            crunchbase: https://www.crunchbase.com/organization/antmicro
-            extra:
-              hide_license: 'true'
-            twitter: https://twitter.com/antmicro
+            name: Emproof
+            description: Agile, robust and cost-effective security and IP integrity for embedded software.
+            homepage_url: https://www.emproof.com/
+            logo: emproof.svg
+            crunchbase: https://www.crunchbase.com/organization/emproof
           - item:
             name: MachineWare
             description: >-
@@ -2893,18 +2884,21 @@ landscape:
             logo: machineware-new.svg
             crunchbase: https://www.crunchbase.com/organization/machineware-gmbh
           - item:
+            name: Polarstar
+            description: >-
+              VORTEX-CoLab connects industry and academia through the experimental development of products and services from concept to market. We partner with
+              organizations to accelerate technology transfer. Polarstar addresses the transition to microservice-based applications in the RISC-V ecosystem
+              with its new software porting service.
+            homepage_url: https://www.vortex-colab.com/
+            logo: vortex.svg
+            crunchbase: https://www.crunchbase.com/organization/vortex-colab
+          - item:
             name: Siemens EDA
             homepage_url: https://eda.sw.siemens.com/en-US/ic/tessent/
             logo: Siemens.svg
             crunchbase: https://www.crunchbase.com/organization/siemens
             extra:
               LinkedIn: https://linkedin.com/showcase/Tessent-solutions/
-          - item:
-            name: Emproof
-            description: Agile, robust and cost-effective security and IP integrity for embedded software.
-            homepage_url: https://www.emproof.com/
-            logo: emproof.svg
-            crunchbase: https://www.crunchbase.com/organization/emproof
   - category:
     name: RISC-V Programs
     subcategories:
@@ -2912,66 +2906,66 @@ landscape:
         name: RISC-V Programs
         items:
           - item:
-            name: RISC-V Compatible
-            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
-            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
-            logo: RISCV-Compatible.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-            description: >-
-              The “RISC-V CompatibleTM” trademarks are the only RISC-V trademarks used for purposes of software compatibility across cores; other trademarks do
-              and will exist around the usage of  “RISC-V”. By convention, product collateral may only use the word “compatible” in the context of “RISC-V
-              Compatible” (e.g. profiles like RISC-V CompatibleTM RVA22) or an individual extension (e.g. RISC-V CompatibleTM V Extension) or platforms (naming
-              TBD by the platform HSC).
-          - item:
-            name: RISC-V Developer Boards
-            homepage_url: https://riscv.org/risc-v-developer-boards/
-            logo: RVI-DevBoards.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-            description: >-
-              The RISC-V Developer Boards program serves to evangelize and promote the RISC-V architecture by partnering with RISC-V hardware vendors to donate
-              hardware to projects.
-          - item:
-            name: RISC-V Development Partner
-            homepage_url: https://riscv.org/risc-v-development-partner/
-            logo: RVI-DevPartner.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-            description: >-
-              The RISC-V Development Partner Program recognizes the investment and dedication of organizations making significant technical contributions to
-              RISC-V.
-          - item:
-            name: RISC-V Learn
-            homepage_url: https://riscv.org/learn/
-            logo: RVI-Learn.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-            description: >-
-              RISC-V Learn offers resources to get you started with your RISC-V learning or take your experience to the next level with university resources and
-              courses from our trusted training partners.
-          - item:
             name: RISC-V Advocate
-            homepage_url: https://riscv.org/risc-v-advocates/
-            logo: RVI-Advocate.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
             description: >-
               Advocates are RISC-V enthusiasts who work together with RISC-V International to ensure global momentum and adoption. Successful advocates include
               engineering students and early stage adopters who are passionate about sharing their knowledge and love of RISC-V with the community.
+            homepage_url: https://riscv.org/risc-v-advocates/
+            logo: RVI-Advocate.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
           - item:
             name: RISC-V Alliance
-            homepage_url: https://riscv.org/alliances/
-            logo: RVI-Alliance.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
             description: >-
               The growth and popularity of RISC-V can be attributed to the many regional and industry alliances we maintain around the world. Regional alliances
               are able to communicate locally, provide local events, and maintain relationships in a way that no single organization could do on its own.
               Likewise, industry alliances create multiple feedback channels on both technical and non-technical topics that help both the RISC-V community and
               the industries using the RISC-V technology.
+            homepage_url: https://riscv.org/alliances/
+            logo: RVI-Alliance.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: RISC-V Compatible
+            description: >-
+              The “RISC-V CompatibleTM” trademarks are the only RISC-V trademarks used for purposes of software compatibility across cores; other trademarks do
+              and will exist around the usage of  “RISC-V”. By convention, product collateral may only use the word “compatible” in the context of “RISC-V
+              Compatible” (e.g. profiles like RISC-V CompatibleTM RVA22) or an individual extension (e.g. RISC-V CompatibleTM V Extension) or platforms (naming
+              TBD by the platform HSC).
+            homepage_url: https://riscv.org/about/risc-v-branding-guidelines/
+            repo_url: https://github.com/riscv-non-isa/riscv-arch-test
+            logo: RISCV-Compatible.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: RISC-V Developer Boards
+            description: >-
+              The RISC-V Developer Boards program serves to evangelize and promote the RISC-V architecture by partnering with RISC-V hardware vendors to donate
+              hardware to projects.
+            homepage_url: https://riscv.org/risc-v-developer-boards/
+            logo: RVI-DevBoards.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: RISC-V Development Partner
+            description: >-
+              The RISC-V Development Partner Program recognizes the investment and dedication of organizations making significant technical contributions to
+              RISC-V.
+            homepage_url: https://riscv.org/risc-v-development-partner/
+            logo: RVI-DevPartner.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
           - item:
             name: RISC-V Landscape
-            homepage_url: https://riscv.org/risc-v-landscape/
-            logo: RISC-V_Landscape.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
             description: >-
               The RISC-V Ecosystem Landscape is a living document that developers, investors, vendors, researchers and others can use as a resource on the
               ecosystem supported by RISC-V.
+            homepage_url: https://riscv.org/risc-v-landscape/
+            logo: RISC-V_Landscape.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: RISC-V Learn
+            description: >-
+              RISC-V Learn offers resources to get you started with your RISC-V learning or take your experience to the next level with university resources and
+              courses from our trusted training partners.
+            homepage_url: https://riscv.org/learn/
+            logo: RVI-Learn.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
   - category:
     name: Design Tools, Compilers and Verification
     subcategories:
@@ -2979,15 +2973,14 @@ landscape:
         name: Design Tools, Compilers and Verification
         items:
           - item:
-            name: Renode
-            homepage_url: https://renode.io/
-            repo_url: https://github.com/renode/renode
-            project_org: https://github.com/renode
-            logo: Renode.svg
-            crunchbase: https://www.crunchbase.com/organization/antmicro
-            description: Renode is a development framework which accelerates IoT and embedded systems development, by simulating physical hardware systems
-            license: MIT License
-            twitter: https://twitter.com/renodeio
+            name: Ashling
+            description: >-
+              Ashling with their RiscFree™ SDK has grown to be synonymous in the embedded market with over 30 years of tool’s experience culminated in a
+              toolchain which includes an IDE, Debugger, Compiler, Debug & Trace Probes for RISC-V development with support for customisation & heterogeneous
+              environments.
+            homepage_url: https://www.ashling.com/
+            logo: ashling.svg
+            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
           - item:
             name: Buildbot
             homepage_url: https://buildbot.net/
@@ -2996,144 +2989,15 @@ landscape:
             organization:
               name: Buildbot
           - item:
+            name: ChipFlow
+            homepage_url: https://www.chipflow.io/
+            logo: ChipFlow.svg
+            crunchbase: https://www.crunchbase.com/organization/chipflow
+          - item:
             name: Codeplay
             homepage_url: https://codeplay.com/
             logo: Codeplay.svg
             crunchbase: https://www.crunchbase.com/organization/intel
-          - item:
-            name: GDB
-            homepage_url: https://www.sourceware.org/gdb/
-            license: GPLv3
-            logo: GDB.svg
-            crunchbase: https://www.crunchbase.com/organization/free-software-foundation
-            extra:
-              Download: https://www.sourceware.org/gdb/download/
-              Wiki: https://sourceware.org/gdb/wiki/
-          - item:
-            name: GNU Compiler Collection
-            homepage_url: https://gcc.gnu.org/
-            repo_url: https://github.com/gcc-mirror/gcc
-            logo: gcc.svg
-            crunchbase: https://www.crunchbase.com/organization/free-software-foundation
-          - item:
-            name: gprof
-            homepage_url: https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html
-            logo: gprof.svg
-            crunchbase: https://www.crunchbase.com/organization/gnu
-          - item:
-            name: Jenkins
-            homepage_url: https://www.jenkins.io/
-            repo_url: https://github.com/jenkinsci/jenkins
-            logo: jenkins.svg
-            crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
-          - item:
-            name: LLVM
-            homepage_url: https://llvm.org/
-            repo_url: https://github.com/llvm/llvm-project
-            logo: LLVM.svg
-            crunchbase: https://www.crunchbase.com/organization/llvm-foundation
-          - item:
-            name: QEMU
-            homepage_url: https://www.qemu.org/
-            repo_url: https://github.com/qemu/qemu
-            logo: qemu.svg
-            organization:
-              name: QEMU
-          - item:
-            name: Sail
-            homepage_url: https://github.com/rems-project/sail
-            repo_url: https://github.com/rems-project/sail
-            logo: sail.svg
-            organization:
-              name: Sail
-          - item:
-            name: Sparta
-            homepage_url: https://sparcians.github.io/map/
-            logo: Sparta.svg
-            extra:
-              GitHub: https://github.com/sparcians/map/tree/master/sparta
-            organization:
-              name: Sparta Modeling Framework
-          - item:
-            name: SPIKE
-            homepage_url: https://github.com/riscv-software-src/riscv-isa-sim/blob/master/README.md
-            repo_url: https://github.com/riscv-software-src/riscv-isa-sim
-            logo: SPIKE.svg
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-          - item:
-            name: TinyEMU
-            homepage_url: https://bellard.org/tinyemu/
-            license: MIT
-            logo: TinyEMU.svg
-            organization:
-              name: TinyEMU
-          - item:
-            name: TVM
-            homepage_url: https://tvm.apache.org/
-            repo_url: https://github.com/apache/tvm
-            logo: TVM.svg
-            crunchbase: https://www.crunchbase.com/organization/apache
-          - item:
-            name: SIM-V
-            description: >-
-              SIM-V is our ultra-fast, functional RISC-V instruction set simulator. It enables you to verify your RISC-V software before hardware becomes
-              available. Its rapid simulation speed reduces test runtimes, enabling your teams to reap detailed results sooner. All the while reducing energy
-              consumption and saving time and money.
-            homepage_url: http://www.machineware.de/
-            logo: machineware-new.svg
-            crunchbase: https://www.crunchbase.com/organization/machineware-gmbh
-          - item:
-            name: gem5
-            description: >-
-              The gem5 simulator is a modular platform for computer-system architecture research, encompassing system-level architecture as well as processor
-              microarchitecture. The gem5 project is community-led with an open governance model. The gem5 simulator was originally conceived for computer
-              architecture research in academia, but it has grown to be used in computer system design by academia, industry for research, and in teaching. The
-              gem5 simulator contains cycle-level models for processors, cache hierarchies, memory systems, and devices. It can boot Linux and run most
-              application for a variety of ISAs including Arm, RISC-V, and x86.
-            homepage_url: https://www.gem5.org/
-            repo_url: https://github.com/gem5/gem5
-            logo: gem5.svg
-            organization:
-              name: gem5 community
-          - item:
-            name: RISCV-VP
-            description: >-
-              RISCV-VP is a configurable and extensible platform to build Virtual Prototypes (VP) for RISC-V using C++/SystemC and TLM. Features include support
-              for all standard RISC-V extension for the 32 and 64 bit architecture including the M/S/U privileged architecture, advanced software debugging
-              capabilities using a GDB interface with an optional Eclipse GUI, a HiFive1 configuration and support for graphical environment models, and support
-              for several operating systems including RIOT, Zephyr, FreeRTOS and Linux.
-
-
-              The VP can be used for early Software development and verification, as well as Hardware design space exploration and prototyping on the basis of
-              SystemC TLM 2.0.
-            homepage_url: https://agra.informatik.uni-bremen.de/projects/risc-v/
-            repo_url: https://github.com/agra-uni-bremen/riscv-vp
-            logo: riscv-vp-new.svg
-            crunchbase: https://www.crunchbase.com/organization/university-of-bremen-2
-          - item:
-            name: TGC-VP
-            description: >-
-              The Scale4Edge ecosystem VP using VP-VIBES peripherals.
-
-
-              TGC-VP is a virtual platform built around a TGC core. It allows a fast and easy entry into the world of TGC-Core-Family series. Furthermore, this
-              system is a good starting point for building any RISC-V based VP system.
-            homepage_url: https://www.minres.com/work/tgc-vp/
-            repo_url: https://github.com/Minres/TGC-VP
-            logo: TGC-VP.svg
-            crunchbase: https://www.crunchbase.com/organization/minres-technologies
-          - item:
-            name: Imperas
-            second_path: Services / Services
-            homepage_url: https://www.imperas.com/
-            logo: Imperas.svg
-            crunchbase: https://www.crunchbase.com/organization/imperas
-          - item:
-            name: Embecosm
-            second_path: Services / Services
-            homepage_url: https://www.embecosm.com/
-            logo: embecosm.svg
-            crunchbase: https://www.crunchbase.com/organization/embecosm
           - item:
             name: Cortus
             second_path:
@@ -3152,20 +3016,54 @@ landscape:
             logo: Cortus_Founding.svg
             crunchbase: https://www.crunchbase.com/organization/cortus-sa
           - item:
-            name: VRULL
-            second_path: Services / Services
-            homepage_url: http://vrull.eu/
-            logo: VRULL-new.svg
-            crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
+            name: Cycuity
+            homepage_url: https://cycuity.com/
+            logo: Cycuity.svg
+            crunchbase: https://www.crunchbase.com/organization/tortuga-logic-inc
           - item:
-            name: Ashling
+            name: Eclipse Foundation
+            homepage_url: https://www.eclipse.org/
+            logo: eclipse-foundation.svg
+            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
+          - item:
+            name: Embecosm
+            second_path: Services / Services
+            homepage_url: https://www.embecosm.com/
+            logo: embecosm.svg
+            crunchbase: https://www.crunchbase.com/organization/embecosm
+          - item:
+            name: GDB
+            homepage_url: https://www.sourceware.org/gdb/
+            license: GPLv3
+            logo: GDB.svg
+            crunchbase: https://www.crunchbase.com/organization/free-software-foundation
+            extra:
+              Download: https://www.sourceware.org/gdb/download/
+              Wiki: https://sourceware.org/gdb/wiki/
+          - item:
+            name: gem5
             description: >-
-              Ashling with their RiscFree™ SDK has grown to be synonymous in the embedded market with over 30 years of tool’s experience culminated in a
-              toolchain which includes an IDE, Debugger, Compiler, Debug & Trace Probes for RISC-V development with support for customisation & heterogeneous
-              environments.
-            homepage_url: https://www.ashling.com/
-            logo: ashling.svg
-            crunchbase: https://www.crunchbase.com/organization/ashling-microsystems
+              The gem5 simulator is a modular platform for computer-system architecture research, encompassing system-level architecture as well as processor
+              microarchitecture. The gem5 project is community-led with an open governance model. The gem5 simulator was originally conceived for computer
+              architecture research in academia, but it has grown to be used in computer system design by academia, industry for research, and in teaching. The
+              gem5 simulator contains cycle-level models for processors, cache hierarchies, memory systems, and devices. It can boot Linux and run most
+              application for a variety of ISAs including Arm, RISC-V, and x86.
+            homepage_url: https://www.gem5.org/
+            repo_url: https://github.com/gem5/gem5
+            logo: gem5.svg
+            organization:
+              name: gem5 community
+          - item:
+            name: GNU Compiler Collection
+            homepage_url: https://gcc.gnu.org/
+            repo_url: https://github.com/gcc-mirror/gcc
+            logo: gcc.svg
+            crunchbase: https://www.crunchbase.com/organization/free-software-foundation
+          - item:
+            name: gprof
+            homepage_url: https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html
+            logo: gprof.svg
+            crunchbase: https://www.crunchbase.com/organization/gnu
           - item:
             name: Green Hills Software
             second_path:
@@ -3175,10 +3073,72 @@ landscape:
             logo: green-hills-software.svg
             crunchbase: https://www.crunchbase.com/organization/green-hills-software
           - item:
+            name: IAR
+            homepage_url: https://www.iar.com/
+            logo: iar.svg
+            crunchbase: https://www.crunchbase.com/organization/iar-systems
+          - item:
+            name: Imperas
+            second_path: Services / Services
+            homepage_url: https://www.imperas.com/
+            logo: Imperas.svg
+            crunchbase: https://www.crunchbase.com/organization/imperas
+          - item:
+            name: Jenkins
+            homepage_url: https://www.jenkins.io/
+            repo_url: https://github.com/jenkinsci/jenkins
+            logo: jenkins.svg
+            crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
+          - item:
             name: Lauterbach
             homepage_url: https://www.lauterbach.com/
             logo: lauterbach-icon.svg
             crunchbase: https://www.crunchbase.com/organization/lauterbach
+          - item:
+            name: LLVM
+            homepage_url: https://llvm.org/
+            repo_url: https://github.com/llvm/llvm-project
+            logo: LLVM.svg
+            crunchbase: https://www.crunchbase.com/organization/llvm-foundation
+          - item:
+            name: QEMU
+            homepage_url: https://www.qemu.org/
+            repo_url: https://github.com/qemu/qemu
+            logo: qemu.svg
+            organization:
+              name: QEMU
+          - item:
+            name: Renode
+            description: Renode is a development framework which accelerates IoT and embedded systems development, by simulating physical hardware systems
+            homepage_url: https://renode.io/
+            repo_url: https://github.com/renode/renode
+            license: MIT License
+            project_org: https://github.com/renode
+            logo: Renode.svg
+            twitter: https://twitter.com/renodeio
+            crunchbase: https://www.crunchbase.com/organization/antmicro
+          - item:
+            name: RISCV-VP
+            description: >-
+              RISCV-VP is a configurable and extensible platform to build Virtual Prototypes (VP) for RISC-V using C++/SystemC and TLM. Features include support
+              for all standard RISC-V extension for the 32 and 64 bit architecture including the M/S/U privileged architecture, advanced software debugging
+              capabilities using a GDB interface with an optional Eclipse GUI, a HiFive1 configuration and support for graphical environment models, and support
+              for several operating systems including RIOT, Zephyr, FreeRTOS and Linux.
+
+
+              The VP can be used for early Software development and verification, as well as Hardware design space exploration and prototyping on the basis of
+              SystemC TLM 2.0.
+            homepage_url: https://agra.informatik.uni-bremen.de/projects/risc-v/
+            repo_url: https://github.com/agra-uni-bremen/riscv-vp
+            logo: riscv-vp-new.svg
+            crunchbase: https://www.crunchbase.com/organization/university-of-bremen-2
+          - item:
+            name: Sail
+            homepage_url: https://github.com/rems-project/sail
+            repo_url: https://github.com/rems-project/sail
+            logo: sail.svg
+            organization:
+              name: Sail
           - item:
             name: SEGGER
             second_path:
@@ -3187,6 +3147,61 @@ landscape:
             homepage_url: https://www.segger.com/risc-v/
             logo: segger.svg
             crunchbase: https://www.crunchbase.com/organization/segger-microcontroller-systems
+          - item:
+            name: SIM-V
+            description: >-
+              SIM-V is our ultra-fast, functional RISC-V instruction set simulator. It enables you to verify your RISC-V software before hardware becomes
+              available. Its rapid simulation speed reduces test runtimes, enabling your teams to reap detailed results sooner. All the while reducing energy
+              consumption and saving time and money.
+            homepage_url: http://www.machineware.de/
+            logo: machineware-new.svg
+            crunchbase: https://www.crunchbase.com/organization/machineware-gmbh
+          - item:
+            name: Sparta
+            homepage_url: https://sparcians.github.io/map/
+            logo: Sparta.svg
+            extra:
+              GitHub: https://github.com/sparcians/map/tree/master/sparta
+            organization:
+              name: Sparta Modeling Framework
+          - item:
+            name: SPIKE
+            homepage_url: https://github.com/riscv-software-src/riscv-isa-sim/blob/master/README.md
+            repo_url: https://github.com/riscv-software-src/riscv-isa-sim
+            logo: SPIKE.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
+          - item:
+            name: Terapines
+            description: Terapines is a HW/SW co-design toolchain provider for RISC-V based processors.
+            homepage_url: https://www.terapines.com/
+            repo_url: https://github.com/THU-DSP-LAB/llvm-project
+            logo: TeraPines.svg
+            crunchbase: https://www.crunchbase.com/organization/terapines-technology
+          - item:
+            name: TGC-VP
+            description: >-
+              The Scale4Edge ecosystem VP using VP-VIBES peripherals.
+
+
+              TGC-VP is a virtual platform built around a TGC core. It allows a fast and easy entry into the world of TGC-Core-Family series. Furthermore, this
+              system is a good starting point for building any RISC-V based VP system.
+            homepage_url: https://www.minres.com/work/tgc-vp/
+            repo_url: https://github.com/Minres/TGC-VP
+            logo: TGC-VP.svg
+            crunchbase: https://www.crunchbase.com/organization/minres-technologies
+          - item:
+            name: TinyEMU
+            homepage_url: https://bellard.org/tinyemu/
+            license: MIT
+            logo: TinyEMU.svg
+            organization:
+              name: TinyEMU
+          - item:
+            name: TVM
+            homepage_url: https://tvm.apache.org/
+            repo_url: https://github.com/apache/tvm
+            logo: TVM.svg
+            crunchbase: https://www.crunchbase.com/organization/apache
           - item:
             name: Valtrix Systems
             description: >-
@@ -3198,29 +3213,8 @@ landscape:
             logo: valtrix.svg
             crunchbase: https://www.crunchbase.com/organization/valtrix-systems
           - item:
-            name: IAR
-            homepage_url: https://www.iar.com/
-            logo: iar.svg
-            crunchbase: https://www.crunchbase.com/organization/iar-systems
-          - item:
-            name: Cycuity
-            homepage_url: https://cycuity.com/
-            logo: Cycuity.svg
-            crunchbase: https://www.crunchbase.com/organization/tortuga-logic-inc
-          - item:
-            name: Terapines
-            description: Terapines is a HW/SW co-design toolchain provider for RISC-V based processors.
-            homepage_url: https://www.terapines.com/
-            repo_url: https://github.com/THU-DSP-LAB/llvm-project
-            logo: TeraPines.svg
-            crunchbase: https://www.crunchbase.com/organization/terapines-technology
-          - item:
-            name: Eclipse Foundation
-            homepage_url: https://www.eclipse.org/
-            logo: eclipse-foundation.svg
-            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
-          - item:
-            name: ChipFlow
-            homepage_url: https://www.chipflow.io/
-            logo: ChipFlow.svg
-            crunchbase: https://www.crunchbase.com/organization/chipflow
+            name: VRULL
+            second_path: Services / Services
+            homepage_url: http://vrull.eu/
+            logo: VRULL-new.svg
+            crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
