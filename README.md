@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/91337728-8166-4c8f-bc39-9159bf97dcbc/deploy-status)](https://app.netlify.com/sites/landscape/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c61b674c-ca2c-4f83-9929-5b28f6008b4a/deploy-status)](https://app.netlify.com/sites/shimmering-lollipop-c2855e/deploys)
 
 # RISC-V Ecosystem Landscape
 
