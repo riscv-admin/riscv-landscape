@@ -1853,7 +1853,8 @@ landscape:
             repo_url: https://github.com/Fraunhofer-IMS/airisc_core_complex
             logo: AIRISC.svg
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-verbund-mikroeleketronik
-            second_path: Implementations / Chips + Processors
+            second_path:
+              - Implementations / Chips + Processors
           - item:
             name: Andes Technology Corporation
             homepage_url: http://www.andestech.com/
@@ -1906,7 +1907,8 @@ landscape:
               GitHub: https://github.com/Nuclei-Software/
           - item:
             name: MINRES Technologies GmbH
-            second_path: Services / Services
+            second_path:
+              - Services / Services
             description: >-
               Trustworthy Software-Driven Hardware for the Intelligent Edge.
 
@@ -2067,7 +2069,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/renesas-electronics-corporation
           - item:
             name: NEORV32
-            second_path: Implementations / IP
+            second_path:
+              - Implementations / IP
             description: >-
               A tiny, customizable and highly extensible MCU-class 32-bit RISC-V soft-core CPU and microcontroller-like SoC written in platform-independent
               VHDL.
@@ -2083,7 +2086,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/alibaba
           - item:
             name: Ventana Micro Systems
-            second_path: Implementations / IP
+            second_path:
+              - Implementations / IP
             description: Ventana is creating high performance RISC-V chiplets and IP for the data center, automotive, 5G edge, and client markets.
             homepage_url: https://www.ventanamicro.com/
             logo: VentanaLogo.svg
@@ -3131,13 +3135,15 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/minres-technologies
           - item:
             name: Imperas
-            second_path: Services / Services
+            second_path:
+              - Services / Services
             homepage_url: https://www.imperas.com/
             logo: Imperas.svg
             crunchbase: https://www.crunchbase.com/organization/imperas
           - item:
             name: Embecosm
-            second_path: Services / Services
+            second_path:
+              - Services / Services
             homepage_url: https://www.embecosm.com/
             logo: embecosm.svg
             crunchbase: https://www.crunchbase.com/organization/embecosm
@@ -3160,7 +3166,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cortus-sa
           - item:
             name: VRULL
-            second_path: Services / Services
+            second_path:
+              - Services / Services
             homepage_url: http://vrull.eu/
             logo: VRULL-new.svg
             crunchbase: https://www.crunchbase.com/organization/vrull-gmbh
