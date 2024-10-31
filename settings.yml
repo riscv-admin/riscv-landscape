@@ -6,106 +6,84 @@ global:
   short_domain: l.riscv.org
   company_url: https://riscv.org/
   email: info@riscv.org
-  self: https://www.crunchbase.com/organization/riscv
-  hide_no_best_practices: true
+  self: https://www.crunchbase.com/organization/linux-foundation
+  slack_channel: T08PSQ7BQ/BM7M5TKSR/Xjll8jWb2cgpO7aOCGxUtebU
   meta:
-    title: RISC-V Interactive Landscape
-    description: RISC-V Landscape Info
-    twitter: '@risc_v'
-    google_site_verification: test
-    ms_validate: test
-    extra: >
-      <meta property="og:image" content="https://landscape.riscv.org/images/social.png" /> <meta property="og:image:width" content="1800" /> <meta
-      property="og:image:height" content="945" /> <meta property="og:locale" content="en_US" /> <meta property="og:type" content="website" /> <meta
-      property="og:title" content="Landscape" /> <meta property="og:description" content="The Landscape organizes all RISC-V native open source projects and
-      proprietary products into categories, providing an overview of the current ecosystem" /> <meta property="og:url" content="https://landscape.riscv.org/" />
-      <meta property="og:site_name" content="Landscape" /> <meta name="twitter:card" content="summary_large_image" /> <meta name="twitter:title"
-      content="Landscape" /> <meta name="twitter:description" content="The Landscape organizes all RISC-V open source projects and proprietary products into
-      categories, providing an overview of the current ecosystem" /> <meta name="twitter:image" content="https://landscape.riscv.org/images/social.jpg" /> <meta
-      name="twitter:image:width" content="1800" /> <meta name="twitter:image:height" content="945" /> <script>
-        window.addEventListener("DOMContentLoaded", function() {
-          const element = document.querySelector('.disclaimer');
-          element.innerHTML = element.innerHTML.replace('Greyed logos are not open source.', '');
-        });
-      </script> <script>
-        window.addEventListener("DOMContentLoaded", function() {
-          document.querySelector('.select[data-name=project]').style.display = "none";          
-        });
-      </script> <script>
-        window.addEventListener("DOMContentLoaded", function() {
-          document.querySelector('.select[data-name=headquarters]').style.display = "none";          
-        });
-      </script>
+    title: RISC-V Landscape
+    fb_admin: alex.contini.94
+    description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
+    twitter: '@todogroup'
+    google_site_verification: u_xqWIf8_EzRP4UF92px16rTSoIP49D_g9i7M-4rXds
+    ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   membership: RISC-V Members
+  flags:
+    companies: RISC-V Members
 twitter:
   search: riscv.cncf.io
   url: https://landscape.riscv.org
-  text: RISC-V Landscape from @risc_v
+  text: RISC-V Landscape
 relation:
   label: RISC-V Relation
   url: riscv
   values:
-    - id: hosted
-      label: RISC-V Projects
-      children:
-        - id: projects
-          label: Riscv Projects
-          prefix: Riscv
-          tag: Projects
-          color: '#3570af'
-          big_picture_order: 1
-          big_picture_label: Riscv Projects
-          big_picture_color: rgb(24,54,114)
+    - id: company
+      label: RISC-V Members
+      tag: Company
+      big_picture_order: 3
     - id: member
       label: RISC-V Member Products/Projects
-      tag: Riscv Member
+      tag: RISC-V Member
     - id: false
       label: Non-RISC-V Member Products/Projects
       url: 'no'
 membership:
   Premier:
-    name: RISC-V
+    name: Premier
     label: Premier Member
     funding: Premier
-    is_large: true
   Strategic:
-    name: RISC-V
+    name: Strategic
     label: Strategic Member
     funding: Strategic
-    is_large: true
   Community:
-    name: RISC-V
+    name: Community
     label: Community Member
     funding: Community
+  linux_foundation:
+    name: LF
+    label: Project
+    funding: Linux Foundation
+    crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
+  'false':
+    funding: 'No'
 home:
   header: >
-    <h1>RISC-V Ecosystem Interactive Landscape</h1> The RISC-V landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
-    href="images/landscape.pdf">pdf</a>) is dynamically generated below.
+    <h1>RISC-V Landscape</h1> The RISC-V landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based
+    on the same open source code.
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
-ads:
-  - url: https://riscv-europe.org/summit/2024/
-    image: /images/SummitEurope2023v2.png
-    title: RISC-V Summit Europe 2024
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
-    label: Cards by age
-  - url: /license=open-source
-    label: Open source landscape
-  - url: /category=cncf-members&format=card-mode&grouping=category
-    label: Member cards
+    label: Open source cards by age
+  - url: /license=apache-license-2-0
+    label: Apache-2.0 landscape
+  - url: /format=card-mode&grouping=category
+    label: Cards in categories
   - url: /format=card-mode&grouping=no&sort=stars
     label: Cards by stars
-  - url: /format=card-mode&grouping=headquarters&headquarters=china,hong-kong,taiwan
+  - url: /format=card-mode&grouping=headquarters
+    label: Group by location
+  - url: /format=card-mode&grouping=no&sort=amount
+    label: Cards by MCap/Funding
 big_picture:
-  members:
-    tab_index: 2
-    name: RISC-V Members
-    url: members
-    short_name: Memb....
-    title: RISC-V Members
-    fullscreen_header: https://riscv.org/members/
-    category: RISC-V Members
+  main:
+    tab_index: -1
+    url: landscape
+    name: Landscape
+    title: RISC-V Landscape
+    fullscreen_header: See the interactive landscape at l.riscv.org
+    elements:
       - type: VerticalCategory
         category: RISC-V Members
         width: 650
@@ -152,8 +130,9 @@ big_picture:
             top: 10
             title: RISC-V Logo
 test:
-  header: RISC-V Ecosystem Interactive Landscape
-  section: Non-RISC-V Member Products/Projects
-  logo: my-sql.svg
-prerender: {}
+  header: RISC-V Landscape
+  section: RISC-V Members
+  logo: google-llc.svg
+prerender:
+  members: /card-mode?category=risc-v-members&grouping=category&embed=yes&style=borderless
 export: {}
