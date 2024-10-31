@@ -1,0 +1,22 @@
+name: Build Landscape from LFX
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "0 4 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@91182cccc01eb5e619899d80e4e971d6181294a7 # v2.10.1
+        with:
+          egress-policy: audit
+      - uses: jmertic/lfx-landscape-tools@main
+        with:
+          project_processing: skip
+        env:
+          token: ${{ secrets.PAT }}
+          repository: ${{ github.repository }}
+          ref: ${{ github.ref }}

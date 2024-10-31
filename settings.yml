@@ -68,11 +68,6 @@ membership:
     label: Premier Member
     funding: Premier
     is_large: true
-  Premier TSC:
-    name: RISC-V
-    label: Premier TSC Member
-    funding: Premier TSC
-    is_large: true
   Strategic:
     name: RISC-V
     label: Strategic Member
@@ -199,42 +194,6 @@ big_picture:
             left: 15
             top: 15
             title: Landscape Logo
-      - type: HorizontalCategory
-        is_large: true
-        category: Implementations
-        rows: 4
-        width: 1350
-        height: 300
-        top: 1070
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Design Tools, Compilers and Verification
-        rows: 2
-        width: 1350
-        height: 175
-        top: 775
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Services
-        rows: 1
-        width: 1350
-        height: 100
-        left: 0
-        color: rgb(109,61,143)
-        top: 960
-      - type: HorizontalCategory
-        is_large: true
-        category: RISC-V Programs
-        rows: 1
-        width: 1350
-        height: 100
-        top: 1380
-        left: 0
-        color: rgb(109,61,143)
     fullscreen_header: https://riscv.org/
   members:
     tab_index: 2
@@ -256,15 +215,6 @@ big_picture:
         color: rgb(109,61,143)
       - type: HorizontalCategory
         is_large: true
-        category: Premier TSC
-        rows: 2
-        width: 240
-        height: 175
-        top: 0
-        left: 1110
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
         category: Strategic
         rows: 12
         color: rgb(109,61,143)
@@ -272,6 +222,15 @@ big_picture:
         width: 1350
         height: 750
         top: 185
+      - type: HorizontalCategory
+        is_large: true
+        category: Community
+        rows: 2
+        width: 240
+        height: 175
+        top: 0
+        left: 1110
+        color: rgb(109,61,143)
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RISC-V Member Products/Projects
