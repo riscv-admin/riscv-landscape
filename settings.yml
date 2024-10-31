@@ -98,103 +98,6 @@ presets:
     label: Cards by stars
   - url: /format=card-mode&grouping=headquarters&headquarters=china,hong-kong,taiwan
 big_picture:
-  main:
-    tab_index: -1
-    url: landscape
-    name: Landscape
-    short_name: Land...
-    title: RISC-V Landscape
-    elements:
-      - type: HorizontalCategory
-        is_large: true
-        category: Applications
-        rows: 2
-        width: 1350
-        height: 175
-        top: 0
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Libraries
-        rows: 2
-        width: 1350
-        height: 175
-        top: 185
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Infrastructure
-        rows: 1
-        width: 670
-        height: 100
-        top: 370
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Runtimes
-        rows: 1
-        width: 670
-        height: 100
-        top: 370
-        left: 680
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Operating Systems
-        rows: 2
-        width: 1350
-        height: 175
-        top: 480
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Hypervisor
-        rows: 1
-        width: 670
-        height: 100
-        top: 665
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Boot
-        rows: 1
-        width: 670
-        height: 100
-        top: 665
-        left: 680
-        color: rgb(109,61,143)
-      - type: LandscapeInfo
-        width: 1350
-        height: 100
-        top: 1490
-        left: 0
-        children:
-          - type: text
-            text: >-
-              This landscape is intended to provide insight into the rich RISC-V Ecosystem available today. Further details on RISC-V Software Ecosystem Status
-              available at https://sites.google.com/riscv.org/software-ecosystem-status.
-            top: 49
-            left: 20
-            right: 20
-            font_size: 12
-          - type: image
-            image: right-logo.svg
-            width: 109
-            right: 15
-            top: 15
-            title: RiscV Logo
-          - type: image
-            image: left-logo.svg
-            width: 140
-            left: 15
-            top: 15
-            title: Landscape Logo
-    fullscreen_header: https://riscv.org/
   members:
     tab_index: 2
     name: RISC-V Members
@@ -204,33 +107,51 @@ big_picture:
     fullscreen_header: https://riscv.org/members/
     category: RISC-V Members
     elements:
-      - type: HorizontalCategory
-        is_large: true
-        category: Premier
-        rows: 2
-        width: 1100
-        height: 175
+      - type: VerticalCategory
+        category: RISC-V Members
+        width: 650
+        height: 400
         top: 0
         left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Strategic
-        rows: 12
-        color: rgb(109,61,143)
-        left: 0
-        width: 1350
-        height: 750
-        top: 185
-      - type: HorizontalCategory
-        is_large: true
-        category: Community
-        rows: 2
-        width: 240
-        height: 175
+        color: rgb(103,66,18)
+        fit_width: true
+      - type: LandscapeInfo
+        width: 310
+        height: 150
         top: 0
-        left: 1110
-        color: rgb(109,61,143)
+        left: 665
+        children:
+          - type: text
+            text: |
+              This landscape is intended as a map to explore the RISC-V community, and also shows the member organizations of the RISC-V.
+            top: 45
+            left: 140
+            right: 10
+            font_size: 10
+          - type: image
+            image: qr.svg
+            top: 10
+            left: 20
+            width: 90
+            height: 90
+            title: QR Code
+          - type: title
+            title: l.riscv.org
+            top: 95
+            left: 10
+            font_size: 18
+          - type: image
+            image: left-logo.svg
+            width: 90
+            right: 105
+            top: 10
+            title: Landscape Logo
+          - type: image
+            image: right-logo.svg
+            width: 90
+            right: 10
+            top: 10
+            title: RISC-V Logo
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RISC-V Member Products/Projects
