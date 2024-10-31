@@ -84,7 +84,7 @@ membership:
     funding: Community
 home:
   header: >
-    <h1>RISC-V Ecosystem Landscape</h1> The RISC-V landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    <h1>RISC-V Ecosystem Interactive Landscape</h1> The RISC-V landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
     href="images/landscape.pdf">pdf</a>) is dynamically generated below.
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
@@ -198,44 +198,7 @@ big_picture:
             width: 140
             left: 15
             top: 15
-            title: Landscape Logo
-      - type: HorizontalCategory
-        is_large: true
-        category: Implementations
-        rows: 4
-        width: 1350
-        height: 300
-        top: 1070
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Design Tools, Compilers and Verification
-        rows: 2
-        width: 1350
-        height: 175
-        top: 775
-        left: 0
-        color: rgb(109,61,143)
-      - type: HorizontalCategory
-        is_large: true
-        category: Services
-        rows: 1
-        width: 1350
-        height: 100
-        left: 0
-        color: rgb(109,61,143)
-        top: 960
-      - type: HorizontalCategory
-        is_large: true
-        category: RISC-V Programs
-        rows: 1
-        width: 1350
-        height: 100
-        top: 1380
-        left: 0
-        color: rgb(109,61,143)
-    fullscreen_header: https://riscv.org/
+            title: Landscape Logos
   members:
     tab_index: 2
     name: RISC-V Members
@@ -256,7 +219,7 @@ big_picture:
         color: rgb(109,61,143)
       - type: HorizontalCategory
         is_large: true
-        category: Premier TSC
+        category: Premier
         rows: 2
         width: 240
         height: 175
