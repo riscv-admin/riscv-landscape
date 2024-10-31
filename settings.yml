@@ -12,7 +12,7 @@ global:
     title: RISC-V Landscape
     fb_admin: alex.contini.94
     description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
-    twitter: '@todogroup'
+    twitter: "@todogroup"
     google_site_verification: u_xqWIf8_EzRP4UF92px16rTSoIP49D_g9i7M-4rXds
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   membership: RISC-V Members
@@ -30,12 +30,13 @@ relation:
       label: RISC-V Members
       tag: Company
       big_picture_order: 3
+      children: [] # Add an empty children field here
     - id: member
       label: RISC-V Member Products/Projects
       tag: RISC-V Member
     - id: false
       label: Non-RISC-V Member Products/Projects
-      url: 'no'
+      url: "no"
 membership:
   Premier:
     name: Premier
@@ -54,8 +55,8 @@ membership:
     label: Project
     funding: Linux Foundation
     crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
-  'false':
-    funding: 'No'
+  "false":
+    funding: "No"
 home:
   header: >
     <h1>RISC-V Landscape</h1> The RISC-V landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
