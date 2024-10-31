@@ -15,9 +15,9 @@ global:
     twitter: "@todogroup"
     google_site_verification: u_xqWIf8_EzRP4UF92px16rTSoIP49D_g9i7M-4rXds
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
-  membership: RISC-V Members
+  membership: risc-v-members
   flags:
-    companies: RISC-V Members
+    companies: risc-v-members
 twitter:
   search: riscv.cncf.io
   url: https://landscape.riscv.org
@@ -27,7 +27,7 @@ relation:
   url: riscv
   values:
     - id: company
-      label: RISC-V Members
+      label: risc-v-members
       tag: Company
       big_picture_order: 3
       children: [] # Add an empty children field here
