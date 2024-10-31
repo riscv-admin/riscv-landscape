@@ -86,7 +86,7 @@ big_picture:
     fullscreen_header: See the interactive landscape at l.riscv.org
     elements:
       - type: VerticalCategory
-        category: RISC-V Members
+        category: risc-v-members
         width: 650
         height: 400
         top: 0
@@ -132,7 +132,7 @@ big_picture:
             title: RISC-V Logo
 test:
   header: RISC-V Landscape
-  section: RISC-V Members
+  section: risc-v-members
   logo: google-llc.svg
 prerender:
   members: /card-mode?category=risc-v-members&grouping=category&embed=yes&style=borderless
