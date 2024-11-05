@@ -11,7 +11,7 @@ global:
   meta:
     title: RISC-V Interactive Landscape
     description: RISC-V Landscape Info
-    twitter: '@risc_v'
+    twitter: "@risc_v"
     google_site_verification: test
     ms_validate: test
     extra: >
@@ -52,7 +52,7 @@ relation:
           label: Riscv Projects
           prefix: Riscv
           tag: Projects
-          color: '#3570af'
+          color: "#3570af"
           big_picture_order: 1
           big_picture_label: Riscv Projects
           big_picture_color: rgb(24,54,114)
@@ -61,7 +61,7 @@ relation:
       tag: Riscv Member
     - id: false
       label: Non-RISC-V Member Products/Projects
-      url: 'no'
+      url: "no"
 membership:
   Premier:
     name: RISC-V
@@ -82,6 +82,7 @@ membership:
     name: RISC-V
     label: Community Member
     funding: Community
+    is_large: true
 home:
   header: >
     <h1>RISC-V Ecosystem Interactive Landscape</h1> The RISC-V landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
@@ -249,7 +250,7 @@ big_picture:
         is_large: true
         category: Premier
         rows: 2
-        width: 1100
+        width: 1350
         height: 175
         top: 0
         left: 0
@@ -263,6 +264,15 @@ big_picture:
         width: 1350
         height: 750
         top: 185
+      - type: HorizontalCategory
+        is_large: true
+        category: Community
+        rows: 14
+        color: rgb(109,61,143)
+        left: 0
+        width: 1350
+        height: 940
+        top: 934
 test:
   header: RISC-V Ecosystem Interactive Landscape
   section: Non-RISC-V Member Products/Projects
