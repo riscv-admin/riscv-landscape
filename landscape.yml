@@ -48,6 +48,19 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/doble-engineering
           - item:
+            name: Beijing ESWIN Computing Technology Co., Ltd. (member)
+            description: >-
+              Beijing Eswin Computing Technology, a Chinese startup that supplies semiconductor designs and solutions, has raised $283 million in a new
+              financing round at a time when the world’s most populous nation is looking to cut its reliance on the U.S. and U.K. for chipsets.
+            homepage_url: https://eswin.com/
+            logo: beijing_eswin_computing_technology_co_ltd.svg
+            twitter: https://twitter.com/EswinL
+            extra:
+              linkedin_url: https://www.linkedin.com/company/%E5%8C%97%E4%BA%AC%E5%A5%95%E6%96%AF%E4%BC%9F%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF
+            organization:
+              name: Beijing ESWIN Computing Technology Co., Ltd.
+              linkedin: https://www.linkedin.com/company/%E5%8C%97%E4%BA%AC%E5%A5%95%E6%96%AF%E4%BC%9F%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF
+          - item:
             name: Beijing Institute of Open  Source Chip (member)
             homepage_url: https://bosc.ac.cn/
             logo: beijing_institute_of_open_source_chip.svg
@@ -85,22 +98,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/huawei
           - item:
-            name: Imagination Technologies Ltd. (member)
-            description: Imagination Technologies Group plc is a global semiconductor and software design company, owned by the Chinese Canyon Bridge Capital Partners.
-            homepage_url: https://imgtec.com/
-            logo: imagination_technologies_ltd.svg
-            twitter: https://twitter.com/ImaginationTech
-            crunchbase: https://www.crunchbase.com/organization/imagination-technologies
-            extra:
-              linkedin_url: https://www.linkedin.com/company/imaginationtech
-          - item:
-            name: Institute of Computing Technology (member)
-            description: Institute of Computing Techology, Chinese Academy of Services
-            homepage_url: https://ict.ac.cn/
-            logo: institute_of_computing_technology.svg
-            organization:
-              name: Institute of Computing Technology
-          - item:
             name: Institute of Software Chinese Academy of Sciences (member)
             description: >-
               The Institute of Software, Chinese Academy of Sciences (ISCAS) is a research base that focuses on the research and development on theories of
@@ -120,20 +117,6 @@ landscape:
             organization:
               name: Instituto Federal de Educação
               linkedin: https://www.linkedin.com/company/instituto-federal-de-educa-o-ci-ncia-e-tecnologia-do-cear-
-          - item:
-            name: Intel Corporation (member)
-            description: >-
-              Intel Corporation designs, manufactures, and sells computer, networking, and communications platforms worldwide. The company offers
-              microprocessors, chipsets, and input, display, and storage devices, such as keyboard, mouse, monitor, hard drive or solid-state drive, and optical
-              disc drives; and system-on-chip and multichip packaging products. In addition, the company develops computer vision and machine learning-based
-              sensing products, mapping and driving policy technology solutions for advanced driver assistance systems, and autonomous driving technologies. It
-              serves original equipment manufacturers, original design manufacturers, cloud and communications service providers, and industrial,
-              communications, and automotive equipment manufacturers. The company was founded in 1968 and is based in Santa Clara, California.
-            homepage_url: https://intel.com/
-            logo: intel_corporation.svg
-            crunchbase: https://www.crunchbase.com/organization/intel
-            extra:
-              linkedin_url: https://www.linkedin.com/company/intel-corporation
           - item:
             name: NVIDIA Corporation (member)
             description: Founded in 1993, NVIDIA is an AI computing company. The company is headquartered in Santa Clara, California.
@@ -182,20 +165,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/firethorn
           - item:
-            name: RIOS (member)
-            description: >-
-              Founded in 2019 as part of Tsinghua-Berkeley Shenzhen Institute (TBSI), the RISC-V International Open Source Laboratory (RIOS Lab) began its
-              journey of bringing the research effort of RISC-V CPU with its software and hardware ecosystems from UC Berkeley to the rest of the world. As a
-              premier member of RISC-V Foundation, RIOS is aiming to demonstrate its commitment to the open source platform for chip developers with far more
-              economical and efficient technology.
-            homepage_url: https://rioslab.org/
-            logo: rios.svg
-            extra:
-              linkedin_url: https://www.linkedin.com/company/rioslab
-            organization:
-              name: RIOS
-              linkedin: https://www.linkedin.com/company/rioslab
-          - item:
             name: Rivos Inc (member)
             description: Rivos, based in Santa Clara and Austin, is an exciting RISC V startup that is targeting to be the first high performance RISC V core.
             homepage_url: https://rivosinc.com/
@@ -217,21 +186,6 @@ landscape:
             organization:
               name: Sanechips Technology Co Ltd
               linkedin: https://www.linkedin.com/company/sanechips
-          - item:
-            name: Seagate Technology LLC (member)
-            description: |-
-              WW Headquarters
-
-              10200 S. De Anza Blvd Cupertino, CA 95014 United States
-
-              --- Merged Data:
-
-              Seagate Technology PLC is an American data storage company.
-            homepage_url: https://seagate.com/
-            logo: seagate_technology_llc.svg
-            crunchbase: https://www.crunchbase.com/organization/seagate
-            extra:
-              linkedin_url: https://www.linkedin.com/company/seagate-technology
           - item:
             name: SiFive (member)
             description: Founded in 2015, SiFive is based in San Mateo, California and specializes in agile hardware design and open source chip platforms.
@@ -273,19 +227,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/tencent
             extra:
               linkedin_url: https://www.linkedin.com/company/tencentglobal
-          - item:
-            name: Ventana Micro Systems (member)
-            description: >-
-              Ventana Micro Systems is a well-funded start-up, founded by seasoned industry veterans, that is developing a family of best-in-class,
-              high-performance RISC-V CPU cores and compute subsystems.
-            homepage_url: https://ventanamicro.com/
-            logo: ventana_micro_systems.svg
-            twitter: https://twitter.com/VentanaMicro
-            extra:
-              linkedin_url: https://www.linkedin.com/company/ventana-micro-systems
-            organization:
-              name: Ventana Micro Systems
-              linkedin: https://www.linkedin.com/company/ventana-micro-systems
       - subcategory:
         name: Premier TSC
         items: []
@@ -369,16 +310,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/antmicro
             extra:
               linkedin_url: https://www.linkedin.com/company/antmicro-ltd
-          - item:
-            name: Arduino (member)
-            description: >-
-              Arduino is an open-source electronics platform based on easy-to-use hardware and software. The business offers a range of software tools, hardware
-              platforms and documentation.
-            homepage_url: https://arduino.cc/
-            logo: arduino.svg
-            crunchbase: https://www.crunchbase.com/organization/arduino
-            extra:
-              linkedin_url: https://www.linkedin.com/company/arduino
           - item:
             name: Aril Inc. (member)
             description: Aril specializes in providing embedded processor solutions.
@@ -795,17 +726,6 @@ landscape:
               name: Embecosm Ltd.
               linkedin: https://www.linkedin.com/company/embecosm
           - item:
-            name: Emdalo Technologies (member)
-            description: Embedded Smart Software Solutions
-            homepage_url: https://emdalo.com/
-            logo: emdalo_technologies.svg
-            twitter: https://twitter.com/emdalo
-            extra:
-              linkedin_url: https://www.linkedin.com/company/emdalo-technologies
-            organization:
-              name: Emdalo Technologies
-              linkedin: https://www.linkedin.com/company/emdalo-technologies
-          - item:
             name: Emproof (member)
             description: >-
               Emproof is a company that provides agile, robust, and cost-effective security and IP integrity for all embedded systems. Their solution, Emproof
@@ -1016,6 +936,15 @@ landscape:
             logo: ieit_systems_co_ltd.svg
             organization:
               name: IEIT SYSTEMS Co. , Ltd.
+          - item:
+            name: Imagination Technologies Ltd. (member)
+            description: Imagination Technologies Group plc is a global semiconductor and software design company, owned by the Chinese Canyon Bridge Capital Partners.
+            homepage_url: https://imgtec.com/
+            logo: imagination_technologies_ltd.svg
+            twitter: https://twitter.com/ImaginationTech
+            crunchbase: https://www.crunchbase.com/organization/imagination-technologies
+            extra:
+              linkedin_url: https://www.linkedin.com/company/imaginationtech
           - item:
             name: InCore Semiconductors Pvt. Ltd. (member)
             description: Production Grade, Open Source RISC-V Cores and SoCs
@@ -1354,6 +1283,18 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/microsoft
             extra:
               linkedin_url: https://www.linkedin.com/company/microsoft
+          - item:
+            name: Mindgrove Technologies Pvt Ltd (member)
+            description: >-
+              Mindgrove Tech is a leading semiconductor design company in India, specializing in state-of-the-art System on Chips (SoCs) for automotive,
+              consumer electronics, and defense applications. Backed by the SHAKTI open source processor program, Mindgrove aim...
+            homepage_url: https://mindgrovetech.in/
+            logo: mindgrove_technologies_pvt_ltd.svg
+            extra:
+              linkedin_url: https://www.linkedin.com/company/mindgrovetech
+            organization:
+              name: Mindgrove Technologies Pvt Ltd
+              linkedin: https://www.linkedin.com/company/mindgrovetech
           - item:
             name: MINRES Technologies GmbH (member)
             description: MINRES Technologies GmbH is located in Neubiberg, Bayern, Germany and is part of the Computer Systems Design and Related Services Industry.
@@ -1738,6 +1679,22 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/scaleway
           - item:
+            name: Seagate Technology LLC (member)
+            description: |-
+              WW Headquarters
+
+              10200 S. De Anza Blvd Cupertino, CA 95014 United States
+
+              --- Merged Data:
+
+              Seagate Technology PLC is an American data storage company.
+            homepage_url: https://seagate.com/
+            logo: seagate_technology_llc.svg
+            twitter: https://twitter.com/Seagate
+            crunchbase: https://www.crunchbase.com/organization/seagate
+            extra:
+              linkedin_url: https://www.linkedin.com/company/seagate-technology
+          - item:
             name: Secure-IC (member)
             description: Secure-IC is the only provider of End-to End Embedded CyberSecurity Solutions.
             homepage_url: https://secure-ic.com/
@@ -2043,14 +2000,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/draper-laboratory
           - item:
-            name: Tiempo SAS (member)
-            description: Security IP cores, software libraries and expert services to secure integrated circuits at the highest and certified levels of security
-            homepage_url: https://tiempo-secure.com/
-            logo: tiempo_sas.svg
-            crunchbase: https://www.crunchbase.com/organization/tiempo
-            extra:
-              linkedin_url: https://www.linkedin.com/company/tiempo-s-a-s-
-          - item:
             name: TrustKernel (member)
             description: >-
               Shanghai Pingbo Information Technology Co., Ltd. (TrustKernel) was founded in early 2015. The team was incubated from the Institute of Parallel
@@ -2218,15 +2167,6 @@ landscape:
             logo: zaram_technology_inc.svg
             organization:
               name: ZARAM TECHNOLOGY INC
-          - item:
-            name: ZAYA (member)
-            description: ZAYA is a Functional Secure OS for IoT Endpoints to protect IoT Endpoints from Logical and Physical Attacks. Optimised for ARM Architecture.
-            homepage_url: https://za-ya.co/
-            logo: zaya.svg
-            twitter: https://twitter.com/zayaltd
-            crunchbase: https://www.crunchbase.com/organization/zaya
-            extra:
-              linkedin_url: https://www.linkedin.com/company/zaya-ltd.
           - item:
             name: ZeroPoint Technologies AB (member)
             description: >-
@@ -2424,17 +2364,6 @@ landscape:
             organization:
               name: Center of Nanoelectronics and Devices
           - item:
-            name: Centre for Development of Advanced Computing (member)
-            description: >-
-              Centre for Development of Advanced Computing (C-DAC) is the premier R&D organization of the Ministry of Electronics and Information Technology
-              (MeitY) for carrying out R&D in IT, Electronics and associated areas.
-            homepage_url: https://cdac.in/
-            logo: centre_for_development_of_advanced_computing.svg
-            twitter: https://twitter.com/cdacindia
-            crunchbase: https://www.crunchbase.com/organization/centre-for-development-of-advanced-computing
-            extra:
-              linkedin_url: https://www.linkedin.com/company/cdac
-          - item:
             name: Chalmers University of Technology (member)
             description: >-
               Chalmers University of Technology is a progressive university in Gothenburg, Sweden, dedicated to advancing societal issues, fostering innovation,
@@ -2463,15 +2392,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/chips-alliance
             extra:
               linkedin_url: https://www.linkedin.com/company/chipsalliance
-          - item:
-            name: Chongqing University Industrial Technology Research Institute (member)
-            description: Chongqing University is a key national university located in Chongqing, People's Republic of China, and a member of the "Excellence League".
-            homepage_url: https://cyjs.cqu.edu.cn/
-            logo: chongqing_university_industrial_technology_research_institute.svg
-            twitter: https://twitter.com/CQU1929
-            crunchbase: https://www.crunchbase.com/organization/chongqing-university
-            extra:
-              linkedin_url: https://www.linkedin.com/company/chongqing-university
           - item:
             name: CINECA – Consorzio Interuniversitario (member)
             description: >-
@@ -4288,6 +4208,15 @@ landscape:
             organization:
               name: Università degli Studi di Siena
           - item:
+            name: Università di Trento (member)
+            description: Università di Trento
+            homepage_url: https://unitn.it/
+            logo: universita_di_trento.svg
+            twitter: https://twitter.com/UniTrento
+            crunchbase: https://www.crunchbase.com/organization/university-of-trento
+            extra:
+              linkedin_url: https://www.linkedin.com/company/universitaditrento
+          - item:
             name: Veer Surendra Sai University of Technology (member)
             description: >-
               Veer Surendra Sai University of Technology (VSSUT) is a non-affiliating unitary university in Odisha, India, formed by Orissa Act 9 of 2009 by
@@ -4297,6 +4226,15 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/veer-surendra-sai-university-of-technology
             extra:
               linkedin_url: https://www.linkedin.com/company/veer-surendra-sai-university-of-technology
+          - item:
+            name: Vellore Institute of Technology (member)
+            description: Vellore Institute of Technology is a private university located in Vellore, Tamil Nadu, India.
+            homepage_url: https://vit.ac.in/
+            logo: vellore_institute_of_technology.svg
+            twitter: https://twitter.com/VIT_univ
+            crunchbase: https://www.crunchbase.com/organization/vit-university
+            extra:
+              linkedin_url: https://www.linkedin.com/company/vellore-institute-of-technology
           - item:
             name: VIEW FOUNDATION (member)
             description: >-
