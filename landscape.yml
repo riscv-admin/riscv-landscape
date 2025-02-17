@@ -500,7 +500,7 @@ landscape:
             description: >-
               Cadence is a leading provider of EDA and semiconductor IP. Our custom/analog tools help engineers design the transistors, standard cells, and IP
               blocks that make up SoCs. Our digital tools automate the design and verification of giga-scale, giga-hertz SoCs at the latest semiconductor
-              processing nodes. Our IC packaging and PCB tools permit the design of complete boards and subsystems. 
+              processing nodes. Our IC packaging and PCB tools permit the design of complete boards and subsystems.
 
 
 
@@ -776,7 +776,7 @@ landscape:
               Esperanto Technologies develops high-performance, energy-efficient computing solutions based on the open standard RISC-V ISA. Esperanto is
               headquartered in Mountain View, California with engineering sites in the United States, European Union, and Eastern Europe. Esperanto has brought
               together a seasoned team of experienced processor and software engineers with the goal of making RISC-V the architecture of choice for
-              compute-intensive applications such as Machine Learning. 
+              compute-intensive applications such as Machine Learning.
 
 
 
@@ -1053,7 +1053,7 @@ landscape:
             description: >-
               Jump Trading is a globally-positioned, proprietary trading firm that remains on the cutting edge of algorithmic trading. We are a privately funded
               company and do not rely on outside investors or private equity. With offices in Chicago, New York, London and Singapore we trade across all major
-              asset classes in the Americas, Europe and Asia. 
+              asset classes in the Americas, Europe and Asia.
 
 
 
@@ -1062,7 +1062,7 @@ landscape:
               sophisticated trading strategies. We enjoy a casual atmosphere and a flat organizational structure. Our managing partners are passionate about
               supporting the exploration of new strategies and concepts throughout the company. They not only encourage new ideas, they expect them. We are more
               than 350 people with an incredibly diverse set of backgrounds, but collectively we share in our commitment to innovation and Jump's continued
-              success. 
+              success.
 
 
 
@@ -1336,8 +1336,7 @@ landscape:
           - item:
             name: Morse Micro Pty. Ltd (member)
             description: |-
-              Morse Micro's first Wi-Fi HaLow chip on the 802.11ah Wi-Fi protocol. Low 
-                power, long range Wi-Fi for IoT.
+              Morse Micro's first Wi-Fi HaLow chip on the 802.11ah Wi-Fi protocol. Low power, long range Wi-Fi for IoT.
             homepage_url: https://morsemicro.com/
             logo: morse_micro_pty.svg
             twitter: https://twitter.com/MorseMicro
@@ -1790,7 +1789,7 @@ landscape:
           - item:
             name: Signaloid (member)
             description: |-
-              Signaloid provides efficient computing hardware and software technologies 
+              Signaloid provides efficient computing hardware and software technologies
                 to quantify, transmit, and track data uncertainty in computations.
             homepage_url: https://signaloid.com/
             logo: signaloid.svg
@@ -1975,9 +1974,11 @@ landscape:
               linkedin_url: https://www.linkedin.com/company/tenstorrent-inc.
           - item:
             name: Terapines Technology (Wuhan) Co., Ltd. (member)
-            description: Terapines Technology provides high-performance RISC-V and AI infrastructure software platforms.
+            description: Terapines Technology offers high-performance RISC-V and AI infrastructure software platforms.
             homepage_url: https://terapines.com/
             logo: terapines_technology_wuhan_co_ltd.svg
+            extra:
+              linkedin_url: https://www.linkedin.com/company/terapines
             organization:
               name: Terapines Technology (Wuhan) Co., Ltd.
           - item:
@@ -2990,7 +2991,7 @@ landscape:
 
 
               INESC TEC brings together more than 800 researchers, of which around 300 have PhDs (250 integrated PhDs in 600 researchers), forming a robust
-              cluster with complementary skills and with notable international presence. 
+              cluster with complementary skills and with notable international presence.
 
 
               INESC TEC was created to act as an interface between the academic world, the world of industry and services and the public administration in
@@ -2998,11 +2999,11 @@ landscape:
 
 
               At INESC TEC, the knowledge and results generated as part of fundamental research are typically applied in technology transfer projects, always
-              guaranteeing added and immediate social relevance. 
+              guaranteeing added and immediate social relevance.
 
 
               With the launching of INESC P&D BRASIL (in São Paulo, Brazil), INESC TEC has strengthened its presence worldwide, always associating Portugal to
-              international scientific excellence. 
+              international scientific excellence.
 
 
               In Portugal, INESC TEC’s capacity for technological innovation has made it possible to modernise national sectors and to launch new exporting
@@ -3456,21 +3457,21 @@ landscape:
             description: >-
               The Qazaq Open Source Initiative (QOSI) is a non-profit organization dedicated to promoting and sustaining the development of open-source
               technologies in Kazakhstan and Central Asia. Our mission is to position Kazakhstan at the forefront of digital transformation by advocating for
-              and implementing open-source solutions across various sectors, including government, finance, artificial intelligence, and education. 
+              and implementing open-source solutions across various sectors, including government, finance, artificial intelligence, and education.
 
 
               At QOSI, we focus on empowering the IT community and fostering business innovation through open-source strategies. We provide access to a wealth
               of resources, including exclusive workshops, mentorship programs, and networking opportunities, enabling collaboration on projects that drive
-              technological excellence. 
+              technological excellence.
 
 
               Our initiatives are designed to revolutionize industries and shape the future of digital Kazakhstan. By integrating open-source products into
-              businesses, we offer dynamic opportunities to innovate rapidly, reduce costs, and enhance collaboration across diverse technology platforms. 
+              businesses, we offer dynamic opportunities to innovate rapidly, reduce costs, and enhance collaboration across diverse technology platforms.
 
 
               Through events like the Rancher Rodeo 2024 and the Industrial IT Forum, we bring together developers, IT professionals, and industry leaders to
               explore the latest in digital transformation and open-source solutions. These gatherings serve as vibrant hubs of learning and innovation,
-              reinforcing our commitment to advancing Kazakhstan's open-source movement. 
+              reinforcing our commitment to advancing Kazakhstan's open-source movement.
 
 
               Join us in our journey to establish Kazakhstan as a hub for open-source excellence, fostering a digital ecosystem where innovation thrives and
@@ -3804,7 +3805,7 @@ landscape:
           - item:
             name: The Programming Foundation (member)
             description: |-
-              A platform where anyone can learn operating systems and computer 
+              A platform where anyone can learn operating systems and computer
                 programming
             homepage_url: https://www.smarterus.org/
             logo: the_programming_foundation.svg
@@ -5772,9 +5773,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/risc-v
           - item:
             name: Terapines
-            description: Terapines is a HW/SW co-design toolchain provider for RISC-V based processors.
+            description: Terapines Technology offers high-performance RISC-V and AI infrastructure software platforms.
             homepage_url: https://www.terapines.com/
-            repo_url: https://github.com/THU-DSP-LAB/llvm-project
             logo: terapines.svg
             crunchbase: https://www.crunchbase.com/organization/terapines-technology
           - item:
