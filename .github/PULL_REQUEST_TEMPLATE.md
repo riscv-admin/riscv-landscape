@@ -1,14 +1,15 @@
-# RISC-V Landscape | Pre-submission checklist:
+# **NOTE: If you are requesting updates to project or member organization information, please follow the instructions in the README.md file.**
 
-> NOTE: Please ensure you've completed each of these items after submitting your pull request:
+### Pre-submission checklist:
 
-* [ ] Have you included a repo_url? Please select the most suitable GitHub repository for your project, rather than a GitHub organization.
+*Please check each of these after submitting your pull request:*
+
+* [ ] Are you including a `repo_url`? You need to pick the single best GitHub repository for your project, not a GitHub organization.
 * [ ] Is your project open source?
-* [ ] Is the project currently and actively maintained (e.g., accepts pull requests, responds to issues)?
-* [ ] Have you chosen the most appropriate (existing) category for your project?
-* [ ] Does your submission adhere to the other guidelines from the new entries section?
-* [ ] Have you added your logo's SVG to the hosted_logos directory and referenced it in the landscape.yml entry?
-* [ ] Does your logo clearly display the project/product name and follow the other logo guidelines?
-* [ ] Does the project name correspond with the text on the logo?
-* [ ] Have you verified the accuracy of the Crunchbase data for your organization, including headquarters and LinkedIn?
-* [ ] Approximately 5 minutes after opening the pull request, the RISC-V_Bot will post the URL for your staging server. Have you reviewed the site, confirmed it appears as expected, and then added a comment to the PR stating "LGTM"?
+* [ ] Has this project been used successfully in the production of a film, television program, animated content or other projects within the scope of the ASWF. Was it designed specifically for the entertainment industry?
+* [ ] Is the project currently and actively maintained (e.g., accepts pull requests, replies to issues, has been tested against / builds properly with the compilers for this year's VFX platform)?
+* [ ] Have you picked the single best (existing) category for your project?
+* [ ] Have you added the SVG for your logo to `hosted_logos` and referenced it in the entry in `landscape.yml`?
+* [ ] Have you verified that the Crunchbase data for your organization (including headquarters and LinkedIn) is correct?
+* [ ] Does it follow the other guidelines from the [new entries](https://github.com/AcademySoftwareFoundation/aswf-landscape#new-entries) section?
+* [ ] ~5 minutes after opening the pull request, there will be a link to preview the entry on the staging server. Have you confirmed that it looks good?
