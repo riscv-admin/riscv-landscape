@@ -16,7 +16,7 @@ jobs:
       - uses: jmertic/lfx-landscape-tools@main
         with:
           project_processing: skip
-          github_tokens: ${{ secrets.GITHUB_TOKEN }}
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
