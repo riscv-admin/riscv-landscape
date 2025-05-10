@@ -4658,29 +4658,6 @@ landscape:
             repo_url: https://github.com/agra-uni-bremen/microrv32
             logo: urv32.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-bremen-2
-          - item:
-            name: Ventana Micro Systems
-            second_path:
-              - Implementations / IP
-              - Implementations / Chips + Processors
-              - Implementations / Accelerators
-            description: >-
-              Ventana is the RISC-V Performance leader, delivering platforms,
-              chips and IP for groundbreaking solutions across data center,
-              automotive, client, and AI markets. Our core team includes the
-              pioneers behind the first 64-bit Arm server processor,
-              the X-Gene by Applied Micro. With this proven expertise, we are
-              redefining high-performance computing with the RISC-V
-              architecture.
-            twitter: https://twitter.com/VentanaMicro
-            homepage_url: https://ventanamicro.com/
-            logo: ventana_micro_systems.svg
-            organization:
-              name: Ventana Micro Systems
-              linkedin: https://www.linkedin.com/company/ventana-micro-systems
-            extra:
-              linkedin_url: https://www.linkedin.com/company/ventana-micro-systems
-            crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
       - subcategory:
         name: Single Board Computers
         items:
@@ -4711,6 +4688,31 @@ landscape:
             homepage_url: https://www.starfivetech.com/en/site/boards
             logo: starfive.svg
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
+      - subcategory:
+        name: Chips + Processors
+        items:
+          - item:
+            name: Ventana Micro Systems
+            second_path:
+              - Implementations / IP
+              - Implementations / Accelerators
+            description: >-
+              Ventana is the RISC-V Performance leader, delivering platforms,
+              chips and IP for groundbreaking solutions across data center,
+              automotive, client, and AI markets. Our core team includes the
+              pioneers behind the first 64-bit Arm server processor,
+              the X-Gene by Applied Micro. With this proven expertise, we are
+              redefining high-performance computing with the RISC-V
+              architecture.
+            twitter: https://twitter.com/VentanaMicro
+            homepage_url: https://www.ventanamicro.com/technology
+            logo: ventana_micro_systems.svg
+            organization:
+              name: Ventana Micro Systems
+              linkedin: https://www.linkedin.com/company/ventana-micro-systems
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ventana-micro-systems
+            crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
       - subcategory:
         name: Accelerators
         items:
