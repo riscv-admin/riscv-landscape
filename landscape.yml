@@ -4915,13 +4915,6 @@ landscape:
             logo: open-ai-lab.svg
             crunchbase: https://www.crunchbase.com/organization/openailab
           - item:
-            name: Open Neural Network Exchange (ONNX)
-            homepage_url: https://onnx.ai/
-            repo_url: https://github.com/onnx/onnx
-            project_org: https://github.com/onnx
-            logo: onnx.svg
-            crunchbase: https://www.crunchbase.com/organization/linux-foundation
-          - item:
             name: Open vSwitch
             homepage_url: https://www.openvswitch.org
             repo_url: https://github.com/openvswitch/ovs
@@ -4959,13 +4952,6 @@ landscape:
             homepage_url: https://www.veridify.com/
             logo: veridify-security.svg
             crunchbase: https://www.crunchbase.com/organization/securerf-corporation
-          - item:
-            name: VxWorks
-            homepage_url: https://www.windriver.com/products/vxworks
-            repo_url: https://github.com/Wind-River/vxworks7-ros2-build
-            project_org: https://github.com/Wind-River
-            logo: vxworks.svg
-            crunchbase: https://www.crunchbase.com/organization/wind-river
           - item:
             name: Weather Research & Forecasting Model (WRF)
             homepage_url: https://www.mmm.ucar.edu/models/wrf
@@ -5037,6 +5023,13 @@ landscape:
               repo_url: https://git.musl-libc.org/cgit/musl
             organization:
               name: musl
+          - item:
+            name: Open Neural Network Exchange (ONNX)
+            homepage_url: https://onnx.ai/
+            repo_url: https://github.com/onnx/onnx
+            project_org: https://github.com/onnx
+            logo: onnx.svg
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
           - item:
             name: OpenBLAS
             homepage_url: https://www.openblas.net/
@@ -5140,6 +5133,12 @@ landscape:
             project_org: https://github.com/golang
             logo: go.svg
             crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: Jenkins
+            homepage_url: https://www.jenkins.io/
+            repo_url: https://github.com/jenkinsci/jenkins
+            logo: jenkins.svg
+            crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
           - item:
             name: Memcached
             homepage_url: https://memcached.org
@@ -5409,6 +5408,13 @@ landscape:
               LinkedIn: https://www.linkedin.com/company/sysgo-embedded
             organization:
               name: SYSGO GmbH
+          - item:
+            name: VxWorks
+            homepage_url: https://www.windriver.com/products/vxworks
+            repo_url: https://github.com/Wind-River/vxworks7-ros2-build
+            project_org: https://github.com/Wind-River
+            logo: vxworks.svg
+            crunchbase: https://www.crunchbase.com/organization/wind-river
           - item:
             name: Yocto Project
             homepage_url: https://www.yoctoproject.org/
@@ -5832,12 +5838,6 @@ landscape:
             homepage_url: https://www.imperas.com/
             logo: imperas.svg
             crunchbase: https://www.crunchbase.com/organization/imperas
-          - item:
-            name: Jenkins
-            homepage_url: https://www.jenkins.io/
-            repo_url: https://github.com/jenkinsci/jenkins
-            logo: jenkins.svg
-            crunchbase: https://www.crunchbase.com/organization/continuous-delivery-foundation-cdf
           - item:
             name: Lauterbach
             homepage_url: https://www.lauterbach.com/
