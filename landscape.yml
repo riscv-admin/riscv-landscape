@@ -83,14 +83,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/google
           - item:
-            name: Huawei Technologies Co., Ltd (member)
-            homepage_url: https://huawei.com/
-            logo: huawei_technologies_co.svg
-            description: Huawei is a global provider of information and communications technology (ICT) infrastructure and smart devices. Huawei is headquartered in Shenzhen, China.
-            crunchbase: https://www.crunchbase.com/organization/huawei
-            twitter: https://twitter.com/Huawei
-            linkedin_url: https://www.linkedin.com/company/huawei
-          - item:
             name: Infineon Technologies AG (member)
             homepage_url: https://infineon.com/
             logo: infineon_technologies_ag.svg
@@ -756,12 +748,29 @@ landscape:
               ESPRESSIF SYSTEMS (SHANGHAI) CO., LTD. is a fabless semiconductor company, with headquarter in Shanghai Zhangjiang High-Tech Park, providing low power Wi-Fi and Bluetooth SoCs and wireless solutions for Internet of Things applications.
             crunchbase: https://www.crunchbase.com/organization/espressif
           - item:
+            name: ETAS GmbH (member)
+            homepage_url: https://etas.com/
+            logo: etas_gmbh.svg
+            description: ETAS specializes in providing comprehensive solutions for the development and implementation of software-defined vehicles, offering a range of products and
+              services including vehicle basic software, middleware, development tools, cybersecurity solution...
+            organization:
+              name: ETAS GmbH
+          - item:
             name: EVAS Intelligence Technology Co.,Ltd. (member)
             homepage_url: https://evas.ai/
             logo: evas_intelligence_technology_co_ltd.svg
             description: At EVAS Intelligence, we shape the future of AI computing.
             organization:
               name: EVAS Intelligence Technology Co.,Ltd.
+          - item:
+            name: Express VPN (member)
+            homepage_url: https://expressvpn.com/
+            logo: express_vpn.svg
+            description: ExpressVPN is a VPN service offered by the British Virgin Islands-registered company Express Technologies Ltd.
+            crunchbase: https://www.crunchbase.com/organization/expressvpn
+            twitter: https://twitter.com/expressvpn
+            extra:
+              linkedin_url: https://www.linkedin.com/company/expressvpn
           - item:
             name: fdmtek (member)
             homepage_url: https://fdmtek.com/
@@ -2081,9 +2090,9 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/verisilicon
           - item:
-            name: Viettel (member)
+            name: Viettel Semiconductor Center (member)
             homepage_url: https://viettel.com.vn/
-            logo: viettel.svg
+            logo: viettel_semiconductor_center.svg
             description: |-
               Viettel Group is a leading telecom operator pioneering digital societies with over 110 million subscribers and a global presence in 13 countries.
 
@@ -2091,7 +2100,7 @@ landscape:
 
               Viettel Group is a leading telecom operator pioneering digital societies with over 110 million subscribers and a global presence in 13 countries.
             organization:
-              name: Viettel
+              name: Viettel Semiconductor Center
               linkedin: https://www.linkedin.com/company/viettel-group
             extra:
               linkedin_url: https://www.linkedin.com/company/viettel-group
@@ -3827,6 +3836,16 @@ landscape:
             twitter: https://twitter.com/SEM_Tsinghua
             extra:
               linkedin_url: https://www.linkedin.com/company/tsinghua-university
+          - item:
+            name: TUBITAK (member)
+            homepage_url: https://tubitak.gov.tr/
+            logo: tubitak.svg
+            description: TÜBİTAK Space Technologies Research Institute or TÜBİTAK UZAY for short, is a Turkish institution carrying out research and development projects on space 
+              technology, electronics, information technology and related fields.
+            crunchbase: https://www.crunchbase.com/organization/tbtak
+            twitter: https://twitter.com/Tubitak
+            extra:
+              linkedin_url: https://www.linkedin.com/company/tubitak
           - item:
             name: TWAIN Working Group (member)
             homepage_url: https://twain.org/
@@ -5753,7 +5772,7 @@ landscape:
             logo: rust.svg
             crunchbase: https://www.crunchbase.com/organization/rust
             extra:
-                linkedin_url: https://www.linkedin.com/company/rust-foundation
+              linkedin_url: https://www.linkedin.com/company/rust-foundation
           - item:
             name: Sail
             homepage_url: https://github.com/rems-project/sail
