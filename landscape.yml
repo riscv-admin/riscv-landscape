@@ -4279,6 +4279,7 @@ landscape:
             homepage_url: https://www.sifive.com/boards
             logo: sifive-founding.svg
             crunchbase: https://www.crunchbase.com/organization/sifive
+            twitter: https://x.com/SiFive
           - item:
             name: MangoPi
             homepage_url: https://mangopi.org/
@@ -4290,20 +4291,26 @@ landscape:
             name: Shenzhen MilkV Technology Co., Ltd
             homepage_url: https://milkv.io/
             logo: shenzhen_milkv_technology_co.svg
-          - item:
+            crunchbase: https://www.crunchbase.com/organization/shenzhen-milkv-technology-co
+            twitter:
+          - item: https://x.com/MilkV_Official
             name: SparkFun
             homepage_url: https://www.sparkfun.com/categories/457
             logo: sparkfun.svg
             crunchbase: https://www.crunchbase.com/organization/sparkfun-electronics
+            twitter: https://x.com/sparkfun
           - item:
             name: VisionFive
             homepage_url: https://www.starfivetech.com/en/site/boards
             logo: starfive.svg
             crunchbase: https://www.crunchbase.com/organization/starfive-technology
+            twitter: https://x.com/StarFiveTech
           - item:
             name: DEEPCOMPUTING (HK) Limited (member)
             homepage_url: https://deepcomputing.io/
             logo: deepcomputing_hk_limited.svg
+            crunchbase: https://www.crunchbase.com/organization/deepcomputing
+            twitter: https://x.com/DeepComputingio
       - subcategory:
         name: Chips + Processors
         items:
@@ -5372,7 +5379,7 @@ landscape:
             second_path:
               - Services / Services
               - Implementations / IP
-              - Implementations / Single Board Computers
+              - Implementations / Single Board Computers and Motherboards
               - Implementations / Accelerators
               - Implementations / Chips + Processors
             description: >-
