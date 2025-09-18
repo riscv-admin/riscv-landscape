@@ -1,0 +1,63 @@
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+  pull_request_target:
+    branches: [main]
+    types: [opened, synchronize]
+    paths:
+      - 'landscape.yml'
+      - 'hosted_logos/**'
+  schedule:
+    - cron: "0 16 * * *"   # 09:00 PT daily
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: landscape-v2-${{ github.event_name }}-${{ github.ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cncf/landscape2-validate-action@v2
+        with:
+          target_kind: data
+          target_path: ./landscape.yml
+
+  preview_comment:
+    if: github.event_name == 'pull_request_target'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        env:
+          LANDSCAPE_URL: 'https://landscape.riscv.org'
+          DATA_FILE: 'landscape.yml'
+          LOGOS_PATH: 'hosted_logos'
+          OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
+          REPO:  ${{ github.event.pull_request.head.repo.name }}
+          REF:   ${{ github.event.pull_request.head.ref }}
+        with:
+          script: |
+            const { LANDSCAPE_URL, DATA_FILE, LOGOS_PATH, OWNER, REPO, REF } = process.env;
+            const body = `You can preview your changes here: ${LANDSCAPE_URL}/?overlay-data=https://raw.githubusercontent.com/${OWNER}/${REPO}/${REF}/${DATA_FILE}&overlay-logos=https://raw.githubusercontent.com/${OWNER}/${REPO}/${REF}/${LOGOS_PATH}`;
+            await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number, body });
+
+  build_site:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Nightly build via LFX Landscape Tools
+        uses: jmertic/lfx-landscape-tools@main
+        with:
+          project_processing: skip
+        env:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          ref: ${{ github.ref }}
