@@ -15,7 +15,7 @@ landscape:
     name: RISC-V Members
     subcategories:
       - subcategory:
-        name: Premier
+        name: Premier Board
         items:
           - item:
             name: Akeana (member)
@@ -85,19 +85,6 @@ landscape:
             twitter: https://twitter.com/Infineon
             extra:
               linkedin_url: https://www.linkedin.com/company/infineon-technologies
-          - item:
-            name: Institute of Computing Technology (member)
-            homepage_url: https://ict.ac.cn/
-            logo: institute_of_computing_technology.svg
-            description: Institute of Computing Techology, Chinese Academy of Services
-            organization:
-              name: Institute of Computing Technology
-          - item:
-            name: Institute of Software Chinese Academy of Sciences (member)
-            homepage_url: https://iscas.ac.cn/
-            logo: institute_of_software_chinese_academy_of_sciences.svg
-            description: The Institute of Software, Chinese Academy of Sciences (ISCAS) is a research base that focuses on the research and development on theories of computer science and leading edge technologies of software.
-            crunchbase: https://www.crunchbase.com/organization/institute-of-software-chinese-academy-of-sciences
           - item:
             name: Instituto Federal de Educação (member)
             homepage_url: https://ifce.edu.br/
@@ -183,16 +170,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/rivos-inc
           - item:
-            name: Sanechips Technology Co Ltd (member)
-            homepage_url: https://sanechips.com.cn/
-            logo: sanechips_technology_co_ltd.svg
-            description: As a leading communication IC design company in China, Sanechips focuses on the development of communication chipsets for communication networks, smart homes and industrial applications.
-            organization:
-              name: Sanechips Technology Co Ltd
-              linkedin: https://www.linkedin.com/company/sanechips
-            extra:
-              linkedin_url: https://www.linkedin.com/company/sanechips
-          - item:
             name: SiFive (member)
             homepage_url: https://sifive.com/
             logo: sifive.svg
@@ -218,15 +195,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/synopsys
           - item:
-            name: Tencent Technology (Shenzhen) Co., Ltd. (member)
-            homepage_url: https://tencent.com/
-            logo: tencent_technology_shenzhen_co_ltd.svg
-            description: Tencent Holdings Ltd. is a Chinese multinational technology and entertainment conglomerate and holding company headquartered in Shenzhen.
-            crunchbase: https://www.crunchbase.com/organization/tencent
-            twitter: https://twitter.com/TencentGlobal
-            extra:
-              linkedin_url: https://www.linkedin.com/company/tencentglobal
-          - item:
             name: Ventana Micro Systems (member)
             homepage_url: https://ventanamicro.com/
             logo: ventana_micro_systems.svg
@@ -237,7 +205,39 @@ landscape:
               linkedin_url: https://www.linkedin.com/company/ventana-micro-systems
       - subcategory:
         name: Premier TSC
-        items: []
+        items: 
+          - item:
+            name: Tencent Technology (Shenzhen) Co., Ltd. (member)
+            homepage_url: https://tencent.com/
+            logo: tencent_technology_shenzhen_co_ltd.svg
+            description: Tencent Holdings Ltd. is a Chinese multinational technology and entertainment conglomerate and holding company headquartered in Shenzhen.
+            crunchbase: https://www.crunchbase.com/organization/tencent
+            twitter: https://twitter.com/TencentGlobal
+            extra:
+              linkedin_url: https://www.linkedin.com/company/tencentglobal
+          - item:
+            name: Sanechips Technology Co Ltd (member)
+            homepage_url: https://sanechips.com.cn/
+            logo: sanechips_technology_co_ltd.svg
+            description: As a leading communication IC design company in China, Sanechips focuses on the development of communication chipsets for communication networks, smart homes and industrial applications.
+            organization:
+              name: Sanechips Technology Co Ltd
+              linkedin: https://www.linkedin.com/company/sanechips
+            extra:
+              linkedin_url: https://www.linkedin.com/company/sanechips
+          - item:
+            name: Institute of Software Chinese Academy of Sciences (member)
+            homepage_url: https://iscas.ac.cn/
+            logo: institute_of_software_chinese_academy_of_sciences.svg
+            description: The Institute of Software, Chinese Academy of Sciences (ISCAS) is a research base that focuses on the research and development on theories of computer science and leading edge technologies of software.
+            crunchbase: https://www.crunchbase.com/organization/institute-of-software-chinese-academy-of-sciences
+          - item:
+            name: Institute of Computing Technology (member)
+            homepage_url: https://ict.ac.cn/
+            logo: institute_of_computing_technology.svg
+            description: Institute of Computing Techology, Chinese Academy of Services
+            organization:
+              name: Institute of Computing Technology
       - subcategory:
         name: Strategic
         items:
