@@ -36,7 +36,7 @@ landscape:
             name: Andes Technology Corporation (member)
             homepage_url: https://andestech.com/
             logo: andes_technology_corporation.svg
-            description: 'As a Founding Premier member of RISC-V International with a long heritage in providing leading, commercial CPU IP, Andes Technology (TWSE: 6533; SIN: US03420C2089; ISIN: US03420C1099) is the driving force in taking RISC-V mainstream.  Andes RISC-V Processor IP portfolio ranges from area- and power-efficient 32-bit CPUs to high-performance, 64-bit Out-of-Order multiprocessor coherent clusters.  With advanced DSP, vector, and Andes Automated Custom Extensions (ACE) capabilities, along with robust software support, Andes empowers customers across AI, automotive, communications, consumer, data center, and mobile markets to harness full potential of RISC-V.  Over 16 billion Andes-based SoCs are powering innovations globally. For more information, visit https://www.andestech.com. Follow Andes on LinkedIn, Twitter and YouTube'
+            description: 'As a Founding Premier member of RISC-V International with a long heritage in providing leading, commercial CPU IP, Andes Technology (TWSE: 6533; SIN: US03420C2089; ISIN: US03420C1099) is the driving force in taking RISC-V mainstream.  Andes RISC-V Processor IP portfolio ranges from area- and power-efficient 32-bit CPUs to high-performance, 64-bit Out-of-Order multiprocessor coherent clusters.  With advanced DSP, vector, and Andes Automated Custom Extensions (ACE) capabilities, along with robust software support, Andes empowers customers across AI, automotive, communications, consumer, data center, and mobile markets to harness full potential of RISC-V.  Over 16 billion Andes-based SoCs are powering innovations globally. For more information, visit https://www.andestech.com. Follow Andes on LinkedIn, Twitter and YouTube.'
             crunchbase: https://www.crunchbase.com/organization/andes-technology
             twitter: https://twitter.com/Andes_Tech
             extra:
@@ -205,16 +205,20 @@ landscape:
               linkedin_url: https://www.linkedin.com/company/ventana-micro-systems
       - subcategory:
         name: Premier TSC
-        items: 
+        items:
           - item:
-            name: Tencent Technology (Shenzhen) Co., Ltd. (member)
-            homepage_url: https://tencent.com/
-            logo: tencent_technology_shenzhen_co_ltd.svg
-            description: Tencent Holdings Ltd. is a Chinese multinational technology and entertainment conglomerate and holding company headquartered in Shenzhen.
-            crunchbase: https://www.crunchbase.com/organization/tencent
-            twitter: https://twitter.com/TencentGlobal
-            extra:
-              linkedin_url: https://www.linkedin.com/company/tencentglobal
+            name: Institute of Computing Technology (member)
+            homepage_url: https://ict.ac.cn/
+            logo: institute_of_computing_technology.svg
+            description: Institute of Computing Techology, Chinese Academy of Services
+            organization:
+              name: Institute of Computing Technology
+          - item:
+            name: Institute of Software Chinese Academy of Sciences (member)
+            homepage_url: https://iscas.ac.cn/
+            logo: institute_of_software_chinese_academy_of_sciences.svg
+            description: The Institute of Software, Chinese Academy of Sciences (ISCAS) is a research base that focuses on the research and development on theories of computer science and leading edge technologies of software.
+            crunchbase: https://www.crunchbase.com/organization/institute-of-software-chinese-academy-of-sciences
           - item:
             name: Sanechips Technology Co Ltd (member)
             homepage_url: https://sanechips.com.cn/
@@ -226,18 +230,14 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/sanechips
           - item:
-            name: Institute of Software Chinese Academy of Sciences (member)
-            homepage_url: https://iscas.ac.cn/
-            logo: institute_of_software_chinese_academy_of_sciences.svg
-            description: The Institute of Software, Chinese Academy of Sciences (ISCAS) is a research base that focuses on the research and development on theories of computer science and leading edge technologies of software.
-            crunchbase: https://www.crunchbase.com/organization/institute-of-software-chinese-academy-of-sciences
-          - item:
-            name: Institute of Computing Technology (member)
-            homepage_url: https://ict.ac.cn/
-            logo: institute_of_computing_technology.svg
-            description: Institute of Computing Techology, Chinese Academy of Services
-            organization:
-              name: Institute of Computing Technology
+            name: Tencent Technology (Shenzhen) Co., Ltd. (member)
+            homepage_url: https://tencent.com/
+            logo: tencent_technology_shenzhen_co_ltd.svg
+            description: Tencent Holdings Ltd. is a Chinese multinational technology and entertainment conglomerate and holding company headquartered in Shenzhen.
+            crunchbase: https://www.crunchbase.com/organization/tencent
+            twitter: https://twitter.com/TencentGlobal
+            extra:
+              linkedin_url: https://www.linkedin.com/company/tencentglobal
       - subcategory:
         name: Strategic
         items:
@@ -269,16 +269,6 @@ landscape:
             twitter: https://twitter.com/AMD
             extra:
               linkedin_url: https://www.linkedin.com/company/amd
-          - item:
-            name: Ahead Computing (member)
-            homepage_url: https://aheadcomputing.com/
-            logo: ahead_computing.svg
-            description: AheadComputing is a company founded by engineers with over 80 years of experience in delivering popular microprocessors. They specialize in designing, verifying, and licensing compelling RISC V core IP for technology enthusiasts and businesses.
-            organization:
-              name: Ahead Computing
-              linkedin: https://www.linkedin.com/company/wix-com
-            extra:
-              linkedin_url: https://www.linkedin.com/company/wix-com
           - item:
             name: Analog Devices, Inc. (member)
             homepage_url: https://analog.com/
@@ -504,13 +494,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/chelpis
           - item:
-            name: Chengdu Masscore Microelectronics Technology Co., Ltd. (member)
-            homepage_url: https://masscore.cn/
-            logo: chengdu_masscore_microelectronics_technology_co_ltd.svg
-            description: .
-            organization:
-              name: Chengdu Masscore Microelectronics Technology Co., Ltd.
-          - item:
             name: Chipown (member)
             homepage_url: https://chipown.com.cn/
             logo: chipown.svg
@@ -652,13 +635,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/embecosm
           - item:
-            name: Emproof (member)
-            homepage_url: https://emproof.com/
-            logo: emproof.svg
-            description: Emproof is a company that provides agile, robust, and cost-effective security and IP integrity for all embedded systems. Their solution, Emproof Nyx, prevents reverse engineering, securing valuable intellectual property and protecting against exploitat...
-            organization:
-              name: Emproof
-          - item:
             name: Esperanto Technologies Inc. (member)
             homepage_url: https://esperanto.ai/
             logo: esperanto_technologies_inc.svg
@@ -712,16 +688,6 @@ landscape:
             logo: fdmtek.svg
             organization:
               name: fdmtek
-          - item:
-            name: Flow Computing (member)
-            homepage_url: https://flow-computing.com/
-            logo: flow_computing.svg
-            description: Flow Computing offers revolutionary Processor IP with 100x better CPU processing performance and full backwards compatibility through their unique Parallel Processing Unit, ensuring significant performance boosts and improved software development produ...
-            organization:
-              name: Flow Computing
-              linkedin: https://www.linkedin.com/company/flowcomputing
-            extra:
-              linkedin_url: https://www.linkedin.com/company/flowcomputing
           - item:
             name: Fraunhofer Gesellschaft (member)
             homepage_url: https://fraunhofer.de/
@@ -970,23 +936,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/jump-trading
           - item:
-            name: Keysom (member)
-            homepage_url: https://keysom.io/
-            logo: keysom.svg
-            description: Keysom provides EDA tools for custom RISC V cores, enabling optimized processor designs tailored to specific applications with dynamic reconfigurability.
-            organization:
-              name: Keysom
-              linkedin: https://www.linkedin.com/company/keysom
-            extra:
-              linkedin_url: https://www.linkedin.com/company/keysom
-          - item:
-            name: Kubuds Technology Co. (member)
-            homepage_url: https://kubuds.io/
-            logo: kubuds_technology_co.svg
-            description: Kubuds is a technical team focusing on foundational software and open chip ecology. We have accumulated more than 10 years of experience in foundational software fields such as compilers, virtual machines and simulators, and have deep participation and influence on RISC-V open architecture and its open source ecology. The company is committed to providing solid support for enterprises and teams engaged in chip research and development and information product innovation.
-            organization:
-              name: Kubuds Technology Co.
-          - item:
             name: Lattice Semiconductor Corporation (member)
             homepage_url: https://latticesemi.com/
             logo: lattice_semiconductor_corporation.svg
@@ -1025,16 +974,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/lowrisc
           - item:
-            name: MachineWare GmbH (member)
-            homepage_url: https://machineware.de/
-            logo: machineware_gmbh.svg
-            description: MachineWare is a company based in Aachen, Germany that provides high speed instruction set simulators, including RISC V full system simulators. Their technologies enable ultra fast software bring up and validation before physical hardware is available.
-            organization:
-              name: MachineWare GmbH
-              linkedin: https://www.linkedin.com/company/machineware
-            extra:
-              linkedin_url: https://www.linkedin.com/company/machineware
-          - item:
             name: Marvell Asia PTE Ltd (member)
             homepage_url: https://cavium.com/
             logo: marvell_asia_pte_ltd.svg
@@ -1047,7 +986,7 @@ landscape:
             name: Maven Silicon Softech Private Limited (member)
             homepage_url: https://maven-silicon.com/
             logo: maven_silicon_softech_private_limited.svg
-            description: Setting Standards in VLSI Training.
+            description: Setting Standards in VLSI Training
             twitter: https://twitter.com/MavenSilicon
             organization:
               name: Maven Silicon Softech Private Limited
@@ -1146,13 +1085,6 @@ landscape:
             twitter: https://twitter.com/Mobileye
             extra:
               linkedin_url: https://www.linkedin.com/company/mobileye
-          - item:
-            name: mooreslabai (member)
-            homepage_url: https://mooreslab.ai/
-            logo: mooreslabai.svg
-            description: End-to-end agentic AI to automate the entire chip design lifecycle — from architecture to verification — 7x faster and 86% lower cost.
-            organization:
-              name: mooreslabai
           - item:
             name: Morse Micro Pty. Ltd (member)
             homepage_url: https://morsemicro.com/
@@ -1272,13 +1204,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/nxp-semiconductors
           - item:
-            name: OSYX (member)
-            homepage_url: https://osyx.tech/
-            logo: osyx.svg
-            description: OSYX provides secure and reliable systems utilizing the open-source Bao hypervisor, which is designed for robust isolation and real-time guarantees to meet the challenges of mixed criticality and safety-critical applications on modern heterogeneous pla...
-            organization:
-              name: OSYX
-          - item:
             name: OTSL, Inc (member)
             homepage_url: https://otsl.jp/
             logo: otsl_inc.svg
@@ -1289,12 +1214,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/otsl-inc-jp
             extra:
               linkedin_url: https://www.linkedin.com/company/otsl-inc-jp
-          - item:
-            name: Peanut Microsystems (member)
-            homepage_url: https://peanutmicro.com/
-            logo: peanut_microsystems.svg
-            organization:
-              name: Peanut Microsystems
           - item:
             name: PerfXLab (member)
             homepage_url: https://perfxlab.com/
@@ -1356,13 +1275,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/qamcom-research-technology-central-europe
           - item:
-            name: Quintauris GmbH (member)
-            homepage_url: https://quintauris.eu/
-            logo: quintauris_gmbh.svg
-            description: Quintauris is a company dedicated to advancing the global adoption of RISC V through innovative hardware development. Specializing in RISC V based chip designs for automotive, IoT, mobile, and more, Quintauris serves as a single source for compatible p...
-            organization:
-              name: Quintauris GmbH
-          - item:
             name: Rambus (member)
             homepage_url: https://rambus.com/
             logo: rambus.svg
@@ -1389,12 +1301,6 @@ landscape:
             twitter: https://twitter.com/RenesasGlobal
             extra:
               linkedin_url: https://www.linkedin.com/company/renesas-electronics-corporation
-          - item:
-            name: RISCstar Solutions (member)
-            homepage_url: https://riscstar.com/
-            logo: riscstar_solutions.svg
-            organization:
-              name: RISCstar Solutions
           - item:
             name: RIVAI Technologies (Shenzhen) Co., Ltd (member)
             homepage_url: https://rivai-ic.com.cn/
@@ -1489,13 +1395,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/seagate-technology
           - item:
-            name: SECOR CL (member)
-            homepage_url: https://secor-cl.com/
-            logo: secor_cl.svg
-            description: SECOR CL develops standard hardware and software solutions aimed at enhancing the resilience and cost-effectiveness of Software Defined Vehicles (SDV) within the automotive industry.
-            organization:
-              name: SECOR CL
-          - item:
             name: Secure-IC (member)
             homepage_url: https://secure-ic.com/
             logo: secure_ic.svg
@@ -1573,12 +1472,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/jaguarmicro
           - item:
-            name: Shenzhen MilkV Technology Co., Ltd (member)
-            homepage_url: https://milkv.io/
-            logo: shenzhen_milkv_technology_co.svg
-            organization:
-              name: Shenzhen MilkV Technology Co., Ltd
-          - item:
             name: Siemens EDA (member)
             homepage_url: https://eda.sw.siemens.com/
             logo: siemens_eda.svg
@@ -1618,13 +1511,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/silansys-semiconductor
             extra:
               linkedin_url: https://www.linkedin.com/company/silansys-semiconductor
-          - item:
-            name: Simplex Micro (member)
-            homepage_url: https://simplexmicro.com/
-            logo: simplex_micro.svg
-            description: SimplEx Micro is a technology company specializing in developing scalable microprocessor and vector processor technology for uncompromising performance. With locations in Austin, Texas and Vietnam, SimplEx Micro is dedicated to pushing the boundaries o...
-            organization:
-              name: Simplex Micro
           - item:
             name: SMD Semiconductor Sdn Bhd (member)
             homepage_url: https://smdsemiconductor.com/
@@ -1827,16 +1713,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ubilite
           - item:
-            name: Ubitium (member)
-            homepage_url: https://ubitium.com/
-            logo: ubitium.svg
-            description: Ubitium develops a universal RISC V microprocessor designed to replace conventional processors, enabling the execution of any code, algorithm, or application for seamless and efficient computing across various platforms.
-            organization:
-              name: Ubitium
-              linkedin: https://www.linkedin.com/company/ubitium
-            extra:
-              linkedin_url: https://www.linkedin.com/company/ubitium
-          - item:
             name: UltraRISC Technology Shanghai Co., Ltd. (member)
             homepage_url: https://ultrarisc.com/
             logo: ultrarisc_technology_shanghai_co_ltd.svg
@@ -1920,22 +1796,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/wittenstein-high-integrity-systems
           - item:
-            name: Wuhan Xinpian (member)
-            homepage_url: https://roach-vector.com/
-            logo: wuhan_xinpian.svg
-            organization:
-              name: Wuhan Xinpian
-          - item:
-            name: Xcelerium (member)
-            homepage_url: https://xcelerium.com/
-            logo: xcelerium.svg
-            description: Xcelerium is a fabless semiconductor company that develops high performance domain specific processors for converged workloads at the edge of the network involving wireless communications, advanced radar, image signal processing, computer vision and ML...
-            organization:
-              name: Xcelerium
-              linkedin: https://www.linkedin.com/company/xcelerium/
-            extra:
-              linkedin_url: https://www.linkedin.com/company/xcelerium/
-          - item:
             name: XinSheng Technology Co., LTD (member)
             homepage_url: https://xinshengcmiot.cn/
             logo: xinsheng_technology_co.svg
@@ -1962,6 +1822,149 @@ landscape:
             logo: zhihe_computing.svg
             organization:
               name: Zhihe Computing
+      - subcategory:
+        name: Strategic Start-up
+        items:
+          - item:
+            name: Ahead Computing (member)
+            homepage_url: https://aheadcomputing.com/
+            logo: ahead_computing.svg
+            description: AheadComputing is a company founded by engineers with over 80 years of experience in delivering popular microprocessors. They specialize in designing, verifying, and licensing compelling RISC V core IP for technology enthusiasts and businesses.
+            organization:
+              name: Ahead Computing
+              linkedin: https://www.linkedin.com/company/wix-com
+            extra:
+              linkedin_url: https://www.linkedin.com/company/wix-com
+          - item:
+            name: Chengdu Masscore Microelectronics Technology Co., Ltd. (member)
+            homepage_url: https://masscore.cn/
+            logo: chengdu_masscore_microelectronics_technology_co_ltd.svg
+            description: .
+            organization:
+              name: Chengdu Masscore Microelectronics Technology Co., Ltd.
+          - item:
+            name: Emproof (member)
+            homepage_url: https://emproof.com/
+            logo: emproof.svg
+            description: Emproof is a company that provides agile, robust, and cost-effective security and IP integrity for all embedded systems. Their solution, Emproof Nyx, prevents reverse engineering, securing valuable intellectual property and protecting against exploitat...
+            organization:
+              name: Emproof
+          - item:
+            name: Flow Computing (member)
+            homepage_url: https://flow-computing.com/
+            logo: flow_computing.svg
+            description: Flow Computing offers revolutionary Processor IP with 100x better CPU processing performance and full backwards compatibility through their unique Parallel Processing Unit, ensuring significant performance boosts and improved software development produ...
+            organization:
+              name: Flow Computing
+              linkedin: https://www.linkedin.com/company/flowcomputing
+            extra:
+              linkedin_url: https://www.linkedin.com/company/flowcomputing
+          - item:
+            name: Keysom (member)
+            homepage_url: https://keysom.io/
+            logo: keysom.svg
+            description: Keysom provides EDA tools for custom RISC V cores, enabling optimized processor designs tailored to specific applications with dynamic reconfigurability.
+            organization:
+              name: Keysom
+              linkedin: https://www.linkedin.com/company/keysom
+            extra:
+              linkedin_url: https://www.linkedin.com/company/keysom
+          - item:
+            name: Kubuds Technology Co. (member)
+            homepage_url: https://kubuds.io/
+            logo: kubuds_technology_co.svg
+            description: Kubuds is a technical team focusing on foundational software and open chip ecology. We have accumulated more than 10 years of experience in foundational software fields such as compilers, virtual machines and simulators, and have deep participation and influence on RISC-V open architecture and its open source ecology. The company is committed to providing solid support for enterprises and teams engaged in chip research and development and information product innovation.
+            organization:
+              name: Kubuds Technology Co.
+          - item:
+            name: MachineWare GmbH (member)
+            homepage_url: https://machineware.de/
+            logo: machineware_gmbh.svg
+            description: MachineWare is a company based in Aachen, Germany that provides high speed instruction set simulators, including RISC V full system simulators. Their technologies enable ultra fast software bring up and validation before physical hardware is available.
+            organization:
+              name: MachineWare GmbH
+              linkedin: https://www.linkedin.com/company/machineware
+            extra:
+              linkedin_url: https://www.linkedin.com/company/machineware
+          - item:
+            name: mooreslabai (member)
+            homepage_url: https://mooreslab.ai/
+            logo: mooreslabai.svg
+            description: End-to-end agentic AI to automate the entire chip design lifecycle — from architecture to verification — 7x faster and 86% lower cost.
+            organization:
+              name: mooreslabai
+          - item:
+            name: OSYX (member)
+            homepage_url: https://osyx.tech/
+            logo: osyx.svg
+            description: OSYX provides secure and reliable systems utilizing the open-source Bao hypervisor, which is designed for robust isolation and real-time guarantees to meet the challenges of mixed criticality and safety-critical applications on modern heterogeneous pla...
+            organization:
+              name: OSYX
+          - item:
+            name: Peanut Microsystems (member)
+            homepage_url: https://peanutmicro.com/
+            logo: peanut_microsystems.svg
+            organization:
+              name: Peanut Microsystems
+          - item:
+            name: Quintauris GmbH (member)
+            homepage_url: https://quintauris.eu/
+            logo: quintauris_gmbh.svg
+            description: Quintauris is a company dedicated to advancing the global adoption of RISC V through innovative hardware development. Specializing in RISC V based chip designs for automotive, IoT, mobile, and more, Quintauris serves as a single source for compatible p...
+            organization:
+              name: Quintauris GmbH
+          - item:
+            name: RISCstar Solutions (member)
+            homepage_url: https://riscstar.com/
+            logo: riscstar_solutions.svg
+            organization:
+              name: RISCstar Solutions
+          - item:
+            name: SECOR CL (member)
+            homepage_url: https://secor-cl.com/
+            logo: secor_cl.svg
+            description: SECOR CL develops standard hardware and software solutions aimed at enhancing the resilience and cost-effectiveness of Software Defined Vehicles (SDV) within the automotive industry.
+            organization:
+              name: SECOR CL
+          - item:
+            name: Shenzhen MilkV Technology Co., Ltd (member)
+            homepage_url: https://milkv.io/
+            logo: shenzhen_milkv_technology_co.svg
+            organization:
+              name: Shenzhen MilkV Technology Co., Ltd
+          - item:
+            name: Simplex Micro (member)
+            homepage_url: https://simplexmicro.com/
+            logo: simplex_micro.svg
+            description: SimplEx Micro is a technology company specializing in developing scalable microprocessor and vector processor technology for uncompromising performance. With locations in Austin, Texas and Vietnam, SimplEx Micro is dedicated to pushing the boundaries o...
+            organization:
+              name: Simplex Micro
+          - item:
+            name: Ubitium (member)
+            homepage_url: https://ubitium.com/
+            logo: ubitium.svg
+            description: Ubitium develops a universal RISC V microprocessor designed to replace conventional processors, enabling the execution of any code, algorithm, or application for seamless and efficient computing across various platforms.
+            organization:
+              name: Ubitium
+              linkedin: https://www.linkedin.com/company/ubitium
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ubitium
+          - item:
+            name: Wuhan Xinpian (member)
+            homepage_url: https://roach-vector.com/
+            logo: wuhan_xinpian.svg
+            organization:
+              name: Wuhan Xinpian
+          - item:
+            name: Xcelerium (member)
+            homepage_url: https://xcelerium.com/
+            logo: xcelerium.svg
+            description: Xcelerium is a fabless semiconductor company that develops high performance domain specific processors for converged workloads at the edge of the network involving wireless communications, advanced radar, image signal processing, computer vision and ML...
+            organization:
+              name: Xcelerium
+              linkedin: https://www.linkedin.com/company/xcelerium/
+            extra:
+              linkedin_url: https://www.linkedin.com/company/xcelerium/
       - subcategory:
         name: Community
         items:
