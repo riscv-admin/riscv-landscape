@@ -69,14 +69,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/google
           - item:
-            name: Huawei Technologies Co., Ltd (member)
-            homepage_url: https://huawei.com/
-            logo: huawei_technologies_co.svg
-            description: Huawei is a global provider of information and communications technology (ICT) infrastructure and smart devices. Huawei is headquartered in Shenzhen, China.
-            crunchbase: https://www.crunchbase.com/organization/huawei
-            twitter: https://twitter.com/Huawei
-            linkedin_url: https://www.linkedin.com/company/huawei
-          - item:
             name: Infineon Technologies AG (member)
             homepage_url: https://infineon.com/
             logo: infineon_technologies_ag.svg
@@ -717,6 +709,13 @@ landscape:
               linkedin: https://www.linkedin.com/company/hightec-edv-systeme-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/hightec-edv-systeme-gmbh
+          - item:
+            name: Hitex (member)
+            homepage_url: https://hitex.com/
+            logo: hitex.svg
+            description: Hitex GmbH, based in Karlsruhe, Germany, has been a key player in the embedded systems industry since 1976. They offer a wide range of tools and solutions for embedded development, including engineering, consulting, training, testing, and production se...
+            organization:
+              name: Hitex
           - item:
             name: HPMicro (上海先楫半导体科技有限公司) (member)
             homepage_url: https://www.hpmicro.com/
@@ -1574,15 +1573,6 @@ landscape:
             organization:
               name: UNO Laboratories, Ltd.
           - item:
-            name: Ventana Micro Systems (member)
-            homepage_url: https://ventanamicro.com/
-            logo: ventana_micro_systems.svg
-            description: Ventana is the RISC-V Performance leader, delivering platforms, chips and IP for groundbreaking solutions across data center, automotive, client, and AI markets. Our core team includes the pioneers behind the first 64-bit Arm server processor, the X-Gene by Applied Micro. With this proven expertise, we are redefining high-performance computing with the RISC-V architecture.
-            crunchbase: https://www.crunchbase.com/organization/ventana-micro-systems
-            twitter: https://twitter.com/VentanaMicro
-            extra:
-              linkedin_url: https://www.linkedin.com/company/ventana-micro-systems
-          - item:
             name: VeriSilicon, Inc. (member)
             homepage_url: https://verisilicon.com/
             logo: verisilicon_inc.svg
@@ -1661,6 +1651,12 @@ landscape:
             logo: zhihe_computing.svg
             organization:
               name: Zhihe Computing
+          - item:
+            name: 蓝芯算力 (member)
+            homepage_url: https://lanxincomputing.com/
+            logo: lan_xin_suan_li.svg
+            organization:
+              name: 蓝芯算力
       - subcategory:
         name: Strategic Start-Up
         items:
