@@ -69,14 +69,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/google
           - item:
-            name: Huawei Technologies Co., Ltd (member)
-            homepage_url: https://huawei.com/
-            logo: huawei_technologies_co.svg
-            description: Huawei is a global provider of information and communications technology (ICT) infrastructure and smart devices. Huawei is headquartered in Shenzhen, China.
-            crunchbase: https://www.crunchbase.com/organization/huawei
-            twitter: https://twitter.com/Huawei
-            linkedin_url: https://www.linkedin.com/company/huawei
-          - item:
             name: Infineon Technologies AG (member)
             homepage_url: https://infineon.com/
             logo: infineon_technologies_ag.svg
@@ -86,12 +78,12 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/infineon-technologies
           - item:
-            name: iRede (member)
-            homepage_url: https://irede.org.br/
-            logo: irede.svg
-            description: IREDE is a Scientific, Technological, and Innovation Institute (ICT) that operates in the Execution and Management of Research, Development, and Innovation (RD&I) projects in the ICT - Information and Communication Technology area. The Institute serves...
+            name: Instituto Federal de Educação (member)
+            homepage_url: https://ifce.edu.br/
+            logo: instituto_federal_de_educacao.svg
+            description: IFCE provides a variety of education programs in professional, scientific, and technological fields through its 9 operational campuses and ongoing expansion.
             organization:
-              name: iRede
+              name: Instituto Federal de Educação
               linkedin: https://www.linkedin.com/company/instituto-federal-de-educa-o-ci-ncia-e-tecnologia-do-cear-
             extra:
               linkedin_url: https://www.linkedin.com/company/instituto-federal-de-educa-o-ci-ncia-e-tecnologia-do-cear-
@@ -442,6 +434,17 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/canonical-ltd-
           - item:
+            name: CARIAD SE (member)
+            homepage_url: https://cariad.technology/
+            logo: cariad_se.svg
+            description: |-
+              CARIAD is an automotive software company in the Volkswagen Group that consolidates and further expands the Group's software competencies to transform automotive mobility. The company develops the leading tech stack for the automotive industry with the mission to make the automotive experience safer, more sustainable, and more comfortable in a new way – for everyone, everywhere. 
+              CARIAD builds a uniform software platform for all brands of the Volkswagen Group, which includes a unified and scalable architecture, an operating system, and an automotive cloud. 
+              We transform cars into software-defined vehicles that seamlessly integrate the automotive experience into our digital life, turning the Volkswagen Group into a software-driven mobility provider. CARIAD’s headquarters is located in Germany and co-operates with international Volkswagen Group teams in the US and China. 
+              Visit: https://cariad.technology
+            organization:
+              name: CARIAD SE
+          - item:
             name: CAST, Inc. (member)
             homepage_url: https://cast-inc.com/
             logo: cast_inc.svg
@@ -755,15 +758,6 @@ landscape:
             twitter: https://twitter.com/igalia
             extra:
               linkedin_url: https://www.linkedin.com/company/igalia
-          - item:
-            name: Imagination Technologies Ltd. (member)
-            homepage_url: https://imgtec.com/
-            logo: imagination_technologies_ltd.svg
-            description: Imagination Technologies Group plc is a global semiconductor and software design company, owned by the Chinese Canyon Bridge Capital Partners.
-            crunchbase: https://www.crunchbase.com/organization/imagination-technologies
-            twitter: https://twitter.com/ImaginationTech
-            extra:
-              linkedin_url: https://www.linkedin.com/company/imaginationtech
           - item:
             name: InCore Semiconductors Pvt. Ltd. (member)
             homepage_url: https://incoresemi.com/
@@ -1142,15 +1136,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/proteantecs
           - item:
-            name: ProvenRun (member)
-            homepage_url: https://provenrun.com/
-            logo: provenrun.svg
-            description: Trusted products and services for embedded security.
-            crunchbase: https://www.crunchbase.com/organization/prove-run
-            twitter: https://twitter.com/provenrun
-            extra:
-              linkedin_url: https://www.linkedin.com/company/prove-&-run
-          - item:
             name: Rambus Inc. (member)
             homepage_url: https://rambus.com/
             logo: rambus_inc.svg
@@ -1476,17 +1461,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/altium
           - item:
-            name: Technology Innovation Institute (member)
-            homepage_url: https://tii.ae/
-            logo: technology_innovation_institute.svg
-            description: The Technology Innovation Institute (TII) aims to become a leading global research Centre dedicated to pushing the frontiers of knowledge. Our teams of scientists, researchers and engineers work in an open, flexible and agile environment to deliver dis...
-            twitter: https://twitter.com/TIIuae
-            organization:
-              name: Technology Innovation Institute
-              linkedin: https://www.linkedin.com/company/tiiuae
-            extra:
-              linkedin_url: https://www.linkedin.com/company/tiiuae
-          - item:
             name: Technolution (member)
             homepage_url: https://technolution.com/
             logo: technolution.svg
@@ -1538,6 +1512,13 @@ landscape:
 
               As an independent, not-for-profit engineering research and development organization, Draper Laboratory serves the interests of clients in fields such as national security, space, biomedical and energy. The laboratory leverages core capabilities in guidance and navigation, information and decision systems, high reliability systems, sensors and control, and integrated micro systems to deliver field ready, innovative solutions.
             crunchbase: https://www.crunchbase.com/organization/draper
+          - item:
+            name: Theo End (Shenzhen) Computing Technology Co., Ltd.. (member)
+            homepage_url: https://lecomputing.com/
+            logo: theo_end_shenzhen_computing_technology_co_ltd.svg
+            description: LECARC is a company that focuses on R&D and technological innovation in the field of Cloud Computing. They provide ARM Server CPUs and solutions with leading performance, security, and reliability. They also offer SSRS Software for managing and optimiz...
+            organization:
+              name: Theo End (Shenzhen) Computing Technology Co., Ltd..
           - item:
             name: Trustonic (member)
             homepage_url: https://trustonic.com/
@@ -2029,6 +2010,13 @@ landscape:
             twitter: https://twitter.com/Cineca1969
             extra:
               linkedin_url: https://www.linkedin.com/company/cineca
+          - item:
+            name: CISPA Helmholtz Center for Information Security (member)
+            homepage_url: https://cispa.de/
+            logo: cispa_helmholtz_center_for_information_security.svg
+            description: CISPA Helmholtz Center for Information Security is a leading German research institution specializing in cybersecurity and privacy.
+            organization:
+              name: CISPA Helmholtz Center for Information Security
           - item:
             name: City University of Hong Kong (member)
             homepage_url: https://ee.cityu.edu.hk/
@@ -3295,6 +3283,17 @@ landscape:
               linkedin: https://www.linkedin.com/company/tuwien
             extra:
               linkedin_url: https://www.linkedin.com/company/tuwien
+          - item:
+            name: Technology Innovation Institute (member)
+            homepage_url: https://tii.ae/
+            logo: technology_innovation_institute.svg
+            description: The Technology Innovation Institute (TII) aims to become a leading global research Centre dedicated to pushing the frontiers of knowledge. Our teams of scientists, researchers and engineers work in an open, flexible and agile environment to deliver dis...
+            twitter: https://twitter.com/TIIuae
+            organization:
+              name: Technology Innovation Institute
+              linkedin: https://www.linkedin.com/company/tiiuae
+            extra:
+              linkedin_url: https://www.linkedin.com/company/tiiuae
           - item:
             name: Télécom Paris (member)
             homepage_url: https://telecom-paris.fr/
