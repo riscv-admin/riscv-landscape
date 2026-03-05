@@ -69,14 +69,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/google
           - item:
-            name: Huawei Technologies Co., Ltd (member)
-            homepage_url: https://huawei.com/
-            logo: huawei_technologies_co.svg
-            description: Huawei is a global provider of information and communications technology (ICT) infrastructure and smart devices. Huawei is headquartered in Shenzhen, China.
-            crunchbase: https://www.crunchbase.com/organization/huawei
-            twitter: https://twitter.com/Huawei
-            linkedin_url: https://www.linkedin.com/company/huawei
-          - item:
             name: Infineon Technologies AG (member)
             homepage_url: https://infineon.com/
             logo: infineon_technologies_ag.svg
@@ -86,12 +78,12 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/infineon-technologies
           - item:
-            name: iRede (member)
-            homepage_url: https://irede.org.br/
-            logo: irede.svg
-            description: IREDE is a Scientific, Technological, and Innovation Institute (ICT) that operates in the Execution and Management of Research, Development, and Innovation (RD&I) projects in the ICT - Information and Communication Technology area. The Institute serves...
+            name: Instituto Federal de Educação (member)
+            homepage_url: https://ifce.edu.br/
+            logo: instituto_federal_de_educacao.svg
+            description: IFCE provides a variety of education programs in professional, scientific, and technological fields through its 9 operational campuses and ongoing expansion.
             organization:
-              name: iRede
+              name: Instituto Federal de Educação
               linkedin: https://www.linkedin.com/company/instituto-federal-de-educa-o-ci-ncia-e-tecnologia-do-cear-
             extra:
               linkedin_url: https://www.linkedin.com/company/instituto-federal-de-educa-o-ci-ncia-e-tecnologia-do-cear-
@@ -442,6 +434,17 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/canonical-ltd-
           - item:
+            name: CARIAD SE (member)
+            homepage_url: https://cariad.technology/
+            logo: cariad_se.svg
+            description: |-
+              CARIAD is an automotive software company in the Volkswagen Group that consolidates and further expands the Group's software competencies to transform automotive mobility. The company develops the leading tech stack for the automotive industry with the mission to make the automotive experience safer, more sustainable, and more comfortable in a new way – for everyone, everywhere. 
+              CARIAD builds a uniform software platform for all brands of the Volkswagen Group, which includes a unified and scalable architecture, an operating system, and an automotive cloud. 
+              We transform cars into software-defined vehicles that seamlessly integrate the automotive experience into our digital life, turning the Volkswagen Group into a software-driven mobility provider. CARIAD’s headquarters is located in Germany and co-operates with international Volkswagen Group teams in the US and China. 
+              Visit: https://cariad.technology
+            organization:
+              name: CARIAD SE
+          - item:
             name: CAST, Inc. (member)
             homepage_url: https://cast-inc.com/
             logo: cast_inc.svg
@@ -756,15 +759,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/igalia
           - item:
-            name: Imagination Technologies Ltd. (member)
-            homepage_url: https://imgtec.com/
-            logo: imagination_technologies_ltd.svg
-            description: Imagination Technologies Group plc is a global semiconductor and software design company, owned by the Chinese Canyon Bridge Capital Partners.
-            crunchbase: https://www.crunchbase.com/organization/imagination-technologies
-            twitter: https://twitter.com/ImaginationTech
-            extra:
-              linkedin_url: https://www.linkedin.com/company/imaginationtech
-          - item:
             name: InCore Semiconductors Pvt. Ltd. (member)
             homepage_url: https://incoresemi.com/
             logo: incore_semiconductors_pvt_ltd.svg
@@ -792,16 +786,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/inspire-semiconductor-inc
             extra:
               linkedin_url: https://www.linkedin.com/company/inspire-semiconductor-inc
-          - item:
-            name: INTEGRITY Security Services (member)
-            homepage_url: https://ghsiss.com/
-            logo: integrity_security_services.svg
-            description: INTEGRITY Security Services (ISS) is a top provider of end-to-end embedded security solutions for a secure Internet of Things, offering expert services in key protection, certificate management, and secure OTA delivery to prevent cyber attacks and ensu...
-            organization:
-              name: INTEGRITY Security Services
-              linkedin: https://www.linkedin.com/company/integrity-security-services-llc
-            extra:
-              linkedin_url: https://www.linkedin.com/company/integrity-security-services-llc
           - item:
             name: International Business Machines Corporation (member)
             homepage_url: https://ibm.com/
@@ -1089,6 +1073,16 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/nxp-semiconductors
           - item:
+            name: OmniTrust Security LLC (member)
+            homepage_url: https://ghsiss.com/
+            logo: omnitrust_security_llc.svg
+            description: INTEGRITY Security Services (ISS) is a top provider of end-to-end embedded security solutions for a secure Internet of Things, offering expert services in key protection, certificate management, and secure OTA delivery to prevent cyber attacks and ensu...
+            organization:
+              name: OmniTrust Security LLC
+              linkedin: https://www.linkedin.com/company/integrity-security-services-llc
+            extra:
+              linkedin_url: https://www.linkedin.com/company/integrity-security-services-llc
+          - item:
             name: OTSL, Inc (member)
             homepage_url: https://otsl.jp/
             logo: otsl_inc.svg
@@ -1141,15 +1135,6 @@ landscape:
             twitter: https://twitter.com/ProteanTecs
             extra:
               linkedin_url: https://www.linkedin.com/company/proteantecs
-          - item:
-            name: ProvenRun (member)
-            homepage_url: https://provenrun.com/
-            logo: provenrun.svg
-            description: Trusted products and services for embedded security.
-            crunchbase: https://www.crunchbase.com/organization/prove-run
-            twitter: https://twitter.com/provenrun
-            extra:
-              linkedin_url: https://www.linkedin.com/company/prove-&-run
           - item:
             name: Rambus Inc. (member)
             homepage_url: https://rambus.com/
@@ -1476,17 +1461,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/altium
           - item:
-            name: Technology Innovation Institute (member)
-            homepage_url: https://tii.ae/
-            logo: technology_innovation_institute.svg
-            description: The Technology Innovation Institute (TII) aims to become a leading global research Centre dedicated to pushing the frontiers of knowledge. Our teams of scientists, researchers and engineers work in an open, flexible and agile environment to deliver dis...
-            twitter: https://twitter.com/TIIuae
-            organization:
-              name: Technology Innovation Institute
-              linkedin: https://www.linkedin.com/company/tiiuae
-            extra:
-              linkedin_url: https://www.linkedin.com/company/tiiuae
-          - item:
             name: Technolution (member)
             homepage_url: https://technolution.com/
             logo: technolution.svg
@@ -1538,6 +1512,13 @@ landscape:
 
               As an independent, not-for-profit engineering research and development organization, Draper Laboratory serves the interests of clients in fields such as national security, space, biomedical and energy. The laboratory leverages core capabilities in guidance and navigation, information and decision systems, high reliability systems, sensors and control, and integrated micro systems to deliver field ready, innovative solutions.
             crunchbase: https://www.crunchbase.com/organization/draper
+          - item:
+            name: Theo End (Shenzhen) Computing Technology Co., Ltd.. (member)
+            homepage_url: https://lecomputing.com/
+            logo: theo_end_shenzhen_computing_technology_co_ltd.svg
+            description: LECARC is a company that focuses on R&D and technological innovation in the field of Cloud Computing. They provide ARM Server CPUs and solutions with leading performance, security, and reliability. They also offer SSRS Software for managing and optimiz...
+            organization:
+              name: Theo End (Shenzhen) Computing Technology Co., Ltd..
           - item:
             name: Trustonic (member)
             homepage_url: https://trustonic.com/
@@ -1822,13 +1803,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/aalto-university
           - item:
-            name: Alfabetico Digital (member)
-            homepage_url: https://alfabeticodigital.com/
-            logo: alfabetico_digital.svg
-            description: Alfabético Digital offers courses, workshops, and certifications in technology, focusing on equipping individuals with skills in the Internet of Things (IoT) through a structured educational framework.
-            organization:
-              name: Alfabetico Digital
-          - item:
             name: Alma Mater Studiorum - Università di Bologna (member)
             homepage_url: https://unibo.it/
             logo: alma_mater_studiorum_universita_di_bologna.svg
@@ -1855,14 +1829,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/fundacion-nebrija
           - item:
-            name: anttec (member)
-            homepage_url: https://anttec.co.cr/
-            logo: anttec.svg
-            description: Anttec, an organization with principles of struggle for the rights of the working class and the defense of the institution, with values, ethics and transparency .
-            twitter: https://twitter.com/ANTTECCR
-            organization:
-              name: anttec
-          - item:
             name: Barcelona Supercomputing Center (member)
             homepage_url: https://bsc.es/
             logo: barcelona_supercomputing_center.svg
@@ -1871,15 +1837,6 @@ landscape:
             twitter: https://twitter.com/BSC_CNS
             extra:
               linkedin_url: https://www.linkedin.com/company/barcelona-supercomputing-center
-          - item:
-            name: BeagleBoard.org Foundation (member)
-            homepage_url: https://beagleboard.org/
-            logo: beagleboard.svg
-            description: Community supported open hardware computers for makers, including the popular BeagleBone
-            crunchbase: https://www.crunchbase.com/organization/beagleboard
-            twitter: https://twitter.com/beagleboardorg
-            extra:
-              linkedin_url: https://www.linkedin.com/company/beagleboard-org-foundation
           - item:
             name: Beijing Academy of Artificial Intelligence aka Zhiyuan Institute (member)
             homepage_url: https://baai.ac.cn/
@@ -1922,13 +1879,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/btucottbussenftenberg
           - item:
-            name: Bridge Into the Future (member)
-            homepage_url: https://bridgeintothefuture.org/
-            logo: bridge_into_the_future.svg
-            description: Bridge Into the Future is a company that focuses on helping and benefiting users by providing simple and clear information.
-            organization:
-              name: Bridge Into the Future
-          - item:
             name: CALIFORNIA SCHOOL INC. (member)
             homepage_url: https://california.ngo/
             logo: california_school_inc.svg
@@ -1953,14 +1903,6 @@ landscape:
             description: CAMELab is a technology company that specializes in developing innovative solutions for the healthcare industry. We provide a wide range of products and services including medical devices, software applications, and data analytics. Our goal is to impro...
             organization:
               name: CAMEL
-          - item:
-            name: CA/Meme Forum (member)
-            homepage_url: https://camemeforum.org/
-            logo: ca_meme_forum.svg
-            description: https://t.co/mj8dJbU0CA  Account managed by @bitcynth
-            twitter: https://twitter.com/CAMemeForum
-            organization:
-              name: CA/Meme Forum
           - item:
             name: CATIE (member)
             homepage_url: https://catie.fr/
@@ -2007,15 +1949,6 @@ landscape:
             organization:
               name: China University of Petroleum-Beijing
           - item:
-            name: CHIPS Alliance (member)
-            homepage_url: https://chipsalliance.org/
-            logo: chips_alliance.svg
-            description: CHIPS (Common Hardware for Interfaces, Processors and Systems) Alliance harnesses the energy of open source collaboration to accelerate hardware development.
-            crunchbase: https://www.crunchbase.com/organization/chips-alliance
-            twitter: https://twitter.com/CHIPSAlliance
-            extra:
-              linkedin_url: https://www.linkedin.com/company/chipsalliance
-          - item:
             name: CINECA – Consorzio Interuniversitario (member)
             homepage_url: https://cineca.it/
             logo: cineca_consorzio_interuniversitario.svg
@@ -2030,6 +1963,13 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/cineca
           - item:
+            name: CISPA Helmholtz Center for Information Security (member)
+            homepage_url: https://cispa.de/
+            logo: cispa_helmholtz_center_for_information_security.svg
+            description: CISPA Helmholtz Center for Information Security is a leading German research institution specializing in cybersecurity and privacy.
+            organization:
+              name: CISPA Helmholtz Center for Information Security
+          - item:
             name: City University of Hong Kong (member)
             homepage_url: https://ee.cityu.edu.hk/
             logo: city_university_of_hong_kong.svg
@@ -2039,43 +1979,12 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/city-university-of-hong-kong
           - item:
-            name: Cloud Native Computing Foundation (member)
-            homepage_url: https://cncf.io/
-            logo: cloud_native_computing_foundation.svg
-            description: |-
-              CNCF ☁️♮🏛 is the home 🏠 of @kubernetesio, @prometheusio, @envoyproxy, and many more. Join us at https://t.co/q6AJ1z7vFJ TBD Amsterdam, Nov 17-20 Boston.
-
-              --- Merged Data:
-
-              The Cloud Native Computing Foundation is a Linux Foundation project that was founded in 2015 to help advance container technology and align the tech industry around its evolution.
-
-              --- Merged Data:
-
-              The Cloud Native Computing Foundation is a Linux Foundation project that was founded in 2015 to help advance container technology and align the tech industry around its evolution.
-            twitter: https://twitter.com/CloudNativeFdn
-            organization:
-              name: Cloud Native Computing Foundation
-              linkedin: https://www.linkedin.com/company/the-linux-foundation
-            extra:
-              linkedin_url: https://www.linkedin.com/company/the-linux-foundation
-          - item:
             name: Club IBER (member)
             homepage_url: https://gecg28.ac.in/
             logo: club_iber.svg
             description: Established in 2004, GEC Gandhinagar offers undergraduate and postgraduate engineering courses, focusing on student development and academic excellence.
             organization:
               name: Club IBER
-          - item:
-            name: CMC Microsystems (member)
-            homepage_url: https://cmc.ca/
-            logo: cmc_microsystems.svg
-            description: CMC Microsystems defines, develops and manages Canadas National Design Network giving researchers access to the worlds best design tools, manufacturing technologies, and engineering support for making micro-nanotechnologies, and for training industry-ready graduates.
-            twitter: https://twitter.com/CMCMicrosystems
-            organization:
-              name: CMC Microsystems
-              linkedin: https://www.linkedin.com/company/cmc-microsystems
-            extra:
-              linkedin_url: https://www.linkedin.com/company/cmc-microsystems
           - item:
             name: Cognitive Disorders Research Lab (member)
             homepage_url: https://cdrl-ut.org/
@@ -2130,17 +2039,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/sustechsz
           - item:
-            name: Confidential Computing Consortium (member)
-            homepage_url: https://confidentialcomputing.io/
-            logo: confidential_computing_consortium.svg
-            description: The Confidential Computing Consortium is focused on projects securing data in use and accelerating the adoption of confidential computing.
-            twitter: https://twitter.com/ConfidentialC2
-            organization:
-              name: Confidential Computing Consortium
-              linkedin: https://www.linkedin.com/company/confidential-computing
-            extra:
-              linkedin_url: https://www.linkedin.com/company/confidential-computing
-          - item:
             name: CSEM SA (member)
             homepage_url: https://csem.ch/
             logo: csem_sa.svg
@@ -2149,15 +2047,6 @@ landscape:
             twitter: https://twitter.com/CSEMInfo
             extra:
               linkedin_url: https://www.linkedin.com/company/csem
-          - item:
-            name: Cyber Physical Security Research Center of AIST (member)
-            homepage_url: https://www.cpsec.aist.go.jp/
-            logo: cyber_physical_security_research_center_of_aist.svg
-            description: 産業技術総合研究所は我が国最大級の公的研究機関として日本の産業や社会に役立つ技術の創出とその実用化や、革新的な技術シーズを事業化に繋げるための「橋渡し」機能に注力しています。
-            crunchbase: https://www.crunchbase.com/organization/national-institute-of-advanced-industrial-science-and-technology
-            twitter: https://twitter.com/AIST_JP
-            extra:
-              linkedin_url: https://www.linkedin.com/company/aist
           - item:
             name: Czech Technical University in Prague (member)
             homepage_url: https://cvut.cz/
@@ -2221,29 +2110,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/aristotle-university-of-thessaloniki
           - item:
-            name: Eclipse Foundation AISBL. (member)
-            homepage_url: https://eclipse.org/
-            logo: eclipse_foundation_aisbl.svg
-            description: |-
-              102 Centrepointe Drive
-              Ottawa, Ontario,
-              Canada, K2G 6B1
-            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
-            twitter: https://twitter.com/EclipseFdn
-            extra:
-              linkedin_url: https://www.linkedin.com/company/eclipse-foundation
-          - item:
-            name: edacentrum (member)
-            homepage_url: https://edacentrum.de/
-            logo: edacentrum.svg
-            description: Gegründet am 3.9.2001
-            twitter: https://twitter.com/edacentrum
-            organization:
-              name: edacentrum
-              linkedin: https://www.linkedin.com/company/edacentrum-gmbh
-            extra:
-              linkedin_url: https://www.linkedin.com/company/edacentrum-gmbh
-          - item:
             name: Eldorado Research Institute (member)
             homepage_url: https://eldorado.org.br/
             logo: eldorado_research_institute.svg
@@ -2304,15 +2170,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/universidade-federal-do-rio-grande---furg
           - item:
-            name: Forschungszentrum Juelich GmbH (member)
-            homepage_url: https://fz-juelich.de/
-            logo: forschungszentrum_juelich_gmbh.svg
-            description: 'Ansprechpartner Facebook:     Marcel Bülow (mb)  Forschungszentrum Jülich  Unternehmenskommunikation  www.fz-juelich.de/social-media'
-            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
-            twitter: https://twitter.com/fz_juelich
-            extra:
-              linkedin_url: https://www.linkedin.com/company/forschungszentrum-julich
-          - item:
             name: Foundation for Research and Technology - Hellas (FORTH) (member)
             homepage_url: https://forth.gr/
             logo: foundation_for_research_and_technology_hellas_forth.svg
@@ -2330,16 +2187,6 @@ landscape:
             description: Fr. C. Rodrigues Institute of Technology. In Pursuit of Excellence.
             crunchbase: https://www.crunchbase.com/organization/fr-conceicao-rodrigues-institute-of-technology
             twitter: https://twitter.com/fcrit_extc
-          - item:
-            name: Free and Open Source Silicon Foundation (member)
-            homepage_url: https://fossi-foundation.org/
-            logo: free_and_open_source_silicon_foundation.svg
-            description: The FOSSi Foundation is a non-profit organization that promotes and assists free and open digital hardware designs and their related ecosystems.
-            organization:
-              name: Free and Open Source Silicon Foundation
-              linkedin: https://www.linkedin.com/company/fossi-foundation
-            extra:
-              linkedin_url: https://www.linkedin.com/company/fossi-foundation
           - item:
             name: Fundação Instituto Nacional de Telecomunicações (member)
             homepage_url: https://inatel.br/
@@ -2449,36 +2296,6 @@ landscape:
             organization:
               name: Guangdong Innovation Center of Smart Home
           - item:
-            name: H2020 De-RISC Project (member)
-            homepage_url: https://derisc-project.eu/
-            logo: h2020_de_risc_project.svg
-            description: H2020 funded project to get the RISC-V travelling to Space
-            twitter: https://twitter.com/DeRISC_H2020_EU
-            organization:
-              name: H2020 De-RISC Project
-              linkedin: https://www.linkedin.com/company/de-risc
-            extra:
-              linkedin_url: https://www.linkedin.com/company/de-risc
-          - item:
-            name: H2020 SELENE Project (member)
-            homepage_url: https://selene-project.eu/
-            logo: h2020_selene_project.svg
-            description: Portal oficial de la Universitat Politècnica de València, institución pública de prestigio y líder en investigación que acoge a 40.000 alumnos. Información sobre admisión, estudios, investigación y organización para alumnos, estudiantes, orientadores, ...
-            twitter: https://twitter.com/H2020Selene
-            organization:
-              name: H2020 SELENE Project
-          - item:
-            name: H2Lab (member)
-            homepage_url: https://h2lab.org/
-            logo: h2lab.svg
-            description: H2Lab is a hardware harcking association targetting IoT and embedded devices security and design for educational purpose
-            twitter: https://twitter.com/H2lab_org
-            organization:
-              name: H2Lab
-              linkedin: https://www.linkedin.com/company/h%c2%b2lab
-            extra:
-              linkedin_url: https://www.linkedin.com/company/h%c2%b2lab
-          - item:
             name: Hamburg University of Technology - Institute of Aircraft Systems Engineering (member)
             homepage_url: https://tuhh.de/
             logo: hamburg_university_of_technology_institute_of_aircraft_systems_engineering.svg
@@ -2501,34 +2318,12 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/harvey-mudd-college
           - item:
-            name: Haskell Foundation (member)
-            homepage_url: https://haskell.foundation/
-            logo: haskell_foundation.svg
-            description: https://t.co/fFbaw17S1M • a non-profit for building the future of Haskell
-            twitter: https://twitter.com/haskellfound
-            organization:
-              name: Haskell Foundation
-              linkedin: https://www.linkedin.com/company/haskell-foundation-inc
-            extra:
-              linkedin_url: https://www.linkedin.com/company/haskell-foundation-inc
-          - item:
             name: Hefei University of Technology (member)
             homepage_url: https://hfut.edu.cn/
             logo: hefei_university_of_technology.svg
             description: Hefei University of Technology is a leading national university focused on talent cultivation, science advancement, and social development with a motto of virtue, knowledge, truth, and innovation.
             organization:
               name: Hefei University of Technology
-          - item:
-            name: Helpful Engineering (member)
-            homepage_url: https://helpfulengineering.org/
-            logo: helpful_engineering.svg
-            description: Helpful is an international social impact community dedicated to solving global challenges through open source technology.
-            twitter: https://twitter.com/helpfuleng
-            organization:
-              name: Helpful Engineering
-              linkedin: https://www.linkedin.com/company/helpfulengineering
-            extra:
-              linkedin_url: https://www.linkedin.com/company/helpfulengineering
           - item:
             name: IIT Madras (member)
             homepage_url: https://iitm.ac.in/
@@ -2667,28 +2462,6 @@ landscape:
             organization:
               name: Institute of Information Engineering, CAS
           - item:
-            name: International Journal of Law, Ethics, and Technology (member)
-            homepage_url: https://ijlet.org/
-            logo: international_journal_of_law_ethics_and_technology.svg
-            organization:
-              name: International Journal of Law, Ethics, and Technology
-              linkedin: https://www.linkedin.com/company/ijlet
-            extra:
-              linkedin_url: https://www.linkedin.com/company/ijlet
-          - item:
-            name: iPXE (member)
-            homepage_url: https://ipxe.org/
-            logo: ipxe.svg
-            description: iPXE develops iPXE, a leading open source network boot firmware that offers a comprehensive PXE implementation with enhanced features, allowing users to replace existing PXE ROMs or chainload into iPXE for added functionality without the need for refla...
-            organization:
-              name: iPXE
-          - item:
-            name: ISOLDE Project (member)
-            homepage_url: https://isolde-project.eu/
-            logo: isolde_project.svg
-            organization:
-              name: ISOLDE Project
-          - item:
             name: İzmir Yüksek Teknoloji Enstitüsü (member)
             homepage_url: https://iyte.edu.tr/
             logo: izmir_yuksek_teknoloji_enstitusu.svg
@@ -2766,17 +2539,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/lawrence-berkeley-national-laboratory
           - item:
-            name: Libre Space Foundation (member)
-            homepage_url: https://libre.space/
-            logo: libre_space_foundation.svg
-            description: Our Vision is an Open and Accessible Outer Space for all.
-            twitter: https://twitter.com/LibreSpace_Fnd
-            organization:
-              name: Libre Space Foundation
-              linkedin: https://www.linkedin.com/company/libre-space
-            extra:
-              linkedin_url: https://www.linkedin.com/company/libre-space
-          - item:
             name: LINKS Foundation (member)
             homepage_url: https://linksfoundation.com/
             logo: links_foundation.svg
@@ -2813,20 +2575,6 @@ landscape:
             organization:
               name: MBZUAI
           - item:
-            name: MEEP Project (member)
-            homepage_url: https://meep-project.eu/
-            logo: meep_project.svg
-            description: MEEP enables software development, accelerating software maturity, compared to the limitations of software simulations. Moreover, IP can be tested and validated before moving to silicon, saving time and money.
-            organization:
-              name: MEEP Project
-          - item:
-            name: METASAT (member)
-            homepage_url: https://metasat-project.eu/
-            logo: metasat.svg
-            description: METASAT Project is a Horizon Europe project that provides a holistic and modular model-based framework to design and test software modules for open architecture hardware and high-performance computing platforms in the space and aviation domain.
-            organization:
-              name: METASAT
-          - item:
             name: MicroElectronics Research Lab (member)
             homepage_url: https://uit.edu/merluit
             logo: microelectronics_research_lab.svg
@@ -2845,12 +2593,6 @@ landscape:
             twitter: https://twitter.com/METU_ODTU
             extra:
               linkedin_url: https://www.linkedin.com/company/metu
-          - item:
-            name: Mobian (member)
-            homepage_url: https://mobian.org/
-            logo: mobian.svg
-            organization:
-              name: Mobian
           - item:
             name: Nanjing Institute of Software Technology,ISCAS (member)
             homepage_url: https://ac.cn/
@@ -2932,13 +2674,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/nirma-university
           - item:
-            name: OpenAtom openEuler (member)
-            homepage_url: https://openeuler.sh/
-            logo: openatom_openeuler.svg
-            description: OpenEuler is a reliable open source operating system that unleashes diversified computing power for a sustainable future.
-            organization:
-              name: OpenAtom openEuler
-          - item:
             name: OpenHW Foundation (member)
             homepage_url: https://openhwgroup.org/
             logo: openhw_foundation.svg
@@ -2949,37 +2684,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/openhwgroup
             extra:
               linkedin_url: https://www.linkedin.com/company/openhwgroup
-          - item:
-            name: OpenMandriva Association (member)
-            homepage_url: https://openmandriva.org/
-            logo: openmandriva_association.svg
-            description: A pinch of Passion, A pinch of Innovation, flavoured with fun.
-            twitter: https://twitter.com/OpenMandrivaOrg
-            organization:
-              name: OpenMandriva Association
-              linkedin: https://www.linkedin.com/company/openmandriva
-            extra:
-              linkedin_url: https://www.linkedin.com/company/openmandriva
-          - item:
-            name: Open Research Institute, Inc. (member)
-            homepage_url: https://openresearch.institute/
-            logo: open_research_institute_inc.svg
-            description: Open Research Institute (ORI) is a non-profit 501(c)(3) research & development organization dedicated to Open Source and Open Access in amateur radio and more.
-            twitter: https://twitter.com/OpenResearchIns
-            organization:
-              name: Open Research Institute, Inc.
-              linkedin: https://www.linkedin.com/company/open-research-institute-inc
-            extra:
-              linkedin_url: https://www.linkedin.com/company/open-research-institute-inc
-          - item:
-            name: OpenUK (member)
-            homepage_url: https://openuk.uk/
-            logo: openuk.svg
-            description: OpenUK Open Source Kids Competition Imogen heap
-            crunchbase: https://www.crunchbase.com/organization/openuk
-            twitter: https://twitter.com/openuk_uk
-            extra:
-              linkedin_url: https://www.linkedin.com/company/openuk
           - item:
             name: Oregon State University (member)
             homepage_url: https://oregonstate.edu/
@@ -2999,13 +2703,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ozyeginuniversitesi
           - item:
-            name: Pasos de Jesús (member)
-            homepage_url: https://pasosdejesus.org/
-            logo: pasos_de_jesus.svg
-            description: Pasos de Jesús promotes solidarity technologies with a mission to foster social impact and community development.
-            organization:
-              name: Pasos de Jesús
-          - item:
             name: PES University (member)
             homepage_url: https://pes.edu/
             logo: pes_university.svg
@@ -3015,13 +2712,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/pesuniversity
           - item:
-            name: Plan 9 Foundation (member)
-            homepage_url: https://p9f.org/
-            logo: plan_9_foundation.svg
-            description: Plan 9 Foundation Plan 9
-            organization:
-              name: Plan 9 Foundation
-          - item:
             name: Politechnika Częstochowska (member)
             homepage_url: https://pcz.pl/
             logo: politechnika_czestochowska.svg
@@ -3029,32 +2719,20 @@ landscape:
             organization:
               name: Politechnika Częstochowska
           - item:
-            name: Professional Volunteers (member)
-            homepage_url: https://professionalvolunteers.org/
-            logo: professional_volunteers.svg
-            organization:
-              name: Professional Volunteers
+            name: Politecnico di Milano (member)
+            homepage_url: https://polimi.it/
+            logo: politecnico_di_milano.svg
+            description: The Polytechnic University of Milan is the largest technical university in Italy, with about 42,000 students
+            crunchbase: https://www.crunchbase.com/organization/politecnico-di-milano-2
+            twitter: https://twitter.com/polimi
+            extra:
+              linkedin_url: https://www.linkedin.com/company/polimi
           - item:
             name: PUCRS (member)
             homepage_url: https://pucrs.br/
             logo: pucrs.svg
             description: PUCRS is a leading Brazilian university providing a wide range of undergraduate, master's, and doctoral programs, as well as specialized courses, in-person and online.
             crunchbase: https://www.crunchbase.com/organization/pontif-cia-universidade-cat-lica-do-rio-grande-do-sul
-          - item:
-            name: Qazaq Open Source Initiative (member)
-            homepage_url: https://qosi.kz/
-            logo: qazaq_open_source_initiative.svg
-            description: |-
-              The Qazaq Open Source Initiative (QOSI) is a non-profit organization dedicated to promoting and sustaining the development of open-source technologies in Kazakhstan and Central Asia. Our mission is to position Kazakhstan at the forefront of digital transformation by advocating for and implementing open-source solutions across various sectors, including government, finance, artificial intelligence, and education. 
-
-              At QOSI, we focus on empowering the IT community and fostering business innovation through open-source strategies. We provide access to a wealth of resources, including exclusive workshops, mentorship programs, and networking opportunities, enabling collaboration on projects that drive technological excellence. 
-
-              Our initiatives are designed to revolutionize industries and shape the future of digital Kazakhstan. By integrating open-source products into businesses, we offer dynamic opportunities to innovate rapidly, reduce costs, and enhance collaboration across diverse technology platforms. 
-
-              Through events like the Rancher Rodeo 2024 and the Industrial IT Forum, we bring together developers, IT professionals, and industry leaders to explore the latest in digital transformation and open-source solutions. These gatherings serve as vibrant hubs of learning and innovation, reinforcing our commitment to advancing Kazakhstan's open-source movement. 
-
-              Join us in our journey to establish Kazakhstan as a hub for open-source excellence, fostering a digital ecosystem where innovation thrives and technology transcends boundaries.
-            crunchbase: https://www.crunchbase.com/organization/qazaq-open-source-initiative
           - item:
             name: QuantumShift (member)
             homepage_url: https://quantumshift.in/
@@ -3090,28 +2768,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/riat
             extra:
               linkedin_url: https://www.linkedin.com/company/riat
-          - item:
-            name: RISC-V Alliance Japan / RISC-V協会 (member)
-            homepage_url: https://riscv.or.jp/
-            logo: risc_v_alliance_japan_risc_vxie_hui.svg
-            description: RISC-V Association is a leading organization in the development and promotion of the RISC-V instruction set architecture. They collaborate with industry partners to advance open-source hardware innovation and host events to foster community engagement ...
-            organization:
-              name: RISC-V Alliance Japan / RISC-V協会
-          - item:
-            name: RISC-V Taiwan Alliance (member)
-            homepage_url: https://twiota.org/
-            logo: risc_v_taiwan_alliance.svg
-            description: RISC-V International is chartered to standardize and promote the open RISC-V instruction set architecture together with its hardware and software ecosystem for use in all computing devices. 
-            crunchbase: https://www.crunchbase.com/organization/risc-v
-            twitter: https://twitter.com/risc_v
-          - item:
-            name: rpmfusion (member)
-            homepage_url: https://rpmfusion.org/
-            logo: rpmfusion.svg
-            description: Community repository for Fedora, CentOS, RHEL and compatibles
-            twitter: https://twitter.com/rpmfusion_team
-            organization:
-              name: rpmfusion
           - item:
             name: Ruppin Academic Center (member)
             homepage_url: https://ruppin.ac.il/
@@ -3172,16 +2828,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/silicon-austria-labs
           - item:
-            name: SILICOOP (member)
-            homepage_url: https://sili.coop/
-            logo: silicoop.svg
-            description: SILICOOP is an association that carries out a project of a SCIC with a circular and collaborative economy model to address environmental, economic, and social challenges in the microelectronics sector in France and Europe through consulting and product.
-            organization:
-              name: SILICOOP
-              linkedin: https://www.linkedin.com/company/silicoop
-            extra:
-              linkedin_url: https://www.linkedin.com/company/silicoop
-          - item:
             name: Soongsil University (member)
             homepage_url: https://pre.ssu.ac.kr/
             logo: soongsil_university.svg
@@ -3214,16 +2860,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/tampere-university
             extra:
               linkedin_url: https://www.linkedin.com/company/tampere-university
-          - item:
-            name: Teamup (member)
-            homepage_url: https://teamup.org/
-            logo: teamup.svg
-            description: Teamup offers a collaborative learning platform that enables students to enhance their skills by engaging in socially driven projects, focusing on project-based learning in STEM education, particularly in computer science and engineering.
-            organization:
-              name: Teamup
-              linkedin: https://www.linkedin.com/company/teamorg
-            extra:
-              linkedin_url: https://www.linkedin.com/company/teamorg
           - item:
             name: TechNES (member)
             homepage_url: https://technes.org.uk/
@@ -3296,6 +2932,17 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/tuwien
           - item:
+            name: Technology Innovation Institute (member)
+            homepage_url: https://tii.ae/
+            logo: technology_innovation_institute.svg
+            description: The Technology Innovation Institute (TII) aims to become a leading global research Centre dedicated to pushing the frontiers of knowledge. Our teams of scientists, researchers and engineers work in an open, flexible and agile environment to deliver dis...
+            twitter: https://twitter.com/TIIuae
+            organization:
+              name: Technology Innovation Institute
+              linkedin: https://www.linkedin.com/company/tiiuae
+            extra:
+              linkedin_url: https://www.linkedin.com/company/tiiuae
+          - item:
             name: Télécom Paris (member)
             homepage_url: https://telecom-paris.fr/
             logo: telecom_paris.svg
@@ -3311,15 +2958,6 @@ landscape:
             twitter: https://twitter.com/uppsalauni
             extra:
               linkedin_url: https://www.linkedin.com/company/uppsala-university
-          - item:
-            name: The FreeBSD Foundation (member)
-            homepage_url: https://freebsdfoundation.org/
-            logo: the_freebsd_foundation.svg
-            description: FreeBSD Foundation is a non-profit organization that celebrates, elevates, and empowers users of the world's best open source operating system. Make a Donation
-            crunchbase: https://www.crunchbase.com/organization/the-freebsd-foundation
-            twitter: https://twitter.com/freebsdfndation
-            extra:
-              linkedin_url: https://www.linkedin.com/company/freebsd-foundation
           - item:
             name: The Hashemite University (member)
             homepage_url: https://hu.edu.jo/
@@ -3337,16 +2975,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/hkust-gz-information-hub
             extra:
               linkedin_url: https://www.linkedin.com/company/hkust-gz-information-hub
-          - item:
-            name: The Programming Foundation (member)
-            homepage_url: https://www.smarterus.org/
-            logo: the_programming_foundation.svg
-            description: |-
-              A platform where anyone can learn operating systems and computer 
-                programming
-            twitter: https://twitter.com/forasmarterus
-            organization:
-              name: The Programming Foundation
           - item:
             name: The University of Electro-Communications (member)
             homepage_url: https://uec.ac.jp/
@@ -3391,16 +3019,6 @@ landscape:
             twitter: https://twitter.com/Tubitak
             extra:
               linkedin_url: https://www.linkedin.com/company/tubitak
-          - item:
-            name: TWAIN Working Group (member)
-            homepage_url: https://twain.org/
-            logo: twain_working_group.svg
-            description: TWAIN Working Group provides a platform for users and developers to access resources and support related to the TWAIN standard, which facilitates communication between software applications and imaging devices through a standardized protocol and API.
-            organization:
-              name: TWAIN Working Group
-              linkedin: https://www.linkedin.com/company/twain-working-group
-            extra:
-              linkedin_url: https://www.linkedin.com/company/twain-working-group
           - item:
             name: UC San Diego (member)
             homepage_url: https://ucsd.edu/
@@ -3830,17 +3448,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/cpa-wernher-von-braun
           - item:
-            name: VORTEX-CoLab (member)
-            homepage_url: https://vortex-colab.com/
-            logo: vortex_colab.svg
-            description: Where business and innovation collide
-            twitter: https://twitter.com/VortexColab
-            organization:
-              name: VORTEX-CoLab
-              linkedin: https://www.linkedin.com/company/vortex-colab
-            extra:
-              linkedin_url: https://www.linkedin.com/company/vortex-colab
-          - item:
             name: Western University (member)
             homepage_url: https://uwo.ca/
             logo: western_university.svg
@@ -3855,17 +3462,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/xidian-university
             extra:
               linkedin_url: https://www.linkedin.com/company/%e8%a5%bf%e5%ae%89%e7%94%b5%e5%ad%90%e7%a7%91%e6%8a%80%e5%a4%a7%e5%ad%a6
-          - item:
-            name: Zephyr Project (member)
-            homepage_url: https://zephyrproject.org/
-            logo: zephyr_project.svg
-            description: The Zephyr™ Project strives to deliver the best-in-class RTOS for connected resource-constrained devices, built to be secure and safe.
-            twitter: https://twitter.com/ZephyrIoT
-            organization:
-              name: Zephyr Project
-              linkedin: https://www.linkedin.com/company/the-zephyr-project
-            extra:
-              linkedin_url: https://www.linkedin.com/company/the-zephyr-project
           - item:
             name: Zhejiang University (member)
             homepage_url: https://zju.edu.cn/
