@@ -69,14 +69,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/google
           - item:
-            name: Huawei Technologies Co., Ltd (member)
-            homepage_url: https://huawei.com/
-            logo: huawei_technologies_co.svg
-            description: Huawei is a global provider of information and communications technology (ICT) infrastructure and smart devices. Huawei is headquartered in Shenzhen, China.
-            crunchbase: https://www.crunchbase.com/organization/huawei
-            twitter: https://twitter.com/Huawei
-            linkedin_url: https://www.linkedin.com/company/huawei          
-          - item:
             name: Infineon Technologies AG (member)
             homepage_url: https://infineon.com/
             logo: infineon_technologies_ag.svg
@@ -613,6 +605,13 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/embecosm
           - item:
+            name: EpicSemi (member)
+            homepage_url: https://epicsemi.com/
+            logo: epicsemi.svg
+            description: EpicSemi is a global semiconductor solutions company specializing in custom System on Chip (SoC) development for Artificial Intelligence, Datacenter/High Performance Computing, Networking, and Storage applications. They offer spec to silicon design exp...
+            organization:
+              name: EpicSemi
+          - item:
             name: Espressif Systems (Shanghai) Co., Ltd (member)
             homepage_url: https://espressif.com/
             logo: espressif_systems_shanghai_co.svg
@@ -1082,9 +1081,9 @@ landscape:
               linkedin_url: https://www.linkedin.com/company/nxp-semiconductors
           - item:
             name: OmniTrust Security LLC (member)
-            homepage_url: https://ghsiss.com/
+            homepage_url: https://omnitrust.com/
             logo: omnitrust_security_llc.svg
-            description: INTEGRITY Security Services (ISS) is a top provider of end-to-end embedded security solutions for a secure Internet of Things, offering expert services in key protection, certificate management, and secure OTA delivery to prevent cyber attacks and ensu...
+            description: OmniTrust Security LLC is a top provider of end-to-end embedded security solutions for a secure Internet of Things, key management, certificate management, and secure OTA provisioning
             organization:
               name: OmniTrust Security LLC
               linkedin: https://www.linkedin.com/company/integrity-security-services-llc
@@ -1281,16 +1280,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/semidynamics-technology-services-sl
             extra:
               linkedin_url: https://www.linkedin.com/company/semidynamics-technology-services-sl
-          - item:
-            name: Shandong Inspur Science Research Institute (member)
-            homepage_url: https://orisem.com/
-            logo: shandong_inspur_science_research_institute.svg
-            description: Inspur Group specializes in providing innovative cloud computing and big data services, offering tailored storage products and solutions to enhance business development and drive advancements in information technology.
-            organization:
-              name: Shandong Inspur Science Research Institute
-              linkedin: https://www.linkedin.com/company/inspur-group-co-ltd-
-            extra:
-              linkedin_url: https://www.linkedin.com/company/inspur-group-co-ltd-
           - item:
             name: Shanghai StarFive Semiconductor Co., Ltd. (member)
             homepage_url: https://starfivetech.com/
@@ -1681,6 +1670,12 @@ landscape:
             description: .
             organization:
               name: Chengdu Masscore Microelectronics Technology Co., Ltd.
+          - item:
+            name: ECP Pro GmbH (member)
+            homepage_url: https://ecp-pro.de/
+            logo: ecp_pro_gmbh.svg
+            organization:
+              name: ECP Pro GmbH
           - item:
             name: Emproof (member)
             homepage_url: https://emproof.com/
@@ -2747,6 +2742,15 @@ landscape:
             twitter: https://twitter.com/polimi
             extra:
               linkedin_url: https://www.linkedin.com/company/polimi
+          - item:
+            name: PSG College of Technology (member)
+            homepage_url: https://psgtech.edu/
+            logo: psg_college_of_technology.svg
+            description: PSG College of Technology is an autonomous, government aided, private engineering college in Coimbatore, India.
+            crunchbase: https://www.crunchbase.com/organization/psg-college-of-technology
+            twitter: https://twitter.com/psgtech
+            extra:
+              linkedin_url: https://www.linkedin.com/company/psg-college-of-technology
           - item:
             name: PUCRS (member)
             homepage_url: https://pucrs.br/
