@@ -69,14 +69,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/google
           - item:
-            name: Huawei Technologies Co., Ltd (member)
-            homepage_url: https://huawei.com/
-            logo: huawei_technologies_co.svg
-            description: Huawei is a global provider of information and communications technology (ICT) infrastructure and smart devices. Huawei is headquartered in Shenzhen, China.
-            crunchbase: https://www.crunchbase.com/organization/huawei
-            twitter: https://twitter.com/Huawei
-            linkedin_url: https://www.linkedin.com/company/huawei          
-          - item:
             name: Infineon Technologies AG (member)
             homepage_url: https://infineon.com/
             logo: infineon_technologies_ag.svg
@@ -131,9 +123,9 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/%E9%A3%9E%E8%85%BE%E7%94%9F%E6%80%81%E4%BC%99%E4%BC%B4%E5%A4%A7%E4%BC%9A-2020-phytium-eco-partners-summit-in-corechina-report
           - item:
-            name: Qualcomm, Inc. (member)
+            name: Qualcomm Technologies, Inc. (member)
             homepage_url: https://qualcomm.com/
-            logo: qualcomm_inc.svg
+            logo: qualcomm_technologies_inc.svg
             description: |-
               Founded in 1985, QUALCOMM is a global semiconductor company, known for designing, manufacturing, and marketing digital wireless communications equipment and services. The company generates the majority of its sales through the development and marketing of semiconductor chips and system software based on code-division multiple access (CDMA) and other technologies. They are headquartered in San Diego, California.
 
@@ -264,13 +256,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/analog-devices
           - item:
-            name: anlogic (member)
-            homepage_url: https://anlogic.com/
-            logo: anlogic.svg
-            description: Anlogic is a company that specializes in FPGA chip design and offers flexible and reliable solutions for industrial automation, emerging display panels, and consumer electronics products.
-            organization:
-              name: anlogic
-          - item:
             name: Antmicro (member)
             homepage_url: https://antmicro.com/
             logo: antmicro.svg
@@ -370,15 +355,6 @@ landscape:
             description: The Chinese Name of our company is “北京微核芯科技有限公司”. We cooperate with Institute of Computing Technology Chinese Academy of Sciences. We co-developed “XiangShan“ high performance processor.
             organization:
               name: Beijing Vcore Technology Co.,Ltd.
-          - item:
-            name: Bluespec (member)
-            homepage_url: https://bluespec.com/
-            logo: bluespec.svg
-            description: Bluespec provides RISC-V processor IP and tools for developing RISC-V cores and subsystems. We take the risk out of RISC-V to enable you to achieve the highest levels of quality, performance and innovation.
-            crunchbase: https://www.crunchbase.com/organization/bluespec
-            twitter: https://twitter.com/bluespec
-            extra:
-              linkedin_url: https://www.linkedin.com/company/bluespec-inc
           - item:
             name: Breker Verification Systems Inc. (member)
             homepage_url: https://brekersystems.com/
@@ -531,15 +507,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/codethink-limited
           - item:
-            name: Cortus S.A.S. (member)
-            homepage_url: https://cortus.com/
-            logo: cortus_s_a_s.svg
-            description: Cortus is a leading semiconductor, embedded systems and IoT solutions company headquartered in Mauguio (near Montpellier, France) with offices in Meyreuil (France) and Moscow (Russia) as well as subsidiaries in Greece, Italy, Brazil and Taiwan. Cortus provides a full range of IC design services based around their broad IP portfolio which includes processors, digital, analog, mixed-signal and RF IP; prototyping and verification solutions in many areas such as automotive, image processing, industrial controllers, satellites, M2M controllers, secure microcontrollers, smart metering, wireless communication, touch screen controllers, IoT devices, SIM cards, bank cards, e-passports, etc. Cortus is a core contributing member and board member of the DASH7 Alliance. Cortus is one of the dozen platinum founding members of the RISC-V Foundation and a strategic member of RISC-V International.
-            crunchbase: https://www.crunchbase.com/organization/cortus-sa
-            twitter: https://twitter.com/Cortus_IP
-            extra:
-              linkedin_url: https://www.linkedin.com/company/cortus-sa
-          - item:
             name: DEEPCOMPUTING (HK) Limited (member)
             homepage_url: https://deepcomputing.io/
             logo: deepcomputing_hk_limited.svg
@@ -613,6 +580,16 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/embecosm
           - item:
+            name: EpicSemi (member)
+            homepage_url: https://epicsemi.com/
+            logo: epicsemi.svg
+            description: |-
+              Epic Semi is Saudi Arabia’s first fabless semiconductor technology company, leading the AI revolution with locally designed, cutting-edge silicon solutions. Rooted in the Kingdom, we are building the E.P.I.C. portfolio that is Edge AI, Physical AI, IoT, and Cloud AI to power intelligent, immersive, and interconnected applications from cloud to edge.
+
+              Through strategic alliances and advanced design, Epic Semi is establishing Saudi Arabia as a global chip powerhouse, driving local innovation with global impact.
+            organization:
+              name: EpicSemi
+          - item:
             name: Espressif Systems (Shanghai) Co., Ltd (member)
             homepage_url: https://espressif.com/
             logo: espressif_systems_shanghai_co.svg
@@ -659,17 +636,6 @@ landscape:
             twitter: https://twitter.com/Fraunhofer
             extra:
               linkedin_url: https://www.linkedin.com/company/fraunhofer-gesellschaft
-          - item:
-            name: Frontgrade Gaisler (member)
-            homepage_url: https://gaisler.com/
-            logo: frontgrade_gaisler.svg
-            description: Frontgrade Gaisler, a subsidiary of Frontgrade Technologies, is based in central Gothenburg, Sweden, and has grown to include over 55 employees specialized in processor development since the start in 2001. The company is a world leader in processors for space applications and the main products are the SPARC / LEON and RISC-V / NOEL lines of processor IP cores and the GRLIB IP core library used for System-on-Chip (SoC) solutions. In addition, support services, development tools and software targeting embedded processors are developed and provided. Our customers are found across the globe, mainly within the space industry but also in consumer electronics. We offer a creative environment where our colleagues can influence their work and have the possibility to work within several projects ranging from computer architecture, IP core development, SoC design to ASIC synthesis and test. Since all hardware development takes place in-house in Gothenburg, a unique expertise within SoC and microprocessor design is at hand. We seeks to extends our range of processors with our new line of RISC-V based products named NOEL.
-            twitter: https://twitter.com/cobhamgaisler
-            organization:
-              name: Frontgrade Gaisler
-              linkedin: https://www.linkedin.com/company/gaisler-research
-            extra:
-              linkedin_url: https://www.linkedin.com/company/gaisler-research
           - item:
             name: Futurewei Technologies, Inc. (member)
             homepage_url: https://futurewei.com/
@@ -777,13 +743,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/incoresemi
             extra:
               linkedin_url: https://www.linkedin.com/company/incoresemi
-          - item:
-            name: Ingenic Semiconductor (member)
-            homepage_url: https://ingenic.com.cn/
-            logo: ingenic_semiconductor.svg
-            description: Ingenic Semiconductor is a leading Chinese embedded CPU provider which was founded in 2005 at Beijing. Ingenic Semiconductor has its own ultra low power CPU technology XBurst. XBurst adopts an innovative pipeline engine which can emit instructions with very little power consumption.
-            organization:
-              name: Ingenic Semiconductor
           - item:
             name: Inspire Semiconductor, Inc. (member)
             homepage_url: https://inspiresemi.com/
@@ -1082,9 +1041,9 @@ landscape:
               linkedin_url: https://www.linkedin.com/company/nxp-semiconductors
           - item:
             name: OmniTrust Security LLC (member)
-            homepage_url: https://ghsiss.com/
+            homepage_url: https://omnitrust.com/
             logo: omnitrust_security_llc.svg
-            description: INTEGRITY Security Services (ISS) is a top provider of end-to-end embedded security solutions for a secure Internet of Things, offering expert services in key protection, certificate management, and secure OTA delivery to prevent cyber attacks and ensu...
+            description: OmniTrust Security LLC is a top provider of end-to-end embedded security solutions for a secure Internet of Things, key management, certificate management, and secure OTA provisioning
             organization:
               name: OmniTrust Security LLC
               linkedin: https://www.linkedin.com/company/integrity-security-services-llc
@@ -1170,25 +1129,6 @@ landscape:
             twitter: https://twitter.com/RenesasGlobal
             extra:
               linkedin_url: https://www.linkedin.com/company/renesas-electronics-corporation
-          - item:
-            name: RIVAI Technologies (Shenzhen) Co., Ltd (member)
-            homepage_url: https://rivai-ic.com.cn/
-            logo: rivai_technologies_shenzhen_co.svg
-            description: RISCIC is a chip company based on RISC-V open source technology that provides core processors for the Internet of Things.
-            organization:
-              name: RIVAI Technologies (Shenzhen) Co., Ltd
-              linkedin: https://www.linkedin.com/company/rivai-technologies
-            extra:
-              linkedin_url: https://www.linkedin.com/company/rivai-technologies
-          - item:
-            name: Rockchip Electronics CO., Ltd. (member)
-            homepage_url: https://rock-chips.com/
-            logo: rockchip_electronics_co_ltd.svg
-            description: 264960 Rockchip is a Chinese fabless semiconductor company based in Fuzhou, Fujian province.
-            crunchbase: https://www.crunchbase.com/organization/rockchip
-            twitter: https://twitter.com/RockchipsCES
-            extra:
-              linkedin_url: https://www.linkedin.com/company/rockchip
           - item:
             name: RT-Thread (member)
             homepage_url: https://rt-thread.com/
@@ -1378,13 +1318,6 @@ landscape:
             organization:
               name: Sony Semiconductor Solutions Corporation
           - item:
-            name: Sophgo Technologies Ltd. (member)
-            homepage_url: https://sophgo.com/
-            logo: sophgo_technologies_ltd.svg
-            description: Sophgo is a company that specializes in the development of artificial intelligence chips and products, with a focus on deep learning and tensor acceleration computing.
-            organization:
-              name: Sophgo Technologies Ltd.
-          - item:
             name: SoundAI Technology Co., Ltd. (member)
             homepage_url: https://soundai.com/
             logo: soundai_technology_co_ltd.svg
@@ -1415,24 +1348,8 @@ landscape:
             homepage_url: https://st.com/
             logo: stmicroelectronics_international_n_v.svg
             description: |-
-              President and CEO: Carlo Bozotti
-              	2010 revenue: $10.35 billion, Q1 2011 revenue: $2.53 billion
-              	Approximately 53,000 employees including ST-Ericsson (as of December 31, 2010)
-              	Advanced research and development centers in 10 countries
-              	14 main manufacturing sites
-              	Corporate Headquarters: Geneva, Switzerland
-              	Global presence with sales offices all around the world
-              	Public since 1994 - shares traded on New York Stock Exchange (NYSE: STM), Euronext Paris, and Borsa Italiana
-              	Created as SGS-THOMSON Microelectronics in June 1987, from merger of SGS Microelettronica and Thomson Semiconducteurs
-              	Renamed STMicroelectronics in May 1998
-
-              --- Merged Data:
-
-              STMicroelectronics is a French-Italian multinational electronics and semiconductor manufacturer headquartered in Geneva, Switzerland.
-
-              --- Merged Data:
-
-              STMicroelectronics is a Swiss-domiciled multinational electronics and semiconductor manufacturer headquartered in Geneva, Switzerland.
+              At ST, we are 48,000 creators and makers of semiconductor technologies mastering the semiconductor supply chain with state-of-the-art manufacturing facilities. An integrated device manufacturer, we work with more than 200,000 customers and thousands of partners to design and build products, solutions, and ecosystems that address their challenges and opportunities, and the need to support a more sustainable world. Our technologies enable smarter mobility, more efficient power and energy management, and the wide-scale deployment of cloud-connected autonomous things. We are on track to be carbon neutral in all direct and indirect emissions (scopes 1 and 2), product transportation, business travel, and employee commuting emissions (our scope 3 focus), and to achieve our 100% renewable electricity sourcing goal by the end of 2027.
+              Further information can be found at www.st.com
             crunchbase: https://www.crunchbase.com/organization/stmicroelectronics
             twitter: https://twitter.com/ST_World
             extra:
@@ -1562,13 +1479,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/unisoctechnologies
             extra:
               linkedin_url: https://www.linkedin.com/company/unisoctechnologies
-          - item:
-            name: UNO Laboratories, Ltd. (member)
-            homepage_url: https://unolabo.co.jp/
-            logo: uno_laboratories_ltd.svg
-            description: 株式会社ウーノラボは、FPGA、非同期式プロセッサの研究 / 開発 / 設計および販売、AI学習システムの開発を行っています。企業ミッションは『Asynchronous』
-            organization:
-              name: UNO Laboratories, Ltd.
           - item:
             name: VeriSilicon, Inc. (member)
             homepage_url: https://verisilicon.com/
@@ -1733,29 +1643,12 @@ landscape:
             organization:
               name: mooreslabai
           - item:
-            name: OSYX (member)
-            homepage_url: https://osyx.tech/
-            logo: osyx.svg
-            description: OSYX provides secure and reliable systems utilizing the open-source Bao hypervisor, which is designed for robust isolation and real-time guarantees to meet the challenges of mixed criticality and safety-critical applications on modern heterogeneous pla...
-            organization:
-              name: OSYX
-          - item:
             name: Quintauris GmbH (member)
             homepage_url: https://quintauris.com/
             logo: quintauris_gmbh.svg
             description: Quintauris focuses on developing compatible RISC V-based products and reference architectures, collaborating with industry leaders to create a unique ecosystem that facilitates the widespread adoption of RISC V solutions across various sectors.
             organization:
               name: Quintauris GmbH
-          - item:
-            name: RED Semiconductor Ltd (member)
-            homepage_url: https://redsemiconductor.com/
-            logo: red_semiconductor_ltd.svg
-            description: Red Semiconductor - mission is to develop & deliver a new class of microprocessor chip set optimised for vector instructions.
-            organization:
-              name: RED Semiconductor Ltd
-              linkedin: https://www.linkedin.com/company/red-semiconductor
-            extra:
-              linkedin_url: https://www.linkedin.com/company/red-semiconductor
           - item:
             name: RISCstar Solutions (member)
             homepage_url: https://riscstar.com/
@@ -1775,13 +1668,6 @@ landscape:
             logo: shenzhen_milkv_technology_co.svg
             organization:
               name: Shenzhen MilkV Technology Co., Ltd
-          - item:
-            name: Simplex Micro (member)
-            homepage_url: https://simplexmicro.com/
-            logo: simplex_micro.svg
-            description: SimplEx Micro is a technology company specializing in developing scalable microprocessor and vector processor technology for uncompromising performance. With locations in Austin, Texas and Vietnam, SimplEx Micro is dedicated to pushing the boundaries o...
-            organization:
-              name: Simplex Micro
           - item:
             name: Ubitium (member)
             homepage_url: https://ubitium.com/
@@ -1810,15 +1696,6 @@ landscape:
             twitter: https://twitter.com/AaltoUniversity
             extra:
               linkedin_url: https://www.linkedin.com/company/aalto-university
-          - item:
-            name: Alma Mater Studiorum - Università di Bologna (member)
-            homepage_url: https://unibo.it/
-            logo: alma_mater_studiorum_universita_di_bologna.svg
-            description: Founded in 1088 by an organised guild of students, it is the oldest university in the world, as well as one of the leading academic institutions in Italy and Europe.
-            crunchbase: https://www.crunchbase.com/organization/university-of-bologna
-            twitter: https://twitter.com/Unibo
-            extra:
-              linkedin_url: https://www.linkedin.com/company/university-of-bologna
           - item:
             name: American University of Beirut (member)
             homepage_url: https://aub.edu.lb/
@@ -1894,34 +1771,12 @@ landscape:
             organization:
               name: CALIFORNIA SCHOOL INC.
           - item:
-            name: Cambridge Institute of Technology (member)
-            homepage_url: https://engg.cambridge.edu.in/
-            logo: cambridge_institute_of_technology.svg
-            description: Cambridge Institute of Technology,Bangalore is in the forefront among providers of quality education in the State of Karnataka
-            twitter: https://twitter.com/citechbengaluru
-            organization:
-              name: Cambridge Institute of Technology
-              linkedin: https://www.linkedin.com/company/cambridge-institute-of-technology1
-            extra:
-              linkedin_url: https://www.linkedin.com/company/cambridge-institute-of-technology1
-          - item:
             name: CAMEL (member)
             homepage_url: https://camelab.org/
             logo: camel.svg
             description: CAMELab is a technology company that specializes in developing innovative solutions for the healthcare industry. We provide a wide range of products and services including medical devices, software applications, and data analytics. Our goal is to impro...
             organization:
               name: CAMEL
-          - item:
-            name: CATIE (member)
-            homepage_url: https://catie.fr/
-            logo: catie.svg
-            description: CATIE is a non-profit organization created in 2014 based in the New Region Aquitaine. As a technology transfer center specialized in digital technology, our main mission is to support SMEs and intermediate size companies in their digital transformation and to help them embracing and integrating related technologies.
-            twitter: https://twitter.com/CATIE_AQ
-            organization:
-              name: CATIE
-              linkedin: https://www.linkedin.com/company/catie-aq
-            extra:
-              linkedin_url: https://www.linkedin.com/company/catie-aq
           - item:
             name: Center for Research and Development on Secure Computer Systems (member)
             homepage_url: https://cradsec.rois.ac.jp/
@@ -1970,13 +1825,6 @@ landscape:
             twitter: https://twitter.com/Cineca1969
             extra:
               linkedin_url: https://www.linkedin.com/company/cineca
-          - item:
-            name: CISPA Helmholtz Center for Information Security (member)
-            homepage_url: https://cispa.de/
-            logo: cispa_helmholtz_center_for_information_security.svg
-            description: CISPA Helmholtz Center for Information Security is a leading German research institution specializing in cybersecurity and privacy.
-            organization:
-              name: CISPA Helmholtz Center for Information Security
           - item:
             name: City University of Hong Kong (member)
             homepage_url: https://ee.cityu.edu.hk/
@@ -2047,15 +1895,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/sustechsz
           - item:
-            name: CSEM SA (member)
-            homepage_url: https://csem.ch/
-            logo: csem_sa.svg
-            description: focused on generating value for a sustainable world
-            crunchbase: https://www.crunchbase.com/organization/csem
-            twitter: https://twitter.com/CSEMInfo
-            extra:
-              linkedin_url: https://www.linkedin.com/company/csem
-          - item:
             name: Czech Technical University in Prague (member)
             homepage_url: https://cvut.cz/
             logo: czech_technical_university_in_prague.svg
@@ -2091,14 +1930,6 @@ landscape:
             description: The Universidade Federal do Paraná (UFPR) is the oldest university in Brazil, with a rich history of achievements and a strong connection to the development of the state of Paraná. Established in 1912, UFPR offers a wide range of academic programs in f...
             organization:
               name: Department of Informatics - UFPR
-          - item:
-            name: Dharmsinh Desai University (member)
-            homepage_url: https://ddu.ac.in/
-            logo: dharmsinh_desai_university.svg
-            description: 86444 Dharmsinh Desai University formerly known as Dharmsinh Desai Institute of Technology was founded on 2 January 1968 as an institution of higher learning in Nadiad, Gujarat, India in the fields of Engineering, Technology, Medical Science, Dental Sc...
-            crunchbase: https://www.crunchbase.com/organization/dharamsinh-desai-university
-            extra:
-              linkedin_url: https://www.linkedin.com/company/dharmsinh-desai-university
           - item:
             name: East China Normal University (member)
             homepage_url: https://ecnu.edu.cn/
@@ -2223,17 +2054,6 @@ landscape:
             organization:
               name: Fundacion Instituto Ricardo Valle de Innovacion (INNOVA IRV)
           - item:
-            name: Future University in Egypt (member)
-            homepage_url: https://fue.edu.eg/
-            logo: future_university_in_egypt.svg
-            description: "491108\uFEFF founded in 2006."
-            twitter: https://twitter.com/Fue_account
-            organization:
-              name: Future University in Egypt
-              linkedin: https://www.linkedin.com/company/future-university-in-egypt
-            extra:
-              linkedin_url: https://www.linkedin.com/company/future-university-in-egypt
-          - item:
             name: FZI Forschungszentrum Informatik (member)
             homepage_url: https://fzi.de/
             logo: fzi_forschungszentrum_informatik.svg
@@ -2337,13 +2157,6 @@ landscape:
             twitter: https://twitter.com/harveymudd
             extra:
               linkedin_url: https://www.linkedin.com/company/harvey-mudd-college
-          - item:
-            name: Hefei University of Technology (member)
-            homepage_url: https://hfut.edu.cn/
-            logo: hefei_university_of_technology.svg
-            description: Hefei University of Technology is a leading national university focused on talent cultivation, science advancement, and social development with a motto of virtue, knowledge, truth, and innovation.
-            organization:
-              name: Hefei University of Technology
           - item:
             name: IIT Madras (member)
             homepage_url: https://iitm.ac.in/
@@ -2541,15 +2354,6 @@ landscape:
             organization:
               name: Laboratory of Parallel Architectures for Signal Processing
           - item:
-            name: Lanzhou University (member)
-            homepage_url: https://lzu.edu.cn/
-            logo: lanzhou_university.svg
-            description: 858056 Lanzhou University is a major research university in Lanzhou, Gansu, China.
-            crunchbase: https://www.crunchbase.com/organization/lanzhou-university
-            twitter: https://twitter.com/lzucn
-            extra:
-              linkedin_url: https://www.linkedin.com/company/lanzhou-university
-          - item:
             name: Lawrence Berkeley National Labs (member)
             homepage_url: https://lbl.gov/
             logo: lawrence_berkeley_national_labs.svg
@@ -2685,15 +2489,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ncku-career-coaching-program
           - item:
-            name: Nirma University (member)
-            homepage_url: https://nirmauni.ac.in/
-            logo: nirma_university.svg
-            description: Nirma University is a private university in Ahmedabad in the state of Gujarat, India.
-            crunchbase: https://www.crunchbase.com/organization/nirma-university-of-science-and-technology
-            twitter: https://twitter.com/NirmaUniTweets
-            extra:
-              linkedin_url: https://www.linkedin.com/company/nirma-university
-          - item:
             name: OpenHW Foundation (member)
             homepage_url: https://openhwgroup.org/
             logo: openhw_foundation.svg
@@ -2723,15 +2518,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ozyeginuniversitesi
           - item:
-            name: PES University (member)
-            homepage_url: https://pes.edu/
-            logo: pes_university.svg
-            description: PES University
-            crunchbase: https://www.crunchbase.com/organization/p-e-s-institute-of-technology
-            twitter: https://twitter.com/PESUniversity
-            extra:
-              linkedin_url: https://www.linkedin.com/company/pesuniversity
-          - item:
             name: Politechnika Częstochowska (member)
             homepage_url: https://pcz.pl/
             logo: politechnika_czestochowska.svg
@@ -2747,6 +2533,15 @@ landscape:
             twitter: https://twitter.com/polimi
             extra:
               linkedin_url: https://www.linkedin.com/company/polimi
+          - item:
+            name: PSG College of Technology (member)
+            homepage_url: https://psgtech.edu/
+            logo: psg_college_of_technology.svg
+            description: PSG College of Technology is an autonomous, government aided, private engineering college in Coimbatore, India.
+            crunchbase: https://www.crunchbase.com/organization/psg-college-of-technology
+            twitter: https://twitter.com/psgtech
+            extra:
+              linkedin_url: https://www.linkedin.com/company/psg-college-of-technology
           - item:
             name: PUCRS (member)
             homepage_url: https://pucrs.br/
@@ -2797,13 +2592,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ruppin-academic-center
           - item:
-            name: School of Microelectronics, Jinan University (member)
-            homepage_url: https://xxxy.jnu.edu.cn/
-            logo: school_of_microelectronics_jinan_university.svg
-            description: Jinan University (JNU) is a public research and comprehensive university based in Guangzhou, Guangdong province, China. It is one of the oldest universities established on mainland China tracing back to the Qing Empire. Jinan University's mission is to...
-            organization:
-              name: School of Microelectronics, Jinan University
-          - item:
             name: Semiconductor Fabless Accelerator Lab (member)
             homepage_url: https://sfalcoe.com/
             logo: semiconductor_fabless_accelerator_lab.svg
@@ -2830,13 +2618,6 @@ landscape:
             description: Shanghai Jiao Tong University is a major research university in Shanghai. Established on April 8, 1896, as Nanyang Public School by an imperial edict issued by the Guangxu Emperor, it is one of China's oldest universities.
             crunchbase: https://www.crunchbase.com/organization/shanghai-jiao-tong-university
             twitter: https://twitter.com/sjtuhpc
-          - item:
-            name: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences (member)
-            homepage_url: https://siat.ac.cn/
-            logo: shenzhen_institutes_of_advanced_technology_chinese_academy_of_sciences.svg
-            description: 中国科学院深圳先进技术研究院 is an advanced technology research institute jointly established by the Chinese Academy of Sciences and the Shenzhen Municipal Government. It focuses on implementing the innovation-driven city strategy in Shenzhen and exploring instituti...
-            organization:
-              name: Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
           - item:
             name: Silicon Austria Labs GmbH (member)
             homepage_url: https://silicon-austria-labs.com/
@@ -2897,15 +2678,6 @@ landscape:
             organization:
               name: Technical University "Gheorghe Asachi" Iasi
           - item:
-            name: Technical University of Crete (member)
-            homepage_url: https://tuc.gr/
-            logo: technical_university_of_crete.svg
-            description: Επίσημη σελίδα του Πολυτεχνείου Κρήτης / Official Page of the Technical University of Crete
-            crunchbase: https://www.crunchbase.com/organization/technical-university-of-crete
-            twitter: https://twitter.com/tuc_chania
-            extra:
-              linkedin_url: https://www.linkedin.com/company/technical-university-of-crete
-          - item:
             name: Technical University of Munich (member)
             homepage_url: https://tum.de/
             logo: technical_university_of_munich.svg
@@ -2927,14 +2699,6 @@ landscape:
               linkedin: https://www.linkedin.com/company/hochschule-augsburg
             extra:
               linkedin_url: https://www.linkedin.com/company/hochschule-augsburg
-          - item:
-            name: Technische Universitaet Darmstadt (member)
-            homepage_url: https://esa.tu-darmstadt.de/
-            logo: technische_universitaet_darmstadt.svg
-            description: The Technische Universität Darmstadt, commonly referred to as TU Darmstadt, is a research university in the city of Darmstadt, Germany.
-            crunchbase: https://www.crunchbase.com/organization/technische-universit-t-darmstadt
-            extra:
-              linkedin_url: https://www.linkedin.com/company/technische-universitat-darmstadt
           - item:
             name: Technische Universität Wien (member)
             homepage_url: https://tuwien.at/
@@ -3049,12 +2813,6 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/scripps-institution-of-oceanography
           - item:
-            name: UEx (member)
-            homepage_url: https://unex.es/
-            logo: uex.svg
-            description: The University of Extremadura is a prominent institution in the region, driving research, innovation, and youth education. It hosts national events like the XXII National Congress of Occupational Therapy Students and offers programs like the 'Extremadu...
-            crunchbase: https://www.crunchbase.com/organization/university-of-extremadura
-          - item:
             name: UFABC - Universidade Federal do ABC (member)
             homepage_url: https://ufabc.edu.br/
             logo: ufabc_universidade_federal_do_abc.svg
@@ -3073,15 +2831,6 @@ landscape:
             twitter: https://twitter.com/anahuac
             extra:
               linkedin_url: https://www.linkedin.com/company/universidad-anahuac_50453
-          - item:
-            name: Universidad Complutense de Madrid (member)
-            homepage_url: https://ucm.es/
-            logo: universidad_complutense_de_madrid.svg
-            description: 72806 The Complutense University of Madrid or Complutensian University of Madrid is a public research university located in Madrid, and one of the oldest universities in the world.
-            crunchbase: https://www.crunchbase.com/organization/complutense-university-of-madrid
-            twitter: https://twitter.com/unicomplutense
-            extra:
-              linkedin_url: https://www.linkedin.com/company/universidad-complutense-de-madrid
           - item:
             name: Universidad de Alcalá (member)
             homepage_url: https://uah.es/
@@ -3143,45 +2892,12 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/universidadefederalruraldosemi-%C3%A1rido-ufersa
           - item:
-            name: Universidad Galileo (member)
-            homepage_url: https://galileo.edu/
-            logo: universidad_galileo.svg
-            description: Galileo University is a private university in Guatemala City.
-            twitter: https://twitter.com/ugalileo_edu
-            organization:
-              name: Universidad Galileo
-              linkedin: https://www.linkedin.com/company/universidad-galileo
-            extra:
-              linkedin_url: https://www.linkedin.com/company/universidad-galileo
-          - item:
-            name: Universidad Politecnica de Madrid (member)
-            homepage_url: https://upm.es/
-            logo: universidad_politecnica_de_madrid.svg
-            description: |-
-              The Technical University of Madrid or sometimes called Polytechnic University of Madrid is a Spanish University, located in Madrid. Wikipedia
-              Address: Calle Ramiro de Maeztu, 7, 28040 Madrid, Spain
-              Phone: +34 913 36 60 00
-              Province: Community of Madrid
-              Founded: 1971
-              Number of students: 35,833
-            crunchbase: https://www.crunchbase.com/organization/universidad-polit
-            twitter: https://twitter.com/La_UPM
-            extra:
-              linkedin_url: https://www.linkedin.com/company/universidad-politecnica-de-madrid
-          - item:
             name: Universidad Técnica Federico Santa María (member)
             homepage_url: https://usm.cl/
             logo: universidad_tecnica_federico_santa_maria.svg
             description: Universidad Técnica Federico Santa María is a leading institution in engineering in Chile and the world, founded by visionary entrepreneur Federico Santa María Carrera. The university offers a wide range of academic programs, research opportunities, an...
             organization:
               name: Universidad Técnica Federico Santa María
-          - item:
-            name: Università degli Studi di Siena (member)
-            homepage_url: https://unisi.it/
-            logo: universita_degli_studi_di_siena.svg
-            description: The Università degli Studi di Siena blends tradition with innovation, fostering student growth through personalized teaching, research collaborations, and entrepreneurial opportunities.
-            organization:
-              name: Università degli Studi di Siena
           - item:
             name: Università di Trento (member)
             homepage_url: https://unitn.it/
@@ -3328,17 +3044,6 @@ landscape:
             description: The University of Engineering and Technology, Taxila is a public university located in Taxila, Punjab, Pakistan. It was established in 1975 as a campus of the University of Engineering and Technology, Lahore and chartered as an independent university in 1993.
             organization:
               name: University of Engineering and Technology Taxila
-          - item:
-            name: University of Galway (member)
-            homepage_url: https://universityofgalway.ie/
-            logo: university_of_galway.svg
-            description: The National University of Ireland Galway is located in the city of Galway in Ireland.
-            twitter: https://twitter.com/uniofgalway
-            organization:
-              name: University of Galway
-              linkedin: https://www.linkedin.com/company/nui-galway
-            extra:
-              linkedin_url: https://www.linkedin.com/company/nui-galway
           - item:
             name: University of Ljubljana (member)
             homepage_url: https://uni-lj.si/
