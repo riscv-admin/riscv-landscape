@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2EA8FF"/>
+      <stop offset="100%" stop-color="#4FE3DA"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="6" fill="#0A1220"/>
+  <!-- Stylized inductor coil + spark suggestion -->
+  <g fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round">
+    <path d="M5 16 L8 16"/>
+    <path d="M9 12 Q11 10 13 12 Q11 14 9 12"/>
+    <path d="M13 12 Q15 10 17 12 Q15 14 13 12"/>
+    <path d="M17 12 Q19 10 21 12 Q19 14 17 12"/>
+    <circle cx="24" cy="12" r="1.2" fill="#4FE3DA" stroke="none"/>
+    <circle cx="27" cy="14" r="1" fill="#4FE3DA" stroke="none"/>
+    <circle cx="25" cy="18" r="0.8" fill="#4FE3DA" stroke="none"/>
+  </g>
+</svg>
