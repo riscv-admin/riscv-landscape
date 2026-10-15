@@ -11,12 +11,6 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-permissions: {}
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +20,7 @@ jobs:
     steps:
       - uses: jmertic/lfx-landscape-tools@b85674b10bfb017500b51b06d9ec5dad3cb55655 # 20260928
         with:
-          project_processing: skip # see options in action.yml
+          project_processing: skip
         env:
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
