@@ -1,9 +1,9 @@
-name: Build Landscape
+name: Build Landscape from LFX
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 4 * * *"   # 04:00 UTC nightly
+  - cron: "0 16 * * *"
 
 permissions: {}
 
@@ -18,10 +18,10 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: jmertic/lfx-landscape-tools@b85674b10bfb017500b51b06d9ec5dad3cb55655 # 20260413
+      - uses: jmertic/lfx-landscape-tools@b85674b10bfb017500b51b06d9ec5dad3cb55655 # 20260928
         with:
           project_processing: skip
         env:
-          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
